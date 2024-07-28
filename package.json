@@ -1,5 +1,5 @@
 {
-  "name": "sat_paquete_nodejs",
+  "name": "paquete-cfdi-sat-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",

@@ -1,6 +1,6 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
-### Librería generadora de XML y creación de cfdi impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC
+### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
 
 #### Tabla de contenido
 
@@ -53,7 +53,7 @@ nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI)
 nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib)
 ```
 
-se recibe 3 parámetros:
+se recibe estos parámetros:
 
 | Parámetro        | Tipo            | Descripción                                                                                      |
 | ---------------- | --------------- | ------------------------------------------------------------------------------------------------ |

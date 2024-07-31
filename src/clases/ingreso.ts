@@ -9,13 +9,13 @@ export class CFDIIngreso {
   atributos: atributosInterface;
   noCertificado: string;
   certificado: string;
-  emisor: { Rfc: string; Nombre: string; RegimenFiscal: string };
+  emisor: { Rfc: string; Nombre: string; RegimenFiscal: string | number };
   receptor: {
     Rfc: string;
     Nombre: string;
     RegimenFiscal: string;
-    DomicilioFiscalReceptor: number | string;
-    RegimenFiscalReceptor: number | string;
+    DomicilioFiscalReceptor: string | number;
+    RegimenFiscalReceptor: string | number;
     UsoCFDI: string;
   };
   conceptos: atributosConceptoInterface[];
@@ -211,7 +211,7 @@ export class CFDIIngreso {
     const array_traslados: any = [];
     this.conceptos.forEach((item) => {
       if (item.Impuesto && item.Impuesto.Impuesto === "002") {
-        const impuesto = item.Impuesto.Impuesto;
+        const impuesto: string = item.Impuesto.Impuesto;
         let descuento = item.Descuento || 0;
         const base: string = (
           parseFloat(item.Importe.toString()) - descuento

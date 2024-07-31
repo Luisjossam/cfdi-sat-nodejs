@@ -1,22 +1,15 @@
-export interface facturaInterface {
-  emisorXml: string;
-  receptorXml: string;
-  noCertificado: string;
-  certificado: string;
-  emisor: object;
-}
 export interface ReceptorInterface {
   Rfc: string;
   Nombre: string;
   RegimenFiscal: string;
-  DomicilioFiscalReceptor: number | string;
-  RegimenFiscalReceptor: number | string;
+  DomicilioFiscalReceptor: string | number;
+  RegimenFiscalReceptor: string | number;
   UsoCFDI: string;
 }
 export interface EmisorInterface {
   Rfc: string;
   Nombre: string;
-  RegimenFiscal: string;
+  RegimenFiscal: string | number;
 }
 export interface atributosInterface {
   folio: string;

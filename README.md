@@ -1,6 +1,6 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
-### Librería generadora de XML y creación de cfdi impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc.
+### Librería generadora de XML y creación de cfdi impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC
 
 #### Tabla de contenido
 
@@ -8,11 +8,12 @@
 - [Importación](#Importación)
 - [Factura de tipo ingreso](#Factura-de-tipo-ingreso)
   - [Método crearEmisor](#Método-crearEmisor)
+  - [Método crearReceptor](#Método-crearReceptor)
 
 ### **Instalación**
 
-```npm install --save cfdi-sat-nodejs
-
+```
+npm install --save cfdi-sat-nodejs
 ```
 
 ### **Importación**
@@ -20,9 +21,9 @@
 #### Para crear cualquier tipo de XML necesitas importar la librerÍa y una vez crear una nueva instancia.
 
 ```
-    const FacturaCFDI = require("cfdi-sat-nodejs");
+const FacturaCFDI = require("cfdi-sat-nodejs");
 
-    const nuevaFactura = new FacturaCFDI();
+const nuevaFactura = new FacturaCFDI();
 ```
 
 ### **Factura de tipo ingreso**
@@ -32,14 +33,34 @@
 #### **Método crearEmisor**
 
 ```
-    nuevaFactura.crearEmisor(rfc, nombre, regimenFiscal)
-
+nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal)
 ```
 
-#### se recibe 3 parámetros:
+se recibe 3 parámetros:
 
-#### RFC (string): RFC del emisor del comprobante.
+| Parámetro     | Tipo            | Descripción                                                                                 |
+| ------------- | --------------- | ------------------------------------------------------------------------------------------- |
+| RFC           | string          | RFC del emisor del comprobante.                                                             |
+| Nombre        | string          | Correspondiente al nombre, denominación o razón social inscrito del emisor del comprobante. |
+| RegimenFiscal | string - number | Clave vigente del regimen fiscal del emisor.                                                |
 
-#### Nombre (string): correspondiente al nombre, denominación o razón social inscrito del emisor del comprobante.
+#### **Método crearReceptor**
 
-#### regimenFiscal (string | number): Clave vigente del regimen fiscal del emisor.
+```
+nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI)
+
+/// EN CASO QUE EL RECEPTOR RESIDA EN OTRO PAÍS SE LLAMA AL MÉTODO receptorExtranjero:
+nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib)
+```
+
+se recibe 3 parámetros:
+
+| Parámetro        | Tipo            | Descripción                                                                                      |
+| ---------------- | --------------- | ------------------------------------------------------------------------------------------------ |
+| RFC              | string          | RFC del receptor del comprobante.                                                                |
+| Nombre           | string          | Nombre, denominación o razón social inscrito del receptor del comprobante.                       |
+| RegimenFiscal    | string - number | Clave vigente del regimen fiscal del receptor.                                                   |
+| CodigoPostal     | string - number | Código postal del domicilio fiscal del receptor del comprobante.                                 |
+| UsoCFDI          | string          | Se debe registrar la clave que corresponda al uso que le dará al comprobante fiscal el receptor. |
+| ResidenciaFiscal | string          | Clave del país de residencia para efectos fiscales del receptor del comprobante.                 |
+| NumRegIdTrib     | string - number | Número de registro de identidad fiscal del receptor cuando este sea residente en el extranjero.  |

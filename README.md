@@ -1,8 +1,9 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
+## **EN CONSTRUCCION...**
 ### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
 
-#### Tabla de contenido
+### Tabla de contenido
 
 - [Instalación](#Instalación)
 - [Importación](#Importación)
@@ -11,6 +12,8 @@
   - [Método crearReceptor](#Método-crearReceptor)
   - [Método certificado](#Método-certificado)
   - [Método crearConceptos](#Método-crearConceptos)
+  - [Método generarXml](#Método-generarXml)
+  - [Método generarXmlSellado](#Método-generarXmlSellado)
 
 ### **Instalación**
 
@@ -32,7 +35,7 @@ const nuevaFactura = new FacturaCFDI();
 
 #### Aquí se te explica los diversos métodos para generar el XML y los requisitos que solicitan cada uno de estos métodos.
 
-#### **Método crearEmisor**
+### **Método crearEmisor**
 
 ```
 nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal)
@@ -46,7 +49,7 @@ se recibe 3 argumentos:
 | Nombre        | string          | Correspondiente al nombre, denominación o razón social inscrito del emisor del comprobante. |
 | RegimenFiscal | string - number | Clave vigente del regimen fiscal del emisor.                                                |
 
-#### **Método crearReceptor**
+### **Método crearReceptor**
 
 ```
 nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI)
@@ -67,21 +70,21 @@ se recibe estos argumentos:
 | ResidenciaFiscal | string          | Clave del país de residencia para efectos fiscales del receptor del comprobante.                 |
 | NumRegIdTrib     | string - number | Número de registro de identidad fiscal del receptor cuando este sea residente en el extranjero.  |
 
-#### **Método certificado**
+### **Método certificado**
 
-En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de este proceso.
+En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de ese proceso.
 
 ```
-nuevaFactura.certificado(path)
+nuevaFactura.certificado(pathCertificado)
 ```
 
 se recibe este único argumento:
 
-| Argumento | Tipo   | Descripción      |
-| --------- | ------ | ---------------- |
-| path      | string | Ruta del fichero |
+| Argumento       | Tipo   | Descripción                  |
+| --------------- | ------ | ---------------------------- |
+| pathCertificado | string | Ruta del certificado (.cer). |
 
-#### **Método crearConceptos**
+### **Método crearConceptos**
 
 ```
 const array = [
@@ -111,13 +114,16 @@ const array = [
         ],
 
     }
-]
+];
+
 nuevaFactura.crearConceptos(array);
 ```
 
 Es muy importante que en este método se envié la información acorde a lo requerido por la librería debido a que si los nombres de las propiedades son distintas a los esperados se retornara un error.
 
-El método recibe un array como argumento, dentro debe contender los objetos correspondientes a los productos o servicios a facturar. Al ser el único método relacionado con los conceptos, es necesario incluir los datos del impuesto y retenciones (en caso de aplicar) dentro de cada objeto junto al resto de datos.
+El método recibe un array como argumento, dentro debe contender los objetos correspondientes a los productos o servicios a facturar. Al ser el único método relacionado con los conceptos, es necesario incluir los datos del impuesto y retenciones (en caso de aplicar) dentro de cada objeto junto al resto de datos tal cual se muestran arriba.
+
+NOTA: Si **ObjetoImp** es "01" no es necesario incluir el objeto Impuesto ni el array Retenciones.
 
 | Argumento        | Tipo            | Descripción                                                                                               |
 | ---------------- | --------------- | --------------------------------------------------------------------------------------------------------- |
@@ -132,13 +138,58 @@ El método recibe un array como argumento, dentro debe contender los objetos cor
 | NoIdentificacion | string          | Identificador del producto o servicio, puede ser el código de barras, SKU o cualquier otro identificador. |
 | Descuento        | number          | Valor a aplicar al importe. debe contener la misma cantidad de decimales que el importe.                  |
 
-Estos argumentos aplican tanto para el array Impuestos como al array Retenciones
+Estos argumentos aplican tanto para el objeto Impuesto como al array Retenciones
 
 | Argumento  | Tipo            | Descripción                                          |
 | ---------- | --------------- | ---------------------------------------------------- |
 | Impuesto   | string - number | Tipo de impuesto aplicable.                          |
-| TipoFactor | string - number | Tipo de factor que se aplica a la base del impuesto. |
+| TipoFactor | string          | Tipo de factor que se aplica a la base del impuesto. |
 | TasaOCuota | string - number | Valor de la tasa o cuota del impuesto.               |
 
 En caso de tener un **TipoFactor** como "Exento" puede omitir el valor de **TasaOCuota** ya que la librería no lo toma en cuenta.
+
+### **Método crearSello**
+
+En caso de querer generar un XMl ya sellado y listo para timbrar puede usar el siguiente método.
+
+```
+nuevaFactura.crearSello(pathLlavePrivada, contraseña)
+```
+
+NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya que la librería se encarga de convertirla.
+
+| Argumento        | Tipo   | Descripción                                         |
+| ---------------- | ------ | --------------------------------------------------- |
+| pathLlavePrivada | string | Ruta de la llave privada en su formato base (.key). |
+| contraseña       | string | Contraseña de la llave privada.                     |
+
+### **Método generarXml**
+
+```
+const atributos = [
+    Folio: 1,            // obligatorio
+];
+
+const xml = nuevaFactura.generarXml(atributos)
+```
+
+En este método nos retorna el XML sin sellar. en caso de requerir el XML sellado vea el siguiente método.
+
+### **Método generarXmlSellado**
+
+```
+
+const xmlSellado = await nuevaFactura.generarXmlSellado(atributos)
+
+ó
+
+nuevaFactura.generarXmlSellado(atributos).then(res => {
+    console.log(res)
+}).catch(error => {
+    console.log(error)
+})
+```
+
+Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
+
 

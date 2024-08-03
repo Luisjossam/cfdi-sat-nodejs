@@ -1,0 +1,170 @@
+[
+  {
+    "clave": "G01",
+    "descripcion": "Adquisición de mercancías.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626"
+  },
+  {
+    "clave": "G02",
+    "descripcion": "Devoluciones, descuentos o bonificaciones.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626"
+  },
+  {
+    "clave": "G03",
+    "descripcion": "Gastos en general.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I01",
+    "descripcion": "Construcciones.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I02",
+    "descripcion": "Mobiliario y equipo de oficina por inversiones.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I03",
+    "descripcion": "Equipo de transporte.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I04",
+    "descripcion": "Equipo de computo y accesorios.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I05",
+    "descripcion": "Dados, troqueles, moldes, matrices y herramental.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I06",
+    "descripcion": "Comunicaciones telefónicas.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I07",
+    "descripcion": "Comunicaciones satelitales.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "I08",
+    "descripcion": "Otra maquinaria y equipo.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626"
+  },
+  {
+    "clave": "D01",
+    "descripcion": "Honorarios médicos, dentales y gastos hospitalarios.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D02",
+    "descripcion": "Gastos médicos por incapacidad o discapacidad.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D03",
+    "descripcion": "Gastos funerales.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D04",
+    "descripcion": "Donativos.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D05",
+    "descripcion": "Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D06",
+    "descripcion": "Aportaciones voluntarias al SAR.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D07",
+    "descripcion": "Primas por seguros de gastos médicos.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D08",
+    "descripcion": "Gastos de transportación escolar obligatoria.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D09",
+    "descripcion": "Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "D10",
+    "descripcion": "Pagos por servicios educativos (colegiaturas).",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605, 606, 608, 611, 612, 614, 607, 615, 625"
+  },
+  {
+    "clave": "S01",
+    "descripcion": "Sin efectos fiscales.",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 605, 606, 608, 610, 611, 612, 614, 616, 620, 621, 622, 623, 624, 607, 615, 625, 626"
+  },
+  {
+    "clave": "CP01",
+    "descripcion": "Pagos",
+    "fisica": "Sí",
+    "moral": "Sí",
+    "regimen_receptor": "601, 603, 605, 606, 608, 610, 611, 612, 614, 616, 620, 621, 622, 623, 624, 607, 615, 625, 626"
+  },
+  {
+    "clave": "CN01",
+    "descripcion": "Nómina",
+    "fisica": "Sí",
+    "moral": "No",
+    "regimen_receptor": "605"
+  }
+]

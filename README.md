@@ -1,6 +1,5 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
-## **EN CONSTRUCCION...**
 ### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
 
 ### Tabla de contenido
@@ -11,6 +10,7 @@
   - [Método crearEmisor](#Método-crearEmisor)
   - [Método crearReceptor](#Método-crearReceptor)
   - [Método certificado](#Método-certificado)
+  - [Método esGlobal](#Método-esGlobal)
   - [Método crearConceptos](#Método-crearConceptos)
   - [Método generarXml](#Método-generarXml)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
@@ -75,14 +75,28 @@ se recibe estos argumentos:
 En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de ese proceso.
 
 ```
-nuevaFactura.certificado(pathCertificado)
+nuevaFactura.certificado(PathCertificado)
 ```
 
 se recibe este único argumento:
 
 | Argumento       | Tipo   | Descripción                  |
 | --------------- | ------ | ---------------------------- |
-| pathCertificado | string | Ruta del certificado (.cer). |
+| PathCertificado | string | Ruta del certificado (.cer). |
+
+### **Método esGlobal**
+
+Si necesitas generar facturas globales, llama al método **esGlobal** con los parámetros correspondientes a la periodicidad, meses y año.
+
+```
+nuevaFactura.esGlobal(Periocidad, Meses, Año)
+```
+
+| Argumento  | Tipo            | Descripción                                      |
+| ---------- | --------------- | ------------------------------------------------ |
+| Periocidad | string - number | Tipo de periodo del comprobante                  |
+| Meses      | string - number | Meses que abarca los movimientos del comprobante |
+| Año        | string - number | Año que abarca los movimientos del comprobante   |
 
 ### **Método crearConceptos**
 
@@ -153,15 +167,15 @@ En caso de tener un **TipoFactor** como "Exento" puede omitir el valor de **Tasa
 En caso de querer generar un XMl ya sellado y listo para timbrar puede usar el siguiente método.
 
 ```
-nuevaFactura.crearSello(pathLlavePrivada, contraseña)
+nuevaFactura.crearSello(PathLlavePrivada, Contraseña)
 ```
 
 NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya que la librería se encarga de convertirla.
 
 | Argumento        | Tipo   | Descripción                                         |
 | ---------------- | ------ | --------------------------------------------------- |
-| pathLlavePrivada | string | Ruta de la llave privada en su formato base (.key). |
-| contraseña       | string | Contraseña de la llave privada.                     |
+| PathLlavePrivada | string | Ruta de la llave privada en su formato base (.key). |
+| Contraseña       | string | Contraseña de la llave privada.                     |
 
 ### **Método generarXml**
 
@@ -177,6 +191,8 @@ En este método nos retorna el XML sin sellar. en caso de requerir el XML sellad
 
 ### **Método generarXmlSellado**
 
+Para crear el XML sellado, es necesario que el método **generarXmlSellado** sea llamado de manera asincrónica. Esto se puede lograr utilizando _async/await_ o la cadena de promesas con _.then()_ y _.catch()_.
+
 ```
 
 const xmlSellado = await nuevaFactura.generarXmlSellado(atributos)
@@ -191,5 +207,3 @@ nuevaFactura.generarXmlSellado(atributos).then(res => {
 ```
 
 Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
-
-

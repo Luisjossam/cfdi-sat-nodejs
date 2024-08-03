@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:cce20="http://www.sat.gob.mx/ComercioExterior20" version="2.0">
-<script/>
 <xsl:template match="cce20:ComercioExterior">
 <!-- Manejador de nodos tipo ComercioExterior -->
 <xsl:call-template name="Requerido">

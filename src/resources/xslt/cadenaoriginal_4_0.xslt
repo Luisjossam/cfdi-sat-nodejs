@@ -42,11 +42,7 @@
 <xsl:include href="CartaPorte30.xslt"/>
 <xsl:include href="CartaPorte31.xslt"/>
 <!--  Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador ||  -->
-<xsl:template match="/">
-|
-<xsl:apply-templates select="/cfdi:Comprobante"/>
-||
-</xsl:template>
+<xsl:template match="/">|<xsl:apply-templates select="/cfdi:Comprobante"/>||</xsl:template>
 <!--   Aquí iniciamos el procesamiento de los datos incluidos en el comprobante  -->
 <xsl:template match="cfdi:Comprobante">
 <!--  Iniciamos el tratamiento de los atributos de comprobante  -->

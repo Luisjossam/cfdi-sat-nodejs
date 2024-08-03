@@ -1,6 +1,7 @@
 import {
   atributosInterface,
   atributosConceptoInterface,
+  PDFInterface,
 } from "./interfaces/facturaInterfaces";
 const fs = require("fs");
 const forge = require("node-forge");
@@ -8,6 +9,7 @@ const path = require("path");
 import { CFDIIngreso } from "./clases/ingreso";
 const { validateCer, validateKey } = require("./validadores/validador");
 import crypto from "crypto";
+import PDF from "./clases/PDF";
 import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
 const xpath = require("xpath");
 const SaxonJS = require("saxon-js");
@@ -21,10 +23,16 @@ export class FacturaCFDI {
     Rfc: string;
     Nombre: string;
     RegimenFiscal: string;
-    DomicilioFiscalReceptor: number | string;
+    DomicilioFiscalReceptor: string | number;
     RegimenFiscalReceptor: string | number;
     UsoCFDI: string;
   };
+  #isGlobal: {
+    periocidad: string | number;
+    meses: string | number;
+    anio: string | number;
+  };
+
   #conceptos: atributosConceptoInterface[];
   constructor() {
     this.#noCertificado = "";
@@ -39,6 +47,12 @@ export class FacturaCFDI {
       RegimenFiscalReceptor: "",
       UsoCFDI: "",
     };
+    this.#isGlobal = {
+      periocidad: "",
+      meses: "",
+      anio: "",
+    };
+
     this.#conceptos = [
       {
         ClaveProdServ: "",
@@ -75,6 +89,15 @@ export class FacturaCFDI {
       throw error;
     }
   }
+  esGlobal(
+    periocidad: string | number,
+    meses: string | number,
+    anio: string | number
+  ) {
+    this.#isGlobal.periocidad = periocidad;
+    this.#isGlobal.meses = meses;
+    this.#isGlobal.anio = anio;
+  }
   crearSello(path: string, password: string) {
     // Convertir la llave privada DER a PEM
     validateKey(path, password);
@@ -101,7 +124,7 @@ export class FacturaCFDI {
     rfc: string,
     nombre: string,
     regimenFiscal: string | number,
-    codigoPostal: number,
+    codigoPostal: string | number,
     usoCfdi: string
   ) {
     this.#receptor.Rfc = rfc;
@@ -122,6 +145,7 @@ export class FacturaCFDI {
       atributos,
       { ...this.#emisor },
       { ...this.#receptor },
+      { ...this.#isGlobal },
       certificado,
       this.#noCertificado,
       this.#conceptos
@@ -139,6 +163,7 @@ export class FacturaCFDI {
           atributos,
           { ...this.#emisor },
           { ...this.#receptor },
+          { ...this.#isGlobal },
           certificado,
           this.#noCertificado,
           this.#conceptos
@@ -153,7 +178,7 @@ export class FacturaCFDI {
         const comprobanteElement =
           xmlDoc.getElementsByTagName("cfdi:Comprobante")[0];
         if (comprobanteElement) {
-          comprobanteElement.setAttribute("sello", selloCadenaOriginal);
+          comprobanteElement.setAttribute("Sello", selloCadenaOriginal);
         }
         const serializer = new XMLSerializer();
         const xmlSellado = serializer.serializeToString(xmlDoc);
@@ -185,6 +210,7 @@ export class FacturaCFDI {
           },
         }
       );
+
       const sign = crypto.createSign("SHA256");
       sign.update(result);
       sign.end();
@@ -195,12 +221,8 @@ export class FacturaCFDI {
     }
   }
   #resolveInclusions() {
-    const basePath = path.resolve(__dirname, "xslt");
-    const xsltFile = path.resolve(
-      __dirname,
-      "xslt",
-      "./cadenaoriginal_4_0.xslt"
-    );
+    const basePath = path.resolve(__dirname, "resources", "xslt");
+    const xsltFile = path.resolve(basePath, "./cadenaoriginal_4_0.xslt");
     const xsltContent = fs.readFileSync(xsltFile, "utf8");
     const doc = new DOMParser().parseFromString(xsltContent, "text/xml");
     const selectNameSpace = xpath.useNamespaces({
@@ -265,5 +287,15 @@ export class FacturaCFDI {
     });
     const result = new XMLSerializer().serializeToString(doc);
     return result;
+  }
+  async generarPDF(params: PDFInterface) {
+    try {
+      const pdf = new PDF(params);
+      const file = await pdf.createIngresoPDF();
+
+      return file;
+    } catch (error) {
+      throw error;
+    }
   }
 }

@@ -229,7 +229,7 @@ Para generar el XML sellado es necesario incluir el método **crearSello** antes
 ## **Catálogos**
 
 La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON.
-Se proporciona métodos para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un valor.
+Se proporciona un método para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un registro de un catálogo en especifico.
 
 A continuación se colocan todos los métodos disponibles
 
@@ -237,97 +237,56 @@ A continuación se colocan todos los métodos disponibles
 /// Importar la clase y crear una nueva instancia
 const { CatalogosSAT } = require("cfdi-sat-nodejs");
 const catalogos = new CatalogosSAT();
-
-/// Obtener todos el catálogo "FormaPago"
-catalogos.catFormaPago();
-
-/// Obtener todos el catálogo "Monedas"
-catalogos.catMonedas();
-
-/// Obtener todos el catálogo "TipoDeComprobante"
-catalogos.catTipoDeComprobante();
-
-/// Obtener todos el catálogo "Exportacion"
-catalogos.catExportacion();
-
-/// Obtener todos el catálogo "MetodoPago"
-catalogos.catMetodoPago();
-
-/// Obtener todos el catálogo "CodigoPostalParte1"
-catalogos.catCodigoPostalParte1();
-
-/// Obtener todos el catálogo "CodigoPostalParte2"
-catalogos.catCodigoPostalParte2();
-
-/// Obtener todos el catálogo "CodigoPostalParte3"
-catalogos.catCodigoPostalParte3();
-
-/// Obtener todos el catálogo "CodigoPostalParte4"
-catalogos.catCodigoPostalParte4();
-
-/// Obtener todos el catálogo "CodigoPostalParte4"
-catalogos.catCodigoPostalParte4();
-
-/// Obtener todos el catálogo "Periodicidad"
-catalogos.catPeriodicidad();
-
-/// Obtener todos el catálogo "Meses"
-catalogos.catMeses();
-
-/// Obtener todos el catálogo "TipoRelacion"
-catalogos.catTipoRelacion();
-
-/// Obtener todos el catálogo "RegimenFiscal"
-catalogos.catRegimenFiscal();
-
-/// Obtener todos el catálogo "Pais"
-catalogos.catPais();
-
-/// Obtener todos el catálogo "UsoCFDI"
-catalogos.catUsoCFDI();
-
-/// Obtener todos el catálogo "ClaveProdServ"
-catalogos.catClaveProdServ();
-
-/// Obtener todos el catálogo "ClaveUnidad"
-catalogos.catClaveUnidad();
-
-/// Obtener todos el catálogo "ObjetoImpuesto"
-catalogos.catObjetoImpuesto();
-
-/// Obtener todos el catálogo "Impuesto"
-catalogos.catImpuesto();
-
-/// Obtener todos el catálogo "TipoFactor"
-catalogos.catTipoFactor();
-
-/// Obtener todos el catálogo "TasaOCuota"
-catalogos.catTasaOCuota();
-
-/// Obtener todos el catálogo "Aduana"
-catalogos.catAduana();
-
-/// Obtener todos el catálogo "NumPedimentoAduana"
-catalogos.catNumPedimentoAduana();
-
-/// Obtener todos el catálogo "PatenteAduanal"
-catalogos.catPatenteAduanal();
-
-/// Obtener todos el catálogo "ColoniaParte1"
-catalogos.catColoniaParte1();
-
-/// Obtener todos el catálogo "ColoniaParte2"
-catalogos.catColoniaParte2();
-
-/// Obtener todos el catálogo "ColoniaParte3"
-catalogos.catColoniaParte3();
-
-/// Obtener todos el catálogo "Estado"
-catalogos.catEstado();
-
-/// Obtener todos el catálogo "Localidad"
-catalogos.catLocalidad();
-
-/// Obtener todos el catálogo "Municipio"
-catalogos.catMunicipio();
 ```
+
+```javascript
+/// Obtener un solo registro de un catálogo
+catalogos.buscarEnCatalogo(Clave, NombreCatalogo);
+```
+
+| Argumento      | Tipo   | Descripción                       |
+| -------------- | ------ | --------------------------------- |
+| Clave          | string | Valor para filtrar en el catalogo |
+| NombreCatalogo | string | Nombre del catálogo               |
+
+```javascript
+/// Obtener todos los registros de cada catálogo
+catalogos.obtenerCatalogo(NombreCatalogo);
+```
+
+| Argumento      | Tipo   | Descripción         |
+| -------------- | ------ | ------------------- |
+| NombreCatalogo | string | Nombre del catálogo |
+
+**LISTA DE CATALOGOS DISPONIBLES**
+
+- FormaPago
+- Monedas
+- TipoDeComprobante
+- Exportacion
+- MetodoPago
+- CodigoPostalParte1
+- CodigoPostalParte2
+- CodigoPostalParte3
+- CodigoPostalParte4
+- Periodicidad
+- Meses
+- TipoRelacion
+- RegimenFiscal
+- Pais
+- UsoCFDI
+- ClaveProdServ
+- ClaveUnidad
+- ObjetoImpuesto
+- Impuesto
+- TipoFactor
+- TasaOCuota
+- Aduana
+- NumPedimentoAduana
+- PatenteAduanal
+- ColoniaParte1
+- ColoniaParte2
+- ColoniaParte3
+- Estado
+- Localidad
+- Municipio

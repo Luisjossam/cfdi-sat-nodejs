@@ -1,5 +1,9 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
+Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://buymeacoffee.com/luisjossam)
+
 ### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
 
 ### Tabla de contenido

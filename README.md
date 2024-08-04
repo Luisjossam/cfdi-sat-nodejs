@@ -14,6 +14,14 @@
   - [Método crearConceptos](#Método-crearConceptos)
   - [Método generarXml](#Método-generarXml)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
+- [Factura de tipo Egreso](#Factura-de-tipo-Egreso)
+  - [Nota de crédito](#Nota-de-crédito)
+    - [Método crearEmisor](#Método-crearEmisor)
+    - [Método crearReceptor](#Método-crearReceptor)
+    - [Método crearCFDIRelacionados](#Método-crearCFDIRelacionados)
+    - [Método crearConceptos](#Método-crearConceptos)
+    - [Método generarXml](#Método-generarXml)
+    - [Método generarXmlSellado](#Método-generarXmlSellado)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -210,6 +218,10 @@ nuevaFactura
 
 Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
 
+## **Factura de tipo Egreso**
+
+### **Nota de crédito**
+
 ## **Catálogos**
 
 La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON.
@@ -257,4 +269,61 @@ catalogos.catPeriodicidad();
 
 /// Obtener todos el catálogo "Meses"
 catalogos.catMeses();
+
+/// Obtener todos el catálogo "TipoRelacion"
+catalogos.catTipoRelacion();
+
+/// Obtener todos el catálogo "RegimenFiscal"
+catalogos.catRegimenFiscal();
+
+/// Obtener todos el catálogo "Pais"
+catalogos.catPais();
+
+/// Obtener todos el catálogo "UsoCFDI"
+catalogos.catUsoCFDI();
+
+/// Obtener todos el catálogo "ClaveProdServ"
+catalogos.catClaveProdServ();
+
+/// Obtener todos el catálogo "ClaveUnidad"
+catalogos.catClaveUnidad();
+
+/// Obtener todos el catálogo "ObjetoImpuesto"
+catalogos.catObjetoImpuesto();
+
+/// Obtener todos el catálogo "Impuesto"
+catalogos.catImpuesto();
+
+/// Obtener todos el catálogo "TipoFactor"
+catalogos.catTipoFactor();
+
+/// Obtener todos el catálogo "TasaOCuota"
+catalogos.catTasaOCuota();
+
+/// Obtener todos el catálogo "Aduana"
+catalogos.catAduana();
+
+/// Obtener todos el catálogo "NumPedimentoAduana"
+catalogos.catNumPedimentoAduana();
+
+/// Obtener todos el catálogo "PatenteAduanal"
+catalogos.catPatenteAduanal();
+
+/// Obtener todos el catálogo "ColoniaParte1"
+catalogos.catColoniaParte1();
+
+/// Obtener todos el catálogo "ColoniaParte2"
+catalogos.catColoniaParte2();
+
+/// Obtener todos el catálogo "ColoniaParte3"
+catalogos.catColoniaParte3();
+
+/// Obtener todos el catálogo "Estado"
+catalogos.catEstado();
+
+/// Obtener todos el catálogo "Localidad"
+catalogos.catLocalidad();
+
+/// Obtener todos el catálogo "Municipio"
+catalogos.catMunicipio();
 ```

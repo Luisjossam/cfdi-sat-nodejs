@@ -14,10 +14,11 @@
   - [Método crearConceptos](#Método-crearConceptos)
   - [Método generarXml](#Método-generarXml)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
+- [Catálogos](#Catálogos)
 
 ### **Instalación**
 
-```
+```javascript
 npm install --save cfdi-sat-nodejs
 ```
 
@@ -25,8 +26,8 @@ npm install --save cfdi-sat-nodejs
 
 #### Para crear cualquier tipo de XML necesitas importar la librerÍa y una vez crear una nueva instancia.
 
-```
-const FacturaCFDI = require("cfdi-sat-nodejs");
+```javascript
+const { FacturaCFDI } = require("cfdi-sat-nodejs");
 
 const nuevaFactura = new FacturaCFDI();
 ```
@@ -37,8 +38,8 @@ const nuevaFactura = new FacturaCFDI();
 
 ### **Método crearEmisor**
 
-```
-nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal)
+```javascript
+nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal);
 ```
 
 se recibe 3 argumentos:
@@ -51,11 +52,11 @@ se recibe 3 argumentos:
 
 ### **Método crearReceptor**
 
-```
-nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI)
+```javascript
+nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI);
 
 /// EN CASO QUE EL RECEPTOR RESIDA EN OTRO PAÍS SE LLAMA AL MÉTODO receptorExtranjero:
-nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib)
+nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib);
 ```
 
 se recibe estos argumentos:
@@ -74,8 +75,8 @@ se recibe estos argumentos:
 
 En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de ese proceso.
 
-```
-nuevaFactura.certificado(PathCertificado)
+```javascript
+nuevaFactura.certificado(PathCertificado);
 ```
 
 se recibe este único argumento:
@@ -88,8 +89,8 @@ se recibe este único argumento:
 
 Si necesitas generar facturas globales, llama al método **esGlobal** con los parámetros correspondientes a la periodicidad, meses y año.
 
-```
-nuevaFactura.esGlobal(Periocidad, Meses, Año)
+```javascript
+nuevaFactura.esGlobal(Periocidad, Meses, Año);
 ```
 
 | Argumento  | Tipo            | Descripción                                      |
@@ -100,34 +101,33 @@ nuevaFactura.esGlobal(Periocidad, Meses, Año)
 
 ### **Método crearConceptos**
 
-```
+```javascript
 const array = [
-    {
-        ClaveProdServ: 1234567890,      // obligatorio
-        Cantidad: 1,                    // obligatorio
-        ClaveUnidad: "H87",             // obligatorio
-        Unidad: "Pieza",                // obligatorio
-        Descripcion: "Producto",        // obligatorio
-        ValorUnitario: 125,             // obligatorio
-        Importe: 125,                   // obligatorio
-        ObjetoImp: "02",                // obligatorio
-        NoIdentificacion: 567384983723, // opcional
-        Descuento: 25,                  // opcional
-        Impuesto: {
-          Impuesto: "002",              // obligatorio
-          TipoFactor: "Tasa",           // obligatorio
-          TasaOCuota: "0.16",           // obligatorio
-        },
-        /// EN CASO QUE EL PRODUCTO O SERVICIO APLIQUE RETENCIONES
-        Retenciones: [
-          {
-            Impuesto: "001",            // obligatorio
-            TipoFactor: "Tasa",         // obligatorio
-            TasaOCuota: "0.10",         // obligatorio
-          }
-        ],
-
-    }
+  {
+    ClaveProdServ: 1234567890, // obligatorio
+    Cantidad: 1, // obligatorio
+    ClaveUnidad: "H87", // obligatorio
+    Unidad: "Pieza", // obligatorio
+    Descripcion: "Producto", // obligatorio
+    ValorUnitario: 125, // obligatorio
+    Importe: 125, // obligatorio
+    ObjetoImp: "02", // obligatorio
+    NoIdentificacion: 567384983723, // opcional
+    Descuento: 25, // opcional
+    Impuesto: {
+      Impuesto: "002", // obligatorio
+      TipoFactor: "Tasa", // obligatorio
+      TasaOCuota: "0.16", // obligatorio
+    },
+    /// EN CASO QUE EL PRODUCTO O SERVICIO APLIQUE RETENCIONES
+    Retenciones: [
+      {
+        Impuesto: "001", // obligatorio
+        TipoFactor: "Tasa", // obligatorio
+        TasaOCuota: "0.10", // obligatorio
+      },
+    ],
+  },
 ];
 
 nuevaFactura.crearConceptos(array);
@@ -166,8 +166,8 @@ En caso de tener un **TipoFactor** como "Exento" puede omitir el valor de **Tasa
 
 En caso de querer generar un XMl ya sellado y listo para timbrar puede usar el siguiente método.
 
-```
-nuevaFactura.crearSello(PathLlavePrivada, Contraseña)
+```javascript
+nuevaFactura.crearSello(PathLlavePrivada, Contraseña);
 ```
 
 NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya que la librería se encarga de convertirla.
@@ -179,7 +179,7 @@ NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya
 
 ### **Método generarXml**
 
-```
+```javascript
 const atributos = [
     Folio: 1,            // obligatorio
 ];
@@ -193,17 +193,68 @@ En este método nos retorna el XML sin sellar. en caso de requerir el XML sellad
 
 Para crear el XML sellado, es necesario que el método **generarXmlSellado** sea llamado de manera asincrónica. Esto se puede lograr utilizando _async/await_ o la cadena de promesas con _.then()_ y _.catch()_.
 
-```
+```javascript
+const xmlSellado = await nuevaFactura.generarXmlSellado(atributos);
 
-const xmlSellado = await nuevaFactura.generarXmlSellado(atributos)
+// Tambien puedes usar:
 
-ó
-
-nuevaFactura.generarXmlSellado(atributos).then(res => {
-    console.log(res)
-}).catch(error => {
-    console.log(error)
-})
+nuevaFactura
+  .generarXmlSellado(atributos)
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 ```
 
 Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
+
+## **Catálogos**
+
+La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON.
+Se proporciona métodos para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un valor.
+
+A continuación se colocan todos los métodos disponibles
+
+```javascript
+/// Importar la clase y crear una nueva instancia
+const { CatalogosSAT } = require("cfdi-sat-nodejs");
+const catalogos = new CatalogosSAT();
+
+/// Obtener todos el catálogo "FormaPago"
+catalogos.catFormaPago();
+
+/// Obtener todos el catálogo "Monedas"
+catalogos.catMonedas();
+
+/// Obtener todos el catálogo "TipoDeComprobante"
+catalogos.catTipoDeComprobante();
+
+/// Obtener todos el catálogo "Exportacion"
+catalogos.catExportacion();
+
+/// Obtener todos el catálogo "MetodoPago"
+catalogos.catMetodoPago();
+
+/// Obtener todos el catálogo "CodigoPostalParte1"
+catalogos.catCodigoPostalParte1();
+
+/// Obtener todos el catálogo "CodigoPostalParte2"
+catalogos.catCodigoPostalParte2();
+
+/// Obtener todos el catálogo "CodigoPostalParte3"
+catalogos.catCodigoPostalParte3();
+
+/// Obtener todos el catálogo "CodigoPostalParte4"
+catalogos.catCodigoPostalParte4();
+
+/// Obtener todos el catálogo "CodigoPostalParte4"
+catalogos.catCodigoPostalParte4();
+
+/// Obtener todos el catálogo "Periodicidad"
+catalogos.catPeriodicidad();
+
+/// Obtener todos el catálogo "Meses"
+catalogos.catMeses();
+```

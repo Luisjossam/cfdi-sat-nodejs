@@ -1,0 +1,82 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Tableta"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Capsulas"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Comprimidos"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Grageas"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Suspensión"
+  },
+  {
+    "clave": "06",
+    "descripcion": "Solución"
+  },
+  {
+    "clave": "07",
+    "descripcion": "Emulsión"
+  },
+  {
+    "clave": "08",
+    "descripcion": "Jarabe"
+  },
+  {
+    "clave": "09",
+    "descripcion": "Inyectable"
+  },
+  {
+    "clave": "10",
+    "descripcion": "Crema"
+  },
+  {
+    "clave": "11",
+    "descripcion": "Ungüento"
+  },
+  {
+    "clave": "12",
+    "descripcion": "Aerosol"
+  },
+  {
+    "clave": "13",
+    "descripcion": "Gas medicinal"
+  },
+  {
+    "clave": "14",
+    "descripcion": "Gel"
+  },
+  {
+    "clave": "15",
+    "descripcion": "Implante"
+  },
+  {
+    "clave": "16",
+    "descripcion": "Óvulo"
+  },
+  {
+    "clave": "17",
+    "descripcion": "Parche"
+  },
+  {
+    "clave": "18",
+    "descripcion": "Pasta"
+  },
+  {
+    "clave": "19",
+    "descripcion": "Polvo"
+  },
+  {
+    "clave": "20",
+    "descripcion": "Supositorio"
+  }
+]

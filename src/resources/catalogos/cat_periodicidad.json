@@ -1,0 +1,22 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Diario"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Semanal"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Quincenal"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Mensual"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Bimestral"
+  }
+]

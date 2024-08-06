@@ -1,0 +1,240 @@
+[
+  {
+    "clave_nomenclatura": "VL",
+    "descripcion": "Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero)",
+    "numero_ejes": 2,
+    "numero_llantas": 4,
+    "remolque": "0, 1"
+  },
+  {
+    "clave_nomenclatura": "C2",
+    "descripcion": "Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero)",
+    "numero_ejes": 2,
+    "numero_llantas": 6,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "C3",
+    "descripcion": "Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros)",
+    "numero_ejes": 3,
+    "numero_llantas": "8 o 10",
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "C2R2",
+    "descripcion": "Camión-Remolque (6 llantas en el camión y 8 llantas en remolque)",
+    "numero_ejes": 4,
+    "numero_llantas": 14,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "C3R2",
+    "descripcion": "Camión-Remolque (10 llantas en el camión y 8 llantas en remolque)",
+    "numero_ejes": 5,
+    "numero_llantas": 18,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "C2R3",
+    "descripcion": "Camión-Remolque (6 llantas en el camión y 12 llantas en remolque)",
+    "numero_ejes": 5,
+    "numero_llantas": 18,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "C3R3",
+    "descripcion": "Camión-Remolque (10 llantas en el camión y 12 llantas en remolque)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S1",
+    "descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el semirremolque)",
+    "numero_ejes": 3,
+    "numero_llantas": 10,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S2",
+    "descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el semirremolque)",
+    "numero_ejes": 4,
+    "numero_llantas": 14,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S3",
+    "descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el semirremolque)",
+    "numero_ejes": 5,
+    "numero_llantas": 18,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S1",
+    "descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el semirremolque)",
+    "numero_ejes": 4,
+    "numero_llantas": 14,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S2",
+    "descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el semirremolque)",
+    "numero_ejes": 5,
+    "numero_llantas": 18,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S3",
+    "descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el semirremolque)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S1R2",
+    "descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",
+    "numero_ejes": 5,
+    "numero_llantas": 18,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S2R2",
+    "descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S1R3",
+    "descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S1R2",
+    "descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S1R3",
+    "descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",
+    "numero_ejes": 7,
+    "numero_llantas": 26,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S2R2",
+    "descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",
+    "numero_ejes": 7,
+    "numero_llantas": 26,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S2R3",
+    "descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 12 llantas en el remolque)",
+    "numero_ejes": 8,
+    "numero_llantas": 30,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S2R4",
+    "descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 16 llantas en el remolque)",
+    "numero_ejes": 9,
+    "numero_llantas": 34,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T2S2S2",
+    "descripcion": "Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+    "numero_ejes": 6,
+    "numero_llantas": 22,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S2S2",
+    "descripcion": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+    "numero_ejes": 7,
+    "numero_llantas": 26,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "T3S3S2",
+    "descripcion": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+    "numero_ejes": 8,
+    "numero_llantas": 30,
+    "remolque": "1"
+  },
+  {
+    "clave_nomenclatura": "OTROEVGP",
+    "descripcion": "Especializado de carga Voluminosa y/o Gran Peso",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0, 1"
+  },
+  {
+    "clave_nomenclatura": "OTROSG",
+    "descripcion": "Servicio de Grúas",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLUTA",
+    "descripcion": "Grúa de Pluma Tipo A",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLUTB",
+    "descripcion": "Grúa de Pluma Tipo B",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLUTC",
+    "descripcion": "Grúa de Pluma Tipo C",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLUTD",
+    "descripcion": "Grúa de Pluma Tipo D",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLATA",
+    "descripcion": "Grúa de Plataforma Tipo A",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLATB",
+    "descripcion": "Grúa de Plataforma Tipo B",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLATC",
+    "descripcion": "Grúa de Plataforma Tipo C",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  },
+  {
+    "clave_nomenclatura": "GPLATD",
+    "descripcion": "Grúa de Plataforma Tipo D",
+    "numero_ejes": null,
+    "numero_llantas": null,
+    "remolque": "0"
+  }
+]

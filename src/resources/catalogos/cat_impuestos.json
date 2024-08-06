@@ -1,0 +1,20 @@
+[
+  {
+    "clave": 1,
+    "descripcion": "ISR",
+    "retencion": "Si",
+    "traslado": "No"
+  },
+  {
+    "clave": 2,
+    "descripcion": "IVA",
+    "retencion": "Si",
+    "traslado": "Si"
+  },
+  {
+    "clave": 3,
+    "descripcion": "IEPS",
+    "retencion": "Si",
+    "traslado": "Si"
+  }
+]

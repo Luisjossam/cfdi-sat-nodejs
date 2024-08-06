@@ -1,0 +1,82 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Pedimento"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Autorización de importación temporal"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Autorización de importación temporal de embarcaciones"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Autorización de importación temporal de mercancías, destinadas al mantenimiento y reparación de las mercancías importadas temporalmente"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Autorización para la importación de vehículos especialmente construidos o transformados, equipados con dispositivos o aparatos diversos para cumplir con contrato derivado de licitación pública"
+  },
+  {
+    "clave": "06",
+    "descripcion": "Aviso de exportación temporal"
+  },
+  {
+    "clave": "07",
+    "descripcion": "Aviso de traslado de mercancías de empresas con Programa IMMEX, RFE u Operador Económico Autorizado"
+  },
+  {
+    "clave": "08",
+    "descripcion": "Aviso para el traslado de autopartes ubicadas en la franja o región fronteriza a la industria terminal automotriz o manufacturera de vehículos de autotransporte en el resto del territorio nacional"
+  },
+  {
+    "clave": "09",
+    "descripcion": "Constancia de importación temporal, retorno o transferencia de contenedores"
+  },
+  {
+    "clave": "10",
+    "descripcion": "Constancia de transferencia de mercancías"
+  },
+  {
+    "clave": "11",
+    "descripcion": "Autorización de donación de mercancías al Fisco Federal que se encuentren en el extranjero"
+  },
+  {
+    "clave": "12",
+    "descripcion": "Cuaderno ATA"
+  },
+  {
+    "clave": "13",
+    "descripcion": "Listas de intercambio"
+  },
+  {
+    "clave": "14",
+    "descripcion": "Permiso de Importación Temporal"
+  },
+  {
+    "clave": "15",
+    "descripcion": "Permiso de importación temporal de casa rodante"
+  },
+  {
+    "clave": "16",
+    "descripcion": "Permiso de importación temporal de embarcaciones"
+  },
+  {
+    "clave": "17",
+    "descripcion": "Solicitud de donación de mercancías en casos de emergencias o desastres naturales"
+  },
+  {
+    "clave": "18",
+    "descripcion": "Aviso de consolidado"
+  },
+  {
+    "clave": "19",
+    "descripcion": "Aviso de cruce de mercancias"
+  },
+  {
+    "clave": "20",
+    "descripcion": "Otro"
+  }
+]

@@ -1,0 +1,954 @@
+[
+  {
+    "clave": "CDP001",
+    "derecho_paso": "D-1",
+    "entre": "Torreón (Km. DA-251+000) ",
+    "hasta": "Villa Juárez (Km. DA-238+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP002",
+    "derecho_paso": "D-1",
+    "entre": "Torreón (Km. DA-251+000)",
+    "hasta": "Villa Juárez (Km. DA-238+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP003",
+    "derecho_paso": "DPL-1",
+    "entre": "Mariscala (Km. A-263+922)",
+    "hasta": "Guadalajara (Km. I-259+500)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP004",
+    "derecho_paso": "DPL-1",
+    "entre": "Mariscala (Km. A-263+922)",
+    "hasta": "Guadalajara (Km. I-259+500) Así como en el tramo comprendido entre los kilómetros T-1763+960 y T-1760+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP005",
+    "derecho_paso": "DPL-2",
+    "entre": "Viborillas (Km. BC-8+756)",
+    "hasta": "Encantada (Km.B-892+875)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP006",
+    "derecho_paso": "DPL-2",
+    "entre": "Viborillas (Km. BC-8+756)",
+    "hasta": "Encantada (Km. B-892+875)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP007",
+    "derecho_paso": "IT-1",
+    "entre": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+    "hasta": "Salina Cruz (Km. Z-303+304)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía corta del Istmo de Tehuantepec (actualmente  Ferrocariil del Istmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP008",
+    "derecho_paso": "IT-2",
+    "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+    "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP009",
+    "derecho_paso": "IT-3",
+    "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+    "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP010",
+    "derecho_paso": "IT-4",
+    "entre": "Lagunas (Z-212+000)",
+    "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP011",
+    "derecho_paso": "IT-5",
+    "entre": "Salina Cruz (Km. Z-303+304)",
+    "hasta": "Conexión Dto. Arriaga (Km. Z-254+600",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP012",
+    "derecho_paso": "IT-6",
+    "entre": "Conexión Dto. Arriaga (Km. Z-254+600)",
+    "hasta": "Ixtepec (KM. Z-257+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP013",
+    "derecho_paso": "IT-7",
+    "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+    "hasta": "Salina Cruz (Km. Z-303+304)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea del Istmo de Tehuantepec (actualmente Ferrocarril del Itsmo de Tehuantepec, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP014",
+    "derecho_paso": "N-1",
+    "entre": "Topo Grande (Km. M-528+000)",
+    "hasta": "Patio Monterrey Carga-Cerro La Silla (Km. M-500+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP015",
+    "derecho_paso": "N-1",
+    "entre": "Topo Grande (Km. M-528+000)",
+    "hasta": "Patio Monterrey Carga -Cerro La Silla (Km. M-500+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP016",
+    "derecho_paso": "N-10",
+    "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+    "hasta": "Lechería (Km. Juárez 24+000 / Morelos 24+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP017",
+    "derecho_paso": "N-10",
+    "entre": "Buenavista (Km. Juárez-1+000 = Morelos-1+000)",
+    "hasta": "Lechería (Km. Juárez-24+000 = Morelos 24+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP018",
+    "derecho_paso": "N-11",
+    "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+    "hasta": "Cortavía Juárez-45+712 = Morelos-45+712",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP019",
+    "derecho_paso": "N-11",
+    "entre": "Buenavista (Km. Juárez-1+100 / Morelos-1+100)",
+    "hasta": "Cortavía Juárez-45+712 = Morelos -45+712",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP020",
+    "derecho_paso": "N-12",
+    "entre": "Tramos que se requieran para que los trenes uti.icen el patio de San Lorenzo",
+    "hasta": "Patio de San Lorenzo",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía Ferrea del sur"
+  },
+  {
+    "clave": "CDP021",
+    "derecho_paso": "N-12",
+    "entre": "Tramos que se requieran para que los trenes uti.icen el patio de San Lorenzo",
+    "hasta": "Patio de San Lorenzo",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía Ferrea de Hidalgo"
+  },
+  {
+    "clave": "CDP022",
+    "derecho_paso": "N-13",
+    "entre": "Lechería (Juárez -19+415 = Morelos-19+549)",
+    "hasta": "Buenavista (Km. Juárez-1+000 = Morelos-1+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP023",
+    "derecho_paso": "N-14",
+    "entre": "Buenavista (Km. Juárez 1+000 = Morelos-1+000)",
+    "hasta": "Terminal de Valle de México  (Km. Juárez-10+470 = Morelos-10+596)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP024",
+    "derecho_paso": "N-15",
+    "entre": "Kms. V-217+026 = VB-189+027",
+    "hasta": "V-219+100",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP025",
+    "derecho_paso": "N-15",
+    "entre": "Kms. V-217+026 = VB-189+027",
+    "hasta": "Km. V-219+100",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP026",
+    "derecho_paso": "N-17",
+    "entre": "San Juan del Río (Km. AL -0+000)",
+    "hasta": "San Nicolás (Km. AL-11+245 = B-213+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP027",
+    "derecho_paso": "N-17",
+    "entre": "San Juan del Río (Km. AL -0+000)",
+    "hasta": "San Nicolás (Km. AL-11+245 = B-213+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP028",
+    "derecho_paso": "N-18",
+    "entre": "La Griega (Km. B-251+535 = Morelos 227+438) ",
+    "hasta": "Huehuetoca (Km. Juárez -43+724 / Morelos -43+724)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP029",
+    "derecho_paso": "N-18",
+    "entre": "La Griega (Km. B-251+535 = Morelos 227+438) ",
+    "hasta": "Huehuetoca (Km. Juárez -43+724 / Morelos -43+724)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP030",
+    "derecho_paso": "N-2",
+    "entre": "Apodaca (Km. F-17+000)",
+    "hasta": "Conexión  Distrito Matamoros (Km. F-0+000 = B-1029+026 ) - Km. B-1027+080",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP031",
+    "derecho_paso": "N-2",
+    "entre": "Apodaca (Km. F-17+000)",
+    "hasta": "Conexión Distrito Matamoros (Km. F-0+000 = B1029+026) -kilómetro  B-1027+080",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP032",
+    "derecho_paso": "N-20",
+    "entre": "Santa Fé (v-454+600)",
+    "hasta": "Jalapa (V-338+600)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP033",
+    "derecho_paso": "N-3",
+    "entre": "Monterrey Carga Km. B-1027+060",
+    "hasta": "Leona Km. B-1009+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP034",
+    "derecho_paso": "N-3",
+    "entre": "Monterrey Carga, Km. B-1027+060",
+    "hasta": "Leona, Km. B-1009+000",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP035",
+    "derecho_paso": "N-4",
+    "entre": "Tampico (Km. L-665+000)",
+    "hasta": "Árbol Grande (Km. L-672+419 = M-4+128)- Doña Cecilia (Km. L-674+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP036",
+    "derecho_paso": "N-4",
+    "entre": "Tampico (Km. L-665+000)",
+    "hasta": "Árbol Grande (Km. L-672+419 = M-4+128)- Doña Cecilia (Km L-674+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP037",
+    "derecho_paso": "N-5",
+    "entre": "Ramos Arizpe (Km. B-929+007 = R-424+650)",
+    "hasta": "Encantada (Km.B-892+875)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP038",
+    "derecho_paso": "N-5",
+    "entre": "Ramos Arizpe Km. B-929+007 = R-424+650",
+    "hasta": "Encantada (Km. B-892+875)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP039",
+    "derecho_paso": "N-6",
+    "entre": "Vías Juárez y Morelos  de la doble vía electrificada entre la  La Griega (Km. Morelos -227+438 = B-251+535)",
+    "hasta": "Mariscala (Km. B-285+922 = A-263+922)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP040",
+    "derecho_paso": "N-6",
+    "entre": "Vías Juárez y  Morelos  de la doble vía electrificada entre  La Griega (Km. Morelos -227+438 = B-251+535) ",
+    "hasta": "Mariscala (Km. B-285+922 = A-263+922) ",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP041",
+    "derecho_paso": "N-6",
+    "entre": "Vía Juárez del Km. B-265+078.35 = J-240+817.73",
+    "hasta": "Km. B-285 + 861 = JM-262+094.30",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP042",
+    "derecho_paso": "N-7",
+    "entre": "Celaya (Km. NB-68+692)",
+    "hasta": "Escobedo (Km. B-315+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP043",
+    "derecho_paso": "N-7",
+    "entre": "Celaya (Km. NB-68+692 ",
+    "hasta": "Escobedo (Km. B-315+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP044",
+    "derecho_paso": "N-8",
+    "entre": "Teotihuacán (Km. VS-0+695)",
+    "hasta": "Empalme Línea \"V\" (Km. 18+781 = VK-24+883)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP045",
+    "derecho_paso": "N-8",
+    "entre": "Teotihuacán (Km. VS-0+695)",
+    "hasta": "Empalme línea \"V\" (Km. V-18+781 = VK-24+883)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP046",
+    "derecho_paso": "N-9",
+    "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+    "hasta": "Huehuetoca (Juárez -43+724 / Morelos -43+724)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP047",
+    "derecho_paso": "N-9",
+    "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+    "hasta": "Huehueteca (Juárez-43+724 / Morelos-43+724)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP048",
+    "derecho_paso": "PN-1",
+    "entre": "Tabaloapa",
+    "hasta": "Chihuahua",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP049",
+    "derecho_paso": "PN-10",
+    "entre": "Árbol Grande (Km. M-4+128 = L-672+419)",
+    "hasta": "Altamira (Km. M-27+571)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP050",
+    "derecho_paso": "PN-10",
+    "entre": "Árbol Grande (Km. M-4+128 = L-672+419)",
+    "hasta": "Altamira (Km. M-27+571)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP051",
+    "derecho_paso": "PN-11",
+    "entre": "Arellano (Km. A-574+000)",
+    "hasta": "Chicalote (Km. L-14+320 = A-599+320)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP052",
+    "derecho_paso": "PN-11",
+    "entre": "Arellano (Km. A-574+000)",
+    "hasta": "Chicalote (Km. L-14+320 = A-599+320)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP053",
+    "derecho_paso": "PN-12",
+    "entre": "Viborillas (Km. BC-8+756)",
+    "hasta": "Huehuetoca (Km. B-49+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP054",
+    "derecho_paso": "PN-12",
+    "entre": "Viborillas (Km. BC-8+756)",
+    "hasta": "Huehuetoca (Km. B-49+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP055",
+    "derecho_paso": "PN-13",
+    "entre": "Sabinas (Km. R-115+000)",
+    "hasta": "Ciudad Frontera (Km. R-240+443)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP056",
+    "derecho_paso": "PN-13",
+    "entre": "Sabinas (Km. R-115+000)",
+    "hasta": "Ciudad Frontera (Km. R-240+443)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía troncal Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP057",
+    "derecho_paso": "PN-14",
+    "entre": "Línea  Divisoria Nogales, Son. - Nogales, AZ. (Km. TA-0+000 al  TA-0+500, Y T-0+000) ",
+    "hasta": "Nogales (Km. T-8+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP058",
+    "derecho_paso": "PN-14",
+    "entre": "kilómetros TA-O+000 al TA-0+500",
+    "hasta": "kilómetros T-0+000 (Línea divisoria Nogales, Son.-Nogales, Az.)  al  T-8+000 (Nogales)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía troncal Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP059",
+    "derecho_paso": "PN-15",
+    "entre": "Nogales",
+    "hasta": "Guaymas",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP060",
+    "derecho_paso": "PN-15",
+    "entre": "Nogales   ",
+    "hasta": "Guaymas ",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía troncal Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP061",
+    "derecho_paso": "PN-17",
+    "entre": "Torreón (A-1131+750)",
+    "hasta": "Escalón (A-1298+130 = RD-338+174)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP062",
+    "derecho_paso": "PN-17",
+    "entre": "Torreón (A1131+750)",
+    "hasta": "Escalón (A-1298+130 = RD-338+174",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía troncal Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP063",
+    "derecho_paso": "PN-2",
+    "entre": "Chihuahua (Km. A-1615+000)",
+    "hasta": "Ciudad Juárez (Km. A-1974+406 puente internacional Ferrocarril Burlington Northern / Santa Fe).",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP064",
+    "derecho_paso": "PN-5",
+    "entre": "T-741+000",
+    "hasta": "T-741+650",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP065",
+    "derecho_paso": "PN-7",
+    "entre": "Pedro  C. Morales (Km. M-477+000)",
+    "hasta": "Cerro La Silla (Km. M-500+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP066",
+    "derecho_paso": "PN-7",
+    "entre": "Pedro C Morales (Km. M-477+000)",
+    "hasta": "Cerro la Silla (Km. M-500+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP067",
+    "derecho_paso": "PN-8",
+    "entre": "Topo Grande (Km. M-528+000)",
+    "hasta": "Chipinque (Km. M-552+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP068",
+    "derecho_paso": "PN-8",
+    "entre": "Topo Grande (Km. M-528+000)",
+    "hasta": "Chipinque (Km. M-552+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP069",
+    "derecho_paso": "PN-9",
+    "entre": "Celaya (Km. A-289+503)",
+    "hasta": "Silao (Km. A-385+000 Y AE-7+000) ",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP070",
+    "derecho_paso": "PN-9",
+    "entre": "Celaya (Km. A-289+513)",
+    "hasta": "Silao (Km. A-378+000 y AE-7+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP071",
+    "derecho_paso": "S-1",
+    "entre": "Santa Fé (Km. V-454+600)",
+    "hasta": "Patio de Veracruz (Km. V-470+100 y S-418+800)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Sureste (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP072",
+    "derecho_paso": "S-1",
+    "entre": "Santa Fé (Km. V-454+600)",
+    "hasta": "Veracruz (Km. V-470+100 y S-419+288)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente  Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP073",
+    "derecho_paso": "S-2",
+    "entre": "Medias Aguas (Km. Z-95+928 = G-299+869) ",
+    "hasta": "Coatzacoalcos (Km. Z-4+709 y FA-0+000 al FA-8+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea de Chiapas, del Mayab, y a los que presten servicio de transporte ferroviario en el  corredor del Istmo de Tehuantepec (actualmente Líneas Chiapas y Mayab) "
+  },
+  {
+    "clave": "CDP074",
+    "derecho_paso": "S-2",
+    "entre": "Medias Aguas  (Km. Z-95+928 = G-299+869)",
+    "hasta": "Coatzacoalcos (Km. Z-4+709 y FA-0+000 al FA-8+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea Sureste (actualmente Ferrosur, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP075",
+    "derecho_paso": "S-3",
+    "entre": "Coatzacoalcos (Km. FA-8+000)",
+    "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea de Chiapas (actualmente  Líneas Chiapas y Mayab)"
+  },
+  {
+    "clave": "CDP076",
+    "derecho_paso": "S-3",
+    "entre": "Coatzacoalcos (FA-8+000)",
+    "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea Sureste (actualmente Ferrosur, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP077",
+    "derecho_paso": "S-5",
+    "entre": "El Chapo (Km. FA-18+000)",
+    "hasta": "Coatzacoalcos (Km. FA-0+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea de Chiapas (actualmente  Líneas Chiapas y Mayab)"
+  },
+  {
+    "clave": "CDP078",
+    "derecho_paso": "S-5",
+    "entre": "Chapo (Km. FA-18+000)",
+    "hasta": "Coatzacoalcos (Km. FA-0+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea Sureste (actualmente Ferrosur, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP079",
+    "derecho_paso": "S-6",
+    "entre": "Coatzacoalcos (Km. FA-0+000)",
+    "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea de Chiapas (actualmente  Líneas Chiapas y Mayab)"
+  },
+  {
+    "clave": "CDP080",
+    "derecho_paso": "S-6",
+    "entre": "Coatzacoalcos (Km. FA-0+000)",
+    "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía férrea Sureste (actualmente Ferrosur, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP081",
+    "derecho_paso": "S-7",
+    "entre": "Sánchez (Km. E-150+000)",
+    "hasta": "Puebla (Km. VB-109+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía corta de Oaxaca (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP082",
+    "derecho_paso": "S-7",
+    "entre": "Sánchez (Km. E-150+000)",
+    "hasta": "Puebla (VB-109+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Troncal del Sureste (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP083",
+    "derecho_paso": "S-8",
+    "entre": "Empalme Distrito de Atencingo (Km. VB-101+000)",
+    "hasta": "Puebla (Km. VB-109+946)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Sur (actualmente Ferrosur,  S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP084",
+    "derecho_paso": "S-8",
+    "entre": "Empalme distrito de Atencingo (Km. VB-101+000)",
+    "hasta": "Puebla (Km. VB-109+946)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Troncal del Sureste (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP085",
+    "derecho_paso": "S-9",
+    "entre": "Tres Valles (Km. G-133+565)",
+    "hasta": "Tierra Blanca (Km G-93+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía corta tramo Tres Valles -San Cristóbal (actualmente Ferrosur, S.A. de C.V.)                     "
+  },
+  {
+    "clave": "CDP086",
+    "derecho_paso": "SUR -1=S-4",
+    "entre": "Puebla (Km. VB-109+000)",
+    "hasta": "Oriental (Km. VB-189+027 = V-217+026)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente  Kansas City Southern de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP087",
+    "derecho_paso": "SUR-1",
+    "entre": "Puebla (Km. VB-109+000)",
+    "hasta": "Oriental (km. VB-189+027 = V-217+026)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Sur (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP088",
+    "derecho_paso": "SUR-2",
+    "entre": "Xoxtla (Km. VB-85+500)",
+    "hasta": "Empalme distrito de Atencingo  (Km. VB-101+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía corta del Sur (actualmente  Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP089",
+    "derecho_paso": "SUR-2",
+    "entre": "Xoxtla (Km. VB-85+500)",
+    "hasta": "Empalme distrito de Atencingo (Km. VB-101+000) ",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía troncal del Sureste (actualmente Ferrosur,  S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP090",
+    "derecho_paso": "SUR-3",
+    "entre": "San lorenzo (Km. VB-000+600)  ",
+    "hasta": "Puerto Seco, Puebla",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía troncal del Noreste (actualmente Kansas City Southern de  México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP091",
+    "derecho_paso": "TVM-1",
+    "entre": "Lechería (Km. H-0+295 = B-21+020)",
+    "hasta": "Teotihuacán (Km. VS-0+695)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP092",
+    "derecho_paso": "TVM-1",
+    "entre": "Lechería( Km. H-0+295 = B-21+020)",
+    "hasta": "Teotihuacán (Km. VS-0+695)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP093",
+    "derecho_paso": "TVM-10",
+    "entre": "Km. S-13+100 = VK-0+000",
+    "hasta": "Km. VK-27+000 ",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP094",
+    "derecho_paso": "TVM-10",
+    "entre": "S-13+100 = VK -0+000",
+    "hasta": "VK-27+000",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea del Sureste  (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP095",
+    "derecho_paso": "TVM-11",
+    "entre": "S-0+000 = A-12+386",
+    "hasta": "VK-27+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal Ferroviaria del Valle de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP096",
+    "derecho_paso": "TVM-11",
+    "entre": "S-0+000 = A-12+386",
+    "hasta": "VK-27+000",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Sur (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP097",
+    "derecho_paso": "TVM-12",
+    "entre": "Km. A-2+576 y B-7+715",
+    "hasta": "Km. A-21+500  y B-24+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP098",
+    "derecho_paso": "TVM-12",
+    "entre": "A-2+576",
+    "hasta": "A-21+500",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea del Sureste  (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP099",
+    "derecho_paso": "TVM-13",
+    "entre": "Jaltocán (Km. H-18+800)",
+    "hasta": "Pantaco (Km. B-7+715 y A-2+576)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP100",
+    "derecho_paso": "TVM-13",
+    "entre": "Jaltocán (Km. H-18+800)",
+    "hasta": "Pantaco (Km. B-7+715 y A-2+576)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea de Hidalgo (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP101",
+    "derecho_paso": "TVM-14",
+    "entre": "Huehuetoca (Km. A-47+000) ",
+    "hasta": "Lechería (Km. A-21+500)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP102",
+    "derecho_paso": "TVM-2",
+    "entre": "Terminal de Valle de México (Km. A-12+386 = S-0+000)",
+    "hasta": "Teotihuacán (Km. S-43+483)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP103",
+    "derecho_paso": "TVM-2",
+    "entre": "Terminal del Valle de México (Km. A-12+386 = S-0+000)",
+    "hasta": "Teotihuacán (Km. S-43+483)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP104",
+    "derecho_paso": "TVM-3",
+    "entre": "Kilómetros VK-24+883 = V-18+781",
+    "hasta": "Los Reyes (Km. VK-27+000)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP105",
+    "derecho_paso": "TVM-3",
+    "entre": "Kilómetros VK-24+883 = V-18+781",
+    "hasta": "Los Reyes  (Km. VK-27+000)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP106",
+    "derecho_paso": "TVM-4",
+    "entre": "Naucalpan (Km. N-11+000)",
+    "hasta": "Pantaco (Km. A-4+138)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP107",
+    "derecho_paso": "TVM-4",
+    "entre": "Naucalpan (Km. N-11+000)",
+    "hasta": "Pantaco (Km. A-4+138)",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP108",
+    "derecho_paso": "TVM-5",
+    "entre": "Kilómetros N-1+095",
+    "hasta": "N-2+438 = CNA -0+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP109",
+    "derecho_paso": "TVM-5",
+    "entre": "N-1+095",
+    "hasta": "N-2+438 = CNA -0+000",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP110",
+    "derecho_paso": "TVM-6",
+    "entre": "A-2+576 ",
+    "hasta": "A-43+969",
+    "otorga_recibe": "Recibe",
+    "concesionario": "Vía ferrea del Noroeste (Actualmente Kansas City Southern de México, S.A de C.V.)"
+  },
+  {
+    "clave": "CDP111",
+    "derecho_paso": "TVM-6",
+    "entre": "A-2+576",
+    "hasta": "A-43+969",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea del Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP112",
+    "derecho_paso": "TVM-7",
+    "entre": "A-2+576",
+    "hasta": "A-44+000",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea de la Terminal del  Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.) "
+  },
+  {
+    "clave": "CDP113",
+    "derecho_paso": "TVM-7",
+    "entre": "A-2+576",
+    "hasta": "A-43+969",
+    "otorga_recibe": "Otorga",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V."
+  },
+  {
+    "clave": "CDP114",
+    "derecho_paso": "TVM-8",
+    "entre": "Km. H-0+295 = B-21+020",
+    "hasta": " Km. S-47+616",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP115",
+    "derecho_paso": "TVM-8",
+    "entre": "H-0+295 = B-21+020",
+    "hasta": "S-47+616",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea del Sureste  (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP116",
+    "derecho_paso": "TVM-9",
+    "entre": "S-0+000 = A-12+386",
+    "hasta": "S-47+616 (Teotihuacán)",
+    "otorga_recibe": "Recibe",
+    "concesionario": "  Vía Ferrocarril y Terminal del Valle de México (actualmente Ferrocarril y Terminal del Valle de México, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP117",
+    "derecho_paso": "TVM-9",
+    "entre": "S-0+000 = A-12+386",
+    "hasta": "S-43+483",
+    "otorga_recibe": "Otorga",
+    "concesionario": "Vía férrea del Sureste  (actualmente Ferrosur, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP118",
+    "derecho_paso": "TEMP-1",
+    "entre": "Arellano (Km. A-574+000)",
+    "hasta": "Silao ",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea Pacífico-Norte (actualmente Ferrocarril Mexicano, S.A. de C.V.)"
+  },
+  {
+    "clave": "CDP119",
+    "derecho_paso": "TEMP-2",
+    "entre": "Santa Fé (Km. V454+600)",
+    "hasta": "Jalapa (V-338+600)",
+    "otorga_recibe": "Recibe",
+    "concesionario": " Vía férrea del Noreste (actualmente Kansas City Southern de México, S.A. de C.V.)"
+  }
+]

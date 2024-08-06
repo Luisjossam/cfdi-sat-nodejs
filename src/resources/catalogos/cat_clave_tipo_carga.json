@@ -1,0 +1,26 @@
+[
+  {
+    "clave": "CGS",
+    "descripcion": "Carga General Suelta"
+  },
+  {
+    "clave": "CGC",
+    "descripcion": "Carga General Contenerizada"
+  },
+  {
+    "clave": "GMN",
+    "descripcion": "Gran Mineral"
+  },
+  {
+    "clave": "GAG",
+    "descripcion": "Granel Agrícola"
+  },
+  {
+    "clave": "OFL",
+    "descripcion": "Otros Fluidos"
+  },
+  {
+    "clave": "PYD",
+    "descripcion": "Petróleo y Derivados"
+  }
+]

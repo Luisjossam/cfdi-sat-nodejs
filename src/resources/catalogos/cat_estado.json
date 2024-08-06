@@ -1,0 +1,477 @@
+[
+  {
+    "clave": "AGU",
+    "pais": "MEX",
+    "nombre_estado": "Aguascalientes"
+  },
+  {
+    "clave": "BCN",
+    "pais": "MEX",
+    "nombre_estado": "Baja California"
+  },
+  {
+    "clave": "BCS",
+    "pais": "MEX",
+    "nombre_estado": "Baja California Sur"
+  },
+  {
+    "clave": "CAM",
+    "pais": "MEX",
+    "nombre_estado": "Campeche"
+  },
+  {
+    "clave": "CHP",
+    "pais": "MEX",
+    "nombre_estado": "Chiapas"
+  },
+  {
+    "clave": "CHH",
+    "pais": "MEX",
+    "nombre_estado": "Chihuahua"
+  },
+  {
+    "clave": "COA",
+    "pais": "MEX",
+    "nombre_estado": "Coahuila"
+  },
+  {
+    "clave": "COL",
+    "pais": "MEX",
+    "nombre_estado": "Colima"
+  },
+  {
+    "clave": "CMX",
+    "pais": "MEX",
+    "nombre_estado": "Ciudad de México"
+  },
+  {
+    "clave": "DUR",
+    "pais": "MEX",
+    "nombre_estado": "Durango"
+  },
+  {
+    "clave": "GUA",
+    "pais": "MEX",
+    "nombre_estado": "Guanajuato"
+  },
+  {
+    "clave": "GRO",
+    "pais": "MEX",
+    "nombre_estado": "Guerrero"
+  },
+  {
+    "clave": "HID",
+    "pais": "MEX",
+    "nombre_estado": "Hidalgo"
+  },
+  {
+    "clave": "JAL",
+    "pais": "MEX",
+    "nombre_estado": "Jalisco"
+  },
+  {
+    "clave": "MEX",
+    "pais": "MEX",
+    "nombre_estado": "Estado de México"
+  },
+  {
+    "clave": "MIC",
+    "pais": "MEX",
+    "nombre_estado": "Michoacán"
+  },
+  {
+    "clave": "MOR",
+    "pais": "MEX",
+    "nombre_estado": "Morelos"
+  },
+  {
+    "clave": "NAY",
+    "pais": "MEX",
+    "nombre_estado": "Nayarit"
+  },
+  {
+    "clave": "NLE",
+    "pais": "MEX",
+    "nombre_estado": "Nuevo León"
+  },
+  {
+    "clave": "OAX",
+    "pais": "MEX",
+    "nombre_estado": "Oaxaca"
+  },
+  {
+    "clave": "PUE",
+    "pais": "MEX",
+    "nombre_estado": "Puebla"
+  },
+  {
+    "clave": "QUE",
+    "pais": "MEX",
+    "nombre_estado": "Querétaro"
+  },
+  {
+    "clave": "ROO",
+    "pais": "MEX",
+    "nombre_estado": "Quintana Roo"
+  },
+  {
+    "clave": "SLP",
+    "pais": "MEX",
+    "nombre_estado": "San Luis Potosí"
+  },
+  {
+    "clave": "SIN",
+    "pais": "MEX",
+    "nombre_estado": "Sinaloa"
+  },
+  {
+    "clave": "SON",
+    "pais": "MEX",
+    "nombre_estado": "Sonora"
+  },
+  {
+    "clave": "TAB",
+    "pais": "MEX",
+    "nombre_estado": "Tabasco"
+  },
+  {
+    "clave": "TAM",
+    "pais": "MEX",
+    "nombre_estado": "Tamaulipas"
+  },
+  {
+    "clave": "TLA",
+    "pais": "MEX",
+    "nombre_estado": "Tlaxcala"
+  },
+  {
+    "clave": "VER",
+    "pais": "MEX",
+    "nombre_estado": "Veracruz"
+  },
+  {
+    "clave": "YUC",
+    "pais": "MEX",
+    "nombre_estado": "Yucatán"
+  },
+  {
+    "clave": "ZAC",
+    "pais": "MEX",
+    "nombre_estado": "Zacatecas"
+  },
+  {
+    "clave": "AL",
+    "pais": "USA",
+    "nombre_estado": "Alabama"
+  },
+  {
+    "clave": "AK",
+    "pais": "USA",
+    "nombre_estado": "Alaska"
+  },
+  {
+    "clave": "AZ",
+    "pais": "USA",
+    "nombre_estado": "Arizona"
+  },
+  {
+    "clave": "AR",
+    "pais": "USA",
+    "nombre_estado": "Arkansas"
+  },
+  {
+    "clave": "CA",
+    "pais": "USA",
+    "nombre_estado": "California"
+  },
+  {
+    "clave": "NC",
+    "pais": "USA",
+    "nombre_estado": "Carolina del Norte"
+  },
+  {
+    "clave": "SC",
+    "pais": "USA",
+    "nombre_estado": "Carolina del Sur"
+  },
+  {
+    "clave": "CO",
+    "pais": "USA",
+    "nombre_estado": "Colorado"
+  },
+  {
+    "clave": "CT",
+    "pais": "USA",
+    "nombre_estado": "Connecticut"
+  },
+  {
+    "clave": "ND",
+    "pais": "USA",
+    "nombre_estado": "Dakota del Norte"
+  },
+  {
+    "clave": "SD",
+    "pais": "USA",
+    "nombre_estado": "Dakota del Sur"
+  },
+  {
+    "clave": "DE",
+    "pais": "USA",
+    "nombre_estado": "Delaware"
+  },
+  {
+    "clave": "FL",
+    "pais": "USA",
+    "nombre_estado": "Florida"
+  },
+  {
+    "clave": "GA",
+    "pais": "USA",
+    "nombre_estado": "Georgia"
+  },
+  {
+    "clave": "HI",
+    "pais": "USA",
+    "nombre_estado": "Hawái"
+  },
+  {
+    "clave": "ID",
+    "pais": "USA",
+    "nombre_estado": "Idaho"
+  },
+  {
+    "clave": "IL",
+    "pais": "USA",
+    "nombre_estado": "Illinois"
+  },
+  {
+    "clave": "IN",
+    "pais": "USA",
+    "nombre_estado": "Indiana"
+  },
+  {
+    "clave": "IA",
+    "pais": "USA",
+    "nombre_estado": "Iowa"
+  },
+  {
+    "clave": "KS",
+    "pais": "USA",
+    "nombre_estado": "Kansas"
+  },
+  {
+    "clave": "KY",
+    "pais": "USA",
+    "nombre_estado": "Kentucky"
+  },
+  {
+    "clave": "LA",
+    "pais": "USA",
+    "nombre_estado": "Luisiana"
+  },
+  {
+    "clave": "ME",
+    "pais": "USA",
+    "nombre_estado": "Maine"
+  },
+  {
+    "clave": "MD",
+    "pais": "USA",
+    "nombre_estado": "Maryland"
+  },
+  {
+    "clave": "MA",
+    "pais": "USA",
+    "nombre_estado": "Massachusetts"
+  },
+  {
+    "clave": "MI",
+    "pais": "USA",
+    "nombre_estado": "Míchigan"
+  },
+  {
+    "clave": "MN",
+    "pais": "USA",
+    "nombre_estado": "Minnesota"
+  },
+  {
+    "clave": "MS",
+    "pais": "USA",
+    "nombre_estado": "Misisipi"
+  },
+  {
+    "clave": "MO",
+    "pais": "USA",
+    "nombre_estado": "Misuri"
+  },
+  {
+    "clave": "MT",
+    "pais": "USA",
+    "nombre_estado": "Montana"
+  },
+  {
+    "clave": "NE",
+    "pais": "USA",
+    "nombre_estado": "Nebraska"
+  },
+  {
+    "clave": "NV",
+    "pais": "USA",
+    "nombre_estado": "Nevada"
+  },
+  {
+    "clave": "NJ",
+    "pais": "USA",
+    "nombre_estado": "Nueva Jersey"
+  },
+  {
+    "clave": "NY",
+    "pais": "USA",
+    "nombre_estado": "Nueva York"
+  },
+  {
+    "clave": "NH",
+    "pais": "USA",
+    "nombre_estado": "Nuevo Hampshire"
+  },
+  {
+    "clave": "NM",
+    "pais": "USA",
+    "nombre_estado": "Nuevo México"
+  },
+  {
+    "clave": "OH",
+    "pais": "USA",
+    "nombre_estado": "Ohio"
+  },
+  {
+    "clave": "OK",
+    "pais": "USA",
+    "nombre_estado": "Oklahoma"
+  },
+  {
+    "clave": "OR",
+    "pais": "USA",
+    "nombre_estado": "Oregón"
+  },
+  {
+    "clave": "PA",
+    "pais": "USA",
+    "nombre_estado": "Pensilvania"
+  },
+  {
+    "clave": "RI",
+    "pais": "USA",
+    "nombre_estado": "Rhode Island"
+  },
+  {
+    "clave": "TN",
+    "pais": "USA",
+    "nombre_estado": "Tennessee"
+  },
+  {
+    "clave": "TX",
+    "pais": "USA",
+    "nombre_estado": "Texas"
+  },
+  {
+    "clave": "UT",
+    "pais": "USA",
+    "nombre_estado": "Utah"
+  },
+  {
+    "clave": "VT",
+    "pais": "USA",
+    "nombre_estado": "Vermont"
+  },
+  {
+    "clave": "VA",
+    "pais": "USA",
+    "nombre_estado": "Virginia"
+  },
+  {
+    "clave": "WV",
+    "pais": "USA",
+    "nombre_estado": "Virginia Occidental"
+  },
+  {
+    "clave": "WA",
+    "pais": "USA",
+    "nombre_estado": "Washington"
+  },
+  {
+    "clave": "WI",
+    "pais": "USA",
+    "nombre_estado": "Wisconsin"
+  },
+  {
+    "clave": "WY",
+    "pais": "USA",
+    "nombre_estado": "Wyoming"
+  },
+  {
+    "clave": "ON",
+    "pais": "CAN",
+    "nombre_estado": "Ontario"
+  },
+  {
+    "clave": "QC",
+    "pais": "CAN",
+    "nombre_estado": "Quebec"
+  },
+  {
+    "clave": "NS",
+    "pais": "CAN",
+    "nombre_estado": "Nueva Escocia"
+  },
+  {
+    "clave": "NB",
+    "pais": "CAN",
+    "nombre_estado": "Nuevo Brunswick"
+  },
+  {
+    "clave": "MB",
+    "pais": "CAN",
+    "nombre_estado": "Manitoba"
+  },
+  {
+    "clave": "BC",
+    "pais": "CAN",
+    "nombre_estado": "Columbia Británica"
+  },
+  {
+    "clave": "PE",
+    "pais": "CAN",
+    "nombre_estado": "Isla del Príncipe Eduardo"
+  },
+  {
+    "clave": "SK",
+    "pais": "CAN",
+    "nombre_estado": "Saskatchewan"
+  },
+  {
+    "clave": "AB",
+    "pais": "CAN",
+    "nombre_estado": "Alberta"
+  },
+  {
+    "clave": "NL",
+    "pais": "CAN",
+    "nombre_estado": "Terranova y Labrador"
+  },
+  {
+    "clave": "NT",
+    "pais": "CAN",
+    "nombre_estado": "Territorios del Noroeste"
+  },
+  {
+    "clave": "YT",
+    "pais": "CAN",
+    "nombre_estado": "Yukón"
+  },
+  {
+    "clave": "UN",
+    "pais": "CAN",
+    "nombre_estado": "Nunavut"
+  }
+]

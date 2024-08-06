@@ -1,0 +1,116 @@
+[
+  {
+    "clave": "601",
+    "descripcion": "General de Ley Personas Morales",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "603",
+    "descripcion": "Personas Morales con Fines no Lucrativos",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "605",
+    "descripcion": "Sueldos y Salarios e Ingresos Asimilados a Salarios",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "606",
+    "descripcion": "Arrendamiento",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "607",
+    "descripcion": "Régimen de Enajenación o Adquisición de Bienes",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "608",
+    "descripcion": "Demás ingresos",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "610",
+    "descripcion": "Residentes en el Extranjero sin Establecimiento Permanente en México",
+    "fisica": "Sí",
+    "moral": "Sí"
+  },
+  {
+    "clave": "611",
+    "descripcion": "Ingresos por Dividendos (socios y accionistas)",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "612",
+    "descripcion": "Personas Físicas con Actividades Empresariales y Profesionales",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "614",
+    "descripcion": "Ingresos por intereses",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "615",
+    "descripcion": "Régimen de los ingresos por obtención de premios",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "616",
+    "descripcion": "Sin obligaciones fiscales",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "620",
+    "descripcion": "Sociedades Cooperativas de Producción que optan por diferir sus ingresos",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "621",
+    "descripcion": "Incorporación Fiscal",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "622",
+    "descripcion": "Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "623",
+    "descripcion": "Opcional para Grupos de Sociedades",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "624",
+    "descripcion": "Coordinados",
+    "fisica": "No",
+    "moral": "Sí"
+  },
+  {
+    "clave": "625",
+    "descripcion": "Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas",
+    "fisica": "Sí",
+    "moral": "No"
+  },
+  {
+    "clave": "626",
+    "descripcion": "Régimen Simplificado de Confianza",
+    "fisica": "Sí",
+    "moral": "Sí"
+  }
+]

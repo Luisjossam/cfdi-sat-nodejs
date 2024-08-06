@@ -2,8 +2,9 @@ import {
   atributosInterface,
   atributosConceptoInterface,
   PDFInterface,
+  catalogoResult,
 } from "./interfaces/facturaInterfaces";
-const fs = require("fs");
+import fs from "fs";
 const forge = require("node-forge");
 const path = require("path");
 import { CFDIIngreso } from "./clases/ingreso";
@@ -13,6 +14,7 @@ import PDF from "./clases/PDF";
 import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
 const xpath = require("xpath");
 const SaxonJS = require("saxon-js");
+const basePath = path.resolve(__dirname, "resources", "catalogos");
 
 export class FacturaCFDI {
   #noCertificado: string;
@@ -296,6 +298,67 @@ export class FacturaCFDI {
       return file;
     } catch (error) {
       throw error;
+    }
+  }
+}
+export class CatalogosSAT {
+  constructor() {}
+  obtenerCatalogo(nombreCatalogo: string): catalogoResult {
+    try {
+      const snake_case = nombreCatalogo
+        .replace(/([A-Z])/g, "_$1")
+        .toLowerCase()
+        .replace(/^_/, "");
+      const json_file = path.join(basePath, `cat_${snake_case}.json`);
+      if (fs.existsSync(json_file)) {
+        const data = fs.readFileSync(json_file, "utf8");
+        return {
+          status: true,
+          data: JSON.parse(data),
+        };
+      } else {
+        return {
+          status: false,
+          data: null,
+          message: `El catálogo "${nombreCatalogo}" no existe.`,
+        };
+      }
+    } catch (error) {
+      throw new Error(`Error al importar el catalogo "${nombreCatalogo}"`);
+    }
+  }
+  buscarEnCatalogo(
+    valor: string,
+    clave: string,
+    nombreCatalogo: string
+  ): catalogoResult | undefined {
+    try {
+      const catalogo = this.obtenerCatalogo(nombreCatalogo);
+      if (catalogo.status) {
+        const filter = catalogo.data.find((item: any) => item[clave] === valor);
+        if (filter) {
+          return {
+            status: true,
+            data: filter,
+          };
+        } else {
+          return {
+            status: false,
+            data: null,
+            message: `Clave "${valor}" no encontrada en el catálogo "${nombreCatalogo}"`,
+          };
+        }
+      } else {
+        return {
+          status: false,
+          message: `El catálogo "${nombreCatalogo}" no existe.`,
+        };
+      }
+    } catch (error) {
+      return {
+        status: false,
+        message: `Error al buscar en el catálogo.`,
+      };
     }
   }
 }

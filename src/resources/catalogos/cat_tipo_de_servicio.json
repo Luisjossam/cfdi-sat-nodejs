@@ -1,0 +1,22 @@
+[
+  {
+    "clave": "TS01",
+    "descripcion": "Carros Ferroviarios",
+    "contenedor": 0
+  },
+  {
+    "clave": "TS02",
+    "descripcion": "Carros Ferroviarios intermodal",
+    "contenedor": 1
+  },
+  {
+    "clave": "TS03",
+    "descripcion": "Tren unitario de carros ferroviarios",
+    "contenedor": 0
+  },
+  {
+    "clave": "TS04",
+    "descripcion": "Tren unitario Intermodal",
+    "contenedor": 1
+  }
+]

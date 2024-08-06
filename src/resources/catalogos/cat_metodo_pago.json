@@ -1,0 +1,10 @@
+[
+  {
+    "clave": "PUE",
+    "descripcion": "Pago en una sola exhibición"
+  },
+  {
+    "clave": "PPD",
+    "descripcion": "Pago en parcialidades o diferido"
+  }
+]

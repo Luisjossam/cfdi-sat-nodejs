@@ -1,0 +1,30 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Nota de crédito de los documentos relacionados"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Nota de débito de los documentos relacionados"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Devolución de mercancía sobre facturas o traslados previos"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Sustitución de los CFDI previos"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Traslados de mercancías facturados previamente"
+  },
+  {
+    "clave": "06",
+    "descripcion": "Factura generada por los traslados previos"
+  },
+  {
+    "clave": "07",
+    "descripcion": "CFDI por aplicación de anticipo"
+  }
+]

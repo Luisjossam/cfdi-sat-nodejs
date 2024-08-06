@@ -1,0 +1,62 @@
+[
+  {
+    "clave": "B01",
+    "descripcion": "Abastecedor"
+  },
+  {
+    "clave": "B02",
+    "descripcion": "Barcaza"
+  },
+  {
+    "clave": "B03",
+    "descripcion": "Granelero"
+  },
+  {
+    "clave": "B04",
+    "descripcion": "Porta Contenedor"
+  },
+  {
+    "clave": "B05",
+    "descripcion": "Draga"
+  },
+  {
+    "clave": "B06",
+    "descripcion": "Pesquero"
+  },
+  {
+    "clave": "B07",
+    "descripcion": "Carga General"
+  },
+  {
+    "clave": "B08",
+    "descripcion": "Quimiqueros"
+  },
+  {
+    "clave": "B09",
+    "descripcion": "Transbordadores"
+  },
+  {
+    "clave": "B10",
+    "descripcion": "Carga RoRo"
+  },
+  {
+    "clave": "B11",
+    "descripcion": "Investigación"
+  },
+  {
+    "clave": "B12",
+    "descripcion": "Tanquero"
+  },
+  {
+    "clave": "B13",
+    "descripcion": "Gasero"
+  },
+  {
+    "clave": "B14",
+    "descripcion": "Remolcador"
+  },
+  {
+    "clave": "B15",
+    "descripcion": "Extraordinaria especialización"
+  }
+]

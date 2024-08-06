@@ -1,0 +1,52 @@
+[
+  {
+    "clave": "IMD",
+    "descripcion": "Definitivo de importación.",
+    "importacion_exportacion": "Entrada"
+  },
+  {
+    "clave": "EXD",
+    "descripcion": "Definitivo de exportación.",
+    "importacion_exportacion": "Salida"
+  },
+  {
+    "clave": "ITR",
+    "descripcion": "Temporales de importación para retomar al extranjero en el mismo estado.",
+    "importacion_exportacion": "Entrada"
+  },
+  {
+    "clave": "ITE",
+    "descripcion": "Temporales de importación para elaboración, transformación o reparación para empresas con programa IMMEX.",
+    "importacion_exportacion": "Entrada"
+  },
+  {
+    "clave": "ETR",
+    "descripcion": "Temporales de exportación para retornar al país en el mismo estado.",
+    "importacion_exportacion": "Salida"
+  },
+  {
+    "clave": "ETE",
+    "descripcion": "Temporales de exportación para elaboración, transformación o reparación.",
+    "importacion_exportacion": "Salida"
+  },
+  {
+    "clave": "DFI",
+    "descripcion": "Depósito Fiscal.",
+    "importacion_exportacion": "Salida,Entrada"
+  },
+  {
+    "clave": "RFE",
+    "descripcion": "Elaboración, transformación o reparación en recinto fiscalizado.",
+    "importacion_exportacion": "Salida,Entrada"
+  },
+  {
+    "clave": "RFS",
+    "descripcion": "Recinto fiscalizado estratégico.",
+    "importacion_exportacion": "Salida,Entrada"
+  },
+  {
+    "clave": "TRA",
+    "descripcion": "Tránsitos.",
+    "importacion_exportacion": "Salida,Entrada"
+  }
+]

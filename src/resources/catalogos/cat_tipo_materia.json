@@ -1,0 +1,22 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Materia prima"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Materia procesada"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Materia terminada (producto terminado)"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Materia para la industria manufacturera"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Otra"
+  }
+]

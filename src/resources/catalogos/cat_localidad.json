@@ -1,0 +1,3322 @@
+[
+  {
+    "localidad": "01",
+    "estado": "AGU",
+    "descripcion": "Aguascalientes"
+  },
+  {
+    "localidad": "01",
+    "estado": "BCN",
+    "descripcion": "Ensenada"
+  },
+  {
+    "localidad": "01",
+    "estado": "BCS",
+    "descripcion": "Ciudad Constitución"
+  },
+  {
+    "localidad": "01",
+    "estado": "CAM",
+    "descripcion": "San Francisco de Campeche"
+  },
+  {
+    "localidad": "01",
+    "estado": "COA",
+    "descripcion": "Ciudad Acuña"
+  },
+  {
+    "localidad": "01",
+    "estado": "COL",
+    "descripcion": "Colima"
+  },
+  {
+    "localidad": "01",
+    "estado": "CHH",
+    "descripcion": "Santa Rosalía de Camargo"
+  },
+  {
+    "localidad": "01",
+    "estado": "CHP",
+    "descripcion": "Comitán de Domínguez"
+  },
+  {
+    "localidad": "01",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "01",
+    "estado": "DUR",
+    "descripcion": "Victoria de Durango"
+  },
+  {
+    "localidad": "01",
+    "estado": "GRO",
+    "descripcion": "Acapulco de Juárez"
+  },
+  {
+    "localidad": "01",
+    "estado": "GUA",
+    "descripcion": "Acámbaro"
+  },
+  {
+    "localidad": "01",
+    "estado": "HID",
+    "descripcion": "Actopan"
+  },
+  {
+    "localidad": "01",
+    "estado": "JAL",
+    "descripcion": "Ameca"
+  },
+  {
+    "localidad": "01",
+    "estado": "MEX",
+    "descripcion": "Ciudad Adolfo López Mateos"
+  },
+  {
+    "localidad": "01",
+    "estado": "MIC",
+    "descripcion": "Apatzingán de la Constitución"
+  },
+  {
+    "localidad": "01",
+    "estado": "MOR",
+    "descripcion": "Cuautla (Cuautla de Morelos)"
+  },
+  {
+    "localidad": "01",
+    "estado": "NAY",
+    "descripcion": "Santiago Ixcuintla"
+  },
+  {
+    "localidad": "01",
+    "estado": "NLE",
+    "descripcion": "Ciudad Apodaca"
+  },
+  {
+    "localidad": "01",
+    "estado": "OAX",
+    "descripcion": "Juchitán (Juchitán de Zaragoza)"
+  },
+  {
+    "localidad": "01",
+    "estado": "PUE",
+    "descripcion": "Atlixco"
+  },
+  {
+    "localidad": "01",
+    "estado": "QUE",
+    "descripcion": "Querétaro"
+  },
+  {
+    "localidad": "01",
+    "estado": "ROO",
+    "descripcion": "Cancún"
+  },
+  {
+    "localidad": "01",
+    "estado": "SIN",
+    "descripcion": "Los Mochis"
+  },
+  {
+    "localidad": "01",
+    "estado": "SLP",
+    "descripcion": "Ciudad Valles"
+  },
+  {
+    "localidad": "01",
+    "estado": "SON",
+    "descripcion": "San Luis Río Colorado"
+  },
+  {
+    "localidad": "01",
+    "estado": "TAB",
+    "descripcion": "Cárdenas"
+  },
+  {
+    "localidad": "01",
+    "estado": "TAM",
+    "descripcion": "Altamira"
+  },
+  {
+    "localidad": "01",
+    "estado": "TLA",
+    "descripcion": "Apizaco"
+  },
+  {
+    "localidad": "01",
+    "estado": "VER",
+    "descripcion": "Acayucan"
+  },
+  {
+    "localidad": "01",
+    "estado": "YUC",
+    "descripcion": "Mérida"
+  },
+  {
+    "localidad": "01",
+    "estado": "ZAC",
+    "descripcion": "Fresnillo"
+  },
+  {
+    "localidad": "02",
+    "estado": "AGU",
+    "descripcion": "Calvillo"
+  },
+  {
+    "localidad": "02",
+    "estado": "BCN",
+    "descripcion": "Mexicali"
+  },
+  {
+    "localidad": "02",
+    "estado": "BCS",
+    "descripcion": "La Paz"
+  },
+  {
+    "localidad": "02",
+    "estado": "CAM",
+    "descripcion": "Ciudad del Carmen"
+  },
+  {
+    "localidad": "02",
+    "estado": "COA",
+    "descripcion": "Frontera"
+  },
+  {
+    "localidad": "02",
+    "estado": "COL",
+    "descripcion": "Manzanillo"
+  },
+  {
+    "localidad": "02",
+    "estado": "CHH",
+    "descripcion": "Chihuahua"
+  },
+  {
+    "localidad": "02",
+    "estado": "CHP",
+    "descripcion": "San Cristóbal de las Casas"
+  },
+  {
+    "localidad": "02",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "02",
+    "estado": "DUR",
+    "descripcion": "Gómez Palacio"
+  },
+  {
+    "localidad": "02",
+    "estado": "GRO",
+    "descripcion": "Chilpancingo de los Bravo"
+  },
+  {
+    "localidad": "02",
+    "estado": "GUA",
+    "descripcion": "San miguel de Allende"
+  },
+  {
+    "localidad": "02",
+    "estado": "HID",
+    "descripcion": "Apan"
+  },
+  {
+    "localidad": "02",
+    "estado": "JAL",
+    "descripcion": "Ciudad Guzmán"
+  },
+  {
+    "localidad": "02",
+    "estado": "MEX",
+    "descripcion": "Chimalhuacán"
+  },
+  {
+    "localidad": "02",
+    "estado": "MIC",
+    "descripcion": "Los Reyes de Salgado"
+  },
+  {
+    "localidad": "02",
+    "estado": "MOR",
+    "descripcion": "Cuernavaca"
+  },
+  {
+    "localidad": "02",
+    "estado": "NAY",
+    "descripcion": "Tepic"
+  },
+  {
+    "localidad": "02",
+    "estado": "NLE",
+    "descripcion": "San Pedro Garza García"
+  },
+  {
+    "localidad": "02",
+    "estado": "OAX",
+    "descripcion": "Oaxaca de Juárez"
+  },
+  {
+    "localidad": "02",
+    "estado": "PUE",
+    "descripcion": "Izúcar de Matamoros"
+  },
+  {
+    "localidad": "02",
+    "estado": "QUE",
+    "descripcion": "San Juan del Rio"
+  },
+  {
+    "localidad": "02",
+    "estado": "ROO",
+    "descripcion": "Cozumel"
+  },
+  {
+    "localidad": "02",
+    "estado": "SIN",
+    "descripcion": "Culiacán Rosales"
+  },
+  {
+    "localidad": "02",
+    "estado": "SLP",
+    "descripcion": "Ébano"
+  },
+  {
+    "localidad": "02",
+    "estado": "SON",
+    "descripcion": "Agua Prieta"
+  },
+  {
+    "localidad": "02",
+    "estado": "TAB",
+    "descripcion": "Villahermosa"
+  },
+  {
+    "localidad": "02",
+    "estado": "TAM",
+    "descripcion": "Ciudad Camargo"
+  },
+  {
+    "localidad": "02",
+    "estado": "TLA",
+    "descripcion": "Villa Vicente Guerrero"
+  },
+  {
+    "localidad": "02",
+    "estado": "VER",
+    "descripcion": "Naranjos"
+  },
+  {
+    "localidad": "02",
+    "estado": "YUC",
+    "descripcion": "Tizimín"
+  },
+  {
+    "localidad": "02",
+    "estado": "ZAC",
+    "descripcion": "Jerez de García Salinas"
+  },
+  {
+    "localidad": "03",
+    "estado": "AGU",
+    "descripcion": "San Francisco de los Romo"
+  },
+  {
+    "localidad": "03",
+    "estado": "BCN",
+    "descripcion": "Tecate"
+  },
+  {
+    "localidad": "03",
+    "estado": "BCS",
+    "descripcion": "Cabo San Lucas"
+  },
+  {
+    "localidad": "03",
+    "estado": "CAM",
+    "descripcion": "Calkiní"
+  },
+  {
+    "localidad": "03",
+    "estado": "COA",
+    "descripcion": "Matamoros"
+  },
+  {
+    "localidad": "03",
+    "estado": "COL",
+    "descripcion": "Tecoman"
+  },
+  {
+    "localidad": "03",
+    "estado": "CHH",
+    "descripcion": "Cuauhtémoc"
+  },
+  {
+    "localidad": "03",
+    "estado": "CHP",
+    "descripcion": "Tapachula de Córdova y Ordóñez"
+  },
+  {
+    "localidad": "03",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "03",
+    "estado": "DUR",
+    "descripcion": "Ciudad Lerdo"
+  },
+  {
+    "localidad": "03",
+    "estado": "GRO",
+    "descripcion": "Iguala de la Independencia"
+  },
+  {
+    "localidad": "03",
+    "estado": "GUA",
+    "descripcion": "Celaya"
+  },
+  {
+    "localidad": "03",
+    "estado": "HID",
+    "descripcion": "Pachuca de Soto"
+  },
+  {
+    "localidad": "03",
+    "estado": "JAL",
+    "descripcion": "Guadalajara"
+  },
+  {
+    "localidad": "03",
+    "estado": "MEX",
+    "descripcion": "Coacalco de Berriozabal"
+  },
+  {
+    "localidad": "03",
+    "estado": "MIC",
+    "descripcion": "Ciudad Hidalgo"
+  },
+  {
+    "localidad": "03",
+    "estado": "MOR",
+    "descripcion": "Galeana"
+  },
+  {
+    "localidad": "03",
+    "estado": "NAY",
+    "descripcion": "Tuxpan"
+  },
+  {
+    "localidad": "03",
+    "estado": "NLE",
+    "descripcion": "Ciudad General Escobedo"
+  },
+  {
+    "localidad": "03",
+    "estado": "OAX",
+    "descripcion": "Salina Cruz"
+  },
+  {
+    "localidad": "03",
+    "estado": "PUE",
+    "descripcion": "Puebla (Heroica Puebla)"
+  },
+  {
+    "localidad": "03",
+    "estado": "ROO",
+    "descripcion": "Felipe Carrillo Puerto"
+  },
+  {
+    "localidad": "03",
+    "estado": "SIN",
+    "descripcion": "Escuinapa de Hidalgo"
+  },
+  {
+    "localidad": "03",
+    "estado": "SLP",
+    "descripcion": "Matehuala"
+  },
+  {
+    "localidad": "03",
+    "estado": "SON",
+    "descripcion": "Heroica Caborca"
+  },
+  {
+    "localidad": "03",
+    "estado": "TAB",
+    "descripcion": "Comalcalco"
+  },
+  {
+    "localidad": "03",
+    "estado": "TAM",
+    "descripcion": "Ciudad Madero"
+  },
+  {
+    "localidad": "03",
+    "estado": "TLA",
+    "descripcion": "Tlaxcala (Tlaxcala de Xicotencatl)"
+  },
+  {
+    "localidad": "03",
+    "estado": "VER",
+    "descripcion": "Boca del RÍo"
+  },
+  {
+    "localidad": "03",
+    "estado": "YUC",
+    "descripcion": "Ticul"
+  },
+  {
+    "localidad": "03",
+    "estado": "ZAC",
+    "descripcion": "Zacatecas"
+  },
+  {
+    "localidad": "04",
+    "estado": "AGU",
+    "descripcion": "Jesús María"
+  },
+  {
+    "localidad": "04",
+    "estado": "BCN",
+    "descripcion": "Tijuana"
+  },
+  {
+    "localidad": "04",
+    "estado": "BCS",
+    "descripcion": "San José del Cabo"
+  },
+  {
+    "localidad": "04",
+    "estado": "CAM",
+    "descripcion": "Candelaria"
+  },
+  {
+    "localidad": "04",
+    "estado": "COA",
+    "descripcion": "Monclova"
+  },
+  {
+    "localidad": "04",
+    "estado": "COL",
+    "descripcion": "Ciudad de Villa de Álvarez"
+  },
+  {
+    "localidad": "04",
+    "estado": "CHH",
+    "descripcion": "Delicias"
+  },
+  {
+    "localidad": "04",
+    "estado": "CHP",
+    "descripcion": "Tuxtla Gutiérrez"
+  },
+  {
+    "localidad": "04",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "04",
+    "estado": "DUR",
+    "descripcion": "Santiago Papasquiaro"
+  },
+  {
+    "localidad": "04",
+    "estado": "GRO",
+    "descripcion": "Taxco de Alarcón"
+  },
+  {
+    "localidad": "04",
+    "estado": "GUA",
+    "descripcion": "Cortazar"
+  },
+  {
+    "localidad": "04",
+    "estado": "HID",
+    "descripcion": "Cd. de Fray Bernardino de Sahagún"
+  },
+  {
+    "localidad": "04",
+    "estado": "JAL",
+    "descripcion": "Lagos de Moreno"
+  },
+  {
+    "localidad": "04",
+    "estado": "MEX",
+    "descripcion": "Cuautitlán Izcalli"
+  },
+  {
+    "localidad": "04",
+    "estado": "MIC",
+    "descripcion": "Jacona de Plancarte"
+  },
+  {
+    "localidad": "04",
+    "estado": "MOR",
+    "descripcion": "Jojutla"
+  },
+  {
+    "localidad": "04",
+    "estado": "NAY",
+    "descripcion": "Acaponeta"
+  },
+  {
+    "localidad": "04",
+    "estado": "NLE",
+    "descripcion": "Guadalupe"
+  },
+  {
+    "localidad": "04",
+    "estado": "OAX",
+    "descripcion": "San Juan Bautista Tuxtepec"
+  },
+  {
+    "localidad": "04",
+    "estado": "PUE",
+    "descripcion": "San Martín Texmelucan de Labastida"
+  },
+  {
+    "localidad": "04",
+    "estado": "QUE",
+    "descripcion": "El Pueblito"
+  },
+  {
+    "localidad": "04",
+    "estado": "ROO",
+    "descripcion": "Chetumal"
+  },
+  {
+    "localidad": "04",
+    "estado": "SIN",
+    "descripcion": "Guasave"
+  },
+  {
+    "localidad": "04",
+    "estado": "SLP",
+    "descripcion": "Rioverde"
+  },
+  {
+    "localidad": "04",
+    "estado": "SON",
+    "descripcion": "Ciudad Obregón"
+  },
+  {
+    "localidad": "04",
+    "estado": "TAB",
+    "descripcion": "Emiliano Zapata"
+  },
+  {
+    "localidad": "04",
+    "estado": "TAM",
+    "descripcion": "Ciudad Mante"
+  },
+  {
+    "localidad": "04",
+    "estado": "TLA",
+    "descripcion": "Huamantla"
+  },
+  {
+    "localidad": "04",
+    "estado": "VER",
+    "descripcion": "Coatepec"
+  },
+  {
+    "localidad": "04",
+    "estado": "YUC",
+    "descripcion": "Motul de Carrillo Puerto"
+  },
+  {
+    "localidad": "04",
+    "estado": "ZAC",
+    "descripcion": "Guadalupe"
+  },
+  {
+    "localidad": "05",
+    "estado": "AGU",
+    "descripcion": "Pabellón de Arteaga"
+  },
+  {
+    "localidad": "05",
+    "estado": "BCN",
+    "descripcion": "Playas de Rosarito"
+  },
+  {
+    "localidad": "05",
+    "estado": "BCS",
+    "descripcion": "Loreto"
+  },
+  {
+    "localidad": "05",
+    "estado": "CAM",
+    "descripcion": "Escárcega"
+  },
+  {
+    "localidad": "05",
+    "estado": "COA",
+    "descripcion": "Parras de la Fuente"
+  },
+  {
+    "localidad": "05",
+    "estado": "COL",
+    "descripcion": "Ciudad de Armería"
+  },
+  {
+    "localidad": "05",
+    "estado": "CHH",
+    "descripcion": "Hidalgo del Parral"
+  },
+  {
+    "localidad": "05",
+    "estado": "CHP",
+    "descripcion": "Venustiano Carranza"
+  },
+  {
+    "localidad": "05",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "05",
+    "estado": "DUR",
+    "descripcion": "Canatlán"
+  },
+  {
+    "localidad": "05",
+    "estado": "GRO",
+    "descripcion": "Arcelia"
+  },
+  {
+    "localidad": "05",
+    "estado": "GUA",
+    "descripcion": "Guanajuato"
+  },
+  {
+    "localidad": "05",
+    "estado": "HID",
+    "descripcion": "Tula de Allende"
+  },
+  {
+    "localidad": "05",
+    "estado": "JAL",
+    "descripcion": "Ocotlán"
+  },
+  {
+    "localidad": "05",
+    "estado": "MEX",
+    "descripcion": "Ecatepec de Morelos"
+  },
+  {
+    "localidad": "05",
+    "estado": "MIC",
+    "descripcion": "La piedad de Cabadas"
+  },
+  {
+    "localidad": "05",
+    "estado": "MOR",
+    "descripcion": "Puente de Ixtla"
+  },
+  {
+    "localidad": "05",
+    "estado": "NAY",
+    "descripcion": "Tecuala"
+  },
+  {
+    "localidad": "05",
+    "estado": "NLE",
+    "descripcion": "Linares"
+  },
+  {
+    "localidad": "05",
+    "estado": "OAX",
+    "descripcion": "Matías Romero Avendaño"
+  },
+  {
+    "localidad": "05",
+    "estado": "PUE",
+    "descripcion": "Tehuacan"
+  },
+  {
+    "localidad": "05",
+    "estado": "ROO",
+    "descripcion": "Playa del Carmen"
+  },
+  {
+    "localidad": "05",
+    "estado": "SIN",
+    "descripcion": "Mazatlán"
+  },
+  {
+    "localidad": "05",
+    "estado": "SLP",
+    "descripcion": "San Luis Potosí"
+  },
+  {
+    "localidad": "05",
+    "estado": "SON",
+    "descripcion": "Empalme"
+  },
+  {
+    "localidad": "05",
+    "estado": "TAB",
+    "descripcion": "Jalpa de Méndez"
+  },
+  {
+    "localidad": "05",
+    "estado": "TAM",
+    "descripcion": "Heroica Matamoros"
+  },
+  {
+    "localidad": "05",
+    "estado": "TLA",
+    "descripcion": "Calpulalpan"
+  },
+  {
+    "localidad": "05",
+    "estado": "VER",
+    "descripcion": "Agua dulce"
+  },
+  {
+    "localidad": "05",
+    "estado": "YUC",
+    "descripcion": "Valladolid"
+  },
+  {
+    "localidad": "05",
+    "estado": "ZAC",
+    "descripcion": "Río Grande"
+  },
+  {
+    "localidad": "06",
+    "estado": "AGU",
+    "descripcion": "Rincón de Romos"
+  },
+  {
+    "localidad": "06",
+    "estado": "BCN",
+    "descripcion": "Rodolfo Sánchez T. (Maneadero)"
+  },
+  {
+    "localidad": "06",
+    "estado": "BCS",
+    "descripcion": "Puerto Adolfo López Mateos"
+  },
+  {
+    "localidad": "06",
+    "estado": "CAM",
+    "descripcion": "Sabancuy"
+  },
+  {
+    "localidad": "06",
+    "estado": "COA",
+    "descripcion": "Piedras Negras"
+  },
+  {
+    "localidad": "06",
+    "estado": "CHH",
+    "descripcion": "Juárez"
+  },
+  {
+    "localidad": "06",
+    "estado": "CHP",
+    "descripcion": "Jiquipilas"
+  },
+  {
+    "localidad": "06",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "06",
+    "estado": "DUR",
+    "descripcion": "San Juan del Río del Centauro del Norte"
+  },
+  {
+    "localidad": "06",
+    "estado": "GRO",
+    "descripcion": "Ayutla de los Libres"
+  },
+  {
+    "localidad": "06",
+    "estado": "GUA",
+    "descripcion": "Irapuato"
+  },
+  {
+    "localidad": "06",
+    "estado": "HID",
+    "descripcion": "Tulancingo"
+  },
+  {
+    "localidad": "06",
+    "estado": "JAL",
+    "descripcion": "Puerto Vallarta"
+  },
+  {
+    "localidad": "06",
+    "estado": "MEX",
+    "descripcion": "Huixquilucan de Degollado"
+  },
+  {
+    "localidad": "06",
+    "estado": "MIC",
+    "descripcion": "Morelia"
+  },
+  {
+    "localidad": "06",
+    "estado": "MOR",
+    "descripcion": "Santa Rosa Treinta"
+  },
+  {
+    "localidad": "06",
+    "estado": "NAY",
+    "descripcion": "Compostela"
+  },
+  {
+    "localidad": "06",
+    "estado": "NLE",
+    "descripcion": "Montemorelos"
+  },
+  {
+    "localidad": "06",
+    "estado": "OAX",
+    "descripcion": "Heroica Ciudad de Huajuapan de León"
+  },
+  {
+    "localidad": "06",
+    "estado": "PUE",
+    "descripcion": "Teziutlan"
+  },
+  {
+    "localidad": "06",
+    "estado": "ROO",
+    "descripcion": "Kantunilkin"
+  },
+  {
+    "localidad": "06",
+    "estado": "SIN",
+    "descripcion": "Guamúchil"
+  },
+  {
+    "localidad": "06",
+    "estado": "SLP",
+    "descripcion": "Soledad de Graciano Sánchez"
+  },
+  {
+    "localidad": "06",
+    "estado": "SON",
+    "descripcion": "Heroica Guaymas"
+  },
+  {
+    "localidad": "06",
+    "estado": "TAM",
+    "descripcion": "Nuevo Laredo"
+  },
+  {
+    "localidad": "06",
+    "estado": "TLA",
+    "descripcion": "Chiautempan"
+  },
+  {
+    "localidad": "06",
+    "estado": "VER",
+    "descripcion": "Coatzacoalcos"
+  },
+  {
+    "localidad": "06",
+    "estado": "YUC",
+    "descripcion": "Kanasín"
+  },
+  {
+    "localidad": "06",
+    "estado": "ZAC",
+    "descripcion": "Ciudad Cuauhtémoc"
+  },
+  {
+    "localidad": "07",
+    "estado": "AGU",
+    "descripcion": "Asientos"
+  },
+  {
+    "localidad": "07",
+    "estado": "BCN",
+    "descripcion": "San Felipe"
+  },
+  {
+    "localidad": "07",
+    "estado": "BCS",
+    "descripcion": "Todos Santos"
+  },
+  {
+    "localidad": "07",
+    "estado": "CAM",
+    "descripcion": "Hopelchén"
+  },
+  {
+    "localidad": "07",
+    "estado": "COA",
+    "descripcion": "Sabinas"
+  },
+  {
+    "localidad": "07",
+    "estado": "CHH",
+    "descripcion": "Nuevo Casas Grandes"
+  },
+  {
+    "localidad": "07",
+    "estado": "CHP",
+    "descripcion": "Villaflores"
+  },
+  {
+    "localidad": "07",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "07",
+    "estado": "DUR",
+    "descripcion": "Peñón Blanco"
+  },
+  {
+    "localidad": "07",
+    "estado": "GRO",
+    "descripcion": "Atoyac de Álvarez"
+  },
+  {
+    "localidad": "07",
+    "estado": "GUA",
+    "descripcion": "León de los Aldama"
+  },
+  {
+    "localidad": "07",
+    "estado": "HID",
+    "descripcion": "Zimapan"
+  },
+  {
+    "localidad": "07",
+    "estado": "JAL",
+    "descripcion": "San Juan de los Lagos"
+  },
+  {
+    "localidad": "07",
+    "estado": "MEX",
+    "descripcion": "Los Reyes Acaquilpan (La Paz)"
+  },
+  {
+    "localidad": "07",
+    "estado": "MIC",
+    "descripcion": "Pátzcuaro"
+  },
+  {
+    "localidad": "07",
+    "estado": "MOR",
+    "descripcion": "Zacatepec de Hidalgo"
+  },
+  {
+    "localidad": "07",
+    "estado": "NAY",
+    "descripcion": "Francisco I. Madero (Puga)"
+  },
+  {
+    "localidad": "07",
+    "estado": "NLE",
+    "descripcion": "Monterrey"
+  },
+  {
+    "localidad": "07",
+    "estado": "OAX",
+    "descripcion": "Loma Bonita"
+  },
+  {
+    "localidad": "07",
+    "estado": "PUE",
+    "descripcion": "San Andrés Cholula"
+  },
+  {
+    "localidad": "07",
+    "estado": "ROO",
+    "descripcion": "Isla Mujeres"
+  },
+  {
+    "localidad": "07",
+    "estado": "SIN",
+    "descripcion": "Navolato"
+  },
+  {
+    "localidad": "07",
+    "estado": "SLP",
+    "descripcion": "Charcas"
+  },
+  {
+    "localidad": "07",
+    "estado": "SON",
+    "descripcion": "Hermosillo"
+  },
+  {
+    "localidad": "07",
+    "estado": "TAB",
+    "descripcion": "Macuspana"
+  },
+  {
+    "localidad": "07",
+    "estado": "TAM",
+    "descripcion": "Reynosa"
+  },
+  {
+    "localidad": "07",
+    "estado": "VER",
+    "descripcion": "Córdoba"
+  },
+  {
+    "localidad": "07",
+    "estado": "ZAC",
+    "descripcion": "Ojocaliente"
+  },
+  {
+    "localidad": "08",
+    "estado": "AGU",
+    "descripcion": "Tepezalá"
+  },
+  {
+    "localidad": "08",
+    "estado": "BCS",
+    "descripcion": "Heroica Mulegé"
+  },
+  {
+    "localidad": "08",
+    "estado": "CAM",
+    "descripcion": "Champotón"
+  },
+  {
+    "localidad": "08",
+    "estado": "COA",
+    "descripcion": "Saltillo"
+  },
+  {
+    "localidad": "08",
+    "estado": "CHP",
+    "descripcion": "Las Margaritas"
+  },
+  {
+    "localidad": "08",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "08",
+    "estado": "DUR",
+    "descripcion": "Francisco I. Madero"
+  },
+  {
+    "localidad": "08",
+    "estado": "GUA",
+    "descripcion": "Moroleón"
+  },
+  {
+    "localidad": "08",
+    "estado": "HID",
+    "descripcion": "Huejutla de Reyes"
+  },
+  {
+    "localidad": "08",
+    "estado": "JAL",
+    "descripcion": "Tepatitlán de Morelos"
+  },
+  {
+    "localidad": "08",
+    "estado": "MEX",
+    "descripcion": "Metepec"
+  },
+  {
+    "localidad": "08",
+    "estado": "MIC",
+    "descripcion": "Sahuayo de Morelos"
+  },
+  {
+    "localidad": "08",
+    "estado": "MOR",
+    "descripcion": "Tlaquiltenango"
+  },
+  {
+    "localidad": "08",
+    "estado": "NAY",
+    "descripcion": "Villa Hidalgo (El Nuevo)"
+  },
+  {
+    "localidad": "08",
+    "estado": "NLE",
+    "descripcion": "Ciudad Sabinas Hidalgo"
+  },
+  {
+    "localidad": "08",
+    "estado": "OAX",
+    "descripcion": "Puerto Escondido"
+  },
+  {
+    "localidad": "08",
+    "estado": "PUE",
+    "descripcion": "San Pedro Cholula"
+  },
+  {
+    "localidad": "08",
+    "estado": "ROO",
+    "descripcion": "Bacalar"
+  },
+  {
+    "localidad": "08",
+    "estado": "SIN",
+    "descripcion": "Quila"
+  },
+  {
+    "localidad": "08",
+    "estado": "SLP",
+    "descripcion": "Salinas de Hidalgo"
+  },
+  {
+    "localidad": "08",
+    "estado": "SON",
+    "descripcion": "Huatabampo"
+  },
+  {
+    "localidad": "08",
+    "estado": "TAB",
+    "descripcion": "Tenosique de Pino Suárez"
+  },
+  {
+    "localidad": "08",
+    "estado": "TAM",
+    "descripcion": "Ciudad Río Bravo"
+  },
+  {
+    "localidad": "08",
+    "estado": "VER",
+    "descripcion": "Tres Valles"
+  },
+  {
+    "localidad": "08",
+    "estado": "ZAC",
+    "descripcion": "Villa Hidalgo"
+  },
+  {
+    "localidad": "09",
+    "estado": "AGU",
+    "descripcion": "Cosío"
+  },
+  {
+    "localidad": "09",
+    "estado": "BCS",
+    "descripcion": "Villa Alberto Andrés Alvarado Arámburo"
+  },
+  {
+    "localidad": "09",
+    "estado": "CAM",
+    "descripcion": "Hecelchakán"
+  },
+  {
+    "localidad": "09",
+    "estado": "COA",
+    "descripcion": "Nueva Rosita"
+  },
+  {
+    "localidad": "09",
+    "estado": "CHH",
+    "descripcion": "Madera"
+  },
+  {
+    "localidad": "09",
+    "estado": "CHP",
+    "descripcion": "Arriaga"
+  },
+  {
+    "localidad": "09",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "09",
+    "estado": "DUR",
+    "descripcion": "Nombre de Dios"
+  },
+  {
+    "localidad": "09",
+    "estado": "GRO",
+    "descripcion": "San Jerónimo de Juárez"
+  },
+  {
+    "localidad": "09",
+    "estado": "GUA",
+    "descripcion": "Salamanca"
+  },
+  {
+    "localidad": "09",
+    "estado": "HID",
+    "descripcion": "Tlaxcoapan"
+  },
+  {
+    "localidad": "09",
+    "estado": "JAL",
+    "descripcion": "Tlaquepaque"
+  },
+  {
+    "localidad": "09",
+    "estado": "MEX",
+    "descripcion": "Naucalpan de Juárez"
+  },
+  {
+    "localidad": "09",
+    "estado": "MIC",
+    "descripcion": "Uruapan"
+  },
+  {
+    "localidad": "09",
+    "estado": "NAY",
+    "descripcion": "Ruiz"
+  },
+  {
+    "localidad": "09",
+    "estado": "NLE",
+    "descripcion": "San Nicolás de los Garza"
+  },
+  {
+    "localidad": "09",
+    "estado": "OAX",
+    "descripcion": "Río Grande o Piedra Parada"
+  },
+  {
+    "localidad": "09",
+    "estado": "PUE",
+    "descripcion": "Huauchinango"
+  },
+  {
+    "localidad": "09",
+    "estado": "SIN",
+    "descripcion": "Ahome"
+  },
+  {
+    "localidad": "09",
+    "estado": "SLP",
+    "descripcion": "Cárdenas"
+  },
+  {
+    "localidad": "09",
+    "estado": "SON",
+    "descripcion": "Navojoa"
+  },
+  {
+    "localidad": "09",
+    "estado": "TAB",
+    "descripcion": "Teapa"
+  },
+  {
+    "localidad": "09",
+    "estado": "TAM",
+    "descripcion": "San Fernando"
+  },
+  {
+    "localidad": "09",
+    "estado": "VER",
+    "descripcion": "Jáltipan de Morelos"
+  },
+  {
+    "localidad": "09",
+    "estado": "ZAC",
+    "descripcion": "Villanueva"
+  },
+  {
+    "localidad": "10",
+    "estado": "BCS",
+    "descripcion": "San Ignacio"
+  },
+  {
+    "localidad": "10",
+    "estado": "COA",
+    "descripcion": "San Pedro"
+  },
+  {
+    "localidad": "10",
+    "estado": "CHH",
+    "descripcion": "Colonia Anáhuac"
+  },
+  {
+    "localidad": "10",
+    "estado": "CHP",
+    "descripcion": "Palenque"
+  },
+  {
+    "localidad": "10",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "10",
+    "estado": "DUR",
+    "descripcion": "Vicente Guerrero"
+  },
+  {
+    "localidad": "10",
+    "estado": "GRO",
+    "descripcion": "Ciudad Apaxtla de Castrejón"
+  },
+  {
+    "localidad": "10",
+    "estado": "GUA",
+    "descripcion": "San Francisco del Rincón"
+  },
+  {
+    "localidad": "10",
+    "estado": "HID",
+    "descripcion": "Tizayuca"
+  },
+  {
+    "localidad": "10",
+    "estado": "JAL",
+    "descripcion": "Zapopan"
+  },
+  {
+    "localidad": "10",
+    "estado": "MEX",
+    "descripcion": "Ciudad Nezahualcoyotl"
+  },
+  {
+    "localidad": "10",
+    "estado": "MIC",
+    "descripcion": "Zacapu"
+  },
+  {
+    "localidad": "10",
+    "estado": "NAY",
+    "descripcion": "San Blas"
+  },
+  {
+    "localidad": "10",
+    "estado": "NLE",
+    "descripcion": "Ciudad Santa Catarina"
+  },
+  {
+    "localidad": "10",
+    "estado": "PUE",
+    "descripcion": "Acatlán de Osorio"
+  },
+  {
+    "localidad": "10",
+    "estado": "SIN",
+    "descripcion": "Higuera de Zaragoza"
+  },
+  {
+    "localidad": "10",
+    "estado": "SLP",
+    "descripcion": "Cerritos"
+  },
+  {
+    "localidad": "10",
+    "estado": "SON",
+    "descripcion": "Heroica Nogales"
+  },
+  {
+    "localidad": "10",
+    "estado": "TAB",
+    "descripcion": "Paraíso"
+  },
+  {
+    "localidad": "10",
+    "estado": "TAM",
+    "descripcion": "Tampico"
+  },
+  {
+    "localidad": "10",
+    "estado": "VER",
+    "descripcion": "Xalapa-Enríquez"
+  },
+  {
+    "localidad": "10",
+    "estado": "ZAC",
+    "descripcion": "Villa de Cos"
+  },
+  {
+    "localidad": "11",
+    "estado": "BCS",
+    "descripcion": "Guerrero Negro"
+  },
+  {
+    "localidad": "11",
+    "estado": "CAM",
+    "descripcion": "Pomuch"
+  },
+  {
+    "localidad": "11",
+    "estado": "COA",
+    "descripcion": "Torreón"
+  },
+  {
+    "localidad": "11",
+    "estado": "CHH",
+    "descripcion": "Juan Aldama"
+  },
+  {
+    "localidad": "11",
+    "estado": "CHP",
+    "descripcion": "Ocosingo"
+  },
+  {
+    "localidad": "11",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "11",
+    "estado": "DUR",
+    "descripcion": "El Salto"
+  },
+  {
+    "localidad": "11",
+    "estado": "GRO",
+    "descripcion": "Ciudad Altamirano"
+  },
+  {
+    "localidad": "11",
+    "estado": "GUA",
+    "descripcion": "Silao"
+  },
+  {
+    "localidad": "11",
+    "estado": "HID",
+    "descripcion": "Santiago Tulantepec"
+  },
+  {
+    "localidad": "11",
+    "estado": "JAL",
+    "descripcion": "Tlajomulco de Zúñiga"
+  },
+  {
+    "localidad": "11",
+    "estado": "MEX",
+    "descripcion": "Villa Nicolás Romero"
+  },
+  {
+    "localidad": "11",
+    "estado": "MIC",
+    "descripcion": "Zamora de Hidalgo"
+  },
+  {
+    "localidad": "11",
+    "estado": "NAY",
+    "descripcion": "Ixtlán del Río"
+  },
+  {
+    "localidad": "11",
+    "estado": "NLE",
+    "descripcion": "Doctor Arroyo"
+  },
+  {
+    "localidad": "11",
+    "estado": "OAX",
+    "descripcion": "Santiago Suchilquitongo"
+  },
+  {
+    "localidad": "11",
+    "estado": "PUE",
+    "descripcion": "Cuautlancingo"
+  },
+  {
+    "localidad": "11",
+    "estado": "SIN",
+    "descripcion": "Choix"
+  },
+  {
+    "localidad": "11",
+    "estado": "SLP",
+    "descripcion": "Tamuín"
+  },
+  {
+    "localidad": "11",
+    "estado": "SON",
+    "descripcion": "Puerto Peñasco"
+  },
+  {
+    "localidad": "11",
+    "estado": "TAB",
+    "descripcion": "Frontera"
+  },
+  {
+    "localidad": "11",
+    "estado": "TAM",
+    "descripcion": "Ciudad Victoria"
+  },
+  {
+    "localidad": "11",
+    "estado": "VER",
+    "descripcion": "Minatitlán"
+  },
+  {
+    "localidad": "11",
+    "estado": "ZAC",
+    "descripcion": "Nochistlán de Mejía"
+  },
+  {
+    "localidad": "12",
+    "estado": "BCS",
+    "descripcion": "Santa Rosalía"
+  },
+  {
+    "localidad": "12",
+    "estado": "COA",
+    "descripcion": "Castaños"
+  },
+  {
+    "localidad": "12",
+    "estado": "CHH",
+    "descripcion": "José Mariano Jiménez"
+  },
+  {
+    "localidad": "12",
+    "estado": "CHP",
+    "descripcion": "Tonalá"
+  },
+  {
+    "localidad": "12",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "12",
+    "estado": "DUR",
+    "descripcion": "Santa María del Oro"
+  },
+  {
+    "localidad": "12",
+    "estado": "GRO",
+    "descripcion": "Buenavista de Cuellar"
+  },
+  {
+    "localidad": "12",
+    "estado": "GUA",
+    "descripcion": "Jerécuaro"
+  },
+  {
+    "localidad": "12",
+    "estado": "HID",
+    "descripcion": "Ixmiquilpan"
+  },
+  {
+    "localidad": "12",
+    "estado": "JAL",
+    "descripcion": "Tonalá"
+  },
+  {
+    "localidad": "12",
+    "estado": "MEX",
+    "descripcion": "Tecamac de Felipe Villanueva"
+  },
+  {
+    "localidad": "12",
+    "estado": "MIC",
+    "descripcion": "Heroica Zitácuaro"
+  },
+  {
+    "localidad": "12",
+    "estado": "NAY",
+    "descripcion": "Bucerías"
+  },
+  {
+    "localidad": "12",
+    "estado": "NLE",
+    "descripcion": "Ciénega de Flores"
+  },
+  {
+    "localidad": "12",
+    "estado": "OAX",
+    "descripcion": "San Felipe Jalapa de Díaz"
+  },
+  {
+    "localidad": "12",
+    "estado": "PUE",
+    "descripcion": "Tepeaca"
+  },
+  {
+    "localidad": "12",
+    "estado": "SIN",
+    "descripcion": "Villa Unión"
+  },
+  {
+    "localidad": "12",
+    "estado": "SLP",
+    "descripcion": "Tamasopo"
+  },
+  {
+    "localidad": "12",
+    "estado": "SON",
+    "descripcion": "Heroica Ciudad de Cananea"
+  },
+  {
+    "localidad": "12",
+    "estado": "TAB",
+    "descripcion": "Cunduacán"
+  },
+  {
+    "localidad": "12",
+    "estado": "TAM",
+    "descripcion": "González"
+  },
+  {
+    "localidad": "12",
+    "estado": "VER",
+    "descripcion": "Orizaba"
+  },
+  {
+    "localidad": "12",
+    "estado": "ZAC",
+    "descripcion": "Víctor Rosales"
+  },
+  {
+    "localidad": "13",
+    "estado": "COA",
+    "descripcion": "Francisco I. Madero (Chávez)"
+  },
+  {
+    "localidad": "13",
+    "estado": "CHH",
+    "descripcion": "Manuel Ojinaga"
+  },
+  {
+    "localidad": "13",
+    "estado": "CHP",
+    "descripcion": "Mapastepec"
+  },
+  {
+    "localidad": "13",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "13",
+    "estado": "GRO",
+    "descripcion": "Cutzamala de Pinzón"
+  },
+  {
+    "localidad": "13",
+    "estado": "GUA",
+    "descripcion": "Santiago Maravatío"
+  },
+  {
+    "localidad": "13",
+    "estado": "HID",
+    "descripcion": "Tepeji del Rio"
+  },
+  {
+    "localidad": "13",
+    "estado": "JAL",
+    "descripcion": "Tuxpan"
+  },
+  {
+    "localidad": "13",
+    "estado": "MEX",
+    "descripcion": "Tepotzotlán"
+  },
+  {
+    "localidad": "13",
+    "estado": "MIC",
+    "descripcion": "Paracho de Verduzco"
+  },
+  {
+    "localidad": "13",
+    "estado": "NAY",
+    "descripcion": "Las Varas"
+  },
+  {
+    "localidad": "13",
+    "estado": "NLE",
+    "descripcion": "Hualahuises"
+  },
+  {
+    "localidad": "13",
+    "estado": "OAX",
+    "descripcion": "Bahias de Huatulco"
+  },
+  {
+    "localidad": "13",
+    "estado": "PUE",
+    "descripcion": "Tecamachalco"
+  },
+  {
+    "localidad": "13",
+    "estado": "SIN",
+    "descripcion": "Sinaloa de Leyva"
+  },
+  {
+    "localidad": "13",
+    "estado": "SLP",
+    "descripcion": "Ciudad del Maíz"
+  },
+  {
+    "localidad": "13",
+    "estado": "SON",
+    "descripcion": "Sonoita"
+  },
+  {
+    "localidad": "13",
+    "estado": "TAB",
+    "descripcion": "Huimanguillo"
+  },
+  {
+    "localidad": "13",
+    "estado": "TAM",
+    "descripcion": "Jaumave"
+  },
+  {
+    "localidad": "13",
+    "estado": "VER",
+    "descripcion": "Papantla de Olarte"
+  },
+  {
+    "localidad": "13",
+    "estado": "ZAC",
+    "descripcion": "Valparaíso"
+  },
+  {
+    "localidad": "14",
+    "estado": "COA",
+    "descripcion": "Cuatro Ciénegas de Carranza"
+  },
+  {
+    "localidad": "14",
+    "estado": "CHH",
+    "descripcion": "Bachíniva"
+  },
+  {
+    "localidad": "14",
+    "estado": "CHP",
+    "descripcion": "Las Rosas"
+  },
+  {
+    "localidad": "14",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "14",
+    "estado": "GRO",
+    "descripcion": "Coyuca de Catalán"
+  },
+  {
+    "localidad": "14",
+    "estado": "GUA",
+    "descripcion": "Romita"
+  },
+  {
+    "localidad": "14",
+    "estado": "HID",
+    "descripcion": "Cruz Azul"
+  },
+  {
+    "localidad": "14",
+    "estado": "JAL",
+    "descripcion": "Tototlán"
+  },
+  {
+    "localidad": "14",
+    "estado": "MEX",
+    "descripcion": "Tlalnepantla de Baz"
+  },
+  {
+    "localidad": "14",
+    "estado": "MIC",
+    "descripcion": "Tangancícuaro de Arista"
+  },
+  {
+    "localidad": "14",
+    "estado": "NAY",
+    "descripcion": "Xalisco"
+  },
+  {
+    "localidad": "14",
+    "estado": "OAX",
+    "descripcion": "Putla Villa de Guerrero"
+  },
+  {
+    "localidad": "14",
+    "estado": "PUE",
+    "descripcion": "Zacatlán"
+  },
+  {
+    "localidad": "14",
+    "estado": "SIN",
+    "descripcion": "Mocorito"
+  },
+  {
+    "localidad": "14",
+    "estado": "SLP",
+    "descripcion": "Cedral"
+  },
+  {
+    "localidad": "14",
+    "estado": "SON",
+    "descripcion": "Magdalena de Kino"
+  },
+  {
+    "localidad": "14",
+    "estado": "TAM",
+    "descripcion": "Ciudad Gustavo Díaz Ordaz"
+  },
+  {
+    "localidad": "14",
+    "estado": "VER",
+    "descripcion": "Poza Rica de Hidalgo"
+  },
+  {
+    "localidad": "14",
+    "estado": "ZAC",
+    "descripcion": "Luis Moya"
+  },
+  {
+    "localidad": "15",
+    "estado": "COA",
+    "descripcion": "Nadadores"
+  },
+  {
+    "localidad": "15",
+    "estado": "CHH",
+    "descripcion": "Saucillo"
+  },
+  {
+    "localidad": "15",
+    "estado": "CHP",
+    "descripcion": "Chiapa de Corzo"
+  },
+  {
+    "localidad": "15",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "15",
+    "estado": "GRO",
+    "descripcion": "Tierra Colorada"
+  },
+  {
+    "localidad": "15",
+    "estado": "GUA",
+    "descripcion": "Tarandacuao"
+  },
+  {
+    "localidad": "15",
+    "estado": "HID",
+    "descripcion": "Tepeapulco"
+  },
+  {
+    "localidad": "15",
+    "estado": "JAL",
+    "descripcion": "San Diego de Alejandría"
+  },
+  {
+    "localidad": "15",
+    "estado": "MEX",
+    "descripcion": "Santa Maria Tultepec"
+  },
+  {
+    "localidad": "15",
+    "estado": "MIC",
+    "descripcion": "Maravatío de Ocampo"
+  },
+  {
+    "localidad": "15",
+    "estado": "NAY",
+    "descripcion": "San pedro Lagunillas"
+  },
+  {
+    "localidad": "15",
+    "estado": "NLE",
+    "descripcion": "Cadereyta Jiménez"
+  },
+  {
+    "localidad": "15",
+    "estado": "OAX",
+    "descripcion": "Cosolapa"
+  },
+  {
+    "localidad": "15",
+    "estado": "PUE",
+    "descripcion": "Xicotepec"
+  },
+  {
+    "localidad": "15",
+    "estado": "SIN",
+    "descripcion": "Angostura"
+  },
+  {
+    "localidad": "15",
+    "estado": "SLP",
+    "descripcion": "Tierra Nueva"
+  },
+  {
+    "localidad": "15",
+    "estado": "TAM",
+    "descripcion": "Estación Manuel (Úrsulo Galván)"
+  },
+  {
+    "localidad": "15",
+    "estado": "VER",
+    "descripcion": "San Andrés Tuxtla"
+  },
+  {
+    "localidad": "15",
+    "estado": "ZAC",
+    "descripcion": "Moyahua de Estrada"
+  },
+  {
+    "localidad": "16",
+    "estado": "COA",
+    "descripcion": "Ramos Arizpe"
+  },
+  {
+    "localidad": "16",
+    "estado": "CHP",
+    "descripcion": "Cacahoatán"
+  },
+  {
+    "localidad": "16",
+    "estado": "CMX",
+    "descripcion": "Ciudad de México"
+  },
+  {
+    "localidad": "16",
+    "estado": "GRO",
+    "descripcion": "Coyuca de Benítez"
+  },
+  {
+    "localidad": "16",
+    "estado": "GUA",
+    "descripcion": "Huanímaro"
+  },
+  {
+    "localidad": "16",
+    "estado": "JAL",
+    "descripcion": "La Resolana"
+  },
+  {
+    "localidad": "16",
+    "estado": "MEX",
+    "descripcion": "Tultitlán de Mariano Escobedo"
+  },
+  {
+    "localidad": "16",
+    "estado": "MIC",
+    "descripcion": "Zinapécuaro de Figueroa"
+  },
+  {
+    "localidad": "16",
+    "estado": "NAY",
+    "descripcion": "La peñita de Jaltemba"
+  },
+  {
+    "localidad": "16",
+    "estado": "OAX",
+    "descripcion": "Tlacolula de Matamoros"
+  },
+  {
+    "localidad": "16",
+    "estado": "PUE",
+    "descripcion": "Ciudad Serdán"
+  },
+  {
+    "localidad": "16",
+    "estado": "SIN",
+    "descripcion": "San Blas"
+  },
+  {
+    "localidad": "16",
+    "estado": "SLP",
+    "descripcion": "Villa de Reyes"
+  },
+  {
+    "localidad": "16",
+    "estado": "TAM",
+    "descripcion": "Xicoténcatl"
+  },
+  {
+    "localidad": "16",
+    "estado": "VER",
+    "descripcion": "Túxpam de Rodríguez Cano"
+  },
+  {
+    "localidad": "16",
+    "estado": "ZAC",
+    "descripcion": "Sombrerete"
+  },
+  {
+    "localidad": "17",
+    "estado": "COA",
+    "descripcion": "Nava"
+  },
+  {
+    "localidad": "17",
+    "estado": "CHP",
+    "descripcion": "Ocozocoautla de Espinosa"
+  },
+  {
+    "localidad": "17",
+    "estado": "GRO",
+    "descripcion": "Olinalá"
+  },
+  {
+    "localidad": "17",
+    "estado": "GUA",
+    "descripcion": "Comonfort"
+  },
+  {
+    "localidad": "17",
+    "estado": "JAL",
+    "descripcion": "Atotonilco el Alto"
+  },
+  {
+    "localidad": "17",
+    "estado": "MEX",
+    "descripcion": "Cuautitlán"
+  },
+  {
+    "localidad": "17",
+    "estado": "MIC",
+    "descripcion": "Puruándiro"
+  },
+  {
+    "localidad": "17",
+    "estado": "NAY",
+    "descripcion": "Jala"
+  },
+  {
+    "localidad": "17",
+    "estado": "NLE",
+    "descripcion": "Santiago"
+  },
+  {
+    "localidad": "17",
+    "estado": "OAX",
+    "descripcion": "San Pablo Villa de Mitla"
+  },
+  {
+    "localidad": "17",
+    "estado": "PUE",
+    "descripcion": "Amozoc"
+  },
+  {
+    "localidad": "17",
+    "estado": "SIN",
+    "descripcion": "La Cruz"
+  },
+  {
+    "localidad": "17",
+    "estado": "SLP",
+    "descripcion": "Fracción el Refugio"
+  },
+  {
+    "localidad": "17",
+    "estado": "TAM",
+    "descripcion": "Ciudad Miguel Alemán"
+  },
+  {
+    "localidad": "17",
+    "estado": "VER",
+    "descripcion": "Veracruz"
+  },
+  {
+    "localidad": "17",
+    "estado": "ZAC",
+    "descripcion": "Jalpa"
+  },
+  {
+    "localidad": "18",
+    "estado": "COA",
+    "descripcion": "Zaragoza"
+  },
+  {
+    "localidad": "18",
+    "estado": "CHP",
+    "descripcion": "Cintalapa de Figueroa"
+  },
+  {
+    "localidad": "18",
+    "estado": "GRO",
+    "descripcion": "Marquelia"
+  },
+  {
+    "localidad": "18",
+    "estado": "GUA",
+    "descripcion": "Uriangato"
+  },
+  {
+    "localidad": "18",
+    "estado": "JAL",
+    "descripcion": "Jalostotitlán"
+  },
+  {
+    "localidad": "18",
+    "estado": "MEX",
+    "descripcion": "Ixtapaluca"
+  },
+  {
+    "localidad": "18",
+    "estado": "MIC",
+    "descripcion": "Yurécuaro"
+  },
+  {
+    "localidad": "18",
+    "estado": "NAY",
+    "descripcion": "Ahuacatlán"
+  },
+  {
+    "localidad": "18",
+    "estado": "NLE",
+    "descripcion": "El cercado"
+  },
+  {
+    "localidad": "18",
+    "estado": "OAX",
+    "descripcion": "Natividad"
+  },
+  {
+    "localidad": "18",
+    "estado": "SIN",
+    "descripcion": "El rosario"
+  },
+  {
+    "localidad": "18",
+    "estado": "SLP",
+    "descripcion": "Tamazunchale"
+  },
+  {
+    "localidad": "18",
+    "estado": "TAM",
+    "descripcion": "Soto la Marina"
+  },
+  {
+    "localidad": "18",
+    "estado": "VER",
+    "descripcion": "Tierra Blanca"
+  },
+  {
+    "localidad": "18",
+    "estado": "ZAC",
+    "descripcion": "Loreto"
+  },
+  {
+    "localidad": "19",
+    "estado": "COA",
+    "descripcion": "San Buenaventura"
+  },
+  {
+    "localidad": "19",
+    "estado": "CHP",
+    "descripcion": "Pichucalco"
+  },
+  {
+    "localidad": "19",
+    "estado": "GRO",
+    "descripcion": "Zumpango del Río"
+  },
+  {
+    "localidad": "19",
+    "estado": "GUA",
+    "descripcion": "Pénjamo"
+  },
+  {
+    "localidad": "19",
+    "estado": "JAL",
+    "descripcion": "Poncitlán"
+  },
+  {
+    "localidad": "19",
+    "estado": "MEX",
+    "descripcion": "Texcoco de Mora"
+  },
+  {
+    "localidad": "19",
+    "estado": "MIC",
+    "descripcion": "Huetamo de Núñez"
+  },
+  {
+    "localidad": "19",
+    "estado": "OAX",
+    "descripcion": "Teotitlán de Flores Magón"
+  },
+  {
+    "localidad": "19",
+    "estado": "SIN",
+    "descripcion": "Estación Naranjo"
+  },
+  {
+    "localidad": "19",
+    "estado": "SLP",
+    "descripcion": "Santa María del Río"
+  },
+  {
+    "localidad": "19",
+    "estado": "TAM",
+    "descripcion": "Ciudad Tula"
+  },
+  {
+    "localidad": "19",
+    "estado": "VER",
+    "descripcion": "Cosamaloapan"
+  },
+  {
+    "localidad": "19",
+    "estado": "ZAC",
+    "descripcion": "Juan Aldama"
+  },
+  {
+    "localidad": "20",
+    "estado": "COA",
+    "descripcion": "Ciudad Melchor Múzquiz"
+  },
+  {
+    "localidad": "20",
+    "estado": "CHP",
+    "descripcion": "Puerto Madero (San Benito)"
+  },
+  {
+    "localidad": "20",
+    "estado": "GRO",
+    "descripcion": "San Luis de la Loma"
+  },
+  {
+    "localidad": "20",
+    "estado": "GUA",
+    "descripcion": "Cuerámaro"
+  },
+  {
+    "localidad": "20",
+    "estado": "JAL",
+    "descripcion": "Arandas"
+  },
+  {
+    "localidad": "20",
+    "estado": "MEX",
+    "descripcion": "Toluca de Lerdo"
+  },
+  {
+    "localidad": "20",
+    "estado": "MIC",
+    "descripcion": "Tacámbaro de Codallos"
+  },
+  {
+    "localidad": "20",
+    "estado": "NLE",
+    "descripcion": "Anáhuac"
+  },
+  {
+    "localidad": "20",
+    "estado": "OAX",
+    "descripcion": "Santa María Huatulco"
+  },
+  {
+    "localidad": "20",
+    "estado": "SIN",
+    "descripcion": "Aguaruto"
+  },
+  {
+    "localidad": "20",
+    "estado": "SLP",
+    "descripcion": "El Naranjo"
+  },
+  {
+    "localidad": "20",
+    "estado": "TAM",
+    "descripcion": "Nueva Ciudad Guerrero"
+  },
+  {
+    "localidad": "20",
+    "estado": "VER",
+    "descripcion": "Carlos A. Carrillo"
+  },
+  {
+    "localidad": "21",
+    "estado": "COA",
+    "descripcion": "Viesca"
+  },
+  {
+    "localidad": "21",
+    "estado": "CHP",
+    "descripcion": "Pijijiapan"
+  },
+  {
+    "localidad": "21",
+    "estado": "GRO",
+    "descripcion": "Petatlán"
+  },
+  {
+    "localidad": "21",
+    "estado": "GUA",
+    "descripcion": "Empalme Escobedo (Escobedo)"
+  },
+  {
+    "localidad": "21",
+    "estado": "JAL",
+    "descripcion": "Talpa de Allende"
+  },
+  {
+    "localidad": "21",
+    "estado": "MEX",
+    "descripcion": "Valle de Chalco Solidaridad"
+  },
+  {
+    "localidad": "21",
+    "estado": "MIC",
+    "descripcion": "Ciudad Lázaro Cárdenas"
+  },
+  {
+    "localidad": "21",
+    "estado": "NLE",
+    "descripcion": "García"
+  },
+  {
+    "localidad": "21",
+    "estado": "OAX",
+    "descripcion": "San Juan Bautista Cuicatlán"
+  },
+  {
+    "localidad": "21",
+    "estado": "SIN",
+    "descripcion": "Cosalá"
+  },
+  {
+    "localidad": "21",
+    "estado": "TAM",
+    "descripcion": "Valle Hermoso"
+  },
+  {
+    "localidad": "21",
+    "estado": "VER",
+    "descripcion": "Pánuco"
+  },
+  {
+    "localidad": "22",
+    "estado": "COA",
+    "descripcion": "Morelos"
+  },
+  {
+    "localidad": "22",
+    "estado": "CHP",
+    "descripcion": "Reforma"
+  },
+  {
+    "localidad": "22",
+    "estado": "GRO",
+    "descripcion": "La Unión"
+  },
+  {
+    "localidad": "22",
+    "estado": "GUA",
+    "descripcion": "San Luis de la Paz"
+  },
+  {
+    "localidad": "22",
+    "estado": "JAL",
+    "descripcion": "Etzatlán"
+  },
+  {
+    "localidad": "22",
+    "estado": "MEX",
+    "descripcion": "Tejupilco de Hidalgo"
+  },
+  {
+    "localidad": "22",
+    "estado": "MIC",
+    "descripcion": "Las Guacamayas"
+  },
+  {
+    "localidad": "22",
+    "estado": "NLE",
+    "descripcion": "Ciudad Benito Juárez"
+  },
+  {
+    "localidad": "22",
+    "estado": "OAX",
+    "descripcion": "Villa Sola de Vega"
+  },
+  {
+    "localidad": "22",
+    "estado": "SIN",
+    "descripcion": "San Ignacio"
+  },
+  {
+    "localidad": "22",
+    "estado": "VER",
+    "descripcion": "Tampico Alto"
+  },
+  {
+    "localidad": "23",
+    "estado": "COA",
+    "descripcion": "Arteaga"
+  },
+  {
+    "localidad": "23",
+    "estado": "CHP",
+    "descripcion": "Huixtla"
+  },
+  {
+    "localidad": "23",
+    "estado": "GRO",
+    "descripcion": "San Luis San Pedro"
+  },
+  {
+    "localidad": "23",
+    "estado": "GUA",
+    "descripcion": "Valle de Santiago"
+  },
+  {
+    "localidad": "23",
+    "estado": "JAL",
+    "descripcion": "Sayula"
+  },
+  {
+    "localidad": "23",
+    "estado": "MEX",
+    "descripcion": "Chalco de Díaz Covarrubias"
+  },
+  {
+    "localidad": "23",
+    "estado": "MIC",
+    "descripcion": "Jiquilpan de Juárez"
+  },
+  {
+    "localidad": "23",
+    "estado": "OAX",
+    "descripcion": "Ocotlán de Morelos"
+  },
+  {
+    "localidad": "23",
+    "estado": "SIN",
+    "descripcion": "Topolobampo"
+  },
+  {
+    "localidad": "23",
+    "estado": "VER",
+    "descripcion": "Tempoal de Sánchez"
+  },
+  {
+    "localidad": "24",
+    "estado": "COA",
+    "descripcion": "Allende"
+  },
+  {
+    "localidad": "24",
+    "estado": "CHP",
+    "descripcion": "Motozintla de Mendoza"
+  },
+  {
+    "localidad": "24",
+    "estado": "GRO",
+    "descripcion": "Teloloapan"
+  },
+  {
+    "localidad": "24",
+    "estado": "GUA",
+    "descripcion": "Abasolo"
+  },
+  {
+    "localidad": "24",
+    "estado": "JAL",
+    "descripcion": "Ahualulco de Mercado"
+  },
+  {
+    "localidad": "24",
+    "estado": "MEX",
+    "descripcion": "Amatepec"
+  },
+  {
+    "localidad": "24",
+    "estado": "MIC",
+    "descripcion": "Tuxpan"
+  },
+  {
+    "localidad": "24",
+    "estado": "OAX",
+    "descripcion": "Villa de Zaachila"
+  },
+  {
+    "localidad": "24",
+    "estado": "SIN",
+    "descripcion": "Lic. Benito Juárez (Campo Gobierno)"
+  },
+  {
+    "localidad": "24",
+    "estado": "VER",
+    "descripcion": "Tantoyuca"
+  },
+  {
+    "localidad": "25",
+    "estado": "CHP",
+    "descripcion": "Acala"
+  },
+  {
+    "localidad": "25",
+    "estado": "GRO",
+    "descripcion": "Técpan de Galeana"
+  },
+  {
+    "localidad": "25",
+    "estado": "GUA",
+    "descripcion": "Rincón de Tamayo"
+  },
+  {
+    "localidad": "25",
+    "estado": "JAL",
+    "descripcion": "Autlán de Navarro"
+  },
+  {
+    "localidad": "25",
+    "estado": "MIC",
+    "descripcion": "Cotija de la Paz"
+  },
+  {
+    "localidad": "25",
+    "estado": "OAX",
+    "descripcion": "Miahuatlán de Porfirio Díaz"
+  },
+  {
+    "localidad": "25",
+    "estado": "VER",
+    "descripcion": "Gutiérrez Zamora"
+  },
+  {
+    "localidad": "26",
+    "estado": "GRO",
+    "descripcion": "Huitzuco"
+  },
+  {
+    "localidad": "26",
+    "estado": "GUA",
+    "descripcion": "Villagrán"
+  },
+  {
+    "localidad": "26",
+    "estado": "JAL",
+    "descripcion": "Magdalena"
+  },
+  {
+    "localidad": "26",
+    "estado": "MEX",
+    "descripcion": "Melchor Ocampo"
+  },
+  {
+    "localidad": "26",
+    "estado": "MIC",
+    "descripcion": "Nueva Italia de Ruiz"
+  },
+  {
+    "localidad": "26",
+    "estado": "OAX",
+    "descripcion": "Unión Hidalgo"
+  },
+  {
+    "localidad": "26",
+    "estado": "VER",
+    "descripcion": "Platón Sánchez"
+  },
+  {
+    "localidad": "27",
+    "estado": "GRO",
+    "descripcion": "Tixtla de Guerrero"
+  },
+  {
+    "localidad": "27",
+    "estado": "GUA",
+    "descripcion": "Yuriria"
+  },
+  {
+    "localidad": "27",
+    "estado": "JAL",
+    "descripcion": "San Julián"
+  },
+  {
+    "localidad": "27",
+    "estado": "MEX",
+    "descripcion": "San Vicente Chicoloapan de Juárez"
+  },
+  {
+    "localidad": "27",
+    "estado": "MIC",
+    "descripcion": "Cuitzeo del Porvenir"
+  },
+  {
+    "localidad": "27",
+    "estado": "OAX",
+    "descripcion": "El Camarón"
+  },
+  {
+    "localidad": "27",
+    "estado": "VER",
+    "descripcion": "Juan Rodríguez Clara"
+  },
+  {
+    "localidad": "28",
+    "estado": "GRO",
+    "descripcion": "Tepecoacuilco de Trujano"
+  },
+  {
+    "localidad": "28",
+    "estado": "GUA",
+    "descripcion": "Apaseo el Grande"
+  },
+  {
+    "localidad": "28",
+    "estado": "JAL",
+    "descripcion": "Cocula"
+  },
+  {
+    "localidad": "28",
+    "estado": "MEX",
+    "descripcion": "Capulhuac"
+  },
+  {
+    "localidad": "28",
+    "estado": "OAX",
+    "descripcion": "San Pedro Mixtepec -Dto. 22-"
+  },
+  {
+    "localidad": "28",
+    "estado": "VER",
+    "descripcion": "Huatusco de Chicuellar"
+  },
+  {
+    "localidad": "29",
+    "estado": "GRO",
+    "descripcion": "San Marcos"
+  },
+  {
+    "localidad": "29",
+    "estado": "GUA",
+    "descripcion": "Purísima de Bustos"
+  },
+  {
+    "localidad": "29",
+    "estado": "JAL",
+    "descripcion": "El Grullo"
+  },
+  {
+    "localidad": "29",
+    "estado": "MEX",
+    "descripcion": "Juchitepec de Mariano Riva Palacio"
+  },
+  {
+    "localidad": "29",
+    "estado": "OAX",
+    "descripcion": "Santa Cruz Itundujia"
+  },
+  {
+    "localidad": "29",
+    "estado": "VER",
+    "descripcion": "Ixtaczoquitlán"
+  },
+  {
+    "localidad": "30",
+    "estado": "GRO",
+    "descripcion": "Azoyú"
+  },
+  {
+    "localidad": "30",
+    "estado": "GUA",
+    "descripcion": "Salvatierra"
+  },
+  {
+    "localidad": "30",
+    "estado": "JAL",
+    "descripcion": "San Miguel el Alto"
+  },
+  {
+    "localidad": "30",
+    "estado": "MEX",
+    "descripcion": "Tequixquiac"
+  },
+  {
+    "localidad": "30",
+    "estado": "OAX",
+    "descripcion": "Chahuites"
+  },
+  {
+    "localidad": "30",
+    "estado": "VER",
+    "descripcion": "Río Blanco"
+  },
+  {
+    "localidad": "31",
+    "estado": "GRO",
+    "descripcion": "Tlapehuala"
+  },
+  {
+    "localidad": "31",
+    "estado": "GUA",
+    "descripcion": "Marfil"
+  },
+  {
+    "localidad": "31",
+    "estado": "JAL",
+    "descripcion": "Tala"
+  },
+  {
+    "localidad": "31",
+    "estado": "MEX",
+    "descripcion": "Xonacatlán"
+  },
+  {
+    "localidad": "31",
+    "estado": "OAX",
+    "descripcion": "Heroica Ciudad de Ejutla de Crespo"
+  },
+  {
+    "localidad": "31",
+    "estado": "VER",
+    "descripcion": "Isla"
+  },
+  {
+    "localidad": "32",
+    "estado": "GRO",
+    "descripcion": "San Luis Acatlán"
+  },
+  {
+    "localidad": "32",
+    "estado": "GUA",
+    "descripcion": "San José Iturbide"
+  },
+  {
+    "localidad": "32",
+    "estado": "JAL",
+    "descripcion": "La Barca"
+  },
+  {
+    "localidad": "32",
+    "estado": "MEX",
+    "descripcion": "San Mateo Atenco"
+  },
+  {
+    "localidad": "32",
+    "estado": "OAX",
+    "descripcion": "San Pedro Tapanatepec"
+  },
+  {
+    "localidad": "32",
+    "estado": "VER",
+    "descripcion": "Cuitláhuac"
+  },
+  {
+    "localidad": "33",
+    "estado": "GRO",
+    "descripcion": "Chilapa de Álvarez"
+  },
+  {
+    "localidad": "33",
+    "estado": "GUA",
+    "descripcion": "Apaseo el Alto"
+  },
+  {
+    "localidad": "33",
+    "estado": "JAL",
+    "descripcion": "Jamay"
+  },
+  {
+    "localidad": "33",
+    "estado": "OAX",
+    "descripcion": "Vicente Camalote"
+  },
+  {
+    "localidad": "33",
+    "estado": "VER",
+    "descripcion": "Fortín de las Flores"
+  },
+  {
+    "localidad": "34",
+    "estado": "GRO",
+    "descripcion": "Tlapa de Comonfort"
+  },
+  {
+    "localidad": "34",
+    "estado": "GUA",
+    "descripcion": "Ciudad Manuel Doblado"
+  },
+  {
+    "localidad": "34",
+    "estado": "JAL",
+    "descripcion": "Yahualica de González Gallo"
+  },
+  {
+    "localidad": "34",
+    "estado": "OAX",
+    "descripcion": "Villa de Tamazulápam del Progreso"
+  },
+  {
+    "localidad": "34",
+    "estado": "VER",
+    "descripcion": "Alvarado"
+  },
+  {
+    "localidad": "35",
+    "estado": "GRO",
+    "descripcion": "Tlalixtaquilla"
+  },
+  {
+    "localidad": "35",
+    "estado": "GUA",
+    "descripcion": "Jaral del Progreso"
+  },
+  {
+    "localidad": "35",
+    "estado": "JAL",
+    "descripcion": "Colotlán"
+  },
+  {
+    "localidad": "35",
+    "estado": "OAX",
+    "descripcion": "San Juan Bautista lo de Soto"
+  },
+  {
+    "localidad": "35",
+    "estado": "VER",
+    "descripcion": "José Cardel"
+  },
+  {
+    "localidad": "36",
+    "estado": "GRO",
+    "descripcion": "Cuajinicuilapa"
+  },
+  {
+    "localidad": "36",
+    "estado": "GUA",
+    "descripcion": "San Diego de la Unión"
+  },
+  {
+    "localidad": "36",
+    "estado": "JAL",
+    "descripcion": "Cihuatlán"
+  },
+  {
+    "localidad": "36",
+    "estado": "MEX",
+    "descripcion": "Chiconcuac"
+  },
+  {
+    "localidad": "36",
+    "estado": "OAX",
+    "descripcion": "San Juan Cacahuatepec"
+  },
+  {
+    "localidad": "36",
+    "estado": "VER",
+    "descripcion": "Banderilla"
+  },
+  {
+    "localidad": "37",
+    "estado": "GRO",
+    "descripcion": "Huamuxtitlán"
+  },
+  {
+    "localidad": "37",
+    "estado": "GUA",
+    "descripcion": "Santa Cruz Juventino Rosas"
+  },
+  {
+    "localidad": "37",
+    "estado": "JAL",
+    "descripcion": "Zapotiltic"
+  },
+  {
+    "localidad": "37",
+    "estado": "OAX",
+    "descripcion": "San Pedro Totolapa"
+  },
+  {
+    "localidad": "37",
+    "estado": "VER",
+    "descripcion": "Paraje Nuevo"
+  },
+  {
+    "localidad": "38",
+    "estado": "GRO",
+    "descripcion": "Cruz Grande"
+  },
+  {
+    "localidad": "38",
+    "estado": "GUA",
+    "descripcion": "Doctor Mora"
+  },
+  {
+    "localidad": "38",
+    "estado": "JAL",
+    "descripcion": "Villa Corona"
+  },
+  {
+    "localidad": "38",
+    "estado": "OAX",
+    "descripcion": "San Miguel el Grande"
+  },
+  {
+    "localidad": "38",
+    "estado": "VER",
+    "descripcion": "Playa Vicente"
+  },
+  {
+    "localidad": "39",
+    "estado": "GRO",
+    "descripcion": "Ocotito"
+  },
+  {
+    "localidad": "39",
+    "estado": "GUA",
+    "descripcion": "Dolores Hgo. Cuna de la Indep. Nal."
+  },
+  {
+    "localidad": "39",
+    "estado": "JAL",
+    "descripcion": "Teocaltiche"
+  },
+  {
+    "localidad": "39",
+    "estado": "MEX",
+    "descripcion": "Almoloya de Juárez"
+  },
+  {
+    "localidad": "39",
+    "estado": "OAX",
+    "descripcion": "Zimatlán de Álvarez"
+  },
+  {
+    "localidad": "39",
+    "estado": "VER",
+    "descripcion": "Altotonga"
+  },
+  {
+    "localidad": "40",
+    "estado": "GRO",
+    "descripcion": "Copala"
+  },
+  {
+    "localidad": "40",
+    "estado": "MEX",
+    "descripcion": "Ocoyoacac"
+  },
+  {
+    "localidad": "40",
+    "estado": "OAX",
+    "descripcion": "San Pablo Huitzo"
+  },
+  {
+    "localidad": "40",
+    "estado": "VER",
+    "descripcion": "Juan Díaz Covarrubias"
+  },
+  {
+    "localidad": "41",
+    "estado": "GRO",
+    "descripcion": "Zihuatanejo"
+  },
+  {
+    "localidad": "41",
+    "estado": "JAL",
+    "descripcion": "Tequila"
+  },
+  {
+    "localidad": "41",
+    "estado": "MEX",
+    "descripcion": "Zumpango"
+  },
+  {
+    "localidad": "41",
+    "estado": "OAX",
+    "descripcion": "San Francisco Telixtlahuaca"
+  },
+  {
+    "localidad": "41",
+    "estado": "VER",
+    "descripcion": "Cuichapa"
+  },
+  {
+    "localidad": "42",
+    "estado": "JAL",
+    "descripcion": "El Quince (San José el Quince)"
+  },
+  {
+    "localidad": "42",
+    "estado": "OAX",
+    "descripcion": "Mariscala de Juárez"
+  },
+  {
+    "localidad": "42",
+    "estado": "VER",
+    "descripcion": "Santiago Tuxtla"
+  },
+  {
+    "localidad": "43",
+    "estado": "JAL",
+    "descripcion": "San José el Verde (El Verde)"
+  },
+  {
+    "localidad": "43",
+    "estado": "OAX",
+    "descripcion": "Santiago Pinotepa Nacional"
+  },
+  {
+    "localidad": "43",
+    "estado": "VER",
+    "descripcion": "Huayacocotla"
+  },
+  {
+    "localidad": "44",
+    "estado": "JAL",
+    "descripcion": "Jocotepec"
+  },
+  {
+    "localidad": "44",
+    "estado": "OAX",
+    "descripcion": "Santiago Jamiltepec"
+  },
+  {
+    "localidad": "44",
+    "estado": "VER",
+    "descripcion": "Paso de Ovejas"
+  },
+  {
+    "localidad": "45",
+    "estado": "JAL",
+    "descripcion": "Tecalitlán"
+  },
+  {
+    "localidad": "45",
+    "estado": "OAX",
+    "descripcion": "San Pedro Pochutla"
+  },
+  {
+    "localidad": "45",
+    "estado": "VER",
+    "descripcion": "Catemaco"
+  },
+  {
+    "localidad": "46",
+    "estado": "JAL",
+    "descripcion": "Chapala"
+  },
+  {
+    "localidad": "46",
+    "estado": "OAX",
+    "descripcion": "Heroica Ciudad de Tlaxiaco"
+  },
+  {
+    "localidad": "46",
+    "estado": "VER",
+    "descripcion": "Nogales"
+  },
+  {
+    "localidad": "47",
+    "estado": "JAL",
+    "descripcion": "Ajijic"
+  },
+  {
+    "localidad": "47",
+    "estado": "OAX",
+    "descripcion": "San Juan Bautista Valle Nacional"
+  },
+  {
+    "localidad": "47",
+    "estado": "VER",
+    "descripcion": "Las Choapas"
+  },
+  {
+    "localidad": "48",
+    "estado": "JAL",
+    "descripcion": "San Ignacio Cerro Gordo"
+  },
+  {
+    "localidad": "48",
+    "estado": "OAX",
+    "descripcion": "Lagunas"
+  },
+  {
+    "localidad": "48",
+    "estado": "VER",
+    "descripcion": "General Miguel Alemán (Potrero Nuevo)"
+  },
+  {
+    "localidad": "49",
+    "estado": "JAL",
+    "descripcion": "Zacoalco de Torres"
+  },
+  {
+    "localidad": "49",
+    "estado": "OAX",
+    "descripcion": "Ciudad Ixtepec"
+  },
+  {
+    "localidad": "49",
+    "estado": "VER",
+    "descripcion": "Coatzintla"
+  },
+  {
+    "localidad": "50",
+    "estado": "JAL",
+    "descripcion": "Huejuquilla el Alto"
+  },
+  {
+    "localidad": "50",
+    "estado": "OAX",
+    "descripcion": "Santiago Juxtlahuaca"
+  },
+  {
+    "localidad": "50",
+    "estado": "VER",
+    "descripcion": "Ángel R. Cabada"
+  },
+  {
+    "localidad": "51",
+    "estado": "JAL",
+    "descripcion": "Villa Hidalgo"
+  },
+  {
+    "localidad": "51",
+    "estado": "OAX",
+    "descripcion": "San Sebastián Tecomaxtlahuaca"
+  },
+  {
+    "localidad": "51",
+    "estado": "VER",
+    "descripcion": "San Rafael"
+  },
+  {
+    "localidad": "52",
+    "estado": "JAL",
+    "descripcion": "Unión de San Antonio"
+  },
+  {
+    "localidad": "52",
+    "estado": "OAX",
+    "descripcion": "Asunción Nochixtlán"
+  },
+  {
+    "localidad": "52",
+    "estado": "VER",
+    "descripcion": "Tlacojalpan"
+  },
+  {
+    "localidad": "53",
+    "estado": "JAL",
+    "descripcion": "Las Pintitas"
+  },
+  {
+    "localidad": "53",
+    "estado": "OAX",
+    "descripcion": "San Francisco Ixhuatán"
+  },
+  {
+    "localidad": "53",
+    "estado": "VER",
+    "descripcion": "Cosoleacaque"
+  },
+  {
+    "localidad": "54",
+    "estado": "JAL",
+    "descripcion": "Tamazula de Gordiano"
+  },
+  {
+    "localidad": "54",
+    "estado": "OAX",
+    "descripcion": "San Blas Atempa"
+  },
+  {
+    "localidad": "54",
+    "estado": "VER",
+    "descripcion": "Lerdo de Tejada"
+  },
+  {
+    "localidad": "55",
+    "estado": "JAL",
+    "descripcion": "Acatlán de Juárez"
+  },
+  {
+    "localidad": "55",
+    "estado": "OAX",
+    "descripcion": "Santo Domingo Tehuantepec"
+  },
+  {
+    "localidad": "55",
+    "estado": "VER",
+    "descripcion": "Tihuatlán"
+  },
+  {
+    "localidad": "56",
+    "estado": "JAL",
+    "descripcion": "Valle de Guadalupe"
+  },
+  {
+    "localidad": "56",
+    "estado": "OAX",
+    "descripcion": "Cuilápam de Guerrero"
+  },
+  {
+    "localidad": "56",
+    "estado": "VER",
+    "descripcion": "Atoyac"
+  },
+  {
+    "localidad": "57",
+    "estado": "OAX",
+    "descripcion": "El Rosario"
+  },
+  {
+    "localidad": "57",
+    "estado": "VER",
+    "descripcion": "Huiloapan de Cuauhtémoc"
+  },
+  {
+    "localidad": "58",
+    "estado": "OAX",
+    "descripcion": "Santa Lucia del Camino"
+  },
+  {
+    "localidad": "58",
+    "estado": "VER",
+    "descripcion": "Cazones de Herrera"
+  },
+  {
+    "localidad": "59",
+    "estado": "OAX",
+    "descripcion": "San Antonio de la Cal"
+  },
+  {
+    "localidad": "59",
+    "estado": "VER",
+    "descripcion": "Yecuatla"
+  },
+  {
+    "localidad": "60",
+    "estado": "VER",
+    "descripcion": "Soledad de Doblado"
+  },
+  {
+    "localidad": "61",
+    "estado": "VER",
+    "descripcion": "Cerro Azul"
+  },
+  {
+    "localidad": "62",
+    "estado": "VER",
+    "descripcion": "Tezonapa"
+  },
+  {
+    "localidad": "66",
+    "estado": "VER",
+    "descripcion": "Sihuapan"
+  },
+  {
+    "localidad": "67",
+    "estado": "VER",
+    "descripcion": "El Higo"
+  },
+  {
+    "localidad": "68",
+    "estado": "VER",
+    "descripcion": "Paso del Macho"
+  },
+  {
+    "localidad": "69",
+    "estado": "VER",
+    "descripcion": "Tlapacoyan"
+  }
+]

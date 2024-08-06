@@ -1,0 +1,57 @@
+[
+  {
+    "clave": "TC01",
+    "tipo_carro": "Furgón",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC02",
+    "tipo_carro": "Góndola",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC03",
+    "tipo_carro": "Tolva",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC04",
+    "tipo_carro": "Tanque",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC05",
+    "tipo_carro": "Plataforma Intermodal",
+    "contenedor": 1
+  },
+  {
+    "clave": "TC06",
+    "tipo_carro": "Plataforma de Uso General ",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC07",
+    "tipo_carro": "Plataforma Automotriz",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC08",
+    "tipo_carro": "Locomotora",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC09",
+    "tipo_carro": "Carro Especial",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC10",
+    "tipo_carro": "Pasajeros",
+    "contenedor": 0
+  },
+  {
+    "clave": "TC11",
+    "tipo_carro": "Mantenimiento de Vía",
+    "contenedor": 0
+  }
+]

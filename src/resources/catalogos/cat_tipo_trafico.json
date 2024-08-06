@@ -1,0 +1,18 @@
+[
+  {
+    "clave": "TT01",
+    "descripcion": "Tráfico local"
+  },
+  {
+    "clave": "TT02",
+    "descripcion": "Tráfico interlineal remitido"
+  },
+  {
+    "clave": "TT03",
+    "descripcion": "Tráfico interlineal recibido"
+  },
+  {
+    "clave": "TT04",
+    "descripcion": "Tráfico interlineal en tránsito"
+  }
+]

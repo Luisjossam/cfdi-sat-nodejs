@@ -1,0 +1,126 @@
+[
+  {
+    "clave_remolque": "CTR001",
+    "remolque_semirremolque": "Caballete"
+  },
+  {
+    "clave_remolque": "CTR002",
+    "remolque_semirremolque": "Caja"
+  },
+  {
+    "clave_remolque": "CTR003",
+    "remolque_semirremolque": "Caja Abierta"
+  },
+  {
+    "clave_remolque": "CTR004",
+    "remolque_semirremolque": "Caja Cerrada"
+  },
+  {
+    "clave_remolque": "CTR005",
+    "remolque_semirremolque": "Caja De Recolección Con Cargador Frontal"
+  },
+  {
+    "clave_remolque": "CTR006",
+    "remolque_semirremolque": "Caja Refrigerada"
+  },
+  {
+    "clave_remolque": "CTR007",
+    "remolque_semirremolque": "Caja Seca"
+  },
+  {
+    "clave_remolque": "CTR008",
+    "remolque_semirremolque": "Caja Transferencia"
+  },
+  {
+    "clave_remolque": "CTR009",
+    "remolque_semirremolque": "Cama Baja o Cuello Ganso"
+  },
+  {
+    "clave_remolque": "CTR010",
+    "remolque_semirremolque": "Chasis Portacontenedor"
+  },
+  {
+    "clave_remolque": "CTR011",
+    "remolque_semirremolque": "Convencional De Chasis"
+  },
+  {
+    "clave_remolque": "CTR012",
+    "remolque_semirremolque": "Equipo Especial"
+  },
+  {
+    "clave_remolque": "CTR013",
+    "remolque_semirremolque": "Estacas"
+  },
+  {
+    "clave_remolque": "CTR014",
+    "remolque_semirremolque": "Góndola Madrina"
+  },
+  {
+    "clave_remolque": "CTR015",
+    "remolque_semirremolque": "Grúa Industrial"
+  },
+  {
+    "clave_remolque": "CTR016",
+    "remolque_semirremolque": "Grúa "
+  },
+  {
+    "clave_remolque": "CTR017",
+    "remolque_semirremolque": "Integral"
+  },
+  {
+    "clave_remolque": "CTR018",
+    "remolque_semirremolque": "Jaula"
+  },
+  {
+    "clave_remolque": "CTR019",
+    "remolque_semirremolque": "Media Redila"
+  },
+  {
+    "clave_remolque": "CTR020",
+    "remolque_semirremolque": "Pallet o Celdillas"
+  },
+  {
+    "clave_remolque": "CTR021",
+    "remolque_semirremolque": "Plataforma"
+  },
+  {
+    "clave_remolque": "CTR022",
+    "remolque_semirremolque": "Plataforma Con Grúa"
+  },
+  {
+    "clave_remolque": "CTR023",
+    "remolque_semirremolque": "Plataforma Encortinada"
+  },
+  {
+    "clave_remolque": "CTR024",
+    "remolque_semirremolque": "Redilas"
+  },
+  {
+    "clave_remolque": "CTR025",
+    "remolque_semirremolque": "Refrigerador"
+  },
+  {
+    "clave_remolque": "CTR026",
+    "remolque_semirremolque": "Revolvedora"
+  },
+  {
+    "clave_remolque": "CTR027",
+    "remolque_semirremolque": "Semicaja"
+  },
+  {
+    "clave_remolque": "CTR028",
+    "remolque_semirremolque": "Tanque"
+  },
+  {
+    "clave_remolque": "CTR029",
+    "remolque_semirremolque": "Tolva"
+  },
+  {
+    "clave_remolque": "CTR031",
+    "remolque_semirremolque": "Volteo"
+  },
+  {
+    "clave_remolque": "CTR032",
+    "remolque_semirremolque": "Volteo Desmontable"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "clave": "CA001",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "All Nippon Airways LTD",
+    "designador_oaci": "ANA"
+  },
+  {
+    "clave": "CA002",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "Cathay Pacific Airways Limited",
+    "designador_oaci": "CPA"
+  },
+  {
+    "clave": "CA003",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "China Southern Airlines",
+    "designador_oaci": "CSN"
+  },
+  {
+    "clave": "CA004",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "Emirates",
+    "designador_oaci": "UAE"
+  },
+  {
+    "clave": "CA005",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "Hainan Airlines",
+    "designador_oaci": "CHH"
+  },
+  {
+    "clave": "CA006",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "Korean Air",
+    "designador_oaci": "KAL"
+  },
+  {
+    "clave": "CA007",
+    "nacionalidad": "Asiáticas",
+    "nombre_aerolinea": "Qatar Airlines ",
+    "designador_oaci": "QTR"
+  },
+  {
+    "clave": "CA008",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Air Canada",
+    "designador_oaci": "ACA"
+  },
+  {
+    "clave": "CA009",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Air Transat (Transat A. T.)",
+    "designador_oaci": "TSC"
+  },
+  {
+    "clave": "CA010",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Canjet (Imp Group Limited/Canjet Airlines)",
+    "designador_oaci": "CJA"
+  },
+  {
+    "clave": "CA011",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Cargojet Airways Ltd",
+    "designador_oaci": "CJT"
+  },
+  {
+    "clave": "CA012",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Flair Airlines",
+    "designador_oaci": "FLE"
+  },
+  {
+    "clave": "CA013",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Jazz  Air  LP",
+    "designador_oaci": "JZA"
+  },
+  {
+    "clave": "CA014",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Sunwing (Sunwing Airlines)",
+    "designador_oaci": "SWG"
+  },
+  {
+    "clave": "CA015",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "Swoop Airlines",
+    "designador_oaci": "WSW"
+  },
+  {
+    "clave": "CA016",
+    "nacionalidad": "Canadienses",
+    "nombre_aerolinea": "West Jet (Westjet Airlines Ltd)",
+    "designador_oaci": "WJA"
+  },
+  {
+    "clave": "CA017",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Aerolíneas Argentinas",
+    "designador_oaci": "ARG"
+  },
+  {
+    "clave": "CA018",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Aerorepública",
+    "designador_oaci": "RPB"
+  },
+  {
+    "clave": "CA019",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Avianca (Aerovías Del Continente Americano)",
+    "designador_oaci": "AVA"
+  },
+  {
+    "clave": "CA020",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Copa (Compañía Panameña De Aviación)",
+    "designador_oaci": "CMP"
+  },
+  {
+    "clave": "CA021",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Cubana (Cubana De Aviación)",
+    "designador_oaci": "CUB"
+  },
+  {
+    "clave": "CA022",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "DHL De Guatemala (DHL De Guatemala)",
+    "designador_oaci": "JOS"
+  },
+  {
+    "clave": "CA023",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "GOL Linhas Aéreas",
+    "designador_oaci": "GLO"
+  },
+  {
+    "clave": "CA024",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Lacsa (Líneas Aéreas Costarricences)",
+    "designador_oaci": "LRC"
+  },
+  {
+    "clave": "CA025",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "LAN Cargo",
+    "designador_oaci": "LCO"
+  },
+  {
+    "clave": "CA026",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Lan Chile Airlines (Línea Aérea Nacional De Chile)",
+    "designador_oaci": "LAN"
+  },
+  {
+    "clave": "CA027",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Lan Colombia",
+    "designador_oaci": "ARE"
+  },
+  {
+    "clave": "CA028",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Lanperu",
+    "designador_oaci": "LPE"
+  },
+  {
+    "clave": "CA029",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Taca (Taca International Airlines)",
+    "designador_oaci": "TAI"
+  },
+  {
+    "clave": "CA030",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Taca Peru (Trans American Airlines)",
+    "designador_oaci": "TPU"
+  },
+  {
+    "clave": "CA031",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Tam Linhas Aereas",
+    "designador_oaci": "TAM"
+  },
+  {
+    "clave": "CA032",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Tampa (Tampa Cargo)",
+    "designador_oaci": "TPA"
+  },
+  {
+    "clave": "CA033",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Transcarga International Airways",
+    "designador_oaci": "TIW"
+  },
+  {
+    "clave": "CA034",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Tropic Air Limited",
+    "designador_oaci": "TOS"
+  },
+  {
+    "clave": "CA035",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Viva Air Colombia",
+    "designador_oaci": "VVC"
+  },
+  {
+    "clave": "CA036",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "Volaris Costa Rica",
+    "designador_oaci": "VOC"
+  },
+  {
+    "clave": "CA037",
+    "nacionalidad": "Centro y Sudamericanas",
+    "nombre_aerolinea": "VRG Linhas Aereas, S.A.",
+    "designador_oaci": "VRN"
+  },
+  {
+    "clave": "CA038",
+    "nacionalidad": "El Caribe",
+    "nombre_aerolinea": "BahamasAir Holdings LTD",
+    "designador_oaci": "BHS"
+  },
+  {
+    "clave": "CA039",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "21 Air",
+    "designador_oaci": "UBA"
+  },
+  {
+    "clave": "CA040",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Abx (Abx Air)",
+    "designador_oaci": "ABX"
+  },
+  {
+    "clave": "CA041",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Alaska Airlines",
+    "designador_oaci": "ASA"
+  },
+  {
+    "clave": "CA042",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "American Airlines",
+    "designador_oaci": "AAL"
+  },
+  {
+    "clave": "CA043",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Amerijet International",
+    "designador_oaci": "AJT"
+  },
+  {
+    "clave": "CA044",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Ameristar Air Cargo",
+    "designador_oaci": "AJI"
+  },
+  {
+    "clave": "CA045",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Atlas Air",
+    "designador_oaci": "GTI"
+  },
+  {
+    "clave": "CA046",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "BOSTON MAINE",
+    "designador_oaci": "CXS"
+  },
+  {
+    "clave": "CA047",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "C&M AIRWAYS",
+    "designador_oaci": "RWG"
+  },
+  {
+    "clave": "CA048",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Caribbean Sun Airlines",
+    "designador_oaci": "WAL"
+  },
+  {
+    "clave": "CA049",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "CENTURION",
+    "designador_oaci": "CWC"
+  },
+  {
+    "clave": "CA050",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Compass Airlines",
+    "designador_oaci": "CPZ"
+  },
+  {
+    "clave": "CA051",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Continental Express (Express Jet)",
+    "designador_oaci": "ASQ"
+  },
+  {
+    "clave": "CA052",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Delta Airlines",
+    "designador_oaci": "DAL"
+  },
+  {
+    "clave": "CA053",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Delux Public Air Charter Inc",
+    "designador_oaci": "JSX"
+  },
+  {
+    "clave": "CA054",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Envoy Air, Inc",
+    "designador_oaci": "ENY"
+  },
+  {
+    "clave": "CA055",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "FALCON AIR EXPRESS",
+    "designador_oaci": "FAO"
+  },
+  {
+    "clave": "CA056",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "FEDEX (Federal Express)",
+    "designador_oaci": "FDX"
+  },
+  {
+    "clave": "CA057",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Florida West",
+    "designador_oaci": "FWL"
+  },
+  {
+    "clave": "CA058",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Frontier",
+    "designador_oaci": "FFT"
+  },
+  {
+    "clave": "CA059",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Gulf & Caribbean Cargo",
+    "designador_oaci": "TSU"
+  },
+  {
+    "clave": "CA060",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Horizont Air (Horizont Air Industries)",
+    "designador_oaci": "QXE"
+  },
+  {
+    "clave": "CA061",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Interjet West Inc",
+    "designador_oaci": "IJW"
+  },
+  {
+    "clave": "CA062",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Jet Blue Air (Jet Blue Airways Corporation)",
+    "designador_oaci": "JBU"
+  },
+  {
+    "clave": "CA063",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Kalitta (Kalitta Charters II)",
+    "designador_oaci": "KII"
+  },
+  {
+    "clave": "CA064",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Kalitta Air",
+    "designador_oaci": "CKS"
+  },
+  {
+    "clave": "CA065",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Key Air Llc.",
+    "designador_oaci": "KEY"
+  },
+  {
+    "clave": "CA066",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Mesa Airlines (Mesa Airlines, Inc.)",
+    "designador_oaci": "ASH"
+  },
+  {
+    "clave": "CA067",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Miami Air  (Miami Air International Inc)",
+    "designador_oaci": "BSK"
+  },
+  {
+    "clave": "CA068",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "MN Airlines",
+    "designador_oaci": "SCX"
+  },
+  {
+    "clave": "CA069",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "National Air Cargo Group. Inc.(National Airlines)",
+    "designador_oaci": "NCR"
+  },
+  {
+    "clave": "CA070",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Northern Air Cargo Inc.",
+    "designador_oaci": "NAC"
+  },
+  {
+    "clave": "CA071",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "ORANGE AIR LLC",
+    "designador_oaci": "ORN"
+  },
+  {
+    "clave": "CA072",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Republic Airlines",
+    "designador_oaci": "RPA"
+  },
+  {
+    "clave": "CA073",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Sky Lease I, Inc",
+    "designador_oaci": "KYE"
+  },
+  {
+    "clave": "CA074",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Skywest Airlines",
+    "designador_oaci": "SKW"
+  },
+  {
+    "clave": "CA075",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Southwest Airlines",
+    "designador_oaci": "SWA"
+  },
+  {
+    "clave": "CA076",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Spirit Airlines",
+    "designador_oaci": "NKS"
+  },
+  {
+    "clave": "CA077",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Sun Country",
+    "designador_oaci": "SCX"
+  },
+  {
+    "clave": "CA078",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Swift Air",
+    "designador_oaci": "SWK"
+  },
+  {
+    "clave": "CA079",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Tatonduk Outfitters Limited DBA Everts Air Cargo",
+    "designador_oaci": "VTS"
+  },
+  {
+    "clave": "CA080",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Tem Enterprises",
+    "designador_oaci": "CXP"
+  },
+  {
+    "clave": "CA081",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "U.S.A. Jet Airlines",
+    "designador_oaci": "JUS"
+  },
+  {
+    "clave": "CA082",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Ultimate Jet Charter",
+    "designador_oaci": "UJC"
+  },
+  {
+    "clave": "CA083",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "United Airlines, Inc.",
+    "designador_oaci": "UAL"
+  },
+  {
+    "clave": "CA084",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Ups (United Parcel Service)",
+    "designador_oaci": "UPS"
+  },
+  {
+    "clave": "CA085",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "US Air (U.S. Airways)",
+    "designador_oaci": "AWE"
+  },
+  {
+    "clave": "CA086",
+    "nacionalidad": "Estadounidenses",
+    "nombre_aerolinea": "Virgin America, Inc",
+    "designador_oaci": "VRD"
+  },
+  {
+    "clave": "CA087",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Eurowings GMBH.",
+    "designador_oaci": "EWG"
+  },
+  {
+    "clave": "CA088",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Air Atlanta Icelandic",
+    "designador_oaci": "ABD"
+  },
+  {
+    "clave": "CA089",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Air Berlín",
+    "designador_oaci": "VER"
+  },
+  {
+    "clave": "CA090",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Air Europa (Air España)",
+    "designador_oaci": "AEA"
+  },
+  {
+    "clave": "CA091",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Air France (Société Air France)",
+    "designador_oaci": "AFR"
+  },
+  {
+    "clave": "CA092",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Alitalia",
+    "designador_oaci": "AZA"
+  },
+  {
+    "clave": "CA093",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Antonov Company (Aerolíneas Antonov)",
+    "designador_oaci": "ADB"
+  },
+  {
+    "clave": "CA094",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Azur Air",
+    "designador_oaci": "AZV"
+  },
+  {
+    "clave": "CA095",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Blue Panorama",
+    "designador_oaci": "BPA"
+  },
+  {
+    "clave": "CA096",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "British Airways",
+    "designador_oaci": "BAW"
+  },
+  {
+    "clave": "CA097",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "C.A.L. Cargo Airlines",
+    "designador_oaci": "ICL"
+  },
+  {
+    "clave": "CA098",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "CargoLogicAir",
+    "designador_oaci": "CLA"
+  },
+  {
+    "clave": "CA099",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Cargolux Airlines",
+    "designador_oaci": "CLX"
+  },
+  {
+    "clave": "CA100",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Cargolux Italia S. P. A.",
+    "designador_oaci": "ICV"
+  },
+  {
+    "clave": "CA101",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Corsair (Corse Air Int.)",
+    "designador_oaci": "CRL"
+  },
+  {
+    "clave": "CA102",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Edelweiss (Edelweiss Air Ag) Air Ag",
+    "designador_oaci": "EDW"
+  },
+  {
+    "clave": "CA103",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Evelop Airlines",
+    "designador_oaci": "EVE"
+  },
+  {
+    "clave": "CA104",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Finn Air",
+    "designador_oaci": "FIN"
+  },
+  {
+    "clave": "CA105",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Flugleidir Hf. D/B/A Icelandair",
+    "designador_oaci": "ICE"
+  },
+  {
+    "clave": "CA106",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Hi-Fly Transportes Aereos",
+    "designador_oaci": "HFY"
+  },
+  {
+    "clave": "CA107",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Iberia (Iberia Líneas Aéreas De España)",
+    "designador_oaci": "IBE"
+  },
+  {
+    "clave": "CA108",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "IKAR LLC.",
+    "designador_oaci": "KAR"
+  },
+  {
+    "clave": "CA109",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "K L M (Royal Dutch Airlines)",
+    "designador_oaci": "KLM"
+  },
+  {
+    "clave": "CA110",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Lufthansa (Deutsche Lufthansa Ag)",
+    "designador_oaci": "DLH"
+  },
+  {
+    "clave": "CA111",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Lufthansa Cargo Ag",
+    "designador_oaci": "GEC"
+  },
+  {
+    "clave": "CA112",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Martin Air (Martin Air Holland N.V)",
+    "designador_oaci": "MPH"
+  },
+  {
+    "clave": "CA113",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Neos Air (Neos S.P.A.)",
+    "designador_oaci": "NOS"
+  },
+  {
+    "clave": "CA114",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Nordwind",
+    "designador_oaci": "NWS"
+  },
+  {
+    "clave": "CA115",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Norwegian Air Shuttle ",
+    "designador_oaci": "NAX"
+  },
+  {
+    "clave": "CA116",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "NOVA AIRLINES",
+    "designador_oaci": "NVR"
+  },
+  {
+    "clave": "CA117",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Orbest",
+    "designador_oaci": "OBS"
+  },
+  {
+    "clave": "CA118",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Polskie Linie Lotnicze",
+    "designador_oaci": "LOT"
+  },
+  {
+    "clave": "CA119",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Privilege Style",
+    "designador_oaci": "PVG"
+  },
+  {
+    "clave": "CA120",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Pullmantur",
+    "designador_oaci": "PLM"
+  },
+  {
+    "clave": "CA121",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Royal Flight",
+    "designador_oaci": "ABG"
+  },
+  {
+    "clave": "CA122",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "SATA International  Servicios de Transportes Aereos, s.a.",
+    "designador_oaci": "RZO"
+  },
+  {
+    "clave": "CA123",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Scandinavia (Thomas Cook Airlines Scandinavia )",
+    "designador_oaci": "VKG"
+  },
+  {
+    "clave": "CA124",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Thomas Cook (Thomas Cook Ltd)",
+    "designador_oaci": "TCX"
+  },
+  {
+    "clave": "CA125",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Thomson Airways (Thomson Airways Ltd) Ltd",
+    "designador_oaci": "TOM"
+  },
+  {
+    "clave": "CA126",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Thomson Fly Limited",
+    "designador_oaci": "TOM"
+  },
+  {
+    "clave": "CA127",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Titan Airways",
+    "designador_oaci": "AWC"
+  },
+  {
+    "clave": "CA128",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Transaero Airlines",
+    "designador_oaci": "TSO"
+  },
+  {
+    "clave": "CA129",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "TRAVEL SERVICE",
+    "designador_oaci": "TVL"
+  },
+  {
+    "clave": "CA130",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "TUI Airways",
+    "designador_oaci": "TOM"
+  },
+  {
+    "clave": "CA131",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Tui Belgium",
+    "designador_oaci": "JAF"
+  },
+  {
+    "clave": "CA132",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Tui Nederland",
+    "designador_oaci": "TFL"
+  },
+  {
+    "clave": "CA133",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "TUIFLY GMBH",
+    "designador_oaci": "TUI"
+  },
+  {
+    "clave": "CA134",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Tuifly Nordic",
+    "designador_oaci": "BLX"
+  },
+  {
+    "clave": "CA135",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Turkish Airlines",
+    "designador_oaci": "THY"
+  },
+  {
+    "clave": "CA136",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Virgin Atlantic Airways, Limited",
+    "designador_oaci": "VIR"
+  },
+  {
+    "clave": "CA137",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Wamos Air, S.A.",
+    "designador_oaci": "PLM"
+  },
+  {
+    "clave": "CA138",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "White Airways",
+    "designador_oaci": "WHT"
+  },
+  {
+    "clave": "CA139",
+    "nacionalidad": "Europeas",
+    "nombre_aerolinea": "Xl Airways (Xl Airways France)",
+    "designador_oaci": "SEU"
+  },
+  {
+    "clave": "CA140",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aéreo Calafia",
+    "designador_oaci": "CFV"
+  },
+  {
+    "clave": "CA141",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aerolíneas Damojh (Global Air )",
+    "designador_oaci": "DMJ"
+  },
+  {
+    "clave": "CA142",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aeromar",
+    "designador_oaci": "TAO"
+  },
+  {
+    "clave": "CA143",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aeroméxico (Aerovías De México)",
+    "designador_oaci": "AMX"
+  },
+  {
+    "clave": "CA144",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aeroméxico Connect (Aerolitoral)",
+    "designador_oaci": "SLI"
+  },
+  {
+    "clave": "CA145",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aeronaves TSM",
+    "designador_oaci": "VTM"
+  },
+  {
+    "clave": "CA146",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aeroservicios de La Costa",
+    "designador_oaci": "TAA"
+  },
+  {
+    "clave": "CA147",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Aerounión (Aerotransportes De Carga Union)",
+    "designador_oaci": "TNO"
+  },
+  {
+    "clave": "CA148",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Estafeta (Carga Aérea)",
+    "designador_oaci": "ESF"
+  },
+  {
+    "clave": "CA149",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Interjet (Abc Aerolíneas)",
+    "designador_oaci": "AIJ"
+  },
+  {
+    "clave": "CA150",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Magnicharters (Grupo Aéreo Monterrey)",
+    "designador_oaci": "GMT"
+  },
+  {
+    "clave": "CA151",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Mas Air (Más De Carga)",
+    "designador_oaci": "MAA"
+  },
+  {
+    "clave": "CA152",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "MCS Aerocarga De México, S.A De C.V.",
+    "designador_oaci": "MCS"
+  },
+  {
+    "clave": "CA153",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Servicios Integrales De Aviacion, S.A. De C.V.",
+    "designador_oaci": "NTG"
+  },
+  {
+    "clave": "CA154",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Transportes Aéreos Regionales (TAR)",
+    "designador_oaci": "LCT"
+  },
+  {
+    "clave": "CA155",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Vivaaerobus (Aeroenlaces)",
+    "designador_oaci": "VIV"
+  },
+  {
+    "clave": "CA156",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Volaris (Concesionaria Vuela Cia De Aviación)",
+    "designador_oaci": "VOI"
+  },
+  {
+    "clave": "CA157",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Servicio de Taxi Aéreo",
+    "designador_oaci": "NA"
+  },
+  {
+    "clave": "CA158",
+    "nacionalidad": "Extranjeras",
+    "nombre_aerolinea": "Servicio de Taxi Aéreo",
+    "designador_oaci": "NA"
+  },
+  {
+    "clave": "CA159",
+    "nacionalidad": "Mexicanas",
+    "nombre_aerolinea": "Servicios Privados No Comerciales",
+    "designador_oaci": "NA"
+  },
+  {
+    "clave": "CA160",
+    "nacionalidad": "Extranjeras",
+    "nombre_aerolinea": "Servicios Privados No Comerciales",
+    "designador_oaci": "NA"
+  }
+]

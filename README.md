@@ -4,7 +4,7 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
 
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://buymeacoffee.com/luisjossam)
 
-### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
+### Librería generadora de XML y creación de CFDI impreso, permite crear XML de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Incluye catálogos en JSON.
 
 ### Tabla de contenido
 
@@ -20,12 +20,7 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
 - [Factura de tipo Egreso](#Factura-de-tipo-Egreso)
   - [Nota de crédito](#Nota-de-crédito)
-    - [Método crearEmisor](#Método-crearEmisor)
-    - [Método crearReceptor](#Método-crearReceptor)
-    - [Método crearCFDIRelacionados](#Método-crearCFDIRelacionados)
-    - [Método crearConceptos](#Método-crearConceptos)
-    - [Método generarXml](#Método-generarXml)
-    - [Método generarXmlSellado](#Método-generarXmlSellado)
+  - [Devolución](#Devolución)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -66,9 +61,6 @@ se recibe 3 argumentos:
 
 ```javascript
 nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI);
-
-/// EN CASO QUE EL RECEPTOR RESIDA EN OTRO PAÍS SE LLAMA AL MÉTODO receptorExtranjero:
-nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib);
 ```
 
 se recibe estos argumentos:
@@ -85,7 +77,7 @@ se recibe estos argumentos:
 
 ### **Método certificado**
 
-En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de ese proceso.
+En este método debes cargar la ruta del certificado en su formato base sin convertir ya que la librería se encarga de ese proceso.
 
 ```javascript
 nuevaFactura.certificado(PathCertificado);
@@ -182,7 +174,7 @@ En caso de querer generar un XMl ya sellado y listo para timbrar puede usar el s
 nuevaFactura.crearSello(PathLlavePrivada, Contraseña);
 ```
 
-NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya que la librería se encarga de convertirla.
+NOTA: La llave privada debe de estar en su formato base no convertida ya que la librería se encarga de convertirla.
 
 | Argumento        | Tipo   | Descripción                                         |
 | ---------------- | ------ | --------------------------------------------------- |
@@ -193,7 +185,19 @@ NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya
 
 ```javascript
 const atributos = [
-    Folio: 1,            // obligatorio
+    Serie: 'F',                       // opcional (valor por defecto "F")
+    Folio: 1,                         // obligatorio
+    Fecha: '2022-01-27T11:49:48',     // opcional (valor por defecto "Hora actual")
+    FormaPago: '02',                  // obligatorio
+    CondicionesDePago: '3 meses',     // opcional (valor por defecto "")
+    TipoDeComprobante: 'I',           // opcional (valor por defecto "I")
+    MetodoPago: 'PUE',                // obligatorio
+    LugarExpedicion: '00000',         // obligatorio
+    Subtotal: 4545,                   // obligatorio
+    Total: 4545,                      // obligatorio
+    Moneda: 'MXN',                    // opcional (valor por defecto "MXN")
+    Exportacion: "01",                // opcional (valor por defecto "01")
+    Descuento: 0                      // opcional (valor por defecto "0")
 ];
 
 const xml = nuevaFactura.generarXml(atributos)
@@ -222,9 +226,51 @@ nuevaFactura
 
 Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
 
+| Argumento         | Tipo            | Descripción                                                                                              |
+| ----------------- | --------------- | -------------------------------------------------------------------------------------------------------- |
+| Serie             | string          | Prefijo o nombre de la serie de las facturas.                                                            |
+| Folio             | string - number | Numero referente al movimiento.                                                                          |
+| Fecha             | string          | Fecha actual en que se realiza el movimiento en formato AAAA-MM-DDThh:mm:ss                              |
+| FormaPago         | string - number | Clave de la forma de pago de los bienes, la prestación de los servicios, el otorgamiento del uso o goce. |
+| CondicionesDePago | string          | Condiciones comerciales aplicables para el pago del comprobante de tipo ingreso o egreso.                |
+| TipoDeComprobante | string          | Clave con la que se identifica el tipo de comprobante fiscal.                                            |
+| MetodoPago        | string - number | Clave que corresponda depende si se paga en una sola exhibición o en parcialidades.                      |
+| LugarExpedicion   | string - number | Código postal del lugar de expedición del comprobante.                                                   |
+| Subtotal          | string - number | Suma de los importes de los conceptos antes de descuentos e impuestos.                                   |
+| Total             | string - number | Suma del subtotal, menos los descuentos, más impuestos trasladados menos los impuestos retenidos.        |
+| Moneda            | string          | Clave de la moneda utilizada para expresar los montos.                                                   |
+| Exportacion       | string - number | Clave con la que se identifica si el comprobante ampara una operación de exportación.                    |
+| Descuento         | string - number | Importe total de los descuentos aplicables antes de impuestos.                                           |
+
 ## **Factura de tipo Egreso**
 
 ### **Nota de crédito**
+
+Para crear un XML de nota de crédito puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+
+EJEMPLO:
+
+```javascript
+const atributos = [
+    Serie: 'NC',
+    TipoDeComprobante: 'E'
+    // el resto de valores
+];
+```
+
+### **Devolución**
+
+Para crear un XML de devolución puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+
+EJEMPLO:
+
+```javascript
+const atributos = [
+    Serie: 'AC',
+    TipoDeComprobante: 'E'
+    // el resto de valores
+];
+```
 
 ## **Catálogos**
 
@@ -338,9 +384,9 @@ catalogos.obtenerCatalogo(NombreCatalogo);
 - Aduana
 - NumPedimentoAduana
 - PatenteAduanal
-- ColoniaParte1
-- ColoniaParte2
-- ColoniaParte3
+- ColoniaParteUno
+- ColoniaParteDos
+- ColoniaParteTres
 - Estado
 - Localidad
 - Municipio

@@ -228,8 +228,7 @@ Para generar el XML sellado es necesario incluir el método **crearSello** antes
 
 ## **Catálogos**
 
-La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON.
-Se proporciona un método para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un registro de un catálogo en especifico.
+La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON. Se proporciona un método para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un registro de un catálogo en especifico.
 
 A continuación se colocan todos los métodos disponibles
 
@@ -241,17 +240,74 @@ const catalogos = new CatalogosSAT();
 
 ```javascript
 /// Obtener un solo registro de un catálogo
-catalogos.buscarEnCatalogo(Clave, NombreCatalogo);
+catalogos.buscarEnCatalogo(Valor, Clave, NombreCatalogo);
+
+/// Ejemplo de salida correcta
+/*
+{
+  status: true,
+  data: {
+    clave: 'G01',
+    descripcion: 'Adquisición de mercancías.',
+    fisica: 'Sí',
+    moral: 'Sí',
+    regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+  }
+}
+*/
+
+/// Ejemplo de salida errónea
+/*
+{ 
+  status: false,
+  data: null,
+  message: 'Clave "G001" no encontrada en el catálogo "UsoCfdi"'
+}
+*/
 ```
 
 | Argumento      | Tipo   | Descripción                       |
 | -------------- | ------ | --------------------------------- |
-| Clave          | string | Valor para filtrar en el catalogo |
+| Valor          | string | Valor a buscar en el catalogo     |
+| Clave          | string | Clave para filtrar en el catalogo |
 | NombreCatalogo | string | Nombre del catálogo               |
 
 ```javascript
 /// Obtener todos los registros de cada catálogo
 catalogos.obtenerCatalogo(NombreCatalogo);
+
+/// Ejemplo de salida correcta
+/*
+{
+  status: true,
+  data: [
+    {
+      clave: 'G01',
+      descripcion: 'Adquisición de mercancías.',
+      fisica: 'Sí',
+      moral: 'Sí',
+      regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+    },
+    {
+      clave: 'G02',
+      descripcion: 'Devoluciones, descuentos o bonificaciones.',
+      fisica: 'Sí',
+      moral: 'Sí',
+      regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+    },
+    ...
+  ]
+}
+*/
+
+/// Ejemplo de salida errónea
+/*
+{ 
+  status: false,
+  data: null,
+  message: 'El catálogo "usocfdi" no existe'
+}
+*/
 ```
 
 | Argumento      | Tipo   | Descripción         |
@@ -261,20 +317,18 @@ catalogos.obtenerCatalogo(NombreCatalogo);
 **LISTA DE CATALOGOS DISPONIBLES**
 
 - FormaPago
-- Monedas
+- Moneda
 - TipoDeComprobante
 - Exportacion
 - MetodoPago
-- CodigoPostalParte1
-- CodigoPostalParte2
-- CodigoPostalParte3
-- CodigoPostalParte4
+- CodigoPostalParteUno
+- CodigoPostalParteDos
 - Periodicidad
 - Meses
 - TipoRelacion
 - RegimenFiscal
 - Pais
-- UsoCFDI
+- UsoCfdi
 - ClaveProdServ
 - ClaveUnidad
 - ObjetoImpuesto
@@ -290,3 +344,32 @@ catalogos.obtenerCatalogo(NombreCatalogo);
 - Estado
 - Localidad
 - Municipio
+- RegimenAduanero
+- ClaveTransporte
+- TipoEstacion
+- Estaciones
+- ClaveUnidadPeso
+- ClaveProdServCp
+- MaterialPeligroso
+- TipoEmbalaje
+- TipoPermiso
+- SectorCofepris
+- FormaFarmaceutica
+- CondicionesEspeciales
+- TipoMateria
+- DocumentoAduanero
+- ParteTransporte
+- FiguraTransporte
+- ConfigAutotransporte
+- SubtipoRemolque
+- RegistroIstmo
+- ConfigMaritima
+- ClaveTipoCarga
+- ContenedorMaritimo
+- NumAutorizacionNaviero
+- CodigoTransporteAereo
+- TipoDeServicio
+- DerechosDePaso
+- TipoCarro
+- Contenedor
+- TipoTrafico

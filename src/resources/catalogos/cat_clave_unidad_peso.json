@@ -1,0 +1,3778 @@
+[
+  {
+    "clave": "Tu",
+    "nombre": "Contenedor externo",
+    "descripcion": "Tipo de caja de contención que sirve como contenedor de transporte externo, no especificado como equipo de transporte.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1A",
+    "nombre": "Tambor de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1B",
+    "nombre": "Tambor de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1D",
+    "nombre": "Tambor contrachapado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1F",
+    "nombre": "Contenedor flexible",
+    "descripcion": "Contenedor de empaque de construcción flexible.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1G",
+    "nombre": "Tambor de fibra",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1w",
+    "nombre": "Tambor de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X2C",
+    "nombre": "Barril de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X3A",
+    "nombre": "Bidón de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X3H",
+    "nombre": "Bidón de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X43",
+    "nombre": "Bolsa de gran tamaño",
+    "descripcion": "Bolsa de tela de plástico o de papel que tiene las dimensiones del pallet sobre el que está construido.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X44",
+    "nombre": "Bolsa de plástico",
+    "descripcion": "Un tipo de bolsa de plástico, normalmente utilizada para envolver piezas promocionales, publicaciones, muestras de productos y / o catálogos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4A",
+    "nombre": "Caja de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4B",
+    "nombre": "Caja de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4C",
+    "nombre": "Caja de  madera natural",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4D",
+    "nombre": "Caja de contrachapado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4F",
+    "nombre": "Caja de madera reconstituida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4G",
+    "nombre": "Caja de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4H",
+    "nombre": "Caja de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5H",
+    "nombre": "Bolsa de plástico tejido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5L",
+    "nombre": "Bolsa textil",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5M",
+    "nombre": "Bolsa de papel",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X6H",
+    "nombre": "Recipiente de plástico, Contenedor compuesto.",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X6P",
+    "nombre": "Recipiente de vidrio, Contenedor compuesto.",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X7A",
+    "nombre": "Estuche para carro",
+    "descripcion": "Tipo de contenedor portátil diseñado para almacenar equipo para el transporte en un automóvil.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X7B",
+    "nombre": "Estuche de madera",
+    "descripcion": "Un estuche de madera para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8A",
+    "nombre": "Pallet de madera",
+    "descripcion": "Plataforma o caja abierta de madera, en la que se conservan las mercancías para facilitar su manejo mecánico durante el transporte y almacenamiento.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8B",
+    "nombre": "Cajón de madera",
+    "descripcion": "Un contenedor de madera, en el que se conservan las mercancías para facilitar su manipulación mecánica durante el transporte y almacenamiento.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8C",
+    "nombre": "Madera flejada",
+    "descripcion": "Piezas sueltas o sin contenedor de madera atadas o envueltas.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAA",
+    "nombre": "Contenedor intermedio  para gráneles de plástico rígido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAB",
+    "nombre": "Contenedor de fibra",
+    "descripcion": "Recipiente de contención de fibra, utilizado para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAC",
+    "nombre": "Contenedor de papel",
+    "descripcion": "Recipiente de contención de papel, para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAD",
+    "nombre": "Contenedor de madera",
+    "descripcion": "Recipiente de contención de madera, para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAE",
+    "nombre": "Aerosol",
+    "descripcion": "Una unidad de cuenta que define el número de Aerosoles",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAF",
+    "nombre": "Pallet modular con collares,  80cms * 60cms",
+    "descripcion": "Pallet de tamaño estándar con dimensiones de 80 centímetros por 60 centímetros (cms).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAG",
+    "nombre": "Pallet o empaquetado",
+    "descripcion": "La carga del pallet se asegura con una película de plástico transparente envuelta alrededor y luego encogido firmemente.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAH",
+    "nombre": "Pallet, 100cms X 110cms",
+    "descripcion": "Pallet tamaño estándar con dimensiones de 100 centímetros por 110 centímetros (cms).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAI",
+    "nombre": "Contenedor tipo concha",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAJ",
+    "nombre": "Cono",
+    "descripcion": "Contenedor utilizado en el transporte de material lineal como el hilo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAL",
+    "nombre": "Esfera",
+    "descripcion": "Recipiente de contención esférico para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAM",
+    "nombre": "Ampolleta no protegida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAP",
+    "nombre": "Ampolleta protegida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAT",
+    "nombre": "Atomizador",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAV",
+    "nombre": "Cápsula",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XB4",
+    "nombre": "Cinturón",
+    "descripcion": "Banda utiliza para retener varios artículos juntos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBA",
+    "nombre": "Barril",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBB",
+    "nombre": "Bobina",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBC",
+    "nombre": "Cajón para botellas / Estante para botellas",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBD",
+    "nombre": "Tablero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBE",
+    "nombre": "Flejado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBF",
+    "nombre": "Globo no protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBG",
+    "nombre": "Bolso",
+    "descripcion": "Recipiente de material flexible con tapa abierta o cerrada.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBH",
+    "nombre": "Manojo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBI",
+    "nombre": "Compartimiento",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBJ",
+    "nombre": "Cubeta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBK",
+    "nombre": "Cesta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBL",
+    "nombre": "Paca comprimida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBM",
+    "nombre": "Cuenco",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBN",
+    "nombre": "Paca no comprimida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBO",
+    "nombre": "Botella no-protegida y cilíndrica",
+    "descripcion": "Recipiente de forma cilíndrica de cuello estrecho sin material de empaque protector externo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBP",
+    "nombre": "Globo protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBQ",
+    "nombre": "Botella cilíndrica protegida",
+    "descripcion": "Recipiente de forma cilíndrica de cuello estrecho con material de empaque protector externo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBR",
+    "nombre": "Barra",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBS",
+    "nombre": "Botella, no-protegida en forma de bulbo",
+    "descripcion": "Recipiente en forma de bulbo de cuello estrecho sin material de empaque protector externo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBT",
+    "nombre": "Rollo de tela",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBU",
+    "nombre": "Butt",
+    "descripcion": "Barril de 1/2 tonel",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBV",
+    "nombre": "Botella de bulbo protegido",
+    "descripcion": "Recipiente en forma de bulbo de cuello estrecho con material de empaque protector externo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBW",
+    "nombre": "Caja para líquidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBX",
+    "nombre": "Caja",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBY",
+    "nombre": "Tablero, con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBZ",
+    "nombre": "Barras, con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCA",
+    "nombre": "Lata rectangular",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCB",
+    "nombre": "Cajón para cerveza",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCC",
+    "nombre": "Mantequera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCD",
+    "nombre": "Lata con mango y boquilla",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCE",
+    "nombre": "Cesto tejido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCF",
+    "nombre": "Cofre",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCG",
+    "nombre": "Contenedor tipo Jaula",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCH",
+    "nombre": "Cajonera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCI",
+    "nombre": "Frasco",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCJ",
+    "nombre": "Ataúd",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCK",
+    "nombre": "Barrica",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCL",
+    "nombre": "Espiral",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCM",
+    "nombre": "Paquete de tarjetas",
+    "descripcion": "Paquete plano normalmente hecho de cartón desde / hacia el cual el producto es a menudo colgado o unido.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCN",
+    "nombre": "Contenedor, no especificado como equipo de transporte",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCO",
+    "nombre": "Garrafón no protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCP",
+    "nombre": "Garrafón protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCQ",
+    "nombre": "Cartucho",
+    "descripcion": "Paquete que contiene una carga tal como un explosivo propulsor para armas de fuego o tóner de tinta para una impresora.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCR",
+    "nombre": "Cajón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCS",
+    "nombre": "Estuche",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCT",
+    "nombre": "Cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCU",
+    "nombre": "Vaso",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCV",
+    "nombre": "Cubierta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCW",
+    "nombre": "Jaula estilo rodillo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCX",
+    "nombre": "Lata cilíndrica",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCY",
+    "nombre": "Cilindro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCZ",
+    "nombre": "Lona",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDA",
+    "nombre": "Cajón multicapa de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDB",
+    "nombre": "Cajón de varias capas de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDC",
+    "nombre": "Cajón multicapa de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDG",
+    "nombre": "Jaula, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP))",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDH",
+    "nombre": "Caja, Según la clasificación de la compañía (CHEP), Eurobox",
+    "descripcion": "Caja montada sobre una base de pallet Según la clasificación de la compañía (CHEP).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDI",
+    "nombre": "Tambor de hierro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDJ",
+    "nombre": "damajuana o garrafa, no protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDK",
+    "nombre": "Cajón a granel, cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDL",
+    "nombre": "Cajas de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDM",
+    "nombre": "Cajones a granel de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDN",
+    "nombre": "Dispensador",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDP",
+    "nombre": "damajuana o garrafa, protegido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDR",
+    "nombre": "Tambor",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDS",
+    "nombre": "Bandeja de una capa sin cubierta y de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDT",
+    "nombre": "Bandeja de una capa sin cubierta y de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDU",
+    "nombre": "Bandeja de una capa sin cubierta y  poliestireno",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDV",
+    "nombre": "Bandeja de una capa sin cubierta y de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDW",
+    "nombre": "Bandeja de dos capas sin tapa y con bandeja de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDX",
+    "nombre": "Bandeja de dos capas sin cubierta y de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDY",
+    "nombre": "Bandeja de dos capas sin cubierta y de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEC",
+    "nombre": "Bolsa de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XED",
+    "nombre": "Estuche, con pallet de base",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEE",
+    "nombre": "Estuche, con pallet base de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEF",
+    "nombre": "Estuche, con pallet base de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEG",
+    "nombre": "Estuche, con pallet base de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEH",
+    "nombre": "Estuche, con pallet base de metal",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEI",
+    "nombre": "Estuche isotérmico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEN",
+    "nombre": "Sobre",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFB",
+    "nombre": "Bolsa flexible",
+    "descripcion": "Bolsa de contención flexible hecha de plástico, usado típicamente para el transporte de mercancías no peligrosas a granel, que usan contenedores de transporte de tamaño estándar.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFC",
+    "nombre": "Cajón para fruta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFD",
+    "nombre": "Cajón enmarcado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFE",
+    "nombre": "Tanque flexible",
+    "descripcion": "Contenedor flexible de plástico, usado típicamente para el transporte de cargas no peligrosas a granel usando contenedores de transporte de tamaño estándar.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFI",
+    "nombre": "Firkin",
+    "descripcion": "Barril de 41 litros",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFL",
+    "nombre": "Matraz",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFO",
+    "nombre": "Cajón para zapatos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFP",
+    "nombre": "Caja auxiliar para película fotográfica",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFR",
+    "nombre": "Marco",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFT",
+    "nombre": "Contenedor para alimentos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFW",
+    "nombre": "Carro de cama plana",
+    "descripcion": "Módulo con ruedas en el que las bandejas u otros artículos de forma regular se empacan para fines de transporte.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFX",
+    "nombre": "Bolsa flexible tipo contenedor",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGB",
+    "nombre": "Botella para gas",
+    "descripcion": "Cilindro metálico de cuello estrecho para la retención de gas licuado o comprimido.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGI",
+    "nombre": "Viga",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGL",
+    "nombre": "Contenedor tipo galón",
+    "descripcion": "Contenedor con una capacidad de un galón.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGR",
+    "nombre": "Recipiente de vidrio",
+    "descripcion": "Recipiente de contención de vidrio para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGU",
+    "nombre": "Bandeja contenedor para apilar horizontalmente objetos planos",
+    "descripcion": "Bandeja para contiene objetos planos apilados uno encima del otro.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGY",
+    "nombre": "Costal de Yute",
+    "descripcion": "Hecho de yute, usado para transportar mercancías gruesas, tales como granos, patatas, y otros productos agrícolas.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGZ",
+    "nombre": "Vigas con correas o agrupadas",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHA",
+    "nombre": "Cesta con mango y de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHB",
+    "nombre": "Cesta con mango y de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHC",
+    "nombre": "Cesta  con asa y de  cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHG",
+    "nombre": "Hogshead",
+    "descripcion": "Barril de 1/4 de tonel",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHN",
+    "nombre": "Gancho",
+    "descripcion": "Artefacto, cuya forma con un gancho en la parte superior, tiene el propósito de colgar artículos de un carril.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHR",
+    "nombre": "Cesto",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIA",
+    "nombre": "Paquete con pantalla y de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIB",
+    "nombre": "Paquete  con pantalla y de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIC",
+    "nombre": "Paquete con pantalla y de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XID",
+    "nombre": "Paquete con pantalla y de metal",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIE",
+    "nombre": "Paquete de mostrador.",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIF",
+    "nombre": "Envase para alimentos",
+    "descripcion": "Envase flexible tubular o de piel, posiblemente transparente, a menudo utilizado para contener alimentos (por ejemplo salami).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIG",
+    "nombre": "Paquete envuelto en papel",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIH",
+    "nombre": "Tambor de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIK",
+    "nombre": "Paquete de cartón con los agujeros para botellas",
+    "descripcion": "Material de empaque realizado en cartón que facilita la separación de botellas individuales de vidrio o plástico.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIL",
+    "nombre": "Bandeja rígida con tapa y apilable (CEN TS 14482: 2002)",
+    "descripcion": "Bandeja rígida apilable empotrada compatible con CEN TS 14482: 2002.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIN",
+    "nombre": "Lingote",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIZ",
+    "nombre": "Lingotes  con correas/ agrupados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJB",
+    "nombre": "Bolsa jumbo",
+    "descripcion": "Bolsa de contención flexible, ampliamente utilizada para almacenamiento, transporte y manipulación de materiales en polvo, escamas o granulares. Típicamente construido a partir de tejido de polipropileno (PP) tejido en forma de bolsas cúbicas.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJC",
+    "nombre": "Bidón rectangular",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJG",
+    "nombre": "Jarra",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJR",
+    "nombre": "Tarro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJT",
+    "nombre": "Bolsa de yute",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJY",
+    "nombre": "Bidón, cilíndrico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XKG",
+    "nombre": "Barrilete",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XKI",
+    "nombre": "Kit (Conjunto de piezas)",
+    "descripcion": "Conjunto de artículos o implementos utilizados para un propósito específico.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLE",
+    "nombre": "Valijas",
+    "descripcion": "Colección de bolsas, cajas y / o contenedores que contienen objetos personales para un viaje.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLG",
+    "nombre": "Bitácora",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLT",
+    "nombre": "Lote",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLU",
+    "nombre": "Caja de arrastre",
+    "descripcion": "Caja de madera para el transporte y almacenamiento de frutas y verduras.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLV",
+    "nombre": "Contenedor pequeño",
+    "descripcion": "Contenedor de madera o metal, usado para empacar artículos de uso doméstico y personales.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLZ",
+    "nombre": "Registros  con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMA",
+    "nombre": "Cajón metálico",
+    "descripcion": "Caja de contención hecha de metal para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMB",
+    "nombre": "Múltiplo de bolsas",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMC",
+    "nombre": "Cajón para leche",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XME",
+    "nombre": "Contenedor de metal",
+    "descripcion": "Tipo de caja de contención hecha de metal para retener sustancias o artículos, no especificado de otro modo como equipo de transporte.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMR",
+    "nombre": "Recipiente de metal",
+    "descripcion": "Recipiente de contención de metal para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMS",
+    "nombre": "Saco milti-pared",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMT",
+    "nombre": "Tapete",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMW",
+    "nombre": "Contenedor envuelto en plástico",
+    "descripcion": "Recipiente de contención envuelto en plástico para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMX",
+    "nombre": "Caja pequeña de cerillos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNA",
+    "nombre": "No disponible",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNE",
+    "nombre": "Sin empaque o no empaquetado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNF",
+    "nombre": "Sin empaque o no empaquetado, unidad simple",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNG",
+    "nombre": "Sin empaque o no empaquetado, unidades múltiples",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNS",
+    "nombre": "Caja nido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNT",
+    "nombre": "Red",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNU",
+    "nombre": "Red de plástico con tubo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNV",
+    "nombre": "Red textil con tubo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOA",
+    "nombre": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 40 cm x 60 cm",
+    "descripcion": "Pallet de dimensiones 40 centímetros x 60 centímetros.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOB",
+    "nombre": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 80 cm x 120 cm",
+    "descripcion": "Pallet de dimensiones 80 centímetros x 120 centímetros.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOC",
+    "nombre": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 100 cm x 120 cm",
+    "descripcion": "Pallet de dimensiones 100 centímetros x 120 centímetros.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOD",
+    "nombre": "Pallet, AS 4068-1993",
+    "descripcion": "Pallet con  estándar australiano de dimensiones 115.5 centímetros x 116.5 centímetros.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOE",
+    "nombre": "Pallet, ISO T11",
+    "descripcion": "Pallet con estándar ISO de dimensiones 110 centímetros x 110 centímetros, prevalente en la región Asia-Pacífico.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOF",
+    "nombre": "Plataforma, peso o dimensión no especificada",
+    "descripcion": "Plataforma de carga equivalente del Pallet de dimensiones desconocidas o peso desconocido.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOK",
+    "nombre": "Bloque",
+    "descripcion": "Una pieza sólida de una sustancia dura, tal como granito, que tiene uno o más lados planos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOT",
+    "nombre": "Octabin",
+    "descripcion": "Envase estándar de cartón de grandes dimensiones para almacenar por ejemplo verduras, gránulos de plástico u otros productos secos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XP2",
+    "nombre": "Charola",
+    "descripcion": "Recipiente ancho y abierto, usualmente de metal.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPA",
+    "nombre": "Cajetilla",
+    "descripcion": "Paquete pequeño.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPB",
+    "nombre": "Pallet, Caja combinada y abierta con caja y pallet.",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPC",
+    "nombre": "Paquete postal",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPD",
+    "nombre": "Pallet modular con collares (80cms * 100cms)",
+    "descripcion": "Pallet tamaño estándar de dimensiones 80 centímetros por 100 centímetros (cms).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPE",
+    "nombre": "Pallet modular con collares (80cms * 120cms)",
+    "descripcion": "Pallet tamaño estándar de dimensiones 80 centímetros por 120 centímetros (cms).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPF",
+    "nombre": "Corral",
+    "descripcion": "Pequeño recinto abierto para retener animales.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPG",
+    "nombre": "Placa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPH",
+    "nombre": "Cantaro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPI",
+    "nombre": "Pleca",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPJ",
+    "nombre": "Canastilla",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPK",
+    "nombre": "Paquete",
+    "descripcion": "Unidad de empaque estándar.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPL",
+    "nombre": "Balde",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPN",
+    "nombre": "Tablón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPO",
+    "nombre": "Bolsa pequeña",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPR",
+    "nombre": "Contenedor de plástico",
+    "descripcion": "Recipiente de contención de plástico para retener sustancias o artículos.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPT",
+    "nombre": "Maceta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPU",
+    "nombre": "Cacerola",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPV",
+    "nombre": "Tubos, con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPX",
+    "nombre": "Pallet",
+    "descripcion": "Plataforma o caja abierta, generalmente de madera, en la que se conservan las mercancías para facilitar el manejo mecánico durante el transporte y almacenamiento.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPY",
+    "nombre": "Placas con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPZ",
+    "nombre": "Tablones con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQA",
+    "nombre": "Tambor de acero con cabeza no desmontable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQB",
+    "nombre": "Tambor de  acero con cabeza extraíble",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQC",
+    "nombre": "Tambor de aluminio con cabeza no extraíble",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQD",
+    "nombre": "Tambor de aluminio con cabeza extraíble",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQF",
+    "nombre": "Tambor, plástico con cabeza no desmontable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQG",
+    "nombre": "Tambor, plástico, cabeza extraíble",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQH",
+    "nombre": "Barril de madera con tapón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQJ",
+    "nombre": "Barril de madera con cabeza desprendible",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQK",
+    "nombre": "Bidón de acero con cabeza no desmontable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQL",
+    "nombre": "Bidón de acero con cabeza desmontable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQM",
+    "nombre": "Bidón de plástico con cabeza no desmontable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQN",
+    "nombre": "Bidón de plástico con cabeza extraíble",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQP",
+    "nombre": "Caja de madera natural estándar",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQQ",
+    "nombre": "Caja de madera natural con muros a prueba de filtraciones",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQR",
+    "nombre": "Caja de plástico expandida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQS",
+    "nombre": "Caja de plástico sólida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRD",
+    "nombre": "Rod",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRG",
+    "nombre": "Anillo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRJ",
+    "nombre": "Estante, Perchero para ropa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRK",
+    "nombre": "Estante",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRL",
+    "nombre": "Carrete",
+    "descripcion": "Dispositivo giratorio cilíndrico con un reborde en cada extremo en el que se enrollan los materiales.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRO",
+    "nombre": "Rollo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRT",
+    "nombre": "Red Roja",
+    "descripcion": "Material de confinamiento hecho de redes de malla roja para retener artículos (por ejemplo árboles).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRZ",
+    "nombre": "Varillas  con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSA",
+    "nombre": "Saco",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSB",
+    "nombre": "Losa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSC",
+    "nombre": "Cajón poco profundo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSD",
+    "nombre": "Huso",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSE",
+    "nombre": "Baúl",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSH",
+    "nombre": "Bolsa pequeña hermética",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSI",
+    "nombre": "Patín",
+    "descripcion": "Una plataforma o plataforma móvil baja para facilitar el manejo y transporte de mercancías.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSK",
+    "nombre": "Carcasa esqueleto",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSL",
+    "nombre": "Hoja de deslizamiento",
+    "descripcion": "Láminas de plástico duro se utilizan principalmente como la base sobre la cual apilan mercancías para optimizar el espacio dentro de un contenedor. Puede utilizarse como alternativa a un embalaje paletizado.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSM",
+    "nombre": "Hoja de metal",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSO",
+    "nombre": "Carrete pequeño",
+    "descripcion": "Contenedor de empaque utilizado en el transporte de artículos tales como alambre, cable, cinta e hilo.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSP",
+    "nombre": "Hoja de empaque de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSS",
+    "nombre": "Cajón de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSU",
+    "nombre": "Maleta",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSV",
+    "nombre": "Sobre de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSW",
+    "nombre": "Envoltorio",
+    "descripcion": "Mercancías retenidas en una película de plástico transparente que ha sido envuelta alrededor y luego encogido fuertemente a las mercancías.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSY",
+    "nombre": "Manga",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSZ",
+    "nombre": "Hojas  con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XT1",
+    "nombre": "Tableta",
+    "descripcion": "Artículo suelto o sin empaque en forma de barra, bloque o pieza.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTB",
+    "nombre": "Tina",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTC",
+    "nombre": "Caja para té",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTD",
+    "nombre": "Tubo plegable",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTG",
+    "nombre": "Contenedor de tanque genérico",
+    "descripcion": "Recipiente especialmente construido para el transporte de líquidos y gases a granel.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTI",
+    "nombre": "Tierce",
+    "descripcion": "Barril de 1/6 parte de tonel",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTK",
+    "nombre": "Tanque rectangular",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTL",
+    "nombre": "Tina con tapa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTN",
+    "nombre": "Hojalata",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTO",
+    "nombre": "Tonel",
+    "descripcion": "Barril con capacidad para 982 litros",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTR",
+    "nombre": "Maletero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTS",
+    "nombre": "Estructura",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTT",
+    "nombre": "Bolsa de mano",
+    "descripcion": "Una gran bolsa o cesto.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTU",
+    "nombre": "Tubo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTV",
+    "nombre": "Tubo con boquilla",
+    "descripcion": "Tubo de plástico, metal o cartón, provisto de una boquilla, que contiene un producto líquido o semilíquido, por ejemplo silicio.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTW",
+    "nombre": "Pallet tricapa",
+    "descripcion": "Una paleta ligera hecha de cartón ondulado resistente.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTY",
+    "nombre": "Tanque cilíndrico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTZ",
+    "nombre": "Tubos  con fleje/ agrupados/ armados",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XUC",
+    "nombre": "Sin empaque",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XUN",
+    "nombre": "Unidad",
+    "descripcion": "Tipo de paquete compuesto de un solo artículo u objeto, no especificado de otro modo como una unidad de equipo de transporte.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVA",
+    "nombre": "Tanque",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVG",
+    "nombre": "Tanque de gas (a 1,031 mbar y 15° C)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVI",
+    "nombre": "Frasco pequeño",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVK",
+    "nombre": "Paquete transportable",
+    "descripcion": "Tipo de cajón de madera.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVL",
+    "nombre": "Contenedor para líquidos a granel",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVN",
+    "nombre": "Vehículo",
+    "descripcion": "Medio de transporte autopropulsado.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVO",
+    "nombre": "Contenedor para sólido de partículas grandes a granel (\"nódulos\")",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVP",
+    "nombre": "Envasado al vacío",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVQ",
+    "nombre": "Tanque para Gas licuado (a temperatura / presión anormal)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVR",
+    "nombre": "Contenedor para sólidos de partículas granulares a granel (Granos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVS",
+    "nombre": "Contenedor de chatarra a granel",
+    "descripcion": "Chatarra suelta o sin empaquetar transportada a granel.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVY",
+    "nombre": "Contenedor para sólido de partículas finas a granel (\"polvos\")",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWA",
+    "nombre": "Contenedor de granel intermedio",
+    "descripcion": "Recipiente reutilizable hecho de metal, plástico, textiles, madera o materiales compuestos utilizados para facilitar el transporte de sólidos y líquidos a granel en volúmenes manejables.",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWB",
+    "nombre": "Botella de mimbre",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWC",
+    "nombre": "Contenedor intermedio para gráneles y de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWD",
+    "nombre": "Contenedor intermedio para gráneles y de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWF",
+    "nombre": "Contenedor intermedio para gráneles y de metal",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWG",
+    "nombre": "Contenedor intermedio para gráneles y de acero presurizado menor a 10 kpa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWH",
+    "nombre": "Contenedor intermedio para gráneles y de aluminio, presurizado menor a 10 kpa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWJ",
+    "nombre": "Contenedor intermedio para gráneles y de metal con una presión de 10 kpa",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWK",
+    "nombre": "Contenedor intermedio para gráneles y de acero para líquido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWL",
+    "nombre": "Contenedor intermedio para gráneles y de aluminio para líquido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWM",
+    "nombre": "Contenedor intermedio para gráneles y de metal para líquido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWN",
+    "nombre": "Contenedor intermedio para gráneles con tejido plástico sin capa con revestimiento",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWP",
+    "nombre": "Contenedor intermedio para gráneles con tejido plástico y recubierto",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWQ",
+    "nombre": "Contenedor intermedio para gráneles con tejido plástico con revestimiento",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWR",
+    "nombre": "Contenedor intermedio para gráneles con tejido plástico, revestido y con forro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWS",
+    "nombre": "Contenedor intermedio para gráneles con película de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWT",
+    "nombre": "Contenedor intermedio para gráneles textil sin capa / forro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWU",
+    "nombre": "Contenedor intermedio para gráneles de madera natural con forro interior",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWV",
+    "nombre": "Contenedor intermedio para gráneles textil recubierto",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWW",
+    "nombre": "Contenedor intermedio para gráneles textil con revestimiento",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWX",
+    "nombre": "Contenedor intermedio para gráneles textil recubierto y con forro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWY",
+    "nombre": "Contenedor intermedio para gráneles contrachapado con revestimiento interior",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWZ",
+    "nombre": "Contenedor intermedio para gráneles de madera reconstituida con revestimiento interior",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXA",
+    "nombre": "Bolsa de tejido plástico, sin abrigo interior ni forro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXB",
+    "nombre": "Bolsa de tejido plástico a prueba de filtraciones",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXC",
+    "nombre": "Bolsa de tejido plástico resistente al agua",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXD",
+    "nombre": "Bolsa con película de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXF",
+    "nombre": "Bolsa textil sin capa ni forro interior",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXG",
+    "nombre": "Bolsa textil a prueba de filtraciones",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXH",
+    "nombre": "Bolsa textil resistente al agua",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXJ",
+    "nombre": "Bolsa de papel multi-pared",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXK",
+    "nombre": "Bolsa de papel multi-pared, resistente al agua",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYA",
+    "nombre": "Empaque compuesto, recipiente de plástico en tambor de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYB",
+    "nombre": "Empaque compuesto, recipiente de plástico en cajas de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYC",
+    "nombre": "Empaque compuesto, recipiente de plástico en tambor de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYD",
+    "nombre": "Empaque compuesto, recipiente de plástico en cajón de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYF",
+    "nombre": "Empaque compuesto, recipiente de plástico en caja de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYG",
+    "nombre": "Empaque compuesto, recipiente de plástico en tambor de madera contrachapada",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYH",
+    "nombre": "Empaque compuesto, recipiente de plástico en caja de madera contrachapada",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYJ",
+    "nombre": "Empaque compuesto, recipiente de plástico en tambor de fibra",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYK",
+    "nombre": "Empaque compuesto, recipiente de plástico en caja de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYL",
+    "nombre": "Empaque compuesto, recipiente de plástico en el tambor de plástico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYM",
+    "nombre": "Empaque compuesto, recipiente de plástico en caja de plástico sólido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYN",
+    "nombre": "Empaque compuesto, receptáculo de vidrio en tambor de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYP",
+    "nombre": "Empaque compuesto, receptáculo de vidrio en caja de cajas de acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYQ",
+    "nombre": "Empaque compuesto, recipiente de vidrio en tambor de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYR",
+    "nombre": "Empaque compuesto, receptáculo de vidrio en caja de aluminio",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYS",
+    "nombre": "Empaque compuesto, recipiente de vidrio en caja de madera",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYT",
+    "nombre": "Empaque compuesto, recipiente de vidrio en tambor de madera contrachapada",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "Xyv",
+    "nombre": "Empaque compuesto, recipiente de vidrio en el cesto de mimbre",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYW",
+    "nombre": "Empaque compuesto, recipiente de vidrio en tambor de fibra",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYX",
+    "nombre": "Empaque compuesto, recipiente de vidrio en caja de cartón",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYY",
+    "nombre": "Empaque compuesto, recipiente de vidrio en paquete de plástico expandible",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYZ",
+    "nombre": "Empaque compuesto, recipiente de vidrio en paquete de plástico sólido",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZA",
+    "nombre": "Contenedor de granel intermedio, papel, multi-pared",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZB",
+    "nombre": "Bolsa grande",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZC",
+    "nombre": "Contenedor intermedio para gráneles de papel, multi-pared y resistente al agua",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZD",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para sólidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZF",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, autoportante para sólidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZG",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural, presurizado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZH",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, autoportante y presurizado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZJ",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para líquidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZK",
+    "nombre": "Contenedor intermedio para gráneles de plástico rígido, autoportante, líquidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZL",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, sólidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZM",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico flexible, sólidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZN",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, presurizado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZP",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico flexible, presurizado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZQ",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, líquidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZR",
+    "nombre": "Contenedor intermedio para gráneles, compuesto y de plástico flexible para líquidos",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZS",
+    "nombre": "Contenedor intermedio para gráneles, compuesto",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZT",
+    "nombre": "Contenedor intermedio para gráneles con tablero de fibras",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZU",
+    "nombre": "Contenedor intermedio para gráneles flexible",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZV",
+    "nombre": "Contenedor intermedio para gráneles de metal, distinto del acero",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZW",
+    "nombre": "Contenedor intermedio para gráneles, de madera natural",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZX",
+    "nombre": "Contenedor intermedio para gráneles, de contrachapado",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZY",
+    "nombre": "Contenedor intermedio para gráneles, de madera reconstituida",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "KGM",
+    "nombre": "Kilogramo",
+    "descripcion": "Una unidad de masa igual a mil gramos.",
+    "nota": null,
+    "simbolo": "kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MC",
+    "nombre": "Microgramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "µg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DJ",
+    "nombre": "Decagramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dag",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DG",
+    "nombre": "Decigramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "GRM",
+    "nombre": "Gramo",
+    "descripcion": "Medida de masa, de símbolo g, que es igual a la milésima parte de un kilogramo.",
+    "nota": null,
+    "simbolo": "g",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CGM",
+    "nombre": "Centigramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "cg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "TNE",
+    "nombre": "Tonelada (tonelada métrica)",
+    "descripcion": "Sinónimo: tonelada métrica",
+    "nota": null,
+    "simbolo": "t",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DTN",
+    "nombre": "Decitonelada métrica",
+    "descripcion": "Sinónimo: centner, métrico 100 kg; Quintal, métrico 100 kg",
+    "nota": null,
+    "simbolo": "dt or dtn",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MGM",
+    "nombre": "Miligramo",
+    "descripcion": "Medida de masa, de símbolo mg, que es igual a la milésima parte de un gramo.",
+    "nota": null,
+    "simbolo": "mg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "HGM",
+    "nombre": "Hectogramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "hg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "KTN",
+    "nombre": "Kilotonelada Métrica",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "kt",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "2U",
+    "nombre": "Megagramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "Mg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "LBR",
+    "nombre": "Libra",
+    "descripcion": "Unidad monetaria de Irlanda (hasta su sustitución por el euro), Reino Unido, Chipre, Egipto, Líbano, Malta, Siria y otros países.",
+    "nota": null,
+    "simbolo": "lb",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "GRN",
+    "nombre": "Grano",
+    "descripcion": "Es la mínima unidad de masa en el sistema inglés de medidas. Se considera con el mismo valor en cualquier país anglosajón. Se utiliza para estimar con más sensibilidad y precisión la poca masa de pequeños objetos (medicamentos, drogas, pólvora, proyectiles, piezas de joyería, etc.).",
+    "nota": null,
+    "simbolo": "gr",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "ONZ",
+    "nombre": "Onza (avoirdupois)",
+    "descripcion": "Es una unidad de masa usada desde la Antigua Roma para pesar con mayor precisión las mercancías y otros artículos, especialmente si su peso era menor que una libra romana",
+    "nota": null,
+    "simbolo": "oz",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CWI",
+    "nombre": "Hundredweight",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "cwt (UK)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CWA",
+    "nombre": "Hundred pound",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "cwt (US)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "LTN",
+    "nombre": "Tonelada (UK) o tonelada larga (estados unidos)",
+    "descripcion": "Sinónimo: tonelada bruta (2240 ​​lb)",
+    "nota": null,
+    "simbolo": "ton (UK)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "STI",
+    "nombre": "Estone (UK)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "st",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "STN",
+    "nombre": "Tonelada (estados unidos) o tonelada corta (UK y estados unidos)",
+    "descripcion": "Sinónimo: tonelada neta (2000 lb)",
+    "nota": null,
+    "simbolo": "ton (US)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "APZ",
+    "nombre": "Onza troy u onza farmacéutica ",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "tr oz",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "F13",
+    "nombre": "Slug",
+    "descripcion": "Una unidad de masa. Un slug es la masa acelerada a 1 pie por segundo por segundo por una fuerza de 1 libra.",
+    "nota": null,
+    "simbolo": "slug",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "K64",
+    "nombre": "Libra (avoirdupois) por grado fahrenheit",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "lb/°F",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L69",
+    "nombre": "Tonelada por kelvin",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "t/K",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L87",
+    "nombre": "Tonelada corta por grado fahrenheit",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ton (US)/°F",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M85",
+    "nombre": "Tonelada, ensayo",
+    "descripcion": "Unidad de masa no conforme al sistema internacional, utilizada en la mineralogía para determinar la concentración de metales preciosos en el mineral de acuerdo con la masa del metal precioso en miligramos en una muestra de la masa de un sonido de ensayo (número de onzas troy en una tonelada corta (1 000 lb)).",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M86",
+    "nombre": "Libra Alemana",
+    "descripcion": "Anticuada unidad de masa usada en Alemania.",
+    "nota": null,
+    "simbolo": "pfd",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "J33",
+    "nombre": "Microgramo por kilogramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "µg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L32",
+    "nombre": "Nanogramo por kilogramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ng/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "NA",
+    "nombre": "Miligramo por kilogramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "mg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M29",
+    "nombre": "Kilogramo por kilogramo",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "kg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M91",
+    "nombre": "Libra por libra",
+    "descripcion": "Proporción de la masa consistente en la libra avoirdupois según el sistema unitario avoirdupois dividido por la libra avoirdupois según el sistema unitario avoirdupois.",
+    "nota": null,
+    "simbolo": "lb/lb",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "Q29",
+    "nombre": "Microgramo por hectogramo",
+    "descripcion": "Microgramo por hectogramo",
+    "nota": null,
+    "simbolo": "µg/hg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MTQ",
+    "nombre": "Metro cúbico",
+    "descripcion": "Sinónimo: metro cúbico",
+    "nota": null,
+    "simbolo": "m³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MAL",
+    "nombre": "Megalitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "Ml",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "LTR",
+    "nombre": "Litro",
+    "descripcion": "Es una unidad de volumen equivalente a un decímetro cúbico (1 dm³). Su uso es aceptado en el Sistema Internacional de Unidades (SI), aunque ya no pertenece estrictamente a él.",
+    "nota": null,
+    "simbolo": "l",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MMQ",
+    "nombre": "Milímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo mm, que es igual a la milésima parte de un metro.",
+    "nota": null,
+    "simbolo": "mm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "CMQ",
+    "nombre": "Centímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo cm, que es igual a la centésima parte de un metro.",
+    "nota": null,
+    "simbolo": "cm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DMQ",
+    "nombre": "Decímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo dm, que es igual a la décima parte de un metro.",
+    "nota": null,
+    "simbolo": "dm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MLT",
+    "nombre": "Mililitro",
+    "descripcion": "Medida de volumen, de símbolo ml, que es igual a la milésima parte de un litro.",
+    "nota": null,
+    "simbolo": "ml",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "HLT",
+    "nombre": "Hectolitro",
+    "descripcion": "Es una unidad de volumen equivalente a cien litros, representado por el símbolo hl. Es el segundo múltiplo del litro y también equivale a 100 decímetros cúbicos (0,1 metros cúbicos).",
+    "nota": null,
+    "simbolo": "hl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "CLT",
+    "nombre": "Centilitro",
+    "descripcion": "Medida de volumen, de símbolo cl, que es igual a la centésima parte de un litro.",
+    "nota": null,
+    "simbolo": "cl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DMA",
+    "nombre": "Decámetro cúbico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dam³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "H19",
+    "nombre": "Hectómetro cúbico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "hm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "H20",
+    "nombre": "Kilómetro cúbico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "km³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M71",
+    "nombre": "Metro cúbico por pascal (joules)",
+    "descripcion": "Unidad de Energía del sistema internacional, metro elevado al exponente 3 y dividido por la unidad pascal.",
+    "nota": null,
+    "simbolo": "m³/Pa",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DLT",
+    "nombre": "Decilitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "4G",
+    "nombre": "Microlitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "µl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K6",
+    "nombre": "Kilolitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "kl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "A44",
+    "nombre": "Decalitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dal",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G94",
+    "nombre": "Centímetro cúbico por bar",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "cm³/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G95",
+    "nombre": "Litro por bar",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "l/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G96",
+    "nombre": "Metro cúbico por bar",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "m³/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G97",
+    "nombre": "Mililitro por bar ",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ml/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "5I",
+    "nombre": "Pies cúbicos estándar",
+    "descripcion": "Utilice estándar (código común WSD)",
+    "nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "simbolo": "Std",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "INQ",
+    "nombre": "Pulgada cúbica",
+    "descripcion": "Sinónimo: pulgada cuadrada",
+    "nota": null,
+    "simbolo": "in³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "FTQ",
+    "nombre": "Pie cúbico",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ft³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "YDQ",
+    "nombre": "Yarda cúbica",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "yd³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLI",
+    "nombre": "Galón (UK)",
+    "descripcion": "Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: \"galón de vino\" (wine gallon) y \"galón de cerveza británico\" (ale gallon).\nEs equivalente a 3.7854 litros.",
+    "nota": null,
+    "simbolo": "gal (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLL",
+    "nombre": "Galón (EUA)",
+    "descripcion": "Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: \"galón de vino\" (wine gallon) y \"galón de cerveza británico\" (ale gallon).",
+    "nota": null,
+    "simbolo": "gal (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PT",
+    "nombre": "Pinta (US)",
+    "descripcion": "Utilice pinta líquida (código común PTL)",
+    "nota": "Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.",
+    "simbolo": "Pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTI",
+    "nombre": "Pint (uk)",
+    "descripcion": "Es una unidad de volumen inglesa en el sistema imperial y los Estados Unidos. La versión imperial usada en el UK es de 20 onzas líquidas y es equivalente a 568,26125 ml, mientras que en los EUA es de 16 onzas líquidas y es equivalente a 473,17647 ml.",
+    "nota": null,
+    "simbolo": "pt (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTI",
+    "nombre": "Cuarto (UK)",
+    "descripcion": "Es una unidad de medida de volumen equivalente a media fanega. En Castilla equivalía a aproximadamente a 6 celemines. La medida real cambia según regiones o incluso localidades.",
+    "nota": null,
+    "simbolo": "qt (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTL",
+    "nombre": "Pinta líquida (estados unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "liq pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTL",
+    "nombre": "Cuarto de líquido (estadis unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "liq qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTD",
+    "nombre": "Pinta seca (estados unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dry pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "OZI",
+    "nombre": "Onza líquida (UK)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "fl oz (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QT",
+    "nombre": "Cuarto (EUA)",
+    "descripcion": "Utilice cuarto de galón líquido (código común QTL)",
+    "nota": "Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.",
+    "simbolo": "Qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "J57",
+    "nombre": "Barril (uk petróleo)",
+    "descripcion": "Es el nombre de varias unidades de volumen usadas en el Reino Unido y en los Estados Unidos.",
+    "nota": null,
+    "simbolo": "bbl (UK liq.)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K21",
+    "nombre": "Pie cúbico por grado fahrenheit",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ft³/°F",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K23",
+    "nombre": "Pie cúbico por psi (libra por pulgada cuadrada)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "ft³/psi",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L43",
+    "nombre": "Peck (UK)",
+    "descripcion": "Un peck es una unidad tradicional de medida de volúmenes. Aunque puede ser utilizado para medir seco y líquido, se utiliza generalmente para las materias secas. Es igual a 1/4 bushel, 2 galones, o 8 cuartos de galón.",
+    "nota": null,
+    "simbolo": "pk (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L61",
+    "nombre": "Pinta (US seco)",
+    "descripcion": "Utilice pinta seca (código común PTD)",
+    "nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "simbolo": "Pt (US seco)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L62",
+    "nombre": "Cuarto de galón (seco de los EUA)",
+    "descripcion": "Utilice cuarto seco (EUA) (código común QTD)",
+    "nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "simbolo": "Qt (US seco)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L84",
+    "nombre": "Tonelada (flota UK)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "British shipping ton",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L86",
+    "nombre": "Tonelada (flota estados unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "(US) shipping ton",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M11",
+    "nombre": "Yarda cúbica por grado fahrenheit",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "yd³/°F",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M14",
+    "nombre": "Yarda cúbica por psi (libra por pulgada cuadrada)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "yd³/psi",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "OZA",
+    "nombre": "Onza líquida (estados unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "fl oz (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BUI",
+    "nombre": "Bushel (UK)",
+    "descripcion": "Un bushel tiene 4 pecks o 32 quarts, y equivale a 1,03205 del bushel de los Estados Unidos, que a su vez equivale a 0,35238 hectolitros. La palabra bushel está cayendo en desuso rápidamente.",
+    "nota": null,
+    "simbolo": "bushel (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BUA",
+    "nombre": "Bushel (EUA)",
+    "descripcion": "El bushel es una unidad de medida de capacidad para mercancía sólida en los países anglosajones (países de habla inglesa). Se utiliza en el comercio de granos, harinas y otros productos análogos.",
+    "nota": null,
+    "simbolo": "bu (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BLL",
+    "nombre": "Barril (EUA)",
+    "descripcion": "Un barril estadounidense es igual a:\n\n42 galones estadounidenses\n168 cuartos estadounidenses\n336 pintas estadounidenses\n1344 gills estadounidenses\n5376 onzas líquidas estadounidenses\n158.987294928 litros",
+    "nota": null,
+    "simbolo": "barrel (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BLD",
+    "nombre": "Barril seco (EUA)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "bbl (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLD",
+    "nombre": "Galón seco (EUA)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dry gal (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTD",
+    "nombre": "Cuarto seco (estados unidos)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "dry qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G26",
+    "nombre": "Estere",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "st",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G21",
+    "nombre": "Taza (unidad de volumen)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "cup (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G24",
+    "nombre": "Cucharada (estados unidos)",
+    "descripcion": "1/2 onzas fluidas, 3 cucharaditas, 15 mililitros",
+    "nota": null,
+    "simbolo": "tablespoon (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G25",
+    "nombre": "Cucharilla (estados unidos)",
+    "descripcion": "1/6 onzas fluidas o 5 mililitros",
+    "nota": null,
+    "simbolo": "teaspoon (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G23",
+    "nombre": "Peck",
+    "descripcion": "Es una unidad de medida imperial y habitual en  Estados Unidos de volumen seco.",
+    "nota": null,
+    "simbolo": "pk (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M67",
+    "nombre": "Acre-pie",
+    "descripcion": "Unidad de volúmen, la cúal es usada en los Estados Unidos para medir la capacidad de las presas.",
+    "nota": null,
+    "simbolo": "acre-ft (US survey)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M68",
+    "nombre": "Cordón",
+    "descripcion": "Unidad tradicional del volumen de leña apilada que se ha medido con un cordón.",
+    "nota": null,
+    "simbolo": "cord",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M69",
+    "nombre": "Milla cúbica (reino unido)",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "mi³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M70",
+    "nombre": "Unidad tradicional de capacidad de carga",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "RT",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q32",
+    "nombre": "Femtolitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "fl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q33",
+    "nombre": "Picolitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "pl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q34",
+    "nombre": "Nanolitro",
+    "descripcion": null,
+    "nota": null,
+    "simbolo": "nl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "NM3",
+    "nombre": "Metro cúbico normalizado",
+    "descripcion": "Metros cúbicos normalizados (temperatura 0 ° C y presión 101325 milibares)",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "SM3",
+    "nombre": "Metro cúbico estándar",
+    "descripcion": "Metro cúbico estándar (temperatura 15 ° C y presión 101325 milibares)",
+    "nota": null,
+    "simbolo": null,
+    "bandera": "Volumen"
+  }
+]

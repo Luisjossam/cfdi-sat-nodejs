@@ -1,0 +1,17 @@
+[
+  {
+    "clave_estacion": "01",
+    "descripcion": "Origen Nacional",
+    "clave_transporte": "02, 03 y 04"
+  },
+  {
+    "clave_estacion": "02",
+    "descripcion": "Intermedia ",
+    "clave_transporte": "02, 03 y 04"
+  },
+  {
+    "clave_estacion": "03",
+    "descripcion": "Destino Final Nacional",
+    "clave_transporte": "02, 03 y 04"
+  }
+]

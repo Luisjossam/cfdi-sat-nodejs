@@ -1,0 +1,22 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Medicamento"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Precursores y químicos de uso dual"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Psicotrópicos y estupefacientes"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Sustancias tóxicas"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Plaguicidas y fertilizantes"
+  }
+]

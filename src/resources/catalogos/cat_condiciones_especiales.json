@@ -1,0 +1,18 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Congelados"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Refrigerados"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Temperatura controlada"
+  },
+  {
+    "clave": "04",
+    "descripcion": "Temperatura ambiente"
+  }
+]

@@ -1,0 +1,1572 @@
+[
+  {
+    "num_autorizacion": "SCT418/068/2018",
+    "inicio_vigencia": "2018-12-26",
+    "fin_vigencia": "2023-12-27"
+  },
+  {
+    "num_autorizacion": "SCT418/069/2018",
+    "inicio_vigencia": "2018-12-17",
+    "fin_vigencia": "2023-12-18"
+  },
+  {
+    "num_autorizacion": "SCT418/001/2019",
+    "inicio_vigencia": "2019-02-08",
+    "fin_vigencia": "2024-02-09"
+  },
+  {
+    "num_autorizacion": "SCT418/002/2019",
+    "inicio_vigencia": "2019-01-30",
+    "fin_vigencia": "2024-01-31"
+  },
+  {
+    "num_autorizacion": "SCT418/003/2019",
+    "inicio_vigencia": "2019-02-12",
+    "fin_vigencia": "2024-02-13"
+  },
+  {
+    "num_autorizacion": "SCT418/004/2019",
+    "inicio_vigencia": "2019-02-08",
+    "fin_vigencia": "2024-02-09"
+  },
+  {
+    "num_autorizacion": "SCT418/005/2019",
+    "inicio_vigencia": "2019-02-15",
+    "fin_vigencia": "2024-02-16"
+  },
+  {
+    "num_autorizacion": "SCT418/006/2019",
+    "inicio_vigencia": "2019-02-20",
+    "fin_vigencia": "2024-02-21"
+  },
+  {
+    "num_autorizacion": "SCT418/007/2019",
+    "inicio_vigencia": "2019-02-21",
+    "fin_vigencia": "2024-02-22"
+  },
+  {
+    "num_autorizacion": "SCT418/008/2019",
+    "inicio_vigencia": "2019-02-26",
+    "fin_vigencia": "2024-02-27"
+  },
+  {
+    "num_autorizacion": "SCT418/009/2019",
+    "inicio_vigencia": "2019-03-08",
+    "fin_vigencia": "2024-03-09"
+  },
+  {
+    "num_autorizacion": "SCT418/010/2019",
+    "inicio_vigencia": "2019-03-11",
+    "fin_vigencia": "2024-03-12"
+  },
+  {
+    "num_autorizacion": "SCT418/011/2019",
+    "inicio_vigencia": "2019-03-21",
+    "fin_vigencia": "2024-03-22"
+  },
+  {
+    "num_autorizacion": "SCT418/012/2019",
+    "inicio_vigencia": "2019-03-27",
+    "fin_vigencia": "2024-03-28"
+  },
+  {
+    "num_autorizacion": "SCT418/013/2019",
+    "inicio_vigencia": "2019-03-25",
+    "fin_vigencia": "2024-03-26"
+  },
+  {
+    "num_autorizacion": "SCT418/014/2019",
+    "inicio_vigencia": "2019-04-17",
+    "fin_vigencia": "2024-04-18"
+  },
+  {
+    "num_autorizacion": "SCT418/015/2019",
+    "inicio_vigencia": "2019-04-24",
+    "fin_vigencia": "2024-04-25"
+  },
+  {
+    "num_autorizacion": "SCT418/016/2019",
+    "inicio_vigencia": "2019-04-12",
+    "fin_vigencia": "2024-04-13"
+  },
+  {
+    "num_autorizacion": "SCT418/017/2019",
+    "inicio_vigencia": "2019-05-03",
+    "fin_vigencia": "2024-05-04"
+  },
+  {
+    "num_autorizacion": "SCT418/018/2019",
+    "inicio_vigencia": "2019-06-10",
+    "fin_vigencia": "2024-06-11"
+  },
+  {
+    "num_autorizacion": "SCT418/019/2019",
+    "inicio_vigencia": "2019-05-15",
+    "fin_vigencia": "2024-05-16"
+  },
+  {
+    "num_autorizacion": "SCT418/020/2019",
+    "inicio_vigencia": "2019-06-12",
+    "fin_vigencia": "2024-06-13"
+  },
+  {
+    "num_autorizacion": "SCT418/021/2019",
+    "inicio_vigencia": "2019-05-24",
+    "fin_vigencia": "2024-05-25"
+  },
+  {
+    "num_autorizacion": "SCT418/022/2019",
+    "inicio_vigencia": "2019-07-04",
+    "fin_vigencia": "2024-07-05"
+  },
+  {
+    "num_autorizacion": "SCT418/023/2019",
+    "inicio_vigencia": "2019-06-12",
+    "fin_vigencia": "2024-06-13"
+  },
+  {
+    "num_autorizacion": "SCT418/024/2019",
+    "inicio_vigencia": "2019-06-19",
+    "fin_vigencia": "2024-06-20"
+  },
+  {
+    "num_autorizacion": "SCT418/025/2019",
+    "inicio_vigencia": "2019-06-24",
+    "fin_vigencia": "2024-06-25"
+  },
+  {
+    "num_autorizacion": "SCT418/026/2019",
+    "inicio_vigencia": "2019-07-11",
+    "fin_vigencia": "2024-07-12"
+  },
+  {
+    "num_autorizacion": "SCT418/027/2019",
+    "inicio_vigencia": "2019-07-25",
+    "fin_vigencia": "2024-07-26"
+  },
+  {
+    "num_autorizacion": "SCT418/028/2019",
+    "inicio_vigencia": "2019-07-23",
+    "fin_vigencia": "2024-07-24"
+  },
+  {
+    "num_autorizacion": "SCT418/029/2019",
+    "inicio_vigencia": "2019-07-29",
+    "fin_vigencia": "2024-07-30"
+  },
+  {
+    "num_autorizacion": "SCT418/030/2019",
+    "inicio_vigencia": "2019-08-27",
+    "fin_vigencia": "2024-08-28"
+  },
+  {
+    "num_autorizacion": "SCT418/031/2019",
+    "inicio_vigencia": "2019-08-29",
+    "fin_vigencia": "2024-08-30"
+  },
+  {
+    "num_autorizacion": "SCT418/032/2019",
+    "inicio_vigencia": "2019-09-05",
+    "fin_vigencia": "2024-09-06"
+  },
+  {
+    "num_autorizacion": "SCT418/033/2019",
+    "inicio_vigencia": "2019-10-07",
+    "fin_vigencia": "2024-10-08"
+  },
+  {
+    "num_autorizacion": "SCT418/034/2019",
+    "inicio_vigencia": "2019-09-26",
+    "fin_vigencia": "2024-09-27"
+  },
+  {
+    "num_autorizacion": "SCT418/035/2019",
+    "inicio_vigencia": "2019-10-03",
+    "fin_vigencia": "2024-10-04"
+  },
+  {
+    "num_autorizacion": "SCT418/036/2019",
+    "inicio_vigencia": "2019-10-18",
+    "fin_vigencia": "2024-10-19"
+  },
+  {
+    "num_autorizacion": "SCT418/037/2019",
+    "inicio_vigencia": "2019-10-28",
+    "fin_vigencia": "2024-10-29"
+  },
+  {
+    "num_autorizacion": "SCT418/038/2019",
+    "inicio_vigencia": "2019-11-26",
+    "fin_vigencia": "2024-11-27"
+  },
+  {
+    "num_autorizacion": "SCT418/039/2019",
+    "inicio_vigencia": "2019-11-06",
+    "fin_vigencia": "2024-11-07"
+  },
+  {
+    "num_autorizacion": "SCT418/040/2019",
+    "inicio_vigencia": "2019-10-25",
+    "fin_vigencia": "2024-10-26"
+  },
+  {
+    "num_autorizacion": "SCT418/041/2019",
+    "inicio_vigencia": "2019-10-25",
+    "fin_vigencia": "2024-10-26"
+  },
+  {
+    "num_autorizacion": "SCT418/042/2019",
+    "inicio_vigencia": "2019-10-29",
+    "fin_vigencia": "2024-10-30"
+  },
+  {
+    "num_autorizacion": "SCT418/043/2019",
+    "inicio_vigencia": "2019-11-04",
+    "fin_vigencia": "2024-11-05"
+  },
+  {
+    "num_autorizacion": "SCT418/044/2019",
+    "inicio_vigencia": "2019-10-28",
+    "fin_vigencia": "2024-10-29"
+  },
+  {
+    "num_autorizacion": "SCT418/045/2019",
+    "inicio_vigencia": "2019-10-25",
+    "fin_vigencia": "2024-10-26"
+  },
+  {
+    "num_autorizacion": "SCT418/046/2019",
+    "inicio_vigencia": "2019-11-21",
+    "fin_vigencia": "2024-11-22"
+  },
+  {
+    "num_autorizacion": "SCT418/047/2019",
+    "inicio_vigencia": "2019-11-11",
+    "fin_vigencia": "2024-11-12"
+  },
+  {
+    "num_autorizacion": "SCT418/048/2019",
+    "inicio_vigencia": "2019-11-20",
+    "fin_vigencia": "2024-11-21"
+  },
+  {
+    "num_autorizacion": "SCT418/049/2019",
+    "inicio_vigencia": "2019-12-08",
+    "fin_vigencia": "2024-12-09"
+  },
+  {
+    "num_autorizacion": "SCT418/050/2019",
+    "inicio_vigencia": "2019-12-06",
+    "fin_vigencia": "2024-12-07"
+  },
+  {
+    "num_autorizacion": "SCT418/051/2019",
+    "inicio_vigencia": "2020-01-13",
+    "fin_vigencia": "2025-01-14"
+  },
+  {
+    "num_autorizacion": "SCT418/052/2019",
+    "inicio_vigencia": "2020-01-09",
+    "fin_vigencia": "2025-01-10"
+  },
+  {
+    "num_autorizacion": "SCT418/053/2019",
+    "inicio_vigencia": "2020-01-08",
+    "fin_vigencia": "2025-01-09"
+  },
+  {
+    "num_autorizacion": "SCT418/054/2019",
+    "inicio_vigencia": "2019-12-19",
+    "fin_vigencia": "2024-12-20"
+  },
+  {
+    "num_autorizacion": "SCT418/001/2020",
+    "inicio_vigencia": "2020-01-29",
+    "fin_vigencia": "2025-01-30"
+  },
+  {
+    "num_autorizacion": "SCT418/002/2020",
+    "inicio_vigencia": "2020-03-31",
+    "fin_vigencia": "2025-04-01"
+  },
+  {
+    "num_autorizacion": "SCT418/003/2020",
+    "inicio_vigencia": "2020-02-28",
+    "fin_vigencia": "2025-03-01"
+  },
+  {
+    "num_autorizacion": "SCT418/004/2020",
+    "inicio_vigencia": "2020-03-24",
+    "fin_vigencia": "2025-03-25"
+  },
+  {
+    "num_autorizacion": "SCT418/005/2020",
+    "inicio_vigencia": "2020-04-03",
+    "fin_vigencia": "2025-04-04"
+  },
+  {
+    "num_autorizacion": "SCT418/006/2020",
+    "inicio_vigencia": "2020-03-27",
+    "fin_vigencia": "2025-03-28"
+  },
+  {
+    "num_autorizacion": "SCT418/007/2020",
+    "inicio_vigencia": "2020-03-27",
+    "fin_vigencia": "2025-03-28"
+  },
+  {
+    "num_autorizacion": "SCT418/008/2020",
+    "inicio_vigencia": "2020-03-30",
+    "fin_vigencia": "2025-03-31"
+  },
+  {
+    "num_autorizacion": "SCT418/009/2020",
+    "inicio_vigencia": "2020-03-27",
+    "fin_vigencia": "2025-03-28"
+  },
+  {
+    "num_autorizacion": "SCT418/010/2020",
+    "inicio_vigencia": "2020-06-05",
+    "fin_vigencia": "2025-06-06"
+  },
+  {
+    "num_autorizacion": "SCT418/011/2020",
+    "inicio_vigencia": "2020-06-04",
+    "fin_vigencia": "2025-06-05"
+  },
+  {
+    "num_autorizacion": "SCT418/012/2020",
+    "inicio_vigencia": "2020-07-29",
+    "fin_vigencia": "2025-07-30"
+  },
+  {
+    "num_autorizacion": "SCT418/013/2020",
+    "inicio_vigencia": "2020-07-20",
+    "fin_vigencia": "2025-07-21"
+  },
+  {
+    "num_autorizacion": "SCT418/014/2020",
+    "inicio_vigencia": "2020-07-22",
+    "fin_vigencia": "2025-07-23"
+  },
+  {
+    "num_autorizacion": "SCT418/015/2020",
+    "inicio_vigencia": "2020-08-25",
+    "fin_vigencia": "2025-08-26"
+  },
+  {
+    "num_autorizacion": "SCT418/016/2020",
+    "inicio_vigencia": "2020-09-02",
+    "fin_vigencia": "2025-09-03"
+  },
+  {
+    "num_autorizacion": "SCT418/017/2020",
+    "inicio_vigencia": "2020-10-22",
+    "fin_vigencia": "2025-10-23"
+  },
+  {
+    "num_autorizacion": "SCT418/018/2020",
+    "inicio_vigencia": "2020-09-14",
+    "fin_vigencia": "2025-09-15"
+  },
+  {
+    "num_autorizacion": "SCT418/019/2020",
+    "inicio_vigencia": "2020-10-14",
+    "fin_vigencia": "2025-10-15"
+  },
+  {
+    "num_autorizacion": "SCT418/020/2020",
+    "inicio_vigencia": "2020-10-19",
+    "fin_vigencia": "2025-10-20"
+  },
+  {
+    "num_autorizacion": "SCT418/021/2020",
+    "inicio_vigencia": "2020-10-20",
+    "fin_vigencia": "2025-10-21"
+  },
+  {
+    "num_autorizacion": "SCT418/022/2020",
+    "inicio_vigencia": "2020-11-06",
+    "fin_vigencia": "2025-11-07"
+  },
+  {
+    "num_autorizacion": "SCT418/023/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/024/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/025/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/026/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/027/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/028/2020",
+    "inicio_vigencia": "2020-11-09",
+    "fin_vigencia": "2025-11-10"
+  },
+  {
+    "num_autorizacion": "SCT418/029/2020",
+    "inicio_vigencia": "2020-11-18",
+    "fin_vigencia": "2025-11-19"
+  },
+  {
+    "num_autorizacion": "SCT418/030/2020",
+    "inicio_vigencia": "2020-11-18",
+    "fin_vigencia": "2025-11-19"
+  },
+  {
+    "num_autorizacion": "SCT418/031/2020",
+    "inicio_vigencia": "2020-11-30",
+    "fin_vigencia": "2025-12-01"
+  },
+  {
+    "num_autorizacion": "SCT418/032/2020",
+    "inicio_vigencia": "2020-11-30",
+    "fin_vigencia": "2025-12-01"
+  },
+  {
+    "num_autorizacion": "SCT418/033/2020",
+    "inicio_vigencia": "2020-11-30",
+    "fin_vigencia": "2025-12-01"
+  },
+  {
+    "num_autorizacion": "SCT418/034/2020",
+    "inicio_vigencia": "2020-11-13",
+    "fin_vigencia": "2025-11-14"
+  },
+  {
+    "num_autorizacion": "SCT418/035/2020",
+    "inicio_vigencia": "2020-11-20",
+    "fin_vigencia": "2025-11-21"
+  },
+  {
+    "num_autorizacion": "SCT418/036/2020",
+    "inicio_vigencia": "2020-11-20",
+    "fin_vigencia": "2025-11-21"
+  },
+  {
+    "num_autorizacion": "SCT418/037/2020",
+    "inicio_vigencia": "2021-02-05",
+    "fin_vigencia": "2026-02-06"
+  },
+  {
+    "num_autorizacion": "SCT418/038/2020",
+    "inicio_vigencia": "2020-11-25",
+    "fin_vigencia": "2025-11-26"
+  },
+  {
+    "num_autorizacion": "SCT418/039/2020",
+    "inicio_vigencia": "2020-11-20",
+    "fin_vigencia": "2025-11-21"
+  },
+  {
+    "num_autorizacion": "SCT418/040/2020",
+    "inicio_vigencia": "2020-12-09",
+    "fin_vigencia": "2025-12-10"
+  },
+  {
+    "num_autorizacion": "SCT418/041/2020",
+    "inicio_vigencia": "2020-12-08",
+    "fin_vigencia": "2025-12-09"
+  },
+  {
+    "num_autorizacion": "SCT418/042/2020",
+    "inicio_vigencia": "2020-12-09",
+    "fin_vigencia": "2025-12-10"
+  },
+  {
+    "num_autorizacion": "SCT418/001/2021",
+    "inicio_vigencia": "2021-01-15",
+    "fin_vigencia": "2026-01-16"
+  },
+  {
+    "num_autorizacion": "SCT418/002/2021",
+    "inicio_vigencia": "2021-01-28",
+    "fin_vigencia": "2026-01-29"
+  },
+  {
+    "num_autorizacion": "SCT418/003/2021",
+    "inicio_vigencia": "2021-01-22",
+    "fin_vigencia": "2026-01-23"
+  },
+  {
+    "num_autorizacion": "SCT418/004/2021",
+    "inicio_vigencia": "2021-02-12",
+    "fin_vigencia": "2026-02-13"
+  },
+  {
+    "num_autorizacion": "SCT418/005/2021",
+    "inicio_vigencia": "2021-04-12",
+    "fin_vigencia": "2026-04-13"
+  },
+  {
+    "num_autorizacion": "SCT418/006/2021",
+    "inicio_vigencia": "2021-02-05",
+    "fin_vigencia": "2026-02-06"
+  },
+  {
+    "num_autorizacion": "SCT418/007/2021",
+    "inicio_vigencia": "2021-02-05",
+    "fin_vigencia": "2026-02-06"
+  },
+  {
+    "num_autorizacion": "SCT418/008/2021",
+    "inicio_vigencia": "2021-02-03",
+    "fin_vigencia": "2026-02-04"
+  },
+  {
+    "num_autorizacion": "SCT418/009/2021",
+    "inicio_vigencia": "2021-02-03",
+    "fin_vigencia": "2026-02-04"
+  },
+  {
+    "num_autorizacion": "SCT418/010/2021",
+    "inicio_vigencia": "2021-02-05",
+    "fin_vigencia": "2026-02-06"
+  },
+  {
+    "num_autorizacion": "SCT418-011-2021",
+    "inicio_vigencia": "2021-02-10",
+    "fin_vigencia": "2026-02-11"
+  },
+  {
+    "num_autorizacion": "SCT418-012-2021",
+    "inicio_vigencia": "2021-02-15",
+    "fin_vigencia": "2026-02-16"
+  },
+  {
+    "num_autorizacion": "SCT418/013/2021",
+    "inicio_vigencia": "2021-03-03",
+    "fin_vigencia": "2026-03-04"
+  },
+  {
+    "num_autorizacion": "SCT418-014-2021",
+    "inicio_vigencia": "2021-03-12",
+    "fin_vigencia": "2026-03-13"
+  },
+  {
+    "num_autorizacion": "SCT418-015-2021",
+    "inicio_vigencia": "2021-03-17",
+    "fin_vigencia": "2026-03-18"
+  },
+  {
+    "num_autorizacion": "SCT418-016-2021",
+    "inicio_vigencia": "2021-03-17",
+    "fin_vigencia": "2026-03-18"
+  },
+  {
+    "num_autorizacion": "SCT418-017-2021",
+    "inicio_vigencia": "2021-03-24",
+    "fin_vigencia": "2026-03-25"
+  },
+  {
+    "num_autorizacion": "SCT418-018-2021",
+    "inicio_vigencia": "2021-04-15",
+    "fin_vigencia": "2026-04-16"
+  },
+  {
+    "num_autorizacion": "SCT418-019-2021",
+    "inicio_vigencia": "2021-04-06",
+    "fin_vigencia": "2026-04-07"
+  },
+  {
+    "num_autorizacion": "SCT418/020/2021",
+    "inicio_vigencia": "2021-04-12",
+    "fin_vigencia": "2026-04-13"
+  },
+  {
+    "num_autorizacion": "SCT418/021/2021",
+    "inicio_vigencia": "2021-04-15",
+    "fin_vigencia": "2026-04-16"
+  },
+  {
+    "num_autorizacion": "SCT418-022-2021",
+    "inicio_vigencia": "2021-04-30",
+    "fin_vigencia": "2026-05-01"
+  },
+  {
+    "num_autorizacion": "SCT418-023-2021",
+    "inicio_vigencia": "2021-04-20",
+    "fin_vigencia": "2026-04-21"
+  },
+  {
+    "num_autorizacion": "SCT418-024-2021",
+    "inicio_vigencia": "2021-05-06",
+    "fin_vigencia": "2026-05-07"
+  },
+  {
+    "num_autorizacion": "SCT418-025-2021",
+    "inicio_vigencia": "2021-05-07",
+    "fin_vigencia": "2026-05-08"
+  },
+  {
+    "num_autorizacion": "SCT418-026-2021",
+    "inicio_vigencia": "2021-05-07",
+    "fin_vigencia": "2026-05-08"
+  },
+  {
+    "num_autorizacion": "SCT418-027-2021",
+    "inicio_vigencia": "2021-05-07",
+    "fin_vigencia": "2026-05-08"
+  },
+  {
+    "num_autorizacion": "SCT418-028-2021",
+    "inicio_vigencia": "2021-05-07",
+    "fin_vigencia": "2026-05-08"
+  },
+  {
+    "num_autorizacion": "SCT418-029-2021",
+    "inicio_vigencia": "2021-05-07",
+    "fin_vigencia": "2026-05-08"
+  },
+  {
+    "num_autorizacion": "SCT418-030-2021",
+    "inicio_vigencia": "2021-04-30",
+    "fin_vigencia": "2026-05-01"
+  },
+  {
+    "num_autorizacion": "SCT418-031-2021",
+    "inicio_vigencia": "2021-04-30",
+    "fin_vigencia": "2026-05-01"
+  },
+  {
+    "num_autorizacion": "SCT418-032-2021",
+    "inicio_vigencia": "2021-05-14",
+    "fin_vigencia": "2026-05-15"
+  },
+  {
+    "num_autorizacion": "SCT418-033-2021",
+    "inicio_vigencia": "2021-05-14",
+    "fin_vigencia": "2026-05-15"
+  },
+  {
+    "num_autorizacion": "SCT418-034-2021",
+    "inicio_vigencia": "2021-05-18",
+    "fin_vigencia": "2026-05-19"
+  },
+  {
+    "num_autorizacion": "SCT418-035-2021",
+    "inicio_vigencia": "2021-05-27",
+    "fin_vigencia": "2026-05-28"
+  },
+  {
+    "num_autorizacion": "SCT418-036-2021",
+    "inicio_vigencia": "2021-05-14",
+    "fin_vigencia": "2026-05-15"
+  },
+  {
+    "num_autorizacion": "SCT418-037-2021",
+    "inicio_vigencia": "2021-05-21",
+    "fin_vigencia": "2026-05-22"
+  },
+  {
+    "num_autorizacion": "SCT418-038-2021",
+    "inicio_vigencia": "2021-05-31",
+    "fin_vigencia": "2026-06-01"
+  },
+  {
+    "num_autorizacion": "ANG39-2021",
+    "inicio_vigencia": "2021-08-27",
+    "fin_vigencia": "2026-08-28"
+  },
+  {
+    "num_autorizacion": "ANG40-2021",
+    "inicio_vigencia": "2021-08-25",
+    "fin_vigencia": "2026-08-26"
+  },
+  {
+    "num_autorizacion": "ANC41/2021",
+    "inicio_vigencia": "2021-09-06",
+    "fin_vigencia": "2026-09-07"
+  },
+  {
+    "num_autorizacion": "ANG42/2021",
+    "inicio_vigencia": "2021-09-22",
+    "fin_vigencia": "2026-09-23"
+  },
+  {
+    "num_autorizacion": "ANG43/2021",
+    "inicio_vigencia": "2021-09-01",
+    "fin_vigencia": "2026-09-02"
+  },
+  {
+    "num_autorizacion": "ANG44-2021",
+    "inicio_vigencia": "2021-09-08",
+    "fin_vigencia": "2026-09-09"
+  },
+  {
+    "num_autorizacion": "ANG45/2021",
+    "inicio_vigencia": "2021-08-24",
+    "fin_vigencia": "2026-08-25"
+  },
+  {
+    "num_autorizacion": "ANG46/2021",
+    "inicio_vigencia": "2021-08-24",
+    "fin_vigencia": "2026-08-25"
+  },
+  {
+    "num_autorizacion": "ANG47/2021",
+    "inicio_vigencia": "2021-08-30",
+    "fin_vigencia": "2026-08-31"
+  },
+  {
+    "num_autorizacion": "ANG48/2021",
+    "inicio_vigencia": "2021-09-22",
+    "fin_vigencia": "2026-09-23"
+  },
+  {
+    "num_autorizacion": "ANG49/2021",
+    "inicio_vigencia": "2021-08-29",
+    "fin_vigencia": "2026-08-30"
+  },
+  {
+    "num_autorizacion": "ANG50/2021",
+    "inicio_vigencia": "2021-10-13",
+    "fin_vigencia": "2026-10-14"
+  },
+  {
+    "num_autorizacion": "ANG51/2021",
+    "inicio_vigencia": "2021-10-08",
+    "fin_vigencia": "2026-10-09"
+  },
+  {
+    "num_autorizacion": "ANG52/2021",
+    "inicio_vigencia": "2021-12-15",
+    "fin_vigencia": "2026-12-16"
+  },
+  {
+    "num_autorizacion": "ANG53/2021",
+    "inicio_vigencia": "2021-12-07",
+    "fin_vigencia": "2026-12-08"
+  },
+  {
+    "num_autorizacion": "ANC54/2021",
+    "inicio_vigencia": "2021-11-11",
+    "fin_vigencia": "2026-11-12"
+  },
+  {
+    "num_autorizacion": "ANG55/2021",
+    "inicio_vigencia": "2021-11-18",
+    "fin_vigencia": "2026-11-19"
+  },
+  {
+    "num_autorizacion": "ANG56/2021",
+    "inicio_vigencia": "2021-11-08",
+    "fin_vigencia": "2026-11-09"
+  },
+  {
+    "num_autorizacion": "ANG57/2021",
+    "inicio_vigencia": "2022-01-07",
+    "fin_vigencia": "2027-01-08"
+  },
+  {
+    "num_autorizacion": "ANC58/2021",
+    "inicio_vigencia": "2021-12-01",
+    "fin_vigencia": "2026-12-02"
+  },
+  {
+    "num_autorizacion": "ANG59/2021",
+    "inicio_vigencia": "2021-12-10",
+    "fin_vigencia": "2026-12-11"
+  },
+  {
+    "num_autorizacion": "ANC001/2022",
+    "inicio_vigencia": "2022-01-31",
+    "fin_vigencia": "2027-02-01"
+  },
+  {
+    "num_autorizacion": "ANC002/2022",
+    "inicio_vigencia": "2022-02-03",
+    "fin_vigencia": "2027-02-04"
+  },
+  {
+    "num_autorizacion": "ANG003/2022",
+    "inicio_vigencia": "2022-02-03",
+    "fin_vigencia": "2027-02-04"
+  },
+  {
+    "num_autorizacion": "ANG004/2022",
+    "inicio_vigencia": "2022-02-03",
+    "fin_vigencia": "2027-02-04"
+  },
+  {
+    "num_autorizacion": "ANC005/2022",
+    "inicio_vigencia": "2022-02-24",
+    "fin_vigencia": "2027-02-25"
+  },
+  {
+    "num_autorizacion": "ANG006/2022",
+    "inicio_vigencia": "2022-03-08",
+    "fin_vigencia": "2027-03-09"
+  },
+  {
+    "num_autorizacion": "ANG007/2022",
+    "inicio_vigencia": "2022-03-23",
+    "fin_vigencia": "2027-03-24"
+  },
+  {
+    "num_autorizacion": "ANG008/2022",
+    "inicio_vigencia": "2022-03-28",
+    "fin_vigencia": "2027-03-29"
+  },
+  {
+    "num_autorizacion": "ANG009/2022",
+    "inicio_vigencia": "2022-04-05",
+    "fin_vigencia": "2027-04-06"
+  },
+  {
+    "num_autorizacion": "ANG010/2022",
+    "inicio_vigencia": "2022-04-06",
+    "fin_vigencia": "2027-04-07"
+  },
+  {
+    "num_autorizacion": "ANC011/2022",
+    "inicio_vigencia": "2022-06-22",
+    "fin_vigencia": "2027-06-23"
+  },
+  {
+    "num_autorizacion": "ANC012/2022",
+    "inicio_vigencia": "2022-04-08",
+    "fin_vigencia": "2027-04-09"
+  },
+  {
+    "num_autorizacion": "ANG012/2022",
+    "inicio_vigencia": "2022-05-02",
+    "fin_vigencia": "2027-05-03"
+  },
+  {
+    "num_autorizacion": "ANG013/2022",
+    "inicio_vigencia": "2022-04-29",
+    "fin_vigencia": "2027-04-30"
+  },
+  {
+    "num_autorizacion": "ANG014/2022",
+    "inicio_vigencia": "2022-05-08",
+    "fin_vigencia": "2027-05-09"
+  },
+  {
+    "num_autorizacion": "ANG015/2022",
+    "inicio_vigencia": "2022-06-17",
+    "fin_vigencia": "2027-06-18"
+  },
+  {
+    "num_autorizacion": "ANG016/2022",
+    "inicio_vigencia": "2022-07-28",
+    "fin_vigencia": "2027-07-29"
+  },
+  {
+    "num_autorizacion": "ANG017/2022",
+    "inicio_vigencia": "2022-06-27",
+    "fin_vigencia": "2027-06-28"
+  },
+  {
+    "num_autorizacion": "ANG018/2022",
+    "inicio_vigencia": "2022-05-23",
+    "fin_vigencia": "2027-05-24"
+  },
+  {
+    "num_autorizacion": "ANC019/2022",
+    "inicio_vigencia": "2022-06-10",
+    "fin_vigencia": "2027-06-11"
+  },
+  {
+    "num_autorizacion": "ANG020/2022",
+    "inicio_vigencia": "2022-05-26",
+    "fin_vigencia": "2027-05-27"
+  },
+  {
+    "num_autorizacion": "ANC021/2022",
+    "inicio_vigencia": "2022-06-08",
+    "fin_vigencia": "2027-06-09"
+  },
+  {
+    "num_autorizacion": "ANC022/2022",
+    "inicio_vigencia": "2022-06-14",
+    "fin_vigencia": "2027-06-15"
+  },
+  {
+    "num_autorizacion": "ANC023/2022",
+    "inicio_vigencia": "2022-06-15",
+    "fin_vigencia": "2027-06-16"
+  },
+  {
+    "num_autorizacion": "ANG023/2022",
+    "inicio_vigencia": "2022-06-09",
+    "fin_vigencia": "2027-06-10"
+  },
+  {
+    "num_autorizacion": "ANG024/2022",
+    "inicio_vigencia": "2022-07-11",
+    "fin_vigencia": "2027-07-12"
+  },
+  {
+    "num_autorizacion": "ANG025/2022",
+    "inicio_vigencia": "2022-06-27",
+    "fin_vigencia": "2027-06-28"
+  },
+  {
+    "num_autorizacion": "ANG026/2022",
+    "inicio_vigencia": "2022-06-30",
+    "fin_vigencia": "2027-07-01"
+  },
+  {
+    "num_autorizacion": "ANC027/2022",
+    "inicio_vigencia": "2022-09-09",
+    "fin_vigencia": "2027-09-10"
+  },
+  {
+    "num_autorizacion": "ANC028/2022",
+    "inicio_vigencia": "2022-07-06",
+    "fin_vigencia": "2027-07-07"
+  },
+  {
+    "num_autorizacion": "ANC029/2022",
+    "inicio_vigencia": "2022-07-06",
+    "fin_vigencia": "2027-07-07"
+  },
+  {
+    "num_autorizacion": "ANG030/2022",
+    "inicio_vigencia": "2022-08-09",
+    "fin_vigencia": "2027-08-10"
+  },
+  {
+    "num_autorizacion": "ANG031/2022",
+    "inicio_vigencia": "2022-08-01",
+    "fin_vigencia": "2027-08-02"
+  },
+  {
+    "num_autorizacion": "ANC032/2022",
+    "inicio_vigencia": "2022-08-08",
+    "fin_vigencia": "2027-08-09"
+  },
+  {
+    "num_autorizacion": "ANG033/2022",
+    "inicio_vigencia": "2022-08-01",
+    "fin_vigencia": "2027-08-02"
+  },
+  {
+    "num_autorizacion": "ANG034/2022",
+    "inicio_vigencia": "2022-08-01",
+    "fin_vigencia": "2027-08-02"
+  },
+  {
+    "num_autorizacion": "ANC035/2022",
+    "inicio_vigencia": "2022-11-17",
+    "fin_vigencia": "2027-11-18"
+  },
+  {
+    "num_autorizacion": "ANG036/2022",
+    "inicio_vigencia": "2022-11-09",
+    "fin_vigencia": "2027-09-10"
+  },
+  {
+    "num_autorizacion": "ANG037/2022",
+    "inicio_vigencia": "2022-09-22",
+    "fin_vigencia": "2027-09-23"
+  },
+  {
+    "num_autorizacion": "ANC038/2022",
+    "inicio_vigencia": "2022-11-07",
+    "fin_vigencia": "2027-11-08"
+  },
+  {
+    "num_autorizacion": "ANG039/2022",
+    "inicio_vigencia": "2022-08-26",
+    "fin_vigencia": "2027-08-27"
+  },
+  {
+    "num_autorizacion": "ANG040/2022",
+    "inicio_vigencia": "2022-08-25",
+    "fin_vigencia": "2027-08-26"
+  },
+  {
+    "num_autorizacion": "ANC041/2022",
+    "inicio_vigencia": "2022-11-09",
+    "fin_vigencia": "2027-11-10"
+  },
+  {
+    "num_autorizacion": "ANG042/2022",
+    "inicio_vigencia": "2022-12-30",
+    "fin_vigencia": "2027-12-31"
+  },
+  {
+    "num_autorizacion": "ANC043/2022",
+    "inicio_vigencia": "2022-08-31",
+    "fin_vigencia": "2027-09-01"
+  },
+  {
+    "num_autorizacion": "ANG043/2022",
+    "inicio_vigencia": "2022-09-01",
+    "fin_vigencia": "2027-09-02"
+  },
+  {
+    "num_autorizacion": "ANG045/2022",
+    "inicio_vigencia": "2022-10-17",
+    "fin_vigencia": "2027-10-18"
+  },
+  {
+    "num_autorizacion": "ANG046/2022",
+    "inicio_vigencia": "2022-10-04",
+    "fin_vigencia": "2027-10-05"
+  },
+  {
+    "num_autorizacion": "ANG047/2022",
+    "inicio_vigencia": "2022-09-14",
+    "fin_vigencia": "2027-09-15"
+  },
+  {
+    "num_autorizacion": "ANG048/2022",
+    "inicio_vigencia": "2022-10-04",
+    "fin_vigencia": "2027-10-05"
+  },
+  {
+    "num_autorizacion": "ANC049/2022",
+    "inicio_vigencia": "2022-10-04",
+    "fin_vigencia": "2027-10-05"
+  },
+  {
+    "num_autorizacion": "ANG050/2022",
+    "inicio_vigencia": "2022-09-23",
+    "fin_vigencia": "2027-09-24"
+  },
+  {
+    "num_autorizacion": "ANC051/2022",
+    "inicio_vigencia": "2022-10-12",
+    "fin_vigencia": "2027-10-13"
+  },
+  {
+    "num_autorizacion": "ANC052/2022",
+    "inicio_vigencia": "2022-10-12",
+    "fin_vigencia": "2027-10-13"
+  },
+  {
+    "num_autorizacion": "ANG052/2022",
+    "inicio_vigencia": "2022-10-05",
+    "fin_vigencia": "2027-10-06"
+  },
+  {
+    "num_autorizacion": "ANG053/2022",
+    "inicio_vigencia": "2022-10-19",
+    "fin_vigencia": "2027-10-20"
+  },
+  {
+    "num_autorizacion": "ANG054/2022",
+    "inicio_vigencia": "2022-10-19",
+    "fin_vigencia": "2027-10-20"
+  },
+  {
+    "num_autorizacion": "ANG055/2022",
+    "inicio_vigencia": "2022-10-13",
+    "fin_vigencia": "2027-10-14"
+  },
+  {
+    "num_autorizacion": "ANG056/2022",
+    "inicio_vigencia": "2022-10-17",
+    "fin_vigencia": "2027-10-18"
+  },
+  {
+    "num_autorizacion": "ANG057/2022",
+    "inicio_vigencia": "2022-10-24",
+    "fin_vigencia": "2027-10-25"
+  },
+  {
+    "num_autorizacion": "ANG058/2022",
+    "inicio_vigencia": "2022-10-31",
+    "fin_vigencia": "2027-11-01"
+  },
+  {
+    "num_autorizacion": "ANG059/2022",
+    "inicio_vigencia": "2023-01-04",
+    "fin_vigencia": "2028-01-05"
+  },
+  {
+    "num_autorizacion": "ANC060/2022",
+    "inicio_vigencia": "2023-01-06",
+    "fin_vigencia": "2028-01-07"
+  },
+  {
+    "num_autorizacion": "ANG061/2022",
+    "inicio_vigencia": "2023-01-02",
+    "fin_vigencia": "2028-01-03"
+  },
+  {
+    "num_autorizacion": "ANC062/2022",
+    "inicio_vigencia": "2023-01-19",
+    "fin_vigencia": "2028-01-20"
+  },
+  {
+    "num_autorizacion": "ANG063/2022",
+    "inicio_vigencia": "2022-01-27",
+    "fin_vigencia": "2027-01-28"
+  },
+  {
+    "num_autorizacion": "ANC001/2023",
+    "inicio_vigencia": "2023-02-22",
+    "fin_vigencia": "2028-02-23"
+  },
+  {
+    "num_autorizacion": "ANG002/2023",
+    "inicio_vigencia": "2023-02-16",
+    "fin_vigencia": "2028-02-17"
+  },
+  {
+    "num_autorizacion": "ANC003/2023",
+    "inicio_vigencia": "2023-02-23",
+    "fin_vigencia": "2028-02-24"
+  },
+  {
+    "num_autorizacion": "ANC004/2023",
+    "inicio_vigencia": "2023-04-05",
+    "fin_vigencia": "2028-04-06"
+  },
+  {
+    "num_autorizacion": "ANC005/2023",
+    "inicio_vigencia": "2023-02-28",
+    "fin_vigencia": "2028-02-29"
+  },
+  {
+    "num_autorizacion": "ANG006/2023",
+    "inicio_vigencia": "2023-02-16",
+    "fin_vigencia": "2028-02-17"
+  },
+  {
+    "num_autorizacion": "ANG007/2023",
+    "inicio_vigencia": "2023-02-14",
+    "fin_vigencia": "2028-02-15"
+  },
+  {
+    "num_autorizacion": "ANG008/2023",
+    "inicio_vigencia": "2023-02-16",
+    "fin_vigencia": "2028-02-17"
+  },
+  {
+    "num_autorizacion": "ANG009/2023",
+    "inicio_vigencia": "2023-02-28",
+    "fin_vigencia": "2028-02-29"
+  },
+  {
+    "num_autorizacion": "ANG010/2023",
+    "inicio_vigencia": "2023-03-08",
+    "fin_vigencia": "2028-03-09"
+  },
+  {
+    "num_autorizacion": "ANG011/2023",
+    "inicio_vigencia": "2023-02-21",
+    "fin_vigencia": "2028-02-22"
+  },
+  {
+    "num_autorizacion": "ANG012/2023",
+    "inicio_vigencia": "2023-03-01",
+    "fin_vigencia": "2028-03-02"
+  },
+  {
+    "num_autorizacion": "ANC013/2023",
+    "inicio_vigencia": "2023-03-22",
+    "fin_vigencia": "2028-03-23"
+  },
+  {
+    "num_autorizacion": "ANG014/2023",
+    "inicio_vigencia": "2023-03-17",
+    "fin_vigencia": "2028-03-18"
+  },
+  {
+    "num_autorizacion": "ANG015/2023",
+    "inicio_vigencia": "2023-03-10",
+    "fin_vigencia": "2028-03-11"
+  },
+  {
+    "num_autorizacion": "ANG016/2023",
+    "inicio_vigencia": "2023-04-19",
+    "fin_vigencia": "2028-04-20"
+  },
+  {
+    "num_autorizacion": "ANG017/2023",
+    "inicio_vigencia": "2023-03-27",
+    "fin_vigencia": "2028-03-28"
+  },
+  {
+    "num_autorizacion": "ANG018/2023",
+    "inicio_vigencia": "2023-03-27",
+    "fin_vigencia": "2028-03-28"
+  },
+  {
+    "num_autorizacion": "ANG019/2023",
+    "inicio_vigencia": "2023-03-22",
+    "fin_vigencia": "2028-03-23"
+  },
+  {
+    "num_autorizacion": "ANG020/2023",
+    "inicio_vigencia": "2023-03-31",
+    "fin_vigencia": "2028-04-01"
+  },
+  {
+    "num_autorizacion": "ANG021/2023",
+    "inicio_vigencia": "2023-04-17",
+    "fin_vigencia": "2028-04-18"
+  },
+  {
+    "num_autorizacion": "ANG022/2023",
+    "inicio_vigencia": "2023-04-20",
+    "fin_vigencia": "2028-04-21"
+  },
+  {
+    "num_autorizacion": "ANG023/2023",
+    "inicio_vigencia": "2023-05-03",
+    "fin_vigencia": "2028-05-04"
+  },
+  {
+    "num_autorizacion": "ANG024/2023",
+    "inicio_vigencia": "2023-04-27",
+    "fin_vigencia": "2028-04-28"
+  },
+  {
+    "num_autorizacion": "ANC025/2023",
+    "inicio_vigencia": "2023-05-12",
+    "fin_vigencia": "2028-05-13"
+  },
+  {
+    "num_autorizacion": "ANG026/2023",
+    "inicio_vigencia": "2023-05-22",
+    "fin_vigencia": "2028-05-23"
+  },
+  {
+    "num_autorizacion": "ANC027/2023",
+    "inicio_vigencia": "2023-05-25",
+    "fin_vigencia": "2028-05-26"
+  },
+  {
+    "num_autorizacion": "ANC028/2023",
+    "inicio_vigencia": "2023-06-13",
+    "fin_vigencia": "2028-06-14"
+  },
+  {
+    "num_autorizacion": "ANC029/2023",
+    "inicio_vigencia": "2023-06-19",
+    "fin_vigencia": "2028-06-20"
+  },
+  {
+    "num_autorizacion": "ANG030/2023",
+    "inicio_vigencia": "2023-06-08",
+    "fin_vigencia": "2028-06-09"
+  },
+  {
+    "num_autorizacion": "ANG031/2023",
+    "inicio_vigencia": "2023-06-13",
+    "fin_vigencia": "2028-06-14"
+  },
+  {
+    "num_autorizacion": "ANC032/2023",
+    "inicio_vigencia": "2023-06-06",
+    "fin_vigencia": "2028-06-07"
+  },
+  {
+    "num_autorizacion": "ANC033/2023",
+    "inicio_vigencia": "2023-06-06",
+    "fin_vigencia": "2028-06-07"
+  },
+  {
+    "num_autorizacion": "ANC034/2023",
+    "inicio_vigencia": "2023-06-09",
+    "fin_vigencia": "2028-06-10"
+  },
+  {
+    "num_autorizacion": "ANC035/2023",
+    "inicio_vigencia": "2023-07-03",
+    "fin_vigencia": "2028-07-04"
+  },
+  {
+    "num_autorizacion": "ANC036/2023",
+    "inicio_vigencia": "2023-07-14",
+    "fin_vigencia": "2028-07-15"
+  },
+  {
+    "num_autorizacion": "ANC037/2023",
+    "inicio_vigencia": "2023-07-06",
+    "fin_vigencia": "2028-07-07"
+  },
+  {
+    "num_autorizacion": "ANC038/2023",
+    "inicio_vigencia": "2023-07-25",
+    "fin_vigencia": "2028-07-26"
+  },
+  {
+    "num_autorizacion": "ANG039/2023",
+    "inicio_vigencia": "2023-08-03",
+    "fin_vigencia": "2028-08-04"
+  },
+  {
+    "num_autorizacion": "ANG040/2023",
+    "inicio_vigencia": "2023-08-03",
+    "fin_vigencia": "2028-08-04"
+  },
+  {
+    "num_autorizacion": "ANC041/2023",
+    "inicio_vigencia": "2023-08-16",
+    "fin_vigencia": "2028-08-17"
+  },
+  {
+    "num_autorizacion": "ANC042/2023",
+    "inicio_vigencia": "2023-09-20",
+    "fin_vigencia": "2028-09-21"
+  },
+  {
+    "num_autorizacion": "ANG043/2023",
+    "inicio_vigencia": "2023-08-31",
+    "fin_vigencia": "2028-09-01"
+  },
+  {
+    "num_autorizacion": "ANG044/2023",
+    "inicio_vigencia": "2023-08-23",
+    "fin_vigencia": "2028-08-24"
+  },
+  {
+    "num_autorizacion": "ANG045/2023",
+    "inicio_vigencia": "2023-08-23",
+    "fin_vigencia": "2028-08-24"
+  },
+  {
+    "num_autorizacion": "ANG047/2023",
+    "inicio_vigencia": "2023-09-04",
+    "fin_vigencia": "2028-09-05"
+  },
+  {
+    "num_autorizacion": "ANG048/2023",
+    "inicio_vigencia": "2023-09-08",
+    "fin_vigencia": "2028-09-09"
+  },
+  {
+    "num_autorizacion": "ANG051/2023",
+    "inicio_vigencia": "2023-09-08",
+    "fin_vigencia": "2028-09-09"
+  },
+  {
+    "num_autorizacion": "ANG046/2023",
+    "inicio_vigencia": "2023-09-05",
+    "fin_vigencia": "2028-09-06"
+  },
+  {
+    "num_autorizacion": "ANG049/2023",
+    "inicio_vigencia": "2023-09-20",
+    "fin_vigencia": "2028-09-21"
+  },
+  {
+    "num_autorizacion": "ANG050/2023",
+    "inicio_vigencia": "2023-09-15",
+    "fin_vigencia": "2028-09-16"
+  },
+  {
+    "num_autorizacion": "ANC052/2023",
+    "inicio_vigencia": "2023-09-21",
+    "fin_vigencia": "2028-09-22"
+  },
+  {
+    "num_autorizacion": "ANG053/2023",
+    "inicio_vigencia": "2023-09-28",
+    "fin_vigencia": "2028-09-29"
+  },
+  {
+    "num_autorizacion": "ANG054/2023",
+    "inicio_vigencia": "2023-10-04",
+    "fin_vigencia": "2028-10-05"
+  },
+  {
+    "num_autorizacion": "ANG055/2023",
+    "inicio_vigencia": "2023-10-10",
+    "fin_vigencia": "2028-10-11"
+  },
+  {
+    "num_autorizacion": "ANC056/2023",
+    "inicio_vigencia": "2023-10-19",
+    "fin_vigencia": "2028-10-20"
+  },
+  {
+    "num_autorizacion": "ANC057/2023",
+    "inicio_vigencia": "2023-10-20",
+    "fin_vigencia": "2028-10-21"
+  },
+  {
+    "num_autorizacion": "ANG058/2023",
+    "inicio_vigencia": "2023-10-16",
+    "fin_vigencia": "2028-10-17"
+  },
+  {
+    "num_autorizacion": "ANG059/2023",
+    "inicio_vigencia": "2023-10-20",
+    "fin_vigencia": "2028-10-21"
+  },
+  {
+    "num_autorizacion": "ANC060/2023",
+    "inicio_vigencia": "2023-10-23",
+    "fin_vigencia": "2028-10-24"
+  },
+  {
+    "num_autorizacion": "ANC061/2023",
+    "inicio_vigencia": "2023-10-23",
+    "fin_vigencia": "2028-10-24"
+  },
+  {
+    "num_autorizacion": "ANC062/2023",
+    "inicio_vigencia": "2023-10-23",
+    "fin_vigencia": "2028-10-24"
+  },
+  {
+    "num_autorizacion": "ANC063/2023",
+    "inicio_vigencia": "2023-10-24",
+    "fin_vigencia": "2028-10-25"
+  },
+  {
+    "num_autorizacion": "ANG064/2023",
+    "inicio_vigencia": "2023-10-30",
+    "fin_vigencia": "2028-10-31"
+  },
+  {
+    "num_autorizacion": "ANG065/2023",
+    "inicio_vigencia": "2023-11-08",
+    "fin_vigencia": "2028-11-09"
+  },
+  {
+    "num_autorizacion": "ANG066/2023",
+    "inicio_vigencia": "2023-11-17",
+    "fin_vigencia": "2028-11-18"
+  },
+  {
+    "num_autorizacion": "ANG067/2023",
+    "inicio_vigencia": "2023-11-10",
+    "fin_vigencia": "2028-11-11"
+  },
+  {
+    "num_autorizacion": "ANG068/2023",
+    "inicio_vigencia": "2023-11-10",
+    "fin_vigencia": "2028-11-11"
+  },
+  {
+    "num_autorizacion": "ANG069/2023",
+    "inicio_vigencia": "2023-11-09",
+    "fin_vigencia": "2028-11-10"
+  },
+  {
+    "num_autorizacion": "ANG070/2023",
+    "inicio_vigencia": "2023-11-10",
+    "fin_vigencia": "2028-11-11"
+  },
+  {
+    "num_autorizacion": "ANC071/2023",
+    "inicio_vigencia": "2023-11-23",
+    "fin_vigencia": "2028-11-24"
+  },
+  {
+    "num_autorizacion": "ANC072/2023",
+    "inicio_vigencia": "2023-11-23",
+    "fin_vigencia": "2028-11-24"
+  },
+  {
+    "num_autorizacion": "ANC073/2023",
+    "inicio_vigencia": "2023-11-23",
+    "fin_vigencia": "2028-11-24"
+  },
+  {
+    "num_autorizacion": "ANC074/2023",
+    "inicio_vigencia": "2023-11-23",
+    "fin_vigencia": "2028-11-24"
+  },
+  {
+    "num_autorizacion": "ANG075/2023",
+    "inicio_vigencia": "2023-12-13",
+    "fin_vigencia": "2028-12-14"
+  },
+  {
+    "num_autorizacion": "ANG076/2023",
+    "inicio_vigencia": "2023-12-12",
+    "fin_vigencia": "2028-12-13"
+  },
+  {
+    "num_autorizacion": "ANG001/2024",
+    "inicio_vigencia": "2024-01-17",
+    "fin_vigencia": "2029-01-18"
+  },
+  {
+    "num_autorizacion": "ANC002/2024",
+    "inicio_vigencia": "2024-01-23",
+    "fin_vigencia": "2029-01-24"
+  },
+  {
+    "num_autorizacion": "ANG004/2024",
+    "inicio_vigencia": "2024-02-14",
+    "fin_vigencia": "2029-02-15"
+  },
+  {
+    "num_autorizacion": "ANC005/2024",
+    "inicio_vigencia": "2024-02-14",
+    "fin_vigencia": "2029-02-15"
+  },
+  {
+    "num_autorizacion": "ANC006/2024",
+    "inicio_vigencia": "2024-02-23",
+    "fin_vigencia": "2029-02-24"
+  },
+  {
+    "num_autorizacion": "ANC007/2024",
+    "inicio_vigencia": "2024-02-27",
+    "fin_vigencia": "2029-02-28"
+  },
+  {
+    "num_autorizacion": "ANG008/2024",
+    "inicio_vigencia": "2024-03-04",
+    "fin_vigencia": "2029-03-05"
+  },
+  {
+    "num_autorizacion": "NAVMX-2024",
+    "inicio_vigencia": "2024-04-05",
+    "fin_vigencia": "2024-12-31"
+  },
+  {
+    "num_autorizacion": "ANG006/2024",
+    "inicio_vigencia": "2024-02-23",
+    "fin_vigencia": "2029-02-24"
+  },
+  {
+    "num_autorizacion": "ANG007/2024",
+    "inicio_vigencia": "2024-02-27",
+    "fin_vigencia": "2029-02-28"
+  },
+  {
+    "num_autorizacion": "ANC003/2024",
+    "inicio_vigencia": "2024-02-01",
+    "fin_vigencia": "2029-02-02"
+  },
+  {
+    "num_autorizacion": "ANG010/2024",
+    "inicio_vigencia": "2024-03-14",
+    "fin_vigencia": "2029-03-15"
+  },
+  {
+    "num_autorizacion": "ANG012/2024",
+    "inicio_vigencia": "2024-03-19",
+    "fin_vigencia": "2029-03-20"
+  },
+  {
+    "num_autorizacion": "ANG013/2024",
+    "inicio_vigencia": "2024-04-09",
+    "fin_vigencia": "2029-04-10"
+  },
+  {
+    "num_autorizacion": "ANG014/2024",
+    "inicio_vigencia": "2024-04-12",
+    "fin_vigencia": "2029-04-13"
+  }
+]

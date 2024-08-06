@@ -15,18 +15,18 @@ export interface EmisorInterface {
   RegimenFiscal: string | number;
 }
 export interface atributosInterface {
-  Folio: string;
+  Folio: string | number;
   Fecha?: string;
   Serie?: string;
   TipoComprobante?: string;
   CondicionesDePago?: string;
-  MetodoPago: string;
-  FormaPago: number;
-  LugarExpedicion: number;
-  Subtotal: number;
-  Total: number;
+  MetodoPago: string | number;
+  FormaPago: string | number;
+  LugarExpedicion: string | number;
+  Subtotal: string | number;
+  Total: string | number;
   Moneda?: string;
-  Exportacion?: number;
+  Exportacion?: string | number;
   Descuento?: number;
 }
 export interface ImpuestoInterface {
@@ -114,4 +114,9 @@ export interface regimenFiscalInterface {
 export interface tipoRelacionInterface {
   clave: string;
   descripcion: string;
+}
+export interface catalogoResult {
+  message?: string;
+  status?: boolean;
+  [key: string]: any; // Permite propiedades adicionales si es necesario
 }

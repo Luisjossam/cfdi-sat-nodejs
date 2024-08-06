@@ -1,0 +1,1070 @@
+[
+  {
+    "clave": "AED",
+    "descripcion": "Dirham de EAU",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AFN",
+    "descripcion": "Afghani",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ALL",
+    "descripcion": "Lek",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AMD",
+    "descripcion": "Dram armenio",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ANG",
+    "descripcion": "Florín antillano neerlandés",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AOA",
+    "descripcion": "Kwanza",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ARS",
+    "descripcion": "Peso Argentino",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AUD",
+    "descripcion": "Dólar Australiano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AWG",
+    "descripcion": "Aruba Florin",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "AZN",
+    "descripcion": "Azerbaijanian Manat",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BAM",
+    "descripcion": "Convertibles marca",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BBD",
+    "descripcion": "Dólar de Barbados",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BDT",
+    "descripcion": "Taka",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BGN",
+    "descripcion": "Lev búlgaro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BHD",
+    "descripcion": "Dinar de Bahrein",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BIF",
+    "descripcion": "Burundi Franc",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BMD",
+    "descripcion": "Dólar de Bermudas",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BND",
+    "descripcion": "Dólar de Brunei",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BOB",
+    "descripcion": "Boliviano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BOV",
+    "descripcion": "Mvdol",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BRL",
+    "descripcion": "Real brasileño",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BSD",
+    "descripcion": "Dólar de las Bahamas",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BTN",
+    "descripcion": "Ngultrum",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BWP",
+    "descripcion": "Pula",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BYR",
+    "descripcion": "Rublo bielorruso",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "BZD",
+    "descripcion": "Dólar de Belice",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CAD",
+    "descripcion": "Dólar Canadiense",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CDF",
+    "descripcion": "Franco congoleño",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CHE",
+    "descripcion": "WIR Euro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CHF",
+    "descripcion": "Franco Suizo",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CHW",
+    "descripcion": "Franc WIR",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CLF",
+    "descripcion": "Unidad de Fomento",
+    "decimales": 4,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CLP",
+    "descripcion": "Peso chileno",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CNY",
+    "descripcion": "Yuan Renminbi",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "COP",
+    "descripcion": "Peso Colombiano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "COU",
+    "descripcion": "Unidad de Valor real",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CRC",
+    "descripcion": "Colón costarricense",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CUC",
+    "descripcion": "Peso Convertible",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CUP",
+    "descripcion": "Peso Cubano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CVE",
+    "descripcion": "Cabo Verde Escudo",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "CZK",
+    "descripcion": "Corona checa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "DJF",
+    "descripcion": "Franco de Djibouti",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "DKK",
+    "descripcion": "Corona danesa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "DOP",
+    "descripcion": "Peso Dominicano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "DZD",
+    "descripcion": "Dinar argelino",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "EGP",
+    "descripcion": "Libra egipcia",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ERN",
+    "descripcion": "Nakfa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ETB",
+    "descripcion": "Birr etíope",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "EUR",
+    "descripcion": "Euro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "FJD",
+    "descripcion": "Dólar de Fiji",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "FKP",
+    "descripcion": "Libra malvinense",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GBP",
+    "descripcion": "Libra Esterlina",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GEL",
+    "descripcion": "Lari",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GHS",
+    "descripcion": "Cedi de Ghana",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GIP",
+    "descripcion": "Libra de Gibraltar",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GMD",
+    "descripcion": "Dalasi",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GNF",
+    "descripcion": "Franco guineano",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GTQ",
+    "descripcion": "Quetzal",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "GYD",
+    "descripcion": "Dólar guyanés",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "HKD",
+    "descripcion": "Dólar De Hong Kong",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "HNL",
+    "descripcion": "Lempira",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "HRK",
+    "descripcion": "Kuna",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "HTG",
+    "descripcion": "Gourde",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "HUF",
+    "descripcion": "Florín",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "IDR",
+    "descripcion": "Rupia",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ILS",
+    "descripcion": "Nuevo Shekel Israelí",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "INR",
+    "descripcion": "Rupia india",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "IQD",
+    "descripcion": "Dinar iraquí",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "IRR",
+    "descripcion": "Rial iraní",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ISK",
+    "descripcion": "Corona islandesa",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "JMD",
+    "descripcion": "Dólar Jamaiquino",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "JOD",
+    "descripcion": "Dinar jordano",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "JPY",
+    "descripcion": "Yen",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KES",
+    "descripcion": "Chelín keniano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KGS",
+    "descripcion": "Som",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KHR",
+    "descripcion": "Riel",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KMF",
+    "descripcion": "Franco Comoro",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KPW",
+    "descripcion": "Corea del Norte ganó",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KRW",
+    "descripcion": "Won",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KWD",
+    "descripcion": "Dinar kuwaití",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KYD",
+    "descripcion": "Dólar de las Islas Caimán",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "KZT",
+    "descripcion": "Tenge",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LAK",
+    "descripcion": "Kip",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LBP",
+    "descripcion": "Libra libanesa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LKR",
+    "descripcion": "Rupia de Sri Lanka",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LRD",
+    "descripcion": "Dólar liberiano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LSL",
+    "descripcion": "Loti",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "LYD",
+    "descripcion": "Dinar libio",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MAD",
+    "descripcion": "Dirham marroquí",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MDL",
+    "descripcion": "Leu moldavo",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MGA",
+    "descripcion": "Ariary malgache",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MKD",
+    "descripcion": "Denar",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MMK",
+    "descripcion": "Kyat",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MNT",
+    "descripcion": "Tugrik",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MOP",
+    "descripcion": "Pataca",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MRO",
+    "descripcion": "Ouguiya",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MUR",
+    "descripcion": "Rupia de Mauricio",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MVR",
+    "descripcion": "Rupia",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MWK",
+    "descripcion": "Kwacha",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MXN",
+    "descripcion": "Peso Mexicano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MXV",
+    "descripcion": "México Unidad de Inversión (UDI)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MYR",
+    "descripcion": "Ringgit malayo",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "MZN",
+    "descripcion": "Mozambique Metical",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NAD",
+    "descripcion": "Dólar de Namibia",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NGN",
+    "descripcion": "Naira",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NIO",
+    "descripcion": "Córdoba Oro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NOK",
+    "descripcion": "Corona noruega",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NPR",
+    "descripcion": "Rupia nepalí",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "NZD",
+    "descripcion": "Dólar de Nueva Zelanda",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "OMR",
+    "descripcion": "Rial omaní",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PAB",
+    "descripcion": "Balboa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PEN",
+    "descripcion": "Nuevo Sol",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PGK",
+    "descripcion": "Kina",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PHP",
+    "descripcion": "Peso filipino",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PKR",
+    "descripcion": "Rupia de Pakistán",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PLN",
+    "descripcion": "Zloty",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "PYG",
+    "descripcion": "Guaraní",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "QAR",
+    "descripcion": "Qatar Rial",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "RON",
+    "descripcion": "Leu rumano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "RSD",
+    "descripcion": "Dinar serbio",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "RUB",
+    "descripcion": "Rublo ruso",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "RWF",
+    "descripcion": "Franco ruandés",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SAR",
+    "descripcion": "Riyal saudí",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SBD",
+    "descripcion": "Dólar de las Islas Salomón",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SCR",
+    "descripcion": "Rupia de Seychelles",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SDG",
+    "descripcion": "Libra sudanesa",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SEK",
+    "descripcion": "Corona sueca",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SGD",
+    "descripcion": "Dólar De Singapur",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SHP",
+    "descripcion": "Libra de Santa Helena",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SLL",
+    "descripcion": "Leona",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SOS",
+    "descripcion": "Chelín somalí",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SRD",
+    "descripcion": "Dólar de Suriname",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SSP",
+    "descripcion": "Libra sudanesa Sur",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "STD",
+    "descripcion": "Dobra",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SVC",
+    "descripcion": "Colon El Salvador",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SYP",
+    "descripcion": "Libra Siria",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "SZL",
+    "descripcion": "Lilangeni",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "THB",
+    "descripcion": "Baht",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TJS",
+    "descripcion": "Somoni",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TMT",
+    "descripcion": "Turkmenistán nuevo manat",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TND",
+    "descripcion": "Dinar tunecino",
+    "decimales": 3,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TOP",
+    "descripcion": "Pa'anga",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TRY",
+    "descripcion": "Lira turca",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TTD",
+    "descripcion": "Dólar de Trinidad y Tobago",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TWD",
+    "descripcion": "Nuevo dólar de Taiwán",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "TZS",
+    "descripcion": "Shilling tanzano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "UAH",
+    "descripcion": "Hryvnia",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "UGX",
+    "descripcion": "Shilling de Uganda",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "USD",
+    "descripcion": "Dólar americano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "USN",
+    "descripcion": "Dólar estadounidense (día siguiente)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "UYI",
+    "descripcion": "Peso uruguayo en Unidades Indexadas (URUIURUI)",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "UYU",
+    "descripcion": "Peso Uruguayo",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "UZS",
+    "descripcion": "Uzbekistán Sum",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "VEF",
+    "descripcion": "Venezuela Bolívar",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "VND",
+    "descripcion": "Dong",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "VUV",
+    "descripcion": "Vatu",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "WST",
+    "descripcion": "Tala",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XAF",
+    "descripcion": "Franco CFA BEAC",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XAG",
+    "descripcion": "Plata",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XAU",
+    "descripcion": "Oro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XBA",
+    "descripcion": "Unidad de Mercancía Compuesta Europea (EURCO) (unidad del EURCO)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XBB",
+    "descripcion": "Unidad Monetaria Europea (E.M.U.-6) (unidad de bonos de la UME-6)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XBC",
+    "descripcion": "Unidad de cuenta europea (E.U.A.-9) (unidad de bonos EUA-9)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XBD",
+    "descripcion": "Unidad de cuenta europea (E.U.A.-17) (unidad de bonos de la EUA-17)",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XCD",
+    "descripcion": "Dólar del Caribe Oriental",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XDR",
+    "descripcion": "Derechos especiales de giro",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XOF",
+    "descripcion": "Franco CFA BCEAO",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XPD",
+    "descripcion": "Paladio",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XPF",
+    "descripcion": "Franco CFP",
+    "decimales": 0,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XPT",
+    "descripcion": "Platino",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XSU",
+    "descripcion": "Sucre",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XTS",
+    "descripcion": "Códigos reservados específicamente para pruebas",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XUA",
+    "descripcion": "Unidad de cuenta ADB",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "XXX",
+    "descripcion": "Los códigos asignados para las transacciones en las cuales interviene ninguna moneda",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "YER",
+    "descripcion": "Rial yemení",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ZAR",
+    "descripcion": "Rand",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ZMW",
+    "descripcion": "Kwacha zambiano",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  },
+  {
+    "clave": "ZWL",
+    "descripcion": "Zimbabue Dólar",
+    "decimales": 2,
+    "porcentaje_variacion": "500%"
+  }
+]

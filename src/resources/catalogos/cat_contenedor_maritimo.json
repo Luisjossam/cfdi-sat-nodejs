@@ -1,0 +1,50 @@
+[
+  {
+    "clave": "CM001",
+    "descripcion": "Contenedores refrigerados de 20FT"
+  },
+  {
+    "clave": "CM002",
+    "descripcion": "Contenedores refrigerados de 40FT"
+  },
+  {
+    "clave": "CM003",
+    "descripcion": "Contenedores estándar de 8FT"
+  },
+  {
+    "clave": "CM004",
+    "descripcion": "Contenedores estándar de 10FT"
+  },
+  {
+    "clave": "CM005",
+    "descripcion": "Contenedores estándar de 20FT"
+  },
+  {
+    "clave": "CM006",
+    "descripcion": "Contenedores estándar de 40FT"
+  },
+  {
+    "clave": "CM007",
+    "descripcion": "Contenedores Open Side"
+  },
+  {
+    "clave": "CM008",
+    "descripcion": "Contenedor Isotanque"
+  },
+  {
+    "clave": "CM009",
+    "descripcion": "Contenedor flat racks"
+  },
+  {
+    "clave": "CM010",
+    "descripcion": "Buque tanque"
+  },
+  {
+    "clave": "CM011",
+    "descripcion": "Ferri"
+  },
+  {
+    "clave": "CM012",
+    "descripcion": "Ferri - Turístico y vacíos"
+  }
+]

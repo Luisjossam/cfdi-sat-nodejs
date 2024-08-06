@@ -1,0 +1,198 @@
+[
+  {
+    "clave": 1,
+    "descripcion": "ACAPULCO, ACAPULCO DE JUAREZ, GUERRERO."
+  },
+  {
+    "clave": 2,
+    "descripcion": "AGUA PRIETA, AGUA PRIETA, SONORA."
+  },
+  {
+    "clave": 5,
+    "descripcion": "SUBTENIENTE LOPEZ, SUBTENIENTE LOPEZ, QUINTANA ROO."
+  },
+  {
+    "clave": 6,
+    "descripcion": "CIUDAD DEL CARMEN, CIUDAD DEL CARMEN, CAMPECHE."
+  },
+  {
+    "clave": 7,
+    "descripcion": "CIUDAD JUAREZ, CIUDAD JUAREZ, CHIHUAHUA."
+  },
+  {
+    "clave": 8,
+    "descripcion": "COATZACOALCOS, COATZACOALCOS, VERACRUZ."
+  },
+  {
+    "clave": 11,
+    "descripcion": "ENSENADA, ENSENADA, BAJA CALIFORNIA."
+  },
+  {
+    "clave": 12,
+    "descripcion": "GUAYMAS, GUAYMAS, SONORA."
+  },
+  {
+    "clave": 14,
+    "descripcion": "LA PAZ, LA PAZ, BAJA CALIFORNIA SUR."
+  },
+  {
+    "clave": 16,
+    "descripcion": "MANZANILLO, MANZANILLO, COLIMA."
+  },
+  {
+    "clave": 17,
+    "descripcion": "MATAMOROS, MATAMOROS, TAMAULIPAS."
+  },
+  {
+    "clave": 18,
+    "descripcion": "MAZATLAN, MAZATLAN, SINALOA."
+  },
+  {
+    "clave": 19,
+    "descripcion": "MEXICALI, MEXICALI, BAJA CALIFORNIA."
+  },
+  {
+    "clave": 20,
+    "descripcion": "MEXICO, DISTRITO FEDERAL."
+  },
+  {
+    "clave": 22,
+    "descripcion": "NACO, NACO, SONORA."
+  },
+  {
+    "clave": 23,
+    "descripcion": "NOGALES, NOGALES, SONORA."
+  },
+  {
+    "clave": 24,
+    "descripcion": "NUEVO LAREDO, NUEVO LAREDO, TAMAULIPAS."
+  },
+  {
+    "clave": 25,
+    "descripcion": "OJINAGA, OJINAGA, CHIHUAHUA."
+  },
+  {
+    "clave": 26,
+    "descripcion": "PUERTO PALOMAS, PUERTO PALOMAS, CHIHUAHUA."
+  },
+  {
+    "clave": 27,
+    "descripcion": "PIEDRAS NEGRAS, PIEDRAS NEGRAS, COAHUILA."
+  },
+  {
+    "clave": 28,
+    "descripcion": "PROGRESO, PROGRESO, YUCATAN."
+  },
+  {
+    "clave": 30,
+    "descripcion": "CIUDAD REYNOSA, CIUDAD REYNOSA, TAMAULIPAS."
+  },
+  {
+    "clave": 31,
+    "descripcion": "SALINA CRUZ, SALINA CRUZ, OAXACA."
+  },
+  {
+    "clave": 33,
+    "descripcion": "SAN LUIS RIO COLORADO, SAN LUIS RIO COLORADO, SONORA."
+  },
+  {
+    "clave": 34,
+    "descripcion": "CIUDAD MIGUEL ALEMAN, CIUDAD MIGUEL ALEMAN, TAMAULIPAS."
+  },
+  {
+    "clave": 37,
+    "descripcion": "CIUDAD HIDALGO, CIUDAD HIDALGO, CHIAPAS."
+  },
+  {
+    "clave": 38,
+    "descripcion": "TAMPICO, TAMPICO, TAMAULIPAS."
+  },
+  {
+    "clave": 39,
+    "descripcion": "TECATE, TECATE, BAJA CALIFORNIA."
+  },
+  {
+    "clave": 40,
+    "descripcion": "TIJUANA, TIJUANA, BAJA CALIFORNIA."
+  },
+  {
+    "clave": 42,
+    "descripcion": "TUXPAN, TUXPAN DE RODRIGUEZ CANO, VERACRUZ."
+  },
+  {
+    "clave": 43,
+    "descripcion": "VERACRUZ, VERACRUZ, VERACRUZ."
+  },
+  {
+    "clave": 44,
+    "descripcion": "CIUDAD ACUÑA, CIUDAD ACUÑA, COAHUILA."
+  },
+  {
+    "clave": 46,
+    "descripcion": "TORREON, TORREON, COAHUILA."
+  },
+  {
+    "clave": 47,
+    "descripcion": "AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MEXICO,"
+  },
+  {
+    "clave": 48,
+    "descripcion": "GUADALAJARA, TLACOMULCO DE ZUÑIGA, JALISCO."
+  },
+  {
+    "clave": 50,
+    "descripcion": "SONOYTA, SONOYTA, SONORA."
+  },
+  {
+    "clave": 51,
+    "descripcion": "LAZARO CARDENAS, LAZARO CARDENAS, MICHOACAN."
+  },
+  {
+    "clave": 52,
+    "descripcion": "MONTERREY, GENERAL MARIANO ESCOBEDO, NUEVO LEON."
+  },
+  {
+    "clave": 53,
+    "descripcion": "CANCUN, CANCUN, QUINTANA ROO."
+  },
+  {
+    "clave": 64,
+    "descripcion": "QUERÉTARO, EL MARQUÉS Y COLON, QUERÉTARO."
+  },
+  {
+    "clave": 65,
+    "descripcion": "TOLUCA, TOLUCA, ESTADO DE MEXICO."
+  },
+  {
+    "clave": 67,
+    "descripcion": "CHIHUAHUA, CHIHUAHUA, CHIHUAHUA."
+  },
+  {
+    "clave": 73,
+    "descripcion": "AGUASCALIENTES, AGUASCALIENTES, AGUASCALIENTES."
+  },
+  {
+    "clave": 75,
+    "descripcion": "PUEBLA, HEROICA PUEBLA DE ZARAGOZA, PUEBLA."
+  },
+  {
+    "clave": 80,
+    "descripcion": "COLOMBIA, COLOMBIA, NUEVO LEON."
+  },
+  {
+    "clave": 81,
+    "descripcion": "ALTAMIRA, ALTAMIRA, TAMAULIPAS."
+  },
+  {
+    "clave": 82,
+    "descripcion": "CIUDAD CAMARGO, CIUDAD CAMARGO, TAMAULIPAS."
+  },
+  {
+    "clave": 83,
+    "descripcion": "DOS BOCAS, PARAISO, TABASCO."
+  },
+  {
+    "clave": 84,
+    "descripcion": "GUANAJUATO, SILAO, GUANAJUATO."
+  }
+]

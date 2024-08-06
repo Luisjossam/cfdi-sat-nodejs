@@ -1,0 +1,238 @@
+[
+  {
+    "clave": "1A1",
+    "descripcion": "Bidones (Tambores) de Acero 1 de tapa no desmontable"
+  },
+  {
+    "clave": "1A2",
+    "descripcion": "Bidones (Tambores) de Acero 1 de tapa desmontable"
+  },
+  {
+    "clave": "1B1",
+    "descripcion": "Bidones (Tambores) de Aluminio de tapa no desmontable"
+  },
+  {
+    "clave": "1B2",
+    "descripcion": "Bidones (Tambores) de Aluminio de tapa desmontable"
+  },
+  {
+    "clave": "1D",
+    "descripcion": "Bidones (Tambores) de Madera contrachapada"
+  },
+  {
+    "clave": "1G",
+    "descripcion": "Bidones (Tambores) de Cartón"
+  },
+  {
+    "clave": "1H1",
+    "descripcion": "Bidones (Tambores) de Plástico de tapa no desmontable"
+  },
+  {
+    "clave": "1H2",
+    "descripcion": "Bidones (Tambores) de Plástico de tapa desmontable"
+  },
+  {
+    "clave": "1N1",
+    "descripcion": "Bidones (Tambores) de Metal que no sea acero ni aluminio de tapa no desmontable"
+  },
+  {
+    "clave": "1N2",
+    "descripcion": "Bidones (Tambores) de Metal que no sea acero ni aluminio de tapa desmontable"
+  },
+  {
+    "clave": "3A1",
+    "descripcion": "Jerricanes (Porrones) de Acero de tapa no desmontable"
+  },
+  {
+    "clave": "3A2",
+    "descripcion": "Jerricanes (Porrones) de Acero de tapa desmontable"
+  },
+  {
+    "clave": "3B1",
+    "descripcion": "Jerricanes (Porrones) de Aluminio de tapa no desmontable"
+  },
+  {
+    "clave": "3B2",
+    "descripcion": "Jerricanes (Porrones) de Aluminio de tapa desmontable"
+  },
+  {
+    "clave": "3H1",
+    "descripcion": "Jerricanes (Porrones) de Plástico de tapa no desmontable"
+  },
+  {
+    "clave": "3H2",
+    "descripcion": "Jerricanes (Porrones) de Plástico de tapa desmontable"
+  },
+  {
+    "clave": "4A",
+    "descripcion": "Cajas de Acero"
+  },
+  {
+    "clave": "4B",
+    "descripcion": "Cajas de Aluminio"
+  },
+  {
+    "clave": "4C1",
+    "descripcion": "Cajas de Madera natural ordinaria"
+  },
+  {
+    "clave": "4C2",
+    "descripcion": "Cajas de Madera natural de paredes a prueba de polvos (estancas a los pulverulentos)"
+  },
+  {
+    "clave": "4D",
+    "descripcion": "Cajas de Madera contrachapada"
+  },
+  {
+    "clave": "4F",
+    "descripcion": "Cajas de Madera reconstituida"
+  },
+  {
+    "clave": "4G",
+    "descripcion": "Cajas de Cartón"
+  },
+  {
+    "clave": "4H1",
+    "descripcion": "Cajas de Plástico Expandido"
+  },
+  {
+    "clave": "4H2",
+    "descripcion": "Cajas de Plástico Rígido"
+  },
+  {
+    "clave": "5H1",
+    "descripcion": "Sacos (Bolsas) de Tejido de plástico sin forro ni revestimientos interiores"
+  },
+  {
+    "clave": "5H2",
+    "descripcion": "Sacos (Bolsas) de Tejido de plástico a prueba de polvos (estancos a los pulverulentos)"
+  },
+  {
+    "clave": "5H3",
+    "descripcion": "Sacos (Bolsas) de Tejido de plástico resistente al agua"
+  },
+  {
+    "clave": "5H4",
+    "descripcion": "Sacos (Bolsas) de Película de plástico"
+  },
+  {
+    "clave": "5L1",
+    "descripcion": "Sacos (Bolsas) de Tela sin forro ni revestimientos interiores"
+  },
+  {
+    "clave": "5L2",
+    "descripcion": "Sacos (Bolsas) de Tela a prueba de polvos (estancos a los pulverulentos)"
+  },
+  {
+    "clave": "5L3",
+    "descripcion": "Sacos (Bolsas) de Tela resistentes al agua"
+  },
+  {
+    "clave": "5M1",
+    "descripcion": "Sacos (Bolsas) de Papel de varias hojas"
+  },
+  {
+    "clave": "5M2",
+    "descripcion": "Sacos (Bolsas) de Papel de varias hojas, resistentes al agua"
+  },
+  {
+    "clave": "6HA1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con bidón (tambor) de acero"
+  },
+  {
+    "clave": "6HA2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con una jaula o caja de acero"
+  },
+  {
+    "clave": "6HB1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) exterior de aluminio"
+  },
+  {
+    "clave": "6HB2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con una jaula o caja de aluminio"
+  },
+  {
+    "clave": "6HC",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de madera"
+  },
+  {
+    "clave": "6HD1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de madera contrachapada"
+  },
+  {
+    "clave": "6HD2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de madera contrachapada"
+  },
+  {
+    "clave": "6HG1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de cartón"
+  },
+  {
+    "clave": "6HG2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de cartón"
+  },
+  {
+    "clave": "6HH1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de plástico"
+  },
+  {
+    "clave": "6HH2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de plástico, con caja de plástico rígido"
+  },
+  {
+    "clave": "6PA1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) de acero"
+  },
+  {
+    "clave": "6PA2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una jaula o una caja de acero"
+  },
+  {
+    "clave": "6PB1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) exterior de aluminio"
+  },
+  {
+    "clave": "6PB2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una jaula o una caja de aluminio"
+  },
+  {
+    "clave": "6PC",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una caja de madera"
+  },
+  {
+    "clave": "6PD1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con bidón (tambor) de madera contrachapada"
+  },
+  {
+    "clave": "6PD2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con canasta de mimbre"
+  },
+  {
+    "clave": "6PG1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) de cartón"
+  },
+  {
+    "clave": "6PG2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una caja de cartón"
+  },
+  {
+    "clave": "6PH1",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un envase y embalaje de plástico expandido"
+  },
+  {
+    "clave": "6PH2",
+    "descripcion": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un envase y embalaje de plástico rígido"
+  },
+  {
+    "clave": "7H1",
+    "descripcion": "Bultos de Plástico"
+  },
+  {
+    "clave": "7L1",
+    "descripcion": "Bultos de Tela"
+  },
+  {
+    "clave": "Z01",
+    "descripcion": "No aplica "
+  }
+]

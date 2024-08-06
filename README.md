@@ -1,6 +1,12 @@
 # PAQUETE CFDI SAT PARA NODEJS
 
-### Librería generadora de XML y creación de CFDI impreso, permite crear CFDI de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Compatible con cualquier PAC.
+## EN CONSTRUCCIÓN
+
+Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://buymeacoffee.com/luisjossam)
+
+### Librería generadora de XML y creación de CFDI impreso, permite crear XML de tipo Ingreso, Egreso y Traslado, generar Carta Porte, Nominas, etc. Incluye catálogos en JSON.
 
 ### Tabla de contenido
 
@@ -14,10 +20,14 @@
   - [Método crearConceptos](#Método-crearConceptos)
   - [Método generarXml](#Método-generarXml)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
+- [Factura de tipo Egreso](#Factura-de-tipo-Egreso)
+  - [Nota de crédito](#Nota-de-crédito)
+  - [Devolución](#Devolución)
+- [Catálogos](#Catálogos)
 
 ### **Instalación**
 
-```
+```javascript
 npm install --save cfdi-sat-nodejs
 ```
 
@@ -25,8 +35,8 @@ npm install --save cfdi-sat-nodejs
 
 #### Para crear cualquier tipo de XML necesitas importar la librerÍa y una vez crear una nueva instancia.
 
-```
-const FacturaCFDI = require("cfdi-sat-nodejs");
+```javascript
+const { FacturaCFDI } = require("cfdi-sat-nodejs");
 
 const nuevaFactura = new FacturaCFDI();
 ```
@@ -37,8 +47,8 @@ const nuevaFactura = new FacturaCFDI();
 
 ### **Método crearEmisor**
 
-```
-nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal)
+```javascript
+nuevaFactura.crearEmisor(RFC, Nombre, RegimenFiscal);
 ```
 
 se recibe 3 argumentos:
@@ -51,11 +61,8 @@ se recibe 3 argumentos:
 
 ### **Método crearReceptor**
 
-```
-nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI)
-
-/// EN CASO QUE EL RECEPTOR RESIDA EN OTRO PAÍS SE LLAMA AL MÉTODO receptorExtranjero:
-nuevaFactura.receptorExtranjero(ResidenciaFiscal, NumRegIdTrib)
+```javascript
+nuevaFactura.crearReceptor(RFC, Nombre, RegimenFiscal, CodigoPostal, UsoCFDI);
 ```
 
 se recibe estos argumentos:
@@ -72,10 +79,10 @@ se recibe estos argumentos:
 
 ### **Método certificado**
 
-En este método debes cargar la ruta del certificado en su formato base sin convertir en .pem ya que la librería se encarga de ese proceso.
+En este método debes cargar la ruta del certificado en su formato base sin convertir ya que la librería se encarga de ese proceso.
 
-```
-nuevaFactura.certificado(PathCertificado)
+```javascript
+nuevaFactura.certificado(PathCertificado);
 ```
 
 se recibe este único argumento:
@@ -88,8 +95,8 @@ se recibe este único argumento:
 
 Si necesitas generar facturas globales, llama al método **esGlobal** con los parámetros correspondientes a la periodicidad, meses y año.
 
-```
-nuevaFactura.esGlobal(Periocidad, Meses, Año)
+```javascript
+nuevaFactura.esGlobal(Periocidad, Meses, Año);
 ```
 
 | Argumento  | Tipo            | Descripción                                      |
@@ -100,34 +107,33 @@ nuevaFactura.esGlobal(Periocidad, Meses, Año)
 
 ### **Método crearConceptos**
 
-```
+```javascript
 const array = [
-    {
-        ClaveProdServ: 1234567890,      // obligatorio
-        Cantidad: 1,                    // obligatorio
-        ClaveUnidad: "H87",             // obligatorio
-        Unidad: "Pieza",                // obligatorio
-        Descripcion: "Producto",        // obligatorio
-        ValorUnitario: 125,             // obligatorio
-        Importe: 125,                   // obligatorio
-        ObjetoImp: "02",                // obligatorio
-        NoIdentificacion: 567384983723, // opcional
-        Descuento: 25,                  // opcional
-        Impuesto: {
-          Impuesto: "002",              // obligatorio
-          TipoFactor: "Tasa",           // obligatorio
-          TasaOCuota: "0.16",           // obligatorio
-        },
-        /// EN CASO QUE EL PRODUCTO O SERVICIO APLIQUE RETENCIONES
-        Retenciones: [
-          {
-            Impuesto: "001",            // obligatorio
-            TipoFactor: "Tasa",         // obligatorio
-            TasaOCuota: "0.10",         // obligatorio
-          }
-        ],
-
-    }
+  {
+    ClaveProdServ: 1234567890, // obligatorio
+    Cantidad: 1, // obligatorio
+    ClaveUnidad: "H87", // obligatorio
+    Unidad: "Pieza", // obligatorio
+    Descripcion: "Producto", // obligatorio
+    ValorUnitario: 125, // obligatorio
+    Importe: 125, // obligatorio
+    ObjetoImp: "02", // obligatorio
+    NoIdentificacion: 567384983723, // opcional
+    Descuento: 25, // opcional
+    Impuesto: {
+      Impuesto: "002", // obligatorio
+      TipoFactor: "Tasa", // obligatorio
+      TasaOCuota: "0.16", // obligatorio
+    },
+    /// EN CASO QUE EL PRODUCTO O SERVICIO APLIQUE RETENCIONES
+    Retenciones: [
+      {
+        Impuesto: "001", // obligatorio
+        TipoFactor: "Tasa", // obligatorio
+        TasaOCuota: "0.10", // obligatorio
+      },
+    ],
+  },
 ];
 
 nuevaFactura.crearConceptos(array);
@@ -166,11 +172,11 @@ En caso de tener un **TipoFactor** como "Exento" puede omitir el valor de **Tasa
 
 En caso de querer generar un XMl ya sellado y listo para timbrar puede usar el siguiente método.
 
-```
-nuevaFactura.crearSello(PathLlavePrivada, Contraseña)
+```javascript
+nuevaFactura.crearSello(PathLlavePrivada, Contraseña);
 ```
 
-NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya que la librería se encarga de convertirla.
+NOTA: La llave privada debe de estar en su formato base no convertida ya que la librería se encarga de convertirla.
 
 | Argumento        | Tipo   | Descripción                                         |
 | ---------------- | ------ | --------------------------------------------------- |
@@ -179,9 +185,21 @@ NOTA: La llave privada debe de estar en su formato base no convertida en .pem ya
 
 ### **Método generarXml**
 
-```
+```javascript
 const atributos = [
-    Folio: 1,            // obligatorio
+    Serie: 'F',                       // opcional (valor por defecto "F")
+    Folio: 1,                         // obligatorio
+    Fecha: '2022-01-27T11:49:48',     // opcional (valor por defecto "Hora actual")
+    FormaPago: '02',                  // obligatorio
+    CondicionesDePago: '3 meses',     // opcional (valor por defecto "")
+    TipoDeComprobante: 'I',           // opcional (valor por defecto "I")
+    MetodoPago: 'PUE',                // obligatorio
+    LugarExpedicion: '00000',         // obligatorio
+    Subtotal: 4545,                   // obligatorio
+    Total: 4545,                      // obligatorio
+    Moneda: 'MXN',                    // opcional (valor por defecto "MXN")
+    Exportacion: "01",                // opcional (valor por defecto "01")
+    Descuento: 0                      // opcional (valor por defecto "0")
 ];
 
 const xml = nuevaFactura.generarXml(atributos)
@@ -193,17 +211,213 @@ En este método nos retorna el XML sin sellar. en caso de requerir el XML sellad
 
 Para crear el XML sellado, es necesario que el método **generarXmlSellado** sea llamado de manera asincrónica. Esto se puede lograr utilizando _async/await_ o la cadena de promesas con _.then()_ y _.catch()_.
 
-```
+```javascript
+const xmlSellado = await nuevaFactura.generarXmlSellado(atributos);
 
-const xmlSellado = await nuevaFactura.generarXmlSellado(atributos)
+// Tambien puedes usar:
 
-ó
-
-nuevaFactura.generarXmlSellado(atributos).then(res => {
-    console.log(res)
-}).catch(error => {
-    console.log(error)
-})
+nuevaFactura
+  .generarXmlSellado(atributos)
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 ```
 
 Para generar el XML sellado es necesario incluir el método **crearSello** antes del método **generarXmlSellado** de lo contrario retorna un error.
+
+| Argumento         | Tipo            | Descripción                                                                                              |
+| ----------------- | --------------- | -------------------------------------------------------------------------------------------------------- |
+| Serie             | string          | Prefijo o nombre de la serie de las facturas.                                                            |
+| Folio             | string - number | Numero referente al movimiento.                                                                          |
+| Fecha             | string          | Fecha actual en que se realiza el movimiento en formato AAAA-MM-DDThh:mm:ss                              |
+| FormaPago         | string - number | Clave de la forma de pago de los bienes, la prestación de los servicios, el otorgamiento del uso o goce. |
+| CondicionesDePago | string          | Condiciones comerciales aplicables para el pago del comprobante de tipo ingreso o egreso.                |
+| TipoDeComprobante | string          | Clave con la que se identifica el tipo de comprobante fiscal.                                            |
+| MetodoPago        | string - number | Clave que corresponda depende si se paga en una sola exhibición o en parcialidades.                      |
+| LugarExpedicion   | string - number | Código postal del lugar de expedición del comprobante.                                                   |
+| Subtotal          | string - number | Suma de los importes de los conceptos antes de descuentos e impuestos.                                   |
+| Total             | string - number | Suma del subtotal, menos los descuentos, más impuestos trasladados menos los impuestos retenidos.        |
+| Moneda            | string          | Clave de la moneda utilizada para expresar los montos.                                                   |
+| Exportacion       | string - number | Clave con la que se identifica si el comprobante ampara una operación de exportación.                    |
+| Descuento         | string - number | Importe total de los descuentos aplicables antes de impuestos.                                           |
+
+## **Factura de tipo Egreso**
+
+### **Nota de crédito**
+
+Para crear un XML de nota de crédito puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+
+EJEMPLO:
+
+```javascript
+const atributos = [
+    Serie: 'NC',
+    TipoDeComprobante: 'E'
+    // el resto de valores
+];
+```
+
+### **Devolución**
+
+Para crear un XML de devolución puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+
+EJEMPLO:
+
+```javascript
+const atributos = [
+    Serie: 'AC',
+    TipoDeComprobante: 'E'
+    // el resto de valores
+];
+```
+
+## **Catálogos**
+
+La librería cuenta con todos los catálogos proporcionados por el SAT actualizados, todos en formato JSON. Se proporciona un método para obtener todo el contenido de cada catalogo asi como un método para obtener específicamente un registro de un catálogo en especifico.
+
+A continuación se colocan todos los métodos disponibles
+
+```javascript
+/// Importar la clase y crear una nueva instancia
+const { CatalogosSAT } = require("cfdi-sat-nodejs");
+const catalogos = new CatalogosSAT();
+```
+
+```javascript
+/// Obtener un solo registro de un catálogo
+catalogos.buscarEnCatalogo(Valor, Clave, NombreCatalogo);
+
+/// Ejemplo de salida correcta
+/*
+{
+  status: true,
+  data: {
+    clave: 'G01',
+    descripcion: 'Adquisición de mercancías.',
+    fisica: 'Sí',
+    moral: 'Sí',
+    regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+  }
+}
+*/
+
+/// Ejemplo de salida errónea
+/*
+{ 
+  status: false,
+  data: null,
+  message: 'Clave "G001" no encontrada en el catálogo "UsoCfdi"'
+}
+*/
+```
+
+| Argumento      | Tipo   | Descripción                       |
+| -------------- | ------ | --------------------------------- |
+| Valor          | string | Valor a buscar en el catalogo     |
+| Clave          | string | Clave para filtrar en el catalogo |
+| NombreCatalogo | string | Nombre del catálogo               |
+
+```javascript
+/// Obtener todos los registros de cada catálogo
+catalogos.obtenerCatalogo(NombreCatalogo);
+
+/// Ejemplo de salida correcta
+/*
+{
+  status: true,
+  data: [
+    {
+      clave: 'G01',
+      descripcion: 'Adquisición de mercancías.',
+      fisica: 'Sí',
+      moral: 'Sí',
+      regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+    },
+    {
+      clave: 'G02',
+      descripcion: 'Devoluciones, descuentos o bonificaciones.',
+      fisica: 'Sí',
+      moral: 'Sí',
+      regimen_receptor: '601, 603, 606, 612, 620, 621, 622, 623, 624, 625,626'
+    },
+    ...
+  ]
+}
+*/
+
+/// Ejemplo de salida errónea
+/*
+{ 
+  status: false,
+  data: null,
+  message: 'El catálogo "usocfdi" no existe'
+}
+*/
+```
+
+| Argumento      | Tipo   | Descripción         |
+| -------------- | ------ | ------------------- |
+| NombreCatalogo | string | Nombre del catálogo |
+
+**LISTA DE CATALOGOS DISPONIBLES**
+
+- FormaPago
+- Moneda
+- TipoDeComprobante
+- Exportacion
+- MetodoPago
+- CodigoPostalParteUno
+- CodigoPostalParteDos
+- Periodicidad
+- Meses
+- TipoRelacion
+- RegimenFiscal
+- Pais
+- UsoCfdi
+- ClaveProdServ
+- ClaveUnidad
+- ObjetoImpuesto
+- Impuesto
+- TipoFactor
+- TasaOCuota
+- Aduana
+- NumPedimentoAduana
+- PatenteAduanal
+- ColoniaParteUno
+- ColoniaParteDos
+- ColoniaParteTres
+- Estado
+- Localidad
+- Municipio
+- RegimenAduanero
+- ClaveTransporte
+- TipoEstacion
+- Estaciones
+- ClaveUnidadPeso
+- ClaveProdServCp
+- MaterialPeligroso
+- TipoEmbalaje
+- TipoPermiso
+- SectorCofepris
+- FormaFarmaceutica
+- CondicionesEspeciales
+- TipoMateria
+- DocumentoAduanero
+- ParteTransporte
+- FiguraTransporte
+- ConfigAutotransporte
+- SubtipoRemolque
+- RegistroIstmo
+- ConfigMaritima
+- ClaveTipoCarga
+- ContenedorMaritimo
+- NumAutorizacionNaviero
+- CodigoTransporteAereo
+- TipoDeServicio
+- DerechosDePaso
+- TipoCarro
+- Contenedor
+- TipoTrafico

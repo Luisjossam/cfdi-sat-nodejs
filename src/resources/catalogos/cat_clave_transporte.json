@@ -1,0 +1,18 @@
+[
+  {
+    "clave_transporte": "01",
+    "descripcion": "Autotransporte"
+  },
+  {
+    "clave_transporte": "02",
+    "descripcion": "Transporte Marítimo"
+  },
+  {
+    "clave_transporte": "03",
+    "descripcion": "Transporte Aéreo"
+  },
+  {
+    "clave_transporte": "04",
+    "descripcion": "Transporte Ferroviario"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "clave": "I",
+    "descripcion": "Ingreso",
+    "valor_maximo": "999999999999999999.999999"
+  },
+  {
+    "clave": "E",
+    "descripcion": "Egreso",
+    "valor_maximo": "999999999999999999.999999"
+  },
+  {
+    "clave": "T",
+    "descripcion": "Traslado",
+    "valor_maximo": "0"
+  },
+  {
+    "clave": "N",
+    "descripcion": "Nómina",
+    "valor_maximo": "999999999999999999.999999"
+  },
+  {
+    "clave": "P",
+    "descripcion": "Pago",
+    "valor_maximo": "999999999999999999.999999"
+  }
+]

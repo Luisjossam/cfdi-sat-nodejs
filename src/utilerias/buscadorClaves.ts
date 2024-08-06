@@ -8,7 +8,7 @@ import {
 const basePath = path.resolve(__dirname, "..", "resources", "catalogos");
 export function buscarUsoCFDI(value: string): usoCfdiInterface | undefined {
   try {
-    const json_file = path.join(basePath, "cat_cfdi.json");
+    const json_file = path.join(basePath, "cat_uso_cfdi.json");
     const cfdisData = fs.readFileSync(json_file, "utf8");
     const cfdis: usoCfdiInterface[] = JSON.parse(cfdisData);
     return cfdis.find((item) => item.clave === value);

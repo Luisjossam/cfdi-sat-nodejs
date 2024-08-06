@@ -1,0 +1,27 @@
+[
+  {
+    "clave": "TC01",
+    "tipo_contenedor": "20'",
+    "descripcion": "Contenedor de 6.1 Mts de longitud"
+  },
+  {
+    "clave": "TC02",
+    "tipo_contenedor": "40'",
+    "descripcion": "Contenedor de 12.2 Mts de longitud"
+  },
+  {
+    "clave": "TC03",
+    "tipo_contenedor": "45'",
+    "descripcion": "Contenedor de 13.7 Mts de longitud"
+  },
+  {
+    "clave": "TC04",
+    "tipo_contenedor": "48'",
+    "descripcion": "Contenedor de 14.6 Mts de longitud"
+  },
+  {
+    "clave": "TC05",
+    "tipo_contenedor": "53'",
+    "descripcion": "Contenedor de 16.1 Mts de longitud"
+  }
+]

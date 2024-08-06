@@ -1,0 +1,50 @@
+[
+  {
+    "clave": "PT01",
+    "descripcion": "Camión unitario"
+  },
+  {
+    "clave": "PT02",
+    "descripcion": "Camión"
+  },
+  {
+    "clave": "PT03",
+    "descripcion": "Tractocamión"
+  },
+  {
+    "clave": "PT04",
+    "descripcion": "Remolque"
+  },
+  {
+    "clave": "PT05",
+    "descripcion": "Semirremolque"
+  },
+  {
+    "clave": "PT06",
+    "descripcion": "Vehículo ligero de carga"
+  },
+  {
+    "clave": "PT07",
+    "descripcion": "Grúa"
+  },
+  {
+    "clave": "PT08",
+    "descripcion": "Aeronave"
+  },
+  {
+    "clave": "PT09",
+    "descripcion": "Barco o buque"
+  },
+  {
+    "clave": "PT10",
+    "descripcion": "Carro o vagón"
+  },
+  {
+    "clave": "PT11",
+    "descripcion": "Contenedor"
+  },
+  {
+    "clave": "PT12",
+    "descripcion": "Locomotora"
+  }
+]

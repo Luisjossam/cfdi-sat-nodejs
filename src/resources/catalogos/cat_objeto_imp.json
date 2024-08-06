@@ -1,0 +1,18 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "No objeto de impuesto."
+  },
+  {
+    "clave": "02",
+    "descripcion": "Sí objeto de impuesto."
+  },
+  {
+    "clave": "03",
+    "descripcion": "Sí objeto del impuesto y no obligado al desglose."
+  },
+  {
+    "clave": "04",
+    "descripcion": "Sí objeto del impuesto y no causa impuesto."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "clave": "01",
+    "descripcion": "Coatzacoalcos I"
+  },
+  {
+    "clave": "02",
+    "descripcion": "Coatzacoalcos II"
+  },
+  {
+    "clave": "03",
+    "descripcion": "Texistepec"
+  },
+  {
+    "clave": "04",
+    "descripcion": "San Juan Evangelista"
+  },
+  {
+    "clave": "05",
+    "descripcion": "Salina Cruz"
+  },
+  {
+    "clave": "06",
+    "descripcion": "San Blas Atempa"
+  }
+]

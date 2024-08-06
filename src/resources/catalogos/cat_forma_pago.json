@@ -1,0 +1,112 @@
+[
+  {
+    "clave": 1,
+    "descripcion": "Efectivo",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 2,
+    "descripcion": "Cheque nominativo",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 3,
+    "descripcion": "Transferencia electrónica de fondos",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 4,
+    "descripcion": "Tarjeta de crédito",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 5,
+    "descripcion": "Monedero electrónico",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 6,
+    "descripcion": "Dinero electrónico",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 8,
+    "descripcion": "Vales de despensa",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 12,
+    "descripcion": "Dación en pago",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 13,
+    "descripcion": "Pago por subrogación",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 14,
+    "descripcion": "Pago por consignación",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 15,
+    "descripcion": "Condonación",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 17,
+    "descripcion": "Compensación",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 23,
+    "descripcion": "Novación",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 24,
+    "descripcion": "Confusión",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 25,
+    "descripcion": "Remisión de deuda",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 26,
+    "descripcion": "Prescripción o caducidad",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 27,
+    "descripcion": "A satisfacción del acreedor",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 28,
+    "descripcion": "Tarjeta de débito",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 29,
+    "descripcion": "Tarjeta de servicios",
+    "bancarizado": "Sí"
+  },
+  {
+    "clave": 30,
+    "descripcion": "Aplicación de anticipos",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 31,
+    "descripcion": "Intermediario pagos",
+    "bancarizado": "No"
+  },
+  {
+    "clave": 99,
+    "descripcion": "Por definir",
+    "bancarizado": "Opcional"
+  }
+]

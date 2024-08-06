@@ -1,0 +1,132 @@
+[
+  {
+    "clave": "TPAF01",
+    "descripcion": "Autotransporte Federal de carga general.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF02",
+    "descripcion": "Transporte privado de carga.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF03",
+    "descripcion": "Autotransporte Federal de Carga Especializada de materiales y residuos peligrosos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF04",
+    "descripcion": "Transporte de automóviles sin rodar en vehículo tipo góndola.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF05",
+    "descripcion": "Transporte de carga de gran peso y/o volumen de hasta 90 toneladas.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF06",
+    "descripcion": "Transporte de carga especializada de gran peso y/o volumen de más 90 toneladas.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF07",
+    "descripcion": "Transporte Privado de materiales y residuos peligrosos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF08",
+    "descripcion": "Autotransporte internacional de carga de largo recorrido.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF09",
+    "descripcion": "Autotransporte internacional de carga especializada de materiales y residuos peligrosos de largo recorrido.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF10",
+    "descripcion": "Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF11",
+    "descripcion": "Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF12",
+    "descripcion": "Servicio auxiliar de arrastre en las vías generales de comunicación.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF13",
+    "descripcion": "Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y depósito de vehículos en las vías generales de comunicación.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF14",
+    "descripcion": "Servicio de paquetería y mensajería en las vías generales de comunicación.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF15",
+    "descripcion": "Transporte especial para el tránsito de grúas industriales con peso máximo de 90 toneladas.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF16",
+    "descripcion": "Servicio federal para empresas arrendadoras servicio público federal.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF17",
+    "descripcion": "Empresas trasladistas de vehículos nuevos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF18",
+    "descripcion": "Empresas fabricantes o distribuidoras de vehículos nuevos.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF19",
+    "descripcion": "Autorización expresa para circular en los caminos y puentes de jurisdicción federal con configuraciones de tractocamión doblemente articulado.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPAF20",
+    "descripcion": "Autotransporte Federal de Carga Especializada de fondos y valores.",
+    "clave_transporte": "01"
+  },
+  {
+    "clave": "TPTM01",
+    "descripcion": "Permiso temporal para navegación de cabotaje",
+    "clave_transporte": "02"
+  },
+  {
+    "clave": "TPTA01",
+    "descripcion": "Concesión y/o autorización para el servicio regular nacional y/o internacional para empresas mexicanas",
+    "clave_transporte": "03"
+  },
+  {
+    "clave": "TPTA02",
+    "descripcion": "Permiso para el servicio aéreo regular de empresas extranjeras",
+    "clave_transporte": "03"
+  },
+  {
+    "clave": "TPTA03",
+    "descripcion": "Permiso para el servicio nacional e internacional no regular de fletamento",
+    "clave_transporte": "03"
+  },
+  {
+    "clave": "TPTA04",
+    "descripcion": "Permiso para el servicio nacional e internacional no regular de taxi aéreo",
+    "clave_transporte": "03"
+  },
+  {
+    "clave": "TPXX00",
+    "descripcion": "Permiso no contemplado en el catálogo.",
+    "clave_transporte": "01,02,03"
+  }
+]

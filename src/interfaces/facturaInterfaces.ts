@@ -120,3 +120,50 @@ export interface catalogoResult {
   status?: boolean;
   [key: string]: any; // Permite propiedades adicionales si es necesario
 }
+export interface atributosCartaPorteInterface {
+  TranspInternac: boolean;
+  EntradaSalidaMerc: string;
+  PaisOrigenDestino: string;
+  ViaEntradaSalida: string | number;
+  TotalDistRec: string | number;
+  RegistroISTMO?: boolean;
+  UbicacionPoloOrigen?: string | number;
+  UbicacionPoloDestino?: string | number;
+}
+export interface ubicacionOrigenInterface {
+  IDUbicacion: string;
+  RFCRemitenteDestinatario: string;
+  NombreRemitenteDestinatario: string;
+  FechaHoraSalidaLlegada: string;
+  NumRegIdTrib?: string;
+  ResidenciaFiscal?: string;
+  Calle: string;
+  NumeroExterior: string | number;
+  NumeroInterior: string | number;
+  Colonia: string | number;
+  Localidad: string | number;
+  Referencia: string;
+  Municipio: string | number;
+  Estado: string;
+  Pais: string;
+  CodigoPostal: string | number;
+}
+export interface ubicacionDestinoInterface {
+  IDUbicacion: string;
+  RFCRemitenteDestinatario: string;
+  NombreRemitenteDestinatario: string;
+  FechaHoraSalidaLlegada: string;
+  NumRegIdTrib?: string;
+  ResidenciaFiscal?: string;
+  DistanciaRecorrida: string | number;
+  Calle: string;
+  NumeroExterior: string | number;
+  NumeroInterior: string | number;
+  Colonia: string | number;
+  Localidad: string | number;
+  Referencia: string;
+  Municipio: string | number;
+  Estado: string;
+  Pais: string;
+  CodigoPostal: string | number;
+}

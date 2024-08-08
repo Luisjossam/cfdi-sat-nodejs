@@ -12,17 +12,22 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
 
 - [Instalación](#Instalación)
 - [Importación](#Importación)
-- [Factura de tipo ingreso](#Factura-de-tipo-ingreso)
+- [XML de tipo ingreso](#XML-de-tipo-ingreso)
   - [Método crearEmisor](#Método-crearEmisor)
   - [Método crearReceptor](#Método-crearReceptor)
   - [Método certificado](#Método-certificado)
   - [Método esGlobal](#Método-esGlobal)
   - [Método crearConceptos](#Método-crearConceptos)
+  - [Método crearSello](#Método-crearSello)
   - [Método generarXml](#Método-generarXml)
   - [Método generarXmlSellado](#Método-generarXmlSellado)
-- [Factura de tipo Egreso](#Factura-de-tipo-Egreso)
+- [XML de tipo Egreso](#XML-de-tipo-Egreso)
   - [Nota de crédito](#Nota-de-crédito)
   - [Devolución](#Devolución)
+- [XML de tipo Traslado](#XML-de-tipo-Traslado)
+- [Carta Porte](#Carta-porte)
+  - [Creando un nuevo complemento Carta Porte](#Creando-un-nuevo-complemento-Carta-Porte)
+  - [Método crearRegimenesAduaneros](#método-crearregímenesaduaneros)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -41,7 +46,7 @@ const { FacturaCFDI } = require("cfdi-sat-nodejs");
 const nuevaFactura = new FacturaCFDI();
 ```
 
-### **Factura de tipo ingreso**
+### **XML de tipo ingreso**
 
 #### Aquí se te explica los diversos métodos para generar el XML y los requisitos que solicitan cada uno de estos métodos.
 
@@ -244,11 +249,11 @@ Para generar el XML sellado es necesario incluir el método **crearSello** antes
 | Exportacion       | string - number | Clave con la que se identifica si el comprobante ampara una operación de exportación.                    |
 | Descuento         | string - number | Importe total de los descuentos aplicables antes de impuestos.                                           |
 
-## **Factura de tipo Egreso**
+## **XML de tipo Egreso**
 
 ### **Nota de crédito**
 
-Para crear un XML de nota de crédito puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+Para crear un XML de nota de crédito puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante a Egreso ("E") y la serie.
 
 EJEMPLO:
 
@@ -262,7 +267,7 @@ const atributos = [
 
 ### **Devolución**
 
-Para crear un XML de devolución puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante de Ingreso ("I") a Egreso ("E") y la serie.
+Para crear un XML de devolución puede utilizar los métodos para la creación de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante a Egreso ("E") y la serie.
 
 EJEMPLO:
 
@@ -273,6 +278,57 @@ const atributos = [
     // el resto de valores
 ];
 ```
+
+## **XML de tipo Traslado**
+
+Para crear un XML de tipo Traslado puede usar los metodos para la creacion de un CFDI de tipo ingreso, los únicos que debe cambiar es el tipo de comprobante a Traslado ("T"), la serie y los totales deben ser igual a "0" y los conceptos deben tener el Objeto de impuesto igual a "01".
+
+EJEMPLO:
+
+```javascript
+const atributos = [
+    Serie: 'Traslados',
+    TipoDeComprobante: 'T'
+    SubTotal: 0,
+    Total: 0,
+    // resto de valores
+];
+
+const conceptos = [
+  {
+    ObjetoImp: "01",
+    // resto de valores
+  }
+];
+
+```
+
+## **Carta Porte**
+
+Para poder generar el complemento Carta Porte es necesario contar con el XML de tipo ingreso o traslado sin timbrar e información relacionada a este complemento.
+
+### **Creando un nuevo complemento Carta Porte**
+
+```javascript
+const { CartaPorte } = require("cfdi-sat-nodejs");
+
+const pathXml = "ruta del XML sin timbrar.";
+const nuevaCartaPorte = new CartaPorte(pathXml);
+```
+
+### **Método crearRegimenesAduaneros**
+
+En caso que el traslado de bienes y/o servicios sea internacional puede usar el método **Método crearRegimenesAduaneros**
+
+```javascript
+const array = ["valor1", "valor2", "valor3"];
+
+nuevaCartaPorte.crearRegimenesAduaneros(Array);
+```
+
+| Argumento | Tipo  | Descripción                                                      |
+| --------- | ----- | ---------------------------------------------------------------- |
+| Array     | array | Claves de los regímenes aduaneros aplicables (máximo 10 claves). |
 
 ## **Catálogos**
 

@@ -131,11 +131,11 @@ export interface atributosCartaPorteInterface {
   UbicacionPoloDestino?: string | number;
 }
 export interface ubicacionOrigenInterface {
-  IDUbicacion: string;
+  IDUbicacion?: string;
   RFCRemitenteDestinatario: string;
   NombreRemitenteDestinatario: string;
   FechaHoraSalidaLlegada: string;
-  NumRegIdTrib?: string;
+  NumRegIdTrib?: string | number;
   ResidenciaFiscal?: string;
   Calle: string;
   NumeroExterior: string | number;
@@ -149,7 +149,7 @@ export interface ubicacionOrigenInterface {
   CodigoPostal: string | number;
 }
 export interface ubicacionDestinoInterface {
-  IDUbicacion: string;
+  IDUbicacion?: string;
   RFCRemitenteDestinatario: string;
   NombreRemitenteDestinatario: string;
   FechaHoraSalidaLlegada: string;
@@ -166,4 +166,65 @@ export interface ubicacionDestinoInterface {
   Estado: string;
   Pais: string;
   CodigoPostal: string | number;
+}
+export interface mercanciasInterface {
+  PesoBrutoTotal: string | number;
+  UnidadPeso: string;
+  NumTotalMercancias: string | number;
+  LogisticaInversaRecoleccionDevolucion?: boolean;
+}
+export interface ArrayMercanciaInterface {
+  mercancia: itemMercanciaInterface;
+  documentacionAduanera?: documentacionAduaneraInterface;
+  cantidadTransporta?: Array<cantidadTransportaInterface>;
+}
+export interface itemMercanciaInterface {
+  BienesTransp: string | number;
+  Descripcion: string;
+  Cantidad: string | number;
+  ClaveUnidad: string;
+  Unidad: string;
+  Dimensiones: string;
+  MaterialPeligroso: string;
+  PesoEnKg: string | number;
+  FraccionArancelaria: string | number;
+  TipoMateria: string | number;
+  // En caso que TipoMateria sea "05" debe existe el siguiente valor
+  DescripcionMateria?: string;
+  // En caso que sea un material peligroso es necesario agregar estos valores
+  CveMaterialPeligroso?: string | number;
+  Embalaje?: string;
+  DescripEmbalaje?: string;
+  // En caso que el registro sea parte del sector COFEPRIS incluir estos valores
+  SectorCOFEPRIS?: string | number;
+  NombreIngredienteActivo?: string;
+  NomQuimico?: string;
+  DenominacionGenericaProd?: string;
+  DenominacionDistintivaProd?: string;
+  Fabricante?: string;
+  FechaCaducidad?: string;
+  LoteMedicamento?: string;
+  FormaFarmaceutica?: string;
+  CondicionesEspTransp?: string;
+  RegistroSanitarioFolioAutorizacion?: string;
+  PermisoImportacion?: string;
+  FolioImpoVUCEM?: string;
+  NumCAS?: string;
+  RazonSocialEmpImp?: string;
+  NumRegSanPlagCOFEPRIS?: string;
+  DatosFabricante?: string;
+  DatosFormulador?: string;
+  DatosMaquilador?: string;
+  UsoAutorizado?: string;
+}
+export interface documentacionAduaneraInterface {
+  TipoDocumento: string | number;
+  NumPedimento: string;
+  RFCImpo: string;
+}
+export interface cantidadTransportaInterface {
+  Cantidad: string;
+  IDOrigen: string;
+  IDDestino: string;
+  CvesTransporte?: string;
 }

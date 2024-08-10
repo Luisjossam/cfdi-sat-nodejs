@@ -6,6 +6,11 @@ import {
   atributosCartaPorteInterface,
   ubicacionOrigenInterface,
   ubicacionDestinoInterface,
+  mercanciasInterface,
+  itemMercanciaInterface,
+  ArrayMercanciaInterface,
+  documentacionAduaneraInterface,
+  cantidadTransportaInterface,
 } from "./interfaces/facturaInterfaces";
 import fs from "fs";
 const forge = require("node-forge");
@@ -371,6 +376,8 @@ export class CartaPorte {
   #regimenesAduaneros: string[];
   #ubicacionOrigen: ubicacionOrigenInterface;
   #ubicacionDestino: ubicacionDestinoInterface;
+  #mercancias: mercanciasInterface;
+  #conceptosMercancias: Array<ArrayMercanciaInterface>;
   constructor(xml: string) {
     this.#xml = xml;
     this.#regimenesAduaneros = [];
@@ -411,6 +418,12 @@ export class CartaPorte {
       Pais: "",
       CodigoPostal: "",
     };
+    this.#mercancias = {
+      PesoBrutoTotal: "",
+      UnidadPeso: "",
+      NumTotalMercancias: "",
+    };
+    this.#conceptosMercancias = [];
   }
   #generarIdCCP(): string {
     const id = uuidv4();
@@ -424,6 +437,31 @@ export class CartaPorte {
   }
   crearUbicacionDestino(data: ubicacionDestinoInterface): void {
     this.#ubicacionDestino = data;
+  }
+  crearMercancias(data: mercanciasInterface): void {
+    this.#mercancias = data;
+  }
+  crearMercancia(data: itemMercanciaInterface): this {
+    this.#conceptosMercancias.push({ mercancia: data });
+    return this;
+  }
+  crearDocumentacionAduanera(data: documentacionAduaneraInterface): this {
+    const lastIndex = this.#conceptosMercancias.length - 1;
+    if (lastIndex >= 0) {
+      const lastItem = this.#conceptosMercancias[lastIndex];
+      lastItem.documentacionAduanera = data;
+    }
+    return this;
+  }
+  crearCantidadTransporta(data: cantidadTransportaInterface): void {
+    const lastIndex = this.#conceptosMercancias.length - 1;
+    if (lastIndex >= 0) {
+      const lastItem = this.#conceptosMercancias[lastIndex];
+      if (!("cantidadTransporta" in lastItem)) {
+        lastItem.cantidadTransporta = [];
+      }
+      lastItem.cantidadTransporta?.push({ ...data });
+    }
   }
   generarCartaPorte(atributos: atributosCartaPorteInterface) {
     if (this.#xml) {
@@ -575,6 +613,58 @@ export class CartaPorte {
             } else {
               domicilio_destino_node.setAttribute(key, value.toString());
             }
+          }
+        });
+        const mercancias_node = cp_node.appendChild(
+          xmlDoc.createElement("cartaporte31:Mercancias")
+        );
+        Object.keys(this.#mercancias).forEach((key) => {
+          const typedKey = key as keyof mercanciasInterface;
+          const value = this.#mercancias[typedKey];
+          if (value !== undefined) {
+            if (key == "LogisticaInversaRecoleccionDevolucion") {
+              mercancias_node.setAttribute(key, value === true ? "Sí" : "No");
+            } else {
+              mercancias_node.setAttribute(key, value.toString());
+            }
+          }
+        });
+        this.#conceptosMercancias.forEach((item: ArrayMercanciaInterface) => {
+          const mercancia_node = mercancias_node.appendChild(
+            xmlDoc.createElement("cartaporte31:Mercancia")
+          );
+          Object.keys(item.mercancia).forEach((key) => {
+            const typedKey = key as keyof itemMercanciaInterface;
+            const value = item.mercancia[typedKey];
+            if (value !== undefined) {
+              mercancia_node.setAttribute(key, value.toString());
+            }
+          });
+          if ("documentacionAduanera" in item) {
+            const docAduanera_node = mercancia_node.appendChild(
+              xmlDoc.createElement("cartaporte31:DocumentacionAduanera")
+            );
+            Object.keys(item.documentacionAduanera!).forEach((key) => {
+              const typedKey = key as keyof documentacionAduaneraInterface;
+              const value = item.documentacionAduanera![typedKey];
+              if (value !== undefined) {
+                docAduanera_node.setAttribute(key, value.toString());
+              }
+            });
+          }
+          if ("cantidadTransporta" in item) {
+            item.cantidadTransporta?.forEach((canTranporta: any) => {
+              const cantTransporta_node = mercancia_node.appendChild(
+                xmlDoc.createElement("cartaporte31:CantidadTransporta")
+              );
+              Object.keys(canTranporta).forEach((key) => {
+                const typedKey = key as keyof documentacionAduaneraInterface;
+                const value = canTranporta[typedKey];
+                if (value !== undefined) {
+                  cantTransporta_node.setAttribute(key, value.toString());
+                }
+              });
+            });
           }
         });
 

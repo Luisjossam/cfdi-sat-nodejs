@@ -1,5 +1,7 @@
 # PAQUETE CFDI SAT PARA NODEJS
+
 ## EN CONSTRUCCIÓN
+
 Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
 
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://buymeacoffee.com/luisjossam)
@@ -25,7 +27,11 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
 - [XML de tipo Traslado](#XML-de-tipo-Traslado)
 - [Carta Porte](#Carta-porte)
   - [Creando un nuevo complemento Carta Porte](#Creando-un-nuevo-complemento-Carta-Porte)
-  - [Método crearRegimenesAduaneros](#método-crearregímenesaduaneros)
+  - [Método crearRegimenesAduaneros](#Método-crearRegimenesAduaneros)
+  - [Método crearUbicacionOrigen](#Método-crearUbicacionOrigen)
+  - [Método crearUbicacionDestino](#Método-crearUbicacionDestino)
+  - [Método crearMercancias](#Método-crearMercancias)
+  - [Método crearMercancia](#Método-crearMercancia)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -319,7 +325,7 @@ const nuevaCartaPorte = new CartaPorte(pathXml);
 En caso que el traslado de bienes y/o servicios sea internacional puede usar el método **Método crearRegimenesAduaneros**
 
 ```javascript
-const array = ["valor1", "valor2", "valor3"];
+const Array = ["valor1", "valor2", "valor3"];
 
 nuevaCartaPorte.crearRegimenesAduaneros(Array);
 ```
@@ -327,6 +333,150 @@ nuevaCartaPorte.crearRegimenesAduaneros(Array);
 | Argumento | Tipo  | Descripción                                                      |
 | --------- | ----- | ---------------------------------------------------------------- |
 | Array     | array | Claves de los regímenes aduaneros aplicables (máximo 10 claves). |
+
+### **Método crearUbicacionOrigen**
+
+Para la generación del complemento Carta Porte es necesario incluir datos de ubicación tanto de origen como de destino.
+Con el método **crearUbicacionOrigen** puede definir la información necesaria para la ubicación de tipo "Origen"
+
+```javascript
+const data = {
+  IDUbicacion: "OR000001", // Opcional
+  RFCRemitenteDestinatario: "XIQB891116QE4", // Obligatorio
+  NombreRemitenteDestinatario: "BERENICE XIMO QUEZADA", // Opcional
+  FechaHoraSalidaLlegada: "2023-08-01T00:00:00", // Obligatorio
+  Calle: "Domicilio", // Obligatorio
+  NumeroExterior: 12, // Obligatorio
+  NumeroInterior: 5, // Obligatorio
+  Colonia: "0900", // Obligatorio
+  Localidad: "06", // Obligatorio
+  Referencia: "referencias", // Obligatorio
+  Municipio: "015", // Obligatorio
+  Estado: "CMX", // Obligatorio
+  Pais: "MEX", // Obligatorio
+  CodigoPostal: "06300", // Obligatorio
+  // Opcional en caso de que el remitente sea extranjero y el RFC sea XEXX010101000
+  NumRegIdTrib: "121585958",
+  ResidenciaFiscal: "USA",
+};
+
+nuevaCartaPorte.crearUbicacionOrigen(data);
+```
+
+### **Método crearUbicacionDestino**
+
+Al igual que el método **crearUbicacionOrigen** es necesario especificar los datos de destino, para esto puede usar el método **crearUbicacionDestino**
+
+```javascript
+const data = {
+  IDUbicacion: "DE000001", // Opcional
+  RFCRemitenteDestinatario: "XIQB891116QE4", // Obligatorio
+  NombreRemitenteDestinatario: "BERENICE XIMO QUEZADA", // Opcional
+  FechaHoraSalidaLlegada: "2023-08-01T00:00:00", // Obligatorio
+  DistanciaRecorrida: 1548, // Obligatorio
+  Calle: "Domicilio", // Obligatorio
+  NumeroExterior: 12, // Obligatorio
+  NumeroInterior: 5, // Obligatorio
+  Colonia: "0900", // Obligatorio
+  Localidad: "06", // Obligatorio
+  Referencia: "referencias", // Obligatorio
+  Municipio: "015", // Obligatorio
+  Estado: "CMX", // Obligatorio
+  Pais: "MEX", // Obligatorio
+  CodigoPostal: "06300", // Obligatorio
+  // Opcional en caso de que el remitente sea extranjero y el RFC sea XEXX010101000
+  NumRegIdTrib: "121585958",
+  ResidenciaFiscal: "USA",
+};
+
+nuevaCartaPorte.crearUbicacionDestino(data);
+```
+
+| Argumento                   | Tipo            | Descripción                                                                                                    |
+| --------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------- |
+| IDUbicacion                 | string          | Identificador en caso de tener diferentes ubicaciones de origen o destino. (OR para origen y DE para destino). |
+| RFCRemitenteDestinatario    | string          | RFC del remitente o destinatario.                                                                              |
+| NombreRemitenteDestinatario | string          | Nombre del remitente o destinatario correspondiente al RFC.                                                    |
+| FechaHoraSalidaLlegada      | string          | Fecha estimada para registrar la hora de salida o llegada de los vienes en formato AAAA-MM-DDThh:mm:ss         |
+| DistanciaRecorrida          | string - number | (Valor solo para el método crearUbicacionDestino) Distancia recorrida en kilómetros entre el origen y destino. |
+| Calle                       | string          | Nombre de la calle del domicilio del remitente o destinatario.                                                 |
+| NumeroExterior              | string - number | Número exterior del domicilio del remitente o destinatario.                                                    |
+| NumeroInterior              | string - number | Número interior del domicilio del remitente o destinatario.                                                    |
+| Colonia                     | string - number | Colonia del domicilio del remitente o destinatario.                                                            |
+| Localidad                   | string - number | Localidad del domicilio del remitente o destinatario.                                                          |
+| Referencia                  | string          | Referencias del domicilio del remitente o destinatario.                                                        |
+| Municipio                   | string - number | Municipio del domicilio del remitente o destinatario.                                                          |
+| Estado                      | string          | Estado perteneciente del remitente o destinatario.                                                             |
+| Pais                        | string          | País del remitente o destinatario.                                                                             |
+| CodigoPostal                | string - number | Código postal del domicilio del remitente o destinatario.                                                      |
+| NumRegIdTrib                | string - number | Identificación fiscal del remitente o destinatario en caso de residentes extranjeros.                          |
+| ResidenciaFiscal            | string          | País del remitente o destinatario en caso de residentes extranjeros.                                           |
+
+### **Método crearMercancias**
+
+```javascript
+const mercancias = {
+  PesoBrutoTotal: 6, // Obligatorio
+  UnidadPeso: "KGM", // Obligatorio
+  NumTotalMercancias: 1, // Obligatorio
+  LogisticaInversaRecoleccionDevolucion: true, // Opcional
+};
+
+newCartaPorte.crearMercancias(mercancias);
+```
+
+| Argumento                             | Tipo            | Descripción                                                                                                        |
+| ------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------ |
+| PesoBrutoTotal                        | string - number | Suma de los pesos de los bienes y/o mercancías con un margen diferencial del 10%.                                  |
+| UnidadPeso                            | string          | Clave de la unidad correspondiente al PesoBrutoTotal.                                                              |
+| NumTotalMercancias                    | string - number | Número total de los bienes y/o mercancías que se trasladan.                                                        |
+| LogisticaInversaRecoleccionDevolucion | boolean         | En caso de ser una operación de logística inversa o devolución y solo para autotransporte debe existir este valor. |
+
+### **Método crearMercancia**
+
+```javascript
+const objetoMercancia = {
+  BienesTransp: 24131510,
+  Descripcion: "Refrigeradores de mostrador",
+  Cantidad: 1,
+  ClaveUnidad: "H87",
+  Unidad: "Pieza",
+  Dimensiones: "59/40/36cm",
+  MaterialPeligroso: "No",
+  PesoEnKg: 6,
+  FraccionArancelaria: 8418699999,
+  TipoMateria: "03",
+  // En caso que TipoMateria sea "05" debe existe el siguiente valor
+  DescripcionMateria: "DescripcionMateria",
+  // En caso que sea un material peligroso es necesario agregar estos valores
+  CveMaterialPeligroso: 3496,
+  Embalaje: "4D",
+  DescripEmbalaje: " Cajas de madera contrachapada.",
+  // En caso que el registro sea parte del sector COFEPRIS incluir estos valores
+  SectorCOFEPRIS: "01",
+  NombreIngredienteActivo: "NombreIngredienteActivo",
+  NomQuimico: "NomQuimico",
+  DenominacionGenericaProd: "DenominacionGenericaProd",
+  DenominacionDistintivaProd: "DenominacionDistintivaProd",
+  Fabricante: "Fabricante",
+  FechaCaducidad: "2003-04-02",
+  LoteMedicamento: "LoteMedicamento",
+  FormaFarmaceutica: "FormaFarmaceutica",
+  CondicionesEspTransp: "CondicionesEspTransp",
+  RegistroSanitarioFolioAutorizacion: "RegistroSanitarioFolioAutorizacion",
+  PermisoImportacion: "PermisoImportacion",
+  FolioImpoVUCEM: "FolioImpoVUCEM",
+  NumCAS: "NumCAS",
+  RazonSocialEmpImp: "RazonSocialEmpImp",
+  NumRegSanPlagCOFEPRIS: "NumRegSanPlagCOFEPRIS",
+  DatosFabricante: "DatosFabricante",
+  DatosFormulador: "DatosFormulador",
+  DatosMaquilador: "DatosMaquilador",
+  UsoAutorizado: "UsoAutorizado",
+};
+
+newCartaPorte.crearMercancias(objetoMercancia);
+```
 
 ## **Catálogos**
 

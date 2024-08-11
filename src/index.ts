@@ -11,6 +11,10 @@ import {
   ArrayMercanciaInterface,
   documentacionAduaneraInterface,
   cantidadTransportaInterface,
+  autotransporteInterface,
+  identificacionVehicularInterface,
+  segurosInterface,
+  remolquesInterface,
 } from "./interfaces/facturaInterfaces";
 import fs from "fs";
 const forge = require("node-forge");
@@ -378,6 +382,11 @@ export class CartaPorte {
   #ubicacionDestino: ubicacionDestinoInterface;
   #mercancias: mercanciasInterface;
   #conceptosMercancias: Array<ArrayMercanciaInterface>;
+  #esAutotransporte: boolean;
+  #autotransporte: autotransporteInterface;
+  #identificacionVehicular: identificacionVehicularInterface;
+  #seguros: Array<segurosInterface>;
+  #remolques: Array<remolquesInterface>;
   constructor(xml: string) {
     this.#xml = xml;
     this.#regimenesAduaneros = [];
@@ -424,6 +433,19 @@ export class CartaPorte {
       NumTotalMercancias: "",
     };
     this.#conceptosMercancias = [];
+    this.#esAutotransporte = false;
+    this.#autotransporte = {
+      PermSCT: "",
+      NumPermisoSCT: "",
+    };
+    this.#identificacionVehicular = {
+      ConfigVehicular: "",
+      PesoBrutoVehicular: "",
+      PlacaVM: "",
+      AnioModeloVM: "",
+    };
+    this.#seguros = [];
+    this.#remolques = [];
   }
   #generarIdCCP(): string {
     const id = uuidv4();
@@ -462,6 +484,24 @@ export class CartaPorte {
       }
       lastItem.cantidadTransporta?.push({ ...data });
     }
+  }
+  // METODOS PARA AUTOTRANSPORTE
+  crearAutotransporte(data: autotransporteInterface): this {
+    this.#autotransporte = data;
+    this.#esAutotransporte = true;
+    return this;
+  }
+  crearIdentificacionVehicular(data: identificacionVehicularInterface): this {
+    this.#identificacionVehicular = data;
+    return this;
+  }
+  crearSeguros(data: segurosInterface): this {
+    this.#seguros.push({ ...data });
+    return this;
+  }
+  crearRemolques(data: remolquesInterface): this {
+    this.#remolques.push({ ...data });
+    return this;
   }
   generarCartaPorte(atributos: atributosCartaPorteInterface) {
     if (this.#xml) {
@@ -667,7 +707,56 @@ export class CartaPorte {
             });
           }
         });
-
+        // CONDICIONES PARA COLOCAR SOLO LOS ELEMENTOS NECESARIOS PARA CADA TIPO DE TRANSPORTE
+        if (this.#esAutotransporte) {
+          const autotransporte_node = mercancias_node.appendChild(
+            xmlDoc.createElement("cartaporte:31:Autotransporte")
+          );
+          Object.keys(this.#autotransporte).forEach((key) => {
+            const typedKey = key as keyof autotransporteInterface;
+            const value = this.#autotransporte[typedKey];
+            if (value !== undefined) {
+              autotransporte_node.setAttribute(key, value.toString());
+            }
+          });
+          const inden_vehicular_node = autotransporte_node.appendChild(
+            xmlDoc.createElement("cartaporte31:IdentificacionVehicular")
+          );
+          Object.keys(this.#identificacionVehicular).forEach((key) => {
+            const typedKey = key as keyof identificacionVehicularInterface;
+            const value = this.#identificacionVehicular[typedKey];
+            if (value !== undefined) {
+              inden_vehicular_node.setAttribute(key, value.toString());
+            }
+          });
+          this.#seguros.forEach((item) => {
+            const seguro_node = autotransporte_node.appendChild(
+              xmlDoc.createElement("cartaporte31:Seguros")
+            );
+            Object.keys(item).forEach((key) => {
+              const typedKey = key as keyof segurosInterface;
+              const value = item[typedKey];
+              if (value !== undefined) {
+                seguro_node.setAttribute(key, value.toString());
+              }
+            });
+          });
+          const remolques_node = autotransporte_node.appendChild(
+            xmlDoc.createElement("cartaporte31:Remolques")
+          );
+          this.#remolques.forEach((item) => {
+            const remolque_node = remolques_node.appendChild(
+              xmlDoc.createElement("cartaporte31:Remolque")
+            );
+            Object.keys(item).forEach((key) => {
+              const typedKey = key as keyof remolquesInterface;
+              const value = item[typedKey];
+              if (value !== undefined) {
+                remolque_node.setAttribute(key, value.toString());
+              }
+            });
+          });
+        }
         const serializer = new XMLSerializer();
         const xmlCartaPorte = serializer.serializeToString(xmlDoc);
         console.log(xmlCartaPorte);

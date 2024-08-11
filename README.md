@@ -32,6 +32,12 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
   - [Método crearUbicacionDestino](#Método-crearUbicacionDestino)
   - [Método crearMercancias](#Método-crearMercancias)
   - [Método crearMercancia](#Método-crearMercancia)
+  - [Método crearDocumentacionAduanera](#Método-crearDocumentacionAduanera)
+  - [Método crearCantidadTransporta](#Método-crearCantidadTransporta)
+  - [Método crearAutotransporte](#Método-crearAutotransporte)
+  - [Método crearIdentificacionVehicular](#Método-crearIdentificacionVehicular)
+  - [Método crearSeguros](#Método-crearSeguros)
+  - [Método crearRemolques](#Método-crearRemolques)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -436,23 +442,23 @@ newCartaPorte.crearMercancias(mercancias);
 
 ```javascript
 const objetoMercancia = {
-  BienesTransp: 24131510,
-  Descripcion: "Refrigeradores de mostrador",
-  Cantidad: 1,
-  ClaveUnidad: "H87",
-  Unidad: "Pieza",
-  Dimensiones: "59/40/36cm",
-  MaterialPeligroso: "No",
-  PesoEnKg: 6,
-  FraccionArancelaria: 8418699999,
-  TipoMateria: "03",
-  // En caso que TipoMateria sea "05" debe existe el siguiente valor
+  BienesTransp: 24131510, // Obligatorio
+  Descripcion: "Refrigeradores de mostrador", // Obligatorio
+  Cantidad: 1, // Obligatorio
+  ClaveUnidad: "H87", // Obligatorio
+  Unidad: "Pieza", // Obligatorio
+  Dimensiones: "59/40/36cm", // Obligatorio
+  MaterialPeligroso: "No", // Obligatorio
+  PesoEnKg: 6, // Obligatorio
+  FraccionArancelaria: 8418699999, // Obligatorio
+  TipoMateria: "03", // Obligatorio
+  // En caso que TipoMateria sea "05" debe existe la siguiente propiedad
   DescripcionMateria: "DescripcionMateria",
-  // En caso que sea un material peligroso es necesario agregar estos valores
+  // En caso que sea un material peligroso es necesario agregar estas propiedades
   CveMaterialPeligroso: 3496,
   Embalaje: "4D",
   DescripEmbalaje: " Cajas de madera contrachapada.",
-  // En caso que el registro sea parte del sector COFEPRIS incluir estos valores
+  // En caso que el registro sea parte del sector COFEPRIS incluir estas propiedades
   SectorCOFEPRIS: "01",
   NombreIngredienteActivo: "NombreIngredienteActivo",
   NomQuimico: "NomQuimico",
@@ -475,8 +481,149 @@ const objetoMercancia = {
   UsoAutorizado: "UsoAutorizado",
 };
 
-newCartaPorte.crearMercancias(objetoMercancia);
+newCartaPorte.crearMercancia(objetoMercancia);
 ```
+
+### **Método crearDocumentacionAduanera**
+
+```javascript
+const docAduanera = {
+  TipoDocumento: "01", // Obligatorio
+  // En caso que EntradaSalidaMerc sea diferente a "Entrada" y TipoDocumento sea distinto a "01" se debe omitir las siguientes propiedades
+  NumPedimento: "10 47 3807 8003832",
+  RFCImpo: "XEXX010101000",
+};
+
+// Puede encadenar el método crearDocumentacionAduanera a crearMercancia o simplemente usarlo por separado.
+newCartaPorte
+  .crearMercancia(objetoMercancia)
+  .crearDocumentacionAduanera(docAduanera);
+```
+
+| Argumento     | Tipo            | Descripción                                                                                      |
+| ------------- | --------------- | ------------------------------------------------------------------------------------------------ |
+| TipoDocumento | string - number | Clave del tipo de documento aduanero.                                                            |
+| NumPedimento  | string          | Número de pedimento correspondiente a la importación de los bienes y/o mercancías.               |
+| RFCImpo       | string          | RFC del importador de los bienes y/o mercancías que fue registrado en la documentación aduanera. |
+
+### **Método crearCantidadTransporta**
+
+```javascript
+const cantTransporta = {
+  Cantidad: 2, // Obligatorio
+  IDOrigen: "OR000001", // Obligatorio
+  IDDestino: "DE000001", // Obligatorio
+  CvesTransporte: "01", // Opcional en caso de ser Autotransporte
+};
+
+// Puede encadenar el método crearCantidadTransporta a crearMercancia o simplemente usarlo por separado.
+newCartaPorte
+  .crearMercancia(objetoMercancia)
+  .crearCantidadTransporta(cantTransporta);
+```
+
+| Argumento      | Tipo            | Descripción                                                            |
+| -------------- | --------------- | ---------------------------------------------------------------------- |
+| Cantidad       | string - number | Número de los bienes y/o mercancías que se trasladan.                  |
+| IDOrigen       | string          | Valor registrado del campo IDUbicacion del TipoUbicacion "Origen".     |
+| IDDestino      | string          | Valor registrado del campo IDUbicacion del TipoUbicacion "Destino".    |
+| CvesTransporte | string - number | Medio de transporte por el que se trasladan los bienes y/o mercancías. |
+
+A partir de este punto los siguientes métodos seran enfocados a los distintos tipos de transporte.
+
+### **Método crearAutotransporte**
+
+```javascript
+const autotransporte = {
+  PermSCT: "TPAF01", // Obligatorio
+  NumPermisoSCT: "0X2XTXZ0X5X0X3X2X1X0", // Obligatorio
+};
+
+newCartaPorte.crearAutotransporte(autotransporte);
+```
+
+| Argumento     | Tipo   | Descripción                                                                                                                  |
+| ------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| PermSCT       | string | Permiso otorgado por la Secretaría de Infraestructura, Comunicaciones y Transportes (SICT) o la autoridad análoga.           |
+| NumPermisoSCT | string | Número de permiso otorgado por la Secretaría de Infraestructura, Comunicaciones y Transportes (SICT) o la autoridad análoga. |
+
+CITA: _Cuando no se cuente con un permiso emitido por parte de la Secretaría de Infraestructura, Comunicaciones y Transportes (SICT), debido a que no es requerido y se cuenta con un permiso de ámbito local o estatal, se debe registrar la clave TPXX00 en el campo Permiso SICT (PermSCT), registrando el número de permiso local o estatal en el campo Número de Permiso SICT (NumPermisoSCT). En caso de no requerir permiso se debe registrar la descripción Permiso no contemplado en el catálogo_
+
+### **Método crearIdentificacionVehicular**
+
+```javascript
+const identificacionVehicular = {
+  ConfigVehicular: "C2R2", // Obligatorio
+  PesoBrutoVehicular: 35.5, // Obligatorio
+  PlacaVM: "5031&&", // Obligatorio
+  AnioModeloVM: 2000, // Obligatorio
+};
+
+newCartaPorte
+  .crearAutotransporte(autotransporte)
+  .crearIdentificacionVehicular(identificacionVehicular); // Método
+```
+
+| Argumento          | Tipo            | Descripción                                                                                         |
+| ------------------ | --------------- | --------------------------------------------------------------------------------------------------- |
+| ConfigVehicular    | string          | Clave asignada al tipo de transporte en el que se realiza el traslado de los bienes y/o mercancías. |
+| PesoBrutoVehicular | string - number | Suma del peso vehicular y el peso de la carga.                                                      |
+| PlacaVM            | string          | Placa del vehículo en el que se realiza el traslado de bienes y/o mercancías.                       |
+| AnioModeloVM       | string - number | Año del vehículo en el que se realiza el traslado de bienes y/o mercancías.                         |
+
+### **Método crearSeguros**
+
+```javascript
+const seguros = {
+  AseguraRespCivil: "PFG& Seguros S.A. de C.V.", // Obligatorio
+  PolizaRespCivil: 154647, // Obligatorio
+  AseguraCarga: "PFG& Seguros S.A. de C.V.", // Opcional
+  PolizaCarga: 368549, // Opcional
+  PrimaSeguro: 1200, // Opcional
+  // EN CASO DE TRANSPORTAR MATERIAL PELIGROSO DEBE PROPORCIONAR LOS DATOS DE ESTAS PROPIEDADES
+  AseguraMedAmbiente: "Olimpo S.A. de C.V",
+  PolizaMedAmbiente: 987423,
+};
+
+newCartaPorte
+  .crearAutotransporte(autotransporte)
+  .crearIdentificacionVehicular(identificacionVehicular)
+  .crearSeguros(seguros); // Método
+```
+
+NOTA: Puede usar el método las veces que sea necesario, por ejemplo si cuenta con mas de un seguro.
+
+| Argumento          | Tipo            | Descripción                                                                                                                                                              |
+| ------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| AseguraRespCivil   | string          | nombre de la aseguradora que cubre los riesgos de responsabilidad civil del autotransporte.                                                                              |
+| PolizaRespCivil    | string - number | Número de la póliza de seguro que emite la aseguradora que cubre los riesgos de responsabilidad civil del autotransporte.                                                |
+| AseguraCarga       | string          | Nombre de la aseguradora que cubre los riesgos de la carga (bienes y/o mercancías) transportada.                                                                         |
+| PolizaCarga        | string - number | Número de póliza que emite la aseguradora que cubre los riesgos de la carga (bienes y/o mercancías) transportada.                                                        |
+| PrimaSeguro        | string - number | Valor del importe de la prima del seguro contratado.                                                                                                                     |
+| AseguraMedAmbiente | string          | Nombre de la aseguradora que cubre los posibles daños al medio ambiente, aplicable para los transportistas que realicen el traslado de materiales o residuos peligrosos. |
+| PolizaMedAmbiente  | string - number | Número de póliza asignado por la aseguradora, que cubre los posibles daños al medio ambiente.                                                                            |
+
+### **Método crearRemolques**
+
+```javascript
+const remolques = {
+  SubTipoRem: "CTR004",
+  Placa: "5031&&",
+};
+
+newCartaPorte
+  .crearAutotransporte(autotransporte)
+  .crearIdentificacionVehicular(identificacionVehicular)
+  .crearSeguros(seguros)
+  .crearRemolques(remolques); // Método
+```
+
+NOTA: Puede usar el método las veces que sea necesario, por ejemplo si cuenta con mas de un remolque con distinta información.
+
+| Argumento  | Tipo   | Descripción                                                                                   |
+| ---------- | ------ | --------------------------------------------------------------------------------------------- |
+| SubTipoRem | string | Clave del subtipo de remolque o semirremolque.                                                |
+| Placa      | string | Placa del remolque o semirremolque en el que se realiza el traslado de bienes y/o mercancías. |
 
 ## **Catálogos**
 

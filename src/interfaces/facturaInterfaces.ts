@@ -219,12 +219,35 @@ export interface itemMercanciaInterface {
 }
 export interface documentacionAduaneraInterface {
   TipoDocumento: string | number;
-  NumPedimento: string;
-  RFCImpo: string;
+  NumPedimento?: string;
+  RFCImpo?: string;
 }
 export interface cantidadTransportaInterface {
   Cantidad: string;
   IDOrigen: string;
   IDDestino: string;
   CvesTransporte?: string;
+}
+export interface autotransporteInterface {
+  PermSCT: string;
+  NumPermisoSCT: string;
+}
+export interface identificacionVehicularInterface {
+  ConfigVehicular: string;
+  PesoBrutoVehicular: string | number;
+  PlacaVM: string;
+  AnioModeloVM: string | number;
+}
+export interface segurosInterface {
+  AseguraRespCivil: string;
+  PolizaRespCivil: string | number;
+  AseguraCarga?: string;
+  PolizaCarga?: string | number;
+  PrimaSeguro?: string | number;
+  AseguraMedAmbiente?: string;
+  PolizaMedAmbiente?: string | number;
+}
+export interface remolquesInterface {
+  SubTipoRem: string;
+  Placa: string;
 }

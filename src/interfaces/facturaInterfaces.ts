@@ -251,3 +251,28 @@ export interface remolquesInterface {
   SubTipoRem: string;
   Placa: string;
 }
+export interface tipoFiguraInterface {
+  TipoFigura: string;
+  NombreFigura: string;
+  RFCFigura?: string;
+  NumLicencia?: string | number;
+  NumRegIdTribFigura?: string | number;
+  ResidenciaFiscalFigura?: string;
+  PartesTransporte?: Array<partesTransporteInterface>;
+  Domicilio?: domicilioInterface;
+}
+export interface partesTransporteInterface {
+  ParteTransporte: string;
+}
+export interface domicilioInterface {
+  Calle?: string;
+  NumeroExterior?: string | number;
+  NumeroInterior?: string | number;
+  Colonia?: string;
+  Localidad?: string;
+  Municipio?: string;
+  Estado: string;
+  Pais: string;
+  CodigoPostal: string | number;
+  Referencia?: string;
+}

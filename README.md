@@ -38,6 +38,11 @@ Si la librería te ha servido, podrias hacermelo saber invitandome un café :)
   - [Método crearIdentificacionVehicular](#Método-crearIdentificacionVehicular)
   - [Método crearSeguros](#Método-crearSeguros)
   - [Método crearRemolques](#Método-crearRemolques)
+  - [Método crearTipoFigura](#Método-crearTipoFigura)
+  - [Método crearPartesTransporte](#Método-crearPartesTransporte)
+  - [Método crearDomicilioTipoFigura](#Método-crearDomicilioTipoFigura)
+  - [Método crearSello](#Método-crearSello)
+  - [Método generarCartaPorte](#Método-generarCartaPorte)
 - [Catálogos](#Catálogos)
 
 ### **Instalación**
@@ -198,6 +203,13 @@ NOTA: La llave privada debe de estar en su formato base no convertida ya que la 
 | PathLlavePrivada | string | Ruta de la llave privada en su formato base (.key). |
 | Contraseña       | string | Contraseña de la llave privada.                     |
 
+SOBRE CARTA PORTE:
+
+- En caso de generar un XML con complemento Carta Porte es necesario que el método **crearSello** sea de la clase "CartaPorte".
+  [Vea mas sobre CartaPorte](#Carta-porte)
+
+- Este método debe estar antes del [Método generarCartaPorte](#Método-generarCartaPorte)
+
 ### **Método generarXml**
 
 ```javascript
@@ -258,6 +270,10 @@ Para generar el XML sellado es necesario incluir el método **crearSello** antes
 | Moneda            | string          | Clave de la moneda utilizada para expresar los montos.                                                   |
 | Exportacion       | string - number | Clave con la que se identifica si el comprobante ampara una operación de exportación.                    |
 | Descuento         | string - number | Importe total de los descuentos aplicables antes de impuestos.                                           |
+
+SOBRE CARTA PORTE:
+
+- Si pretende generar un XML con complemento CartaPorte se recomienda usar el método **generarXml** en lugar del método **generarXmlSellado**
 
 ## **XML de tipo Egreso**
 
@@ -322,9 +338,11 @@ Para poder generar el complemento Carta Porte es necesario contar con el XML de 
 ```javascript
 const { CartaPorte } = require("cfdi-sat-nodejs");
 
-const pathXml = "ruta del XML sin timbrar.";
-const nuevaCartaPorte = new CartaPorte(pathXml);
+const xml = "contenido del XML sin timbrar.";
+const nuevaCartaPorte = new CartaPorte(xml);
 ```
+
+NOTA: Aunque se admite un XML previamente sellado sin timbrar, se recomienda usa el XML sin sellar, esto para evitar tener que usar dos veces el método [**crearSello**](#método-crearsello)
 
 ### **Método crearRegimenesAduaneros**
 
@@ -591,7 +609,7 @@ newCartaPorte
   .crearSeguros(seguros); // Método
 ```
 
-NOTA: Puede usar el método las veces que sea necesario, por ejemplo si cuenta con mas de un seguro.
+CANTIDAD DE VECES QUE PUEDE SER LLAMADO EL MÉTODO: Ilimitado
 
 | Argumento          | Tipo            | Descripción                                                                                                                                                              |
 | ------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -618,12 +636,120 @@ newCartaPorte
   .crearRemolques(remolques); // Método
 ```
 
-NOTA: Puede usar el método las veces que sea necesario, por ejemplo si cuenta con mas de un remolque con distinta información.
+CANTIDAD DE VECES QUE PUEDE SER LLAMADO EL MÉTODO: Ilimitado
 
 | Argumento  | Tipo   | Descripción                                                                                   |
 | ---------- | ------ | --------------------------------------------------------------------------------------------- |
 | SubTipoRem | string | Clave del subtipo de remolque o semirremolque.                                                |
 | Placa      | string | Placa del remolque o semirremolque en el que se realiza el traslado de bienes y/o mercancías. |
+
+### **Método crearTipoFigura**
+
+```javascript
+const tipoFigura = {
+  TipoFigura: "01", // Obligatorio
+  NombreFigura: "Pancracio Chug Wan", // Obligatorio
+  RFCFigura: "XXXX78041FXXX", // Opcional
+  // En caso que el TipoFigura sea "01" debe proporcionar este dato
+  NumLicencia: "000004",
+  // En caso que el TipoFigura sea extranjero debe proporcionar estos datos
+  NumRegIdTribFigura: 121585958,
+  ResidenciaFiscalFigura: "USA",
+};
+
+newCartaPorte.crearTipoFigura(tipoFigura);
+```
+
+CANTIDAD DE VECES QUE PUEDE SER LLAMADO EL MÉTODO: Ilimitado
+
+| Argumento              | Tipo            | Descripción                                                                                                                        |
+| ---------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| TipoFigura             | string          | Clave de la figura quien hace el traslado de bienes y/o mercancías.                                                                |
+| NombreFigura           | string          | Nombre de la figura de transporte que interviene en el traslado de los bienes y/o mercancías.                                      |
+| RFCFigura              | string          | RFC de la figura de transporte que interviene en el traslado de los bienes y/o mercancías.                                         |
+| NumLicencia            | string - number | Número de la licencia de conducir o permiso otorgado al operador de la unidad que se realiza el traslado de bienes y/o mercancías. |
+| NumRegIdTribFigura     | string - number | Número de identificación fiscal que corresponde al tipo de la figura de transporte.                                                |
+| ResidenciaFiscalFigura | string          | Clave del país que corresponde al tipo de figura de transporte                                                                     |
+
+### **Método crearPartesTransporte**
+
+```javascript
+const partesTransporte = {
+  ParteTransporte: "PT01", // Obligatorio
+};
+
+newCartaPorte
+  .crearTipoFigura(tipoFigura)
+  .crearPartesTransporte(partesTransporte); // Método
+```
+
+CANTIDAD DE VECES QUE PUEDE SER LLAMADO EL MÉTODO: Ilimitado
+
+| Argumento       | Tipo   | Descripción                                                                                                |
+| --------------- | ------ | ---------------------------------------------------------------------------------------------------------- |
+| ParteTransporte | string | Clave que pertenece al transporte o la parte de transporte que no es propiedad del emisor del comprobante. |
+
+### **Método crearDomicilioTipoFigura**
+
+```javascript
+const domicilioTipoFigura = {
+  Calle: "Avenida Reforma Norte", // Opcional
+  NumeroExterior: 77, // Opcional
+  NumeroInterior: 5, // Opcional
+  Colonia: "Zona Hotelera Norte", // Opcional
+  Localidad: "California", // Opcional
+  Municipio: "San Francisco", // Opcional
+  Estado: "CA", // Obligatorio
+  Pais: "USA", // Obligatorio
+  CodigoPostal: 49109, // Obligatorio
+  Referencia: "Frente al parque de Santa Úrsula.", // Opcional
+};
+
+newCartaPorte
+  .crearTipoFigura(tipoFigura)
+  .crearPartesTransporte(partesTransporte)
+  .crearDomicilioTipoFigura(domicilioTipoFigura); // Método
+```
+
+CANTIDAD DE VECES QUE PUEDE SER LLAMADO EL MÉTODO: 1
+
+| Argumento      | Tipo            | Descripción                                                                                                              |
+| -------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Calle          | string          | Calle en la que está ubicado el domicilio de la figura de transporte.                                                    |
+| NumeroExterior | string - number | Número exterior en donde se ubica el domicilio de la figura de transporte.                                               |
+| NumeroInterior | string - number | Número interior en donde se ubica el domicilio de la figura de transporte.                                               |
+| Colonia        | string          | Colonia en donde se ubica el domicilio de la figura de transporte.                                                       |
+| Localidad      | string          | Localidad que corresponda a la ciudad o población en donde se encuentra ubicado el domicilio de la figura de transporte. |
+| Municipio      | string          | Municipio, demarcación territorial o condado en donde se encuentra ubicado el domicilio de la figura de transporte.      |
+| Estado         | string          | Estado, entidad, región, comunidad, en donde se encuentra ubicado el domicilio de la figura de transporte.               |
+| Pais           | string          | Clave del país en donde se encuentra ubicado el domicilio de la Figura de transporte.                                    |
+| CodigoPostal   | string . number | Clave del código postal en donde se encuentra el domicilio de la figura del transporte.                                  |
+| Referencia     | string          | Referencia geográfica adicional, que permita una fácil o precisa ubicación del domicilio de la figura del transporte.    |
+
+### **Método generarCartaPorte**
+
+```javascript
+const atributos = {
+  TranspInternac: false, // Obligatorio
+  TotalDistRec: 1, // Obligatorio
+  // En caso que el traslado sea internacional debe proporcionar estos datos
+  EntradaSalidaMerc: "Entrada",
+  PaisOrigenDestino: "MEX",
+  ViaEntradaSalida: "01",
+  // Para el traslado de bienes y/o mercancias dentro de los polos de desarrollo para el bienestar del Istmo de Tehuantepec
+  RegistroISTMO: true,
+  UbicacionPoloOrigen: "01",
+  UbicacionPoloDestino: "05",
+};
+
+await newCartaPorte.generarCartaPorte(atributos);
+
+// ó
+
+newCartaPorte.generarCartaPorte(atributos).then((res) => {
+  console.log(res);
+});
+```
 
 ## **Catálogos**
 

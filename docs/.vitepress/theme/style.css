@@ -1,0 +1,65 @@
+:root {
+  --vp-c-brand-1: #459add;
+}
+
+.VPHome .container {
+  padding: 0px !important;
+  max-width: 100% !important;
+}
+.VPNavBarAppearance,
+.VPNavScreenAppearance,
+.VPMenu > .group:first-child {
+  display: none !important;
+}
+.container__title__class {
+  height: calc(100vh - 4.1rem);
+  display: flex;
+  align-items: center;
+  overflow: hidden !important;
+  position: relative;
+  padding: 0 105px;
+}
+.container__title__text__class {
+  font-family: "Calibri", sans-serif;
+  font-weight: 400 !important;
+  color: #459add;
+  font-size: 3rem !important;
+}
+.container__buttons__sections__class {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.btn__link__class {
+  padding: 8px 25px;
+  background-color: #459add;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 250ms ease;
+}
+.btn__link__class:hover {
+  transform: scale(1.1);
+  background-color: #3c8bc9;
+}
+.btn__link__secondary__class {
+  padding: 8px 25px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 250ms ease;
+}
+.btn__link__secondary__class:hover {
+  transform: scale(1.1);
+  background-color: #459add20;
+}
+.card__class {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+a {
+  text-decoration: none !important;
+}

@@ -1,13 +1,16 @@
 import { INodeComprobante } from "../interfaces/IFacturaCfdi";
 import Validator from "./Validator";
 import {
+  errors_descuento,
   errors_fecha,
   errors_folio,
   errors_forma_pago,
   errors_metodo_pago,
   errors_serie,
   errors_subtotal,
+  errors_tipo_cambio,
   errors_tipo_comprobante,
+  errors_total,
 } from "../utils/errors_factura_cfdi";
 import Utils from "./Utils";
 interface IError {
@@ -64,6 +67,14 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (err_subtotal_code !== "") {
       return this.setErrors(errors_subtotal.find((i) => i.code === err_subtotal_code)!);
     }
+    const err_descuento_code = this.validateDescuento(data.descuento, data.subtotal, data.tipoDeComprobante ?? "I");
+    if (err_descuento_code !== "") {
+      return this.setErrors(errors_descuento.find((i) => i.code === err_descuento_code)!);
+    }
+    const err_tipo_cambio_code = this.validateTipoCambio(data.tipoCambio, data.moneda ?? "MXN");
+    if (err_tipo_cambio_code !== "") return this.setErrors(errors_tipo_cambio.find((i) => i.code === err_tipo_cambio_code)!);
+    const err_total_code = this.validateTotal(data.total, data.tipoDeComprobante ?? "I");
+    if (err_total_code !== "") return this.setErrors(errors_total.find((i) => i.code === err_total_code)!);
   }
   private validateTipoComprobante(tipo_comprobante: string | undefined): string {
     if (typeof tipo_comprobante !== "string") {
@@ -158,6 +169,29 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (["T", "P"].includes(tipo_comprobante)) {
       if (parseFloat(subtotal.toString()) > 0) return "CSN40133";
     }
+    return "";
+  }
+  private validateDescuento(descuento: string | number | undefined, subtotal: string | number, tipo_comprobante: `I` | `E` | `P` | `T` | "N"): string {
+    if (descuento !== undefined && ["T", "P"].includes(tipo_comprobante)) return "CSN40136";
+    if (descuento !== undefined && !["string", "number"].includes(typeof descuento)) return "CSN40134";
+    if (descuento !== undefined && parseFloat(descuento.toString()) < 0) return "CSN40135";
+    if (descuento !== undefined && parseFloat(descuento.toString()) > parseFloat(subtotal.toString())) return "CSN40137";
+    return "";
+  }
+  private validateTipoCambio(tipo_cambio: string | number | undefined, moneda: string): string {
+    if (tipo_cambio !== undefined && !["string", "number"].includes(typeof tipo_cambio)) return "CSN40138";
+    if (tipo_cambio !== undefined && tipo_cambio === "") return "CSN40143";
+    if (!["MXN", "XXX"].includes(moneda) && tipo_cambio === undefined) return "CSN40139";
+    if (moneda === "MXN" && tipo_cambio !== undefined && parseFloat(tipo_cambio.toString()) !== 1) return "CSN40140";
+    if (moneda === "XXX" && tipo_cambio !== undefined) return "CSN40141";
+    if (tipo_cambio !== undefined && !/^[0-9]{1,18}(\.[0-9]{1,6})?$/.test(tipo_cambio.toString())) return "CSN40142";
+    return "";
+  }
+  private validateTotal(total: string | number | undefined, tipo_comprobante: string): string {
+    if (total === undefined) return "CSN40144";
+    if (!["string", "number"].includes(typeof total)) return "CSN40145";
+    if (total === "") return "CSN40146";
+    if (tipo_comprobante === "T") return "CSN40147";
     return "";
   }
 }

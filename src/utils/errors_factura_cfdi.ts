@@ -125,3 +125,65 @@ export const errors_subtotal = [
     message: "Si el tipo de comprobante es T o P, el subtotal debe ser igual a 0 o cero con decimales.",
   },
 ];
+export const errors_descuento = [
+  {
+    code: "CSN40134",
+    message: 'El tipo de la propiedad "descuento" no es valido. Debe ser de tipo string o number.',
+  },
+  {
+    code: "CSN40135",
+    message: 'La propiedad "descuento" no puede ser un valor negativo.',
+  },
+  {
+    code: "CSN40136",
+    message: 'Si el tipo de comprobante es T o P, la propiedad "descuento" no debe existir.',
+  },
+  {
+    code: "CSN40137",
+    message: "El valor del descuento debe ser menor o igual que el valor de la propiedad subtotal.",
+  },
+];
+export const errors_tipo_cambio = [
+  {
+    code: "CSN40138",
+    message: 'El tipo de la propiedad "tipoCambio" no es valido. Debe ser de tipo string o number.',
+  },
+  {
+    code: "CSN40139",
+    message: 'La propiedad "tipoCambio" se debe registrar cuando la propiedad "moneda" tiene un valor distinto de MXN y XXX.',
+  },
+  {
+    code: "CSN40140",
+    message: 'La propiedad "tipoCambio" existe y no tiene el valor "1" cuando la moneda indicada o predeterminada es MXN.',
+  },
+  {
+    code: "CSN40141",
+    message: 'La propiedad "tipoCambio" no se debe registrar cuando la propiedad "moneda" tiene el valor XXX.',
+  },
+  {
+    code: "CSN40142",
+    message: 'La propiedad "tipoCambio" no cumple con el patrón requerido: [0-9]{1,18}(.[0-9]{1,6})?',
+  },
+  {
+    code: "CSN40143",
+    message: 'La propiedad "tipoCambio" no puede estar vacía.',
+  },
+];
+export const errors_total = [
+  {
+    code: "CSN40144",
+    message: 'No existe la propiedad "total".',
+  },
+  {
+    code: "CSN40145",
+    message: 'El tipo de la propiedad "total" no es valido. Debe ser de tipo string o number.',
+  },
+  {
+    code: "CSN40146",
+    message: 'La propiedad "total" no puede estar vacía.',
+  },
+  {
+    code: "CSN40147",
+    message: "Si el tipo de comprobante es T, el total debe ser igual a 0 o cero con decimales.",
+  },
+];

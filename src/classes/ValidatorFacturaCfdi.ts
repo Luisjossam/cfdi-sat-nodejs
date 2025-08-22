@@ -1,6 +1,14 @@
 import { INodeComprobante } from "../interfaces/IFacturaCfdi";
 import Validator from "./Validator";
-import { errors_fecha, errors_folio, errors_forma_pago, errors_metodo_pago, errors_serie, errors_tipo_comprobante } from "../utils/errors_factura_cfdi";
+import {
+  errors_fecha,
+  errors_folio,
+  errors_forma_pago,
+  errors_metodo_pago,
+  errors_serie,
+  errors_subtotal,
+  errors_tipo_comprobante,
+} from "../utils/errors_factura_cfdi";
 import Utils from "./Utils";
 interface IError {
   code: string;
@@ -51,6 +59,10 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     const err_forma_pago_code = this.validateFormaPago(data.formaPago, data.tipoDeComprobante ?? "I", data.metodoPago);
     if (err_forma_pago_code !== "") {
       return this.setErrors(errors_forma_pago.find((i) => i.code === err_forma_pago_code)!);
+    }
+    const err_subtotal_code = this.validateSubtotal(data.subtotal, data.tipoDeComprobante ?? "I");
+    if (err_subtotal_code !== "") {
+      return this.setErrors(errors_subtotal.find((i) => i.code === err_subtotal_code)!);
     }
   }
   private validateTipoComprobante(tipo_comprobante: string | undefined): string {
@@ -109,7 +121,7 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     }
     return "";
   }
-  private validateMetodoPago(mp: string | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | "N"): string {
+  private validateMetodoPago(mp: string | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | `N`): string {
     if (["I", "E", "N"].includes(tipo_comprobante)) {
       if (mp === undefined) return "CSN40125";
       if (!["string"].includes(typeof mp)) return "CSN40126";
@@ -136,6 +148,15 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     }
     if (["P", "N", "T"].includes(tipo_comprobante) && data !== undefined) {
       return "CSN40119";
+    }
+    return "";
+  }
+  private validateSubtotal(subtotal: string | number | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | "N"): string {
+    if (subtotal === undefined) return "CSN40130";
+    if (!["string", "number"].includes(typeof subtotal)) return "CSN40131";
+    if (subtotal === "") return "CSN40132";
+    if (["T", "P"].includes(tipo_comprobante)) {
+      if (parseFloat(subtotal.toString()) > 0) return "CSN40133";
     }
     return "";
   }

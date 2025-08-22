@@ -25,7 +25,6 @@ import { create } from "xmlbuilder2";
 import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
 import generateCadenaOriginal from "../utils/generateCadenaOriginal";
 import Utils from "./Utils";
-import Validator from "./Validator";
 import ValidatorFacturaCfdi from "./ValidatorFacturaCfdi";
 
 class FacturaCfdi extends Utils {
@@ -266,9 +265,9 @@ class FacturaCfdi extends Utils {
       Serie: this.node_comprobante.serie,
       Folio: this.node_comprobante.folio,
       Fecha: this.node_comprobante.fecha,
-      SubTotal: this.node_comprobante.tipoDeComprobante === "P" ? "0" : parseFloat(this.node_comprobante.subtotal.toString()).toFixed(2),
+      SubTotal: ["P", "T"].includes(this.node_comprobante.tipoDeComprobante ?? "I") ? "0" : parseFloat(this.node_comprobante.subtotal.toString()).toFixed(2),
       Moneda: this.node_comprobante.moneda ?? "MXN",
-      Total: this.node_comprobante.tipoDeComprobante === "P" ? "0" : parseFloat(this.node_comprobante.total.toString()).toFixed(2),
+      Total: ["P", "T"].includes(this.node_comprobante.tipoDeComprobante ?? "I") ? "0" : parseFloat(this.node_comprobante.total.toString()).toFixed(2),
       TipoDeComprobante: this.node_comprobante.tipoDeComprobante ?? "I",
       LugarExpedicion: this.node_comprobante.lugarExpedicion,
       NoCertificado: this.config_cfdi.getCert().noCertificado,

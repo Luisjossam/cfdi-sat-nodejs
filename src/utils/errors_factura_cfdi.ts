@@ -107,3 +107,21 @@ export const errors_metodo_pago = [
     message: 'Si existe el tipo de comprobante P o T, la propiedad "metodoPago" no debe existir.',
   },
 ];
+export const errors_subtotal = [
+  {
+    code: "CSN40130",
+    message: 'No existe la propiedad "subtotal".',
+  },
+  {
+    code: "CSN40131",
+    message: 'El tipo de la propiedad "subtotal" no es valido. Debe ser de tipo string o number.',
+  },
+  {
+    code: "CSN40132",
+    message: 'La propiedad "subtotal" no puede estar vacía.',
+  },
+  {
+    code: "CSN40133",
+    message: "Si el tipo de comprobante es T o P, el subtotal debe ser igual a 0 o cero con decimales.",
+  },
+];

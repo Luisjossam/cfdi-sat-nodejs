@@ -68,12 +68,20 @@ class FacturaCfdi extends Utils {
     this.config_cfdi = config_cfdi;
   }
   public createNodeComprobante(options: INodeComprobante) {
-    const errors = new ValidatorFacturaCfdi<INodeComprobante>("comprobante", options).getErrors();
-    if (errors.length > 0) {
-      const err = `Exist an error at createNodeComprobante: ${errors[0].code}: ${errors[0].message}`;
-      throw new Error(err);
-    }
-    this.node_comprobante = options;
+    const instance = new ValidatorFacturaCfdi<INodeComprobante>("comprobante", options);
+    instance
+      .run()
+      .then(() => {
+        const errors = instance.getErrors();
+        if (errors.length > 0) {
+          const err = `Exist an error at createNodeComprobante: ${errors[0].code}: ${errors[0].message}`;
+          throw new Error(err);
+        }
+        this.node_comprobante = options;
+      })
+      .catch((err) => {
+        throw new Error(err.message);
+      });
   }
   public createNodeInformacionGlobal(options: INodeInformacionGlobal) {
     this.node_informacion_global = options;

@@ -2,6 +2,7 @@ import { INodeComprobante } from "../interfaces/IFacturaCfdi";
 import Validator from "./Validator";
 import {
   errors_descuento,
+  errors_exportacion,
   errors_fecha,
   errors_folio,
   errors_forma_pago,
@@ -13,6 +14,7 @@ import {
   errors_total,
 } from "../utils/errors_factura_cfdi";
 import Utils from "./Utils";
+import CatalogoSat from "./CatalogoSat";
 interface IError {
   code: string;
   message: string;
@@ -24,18 +26,17 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
   constructor(type: nodesTypes, private readonly data: T) {
     super();
     this.type = type;
-    this.run();
   }
-  private run() {
+  async run() {
     switch (this.type) {
       case "comprobante":
-        this.validateNodeComprobante();
+        await this.validateNodeComprobante();
         break;
       default:
         return [];
     }
   }
-  private validateNodeComprobante() {
+  private async validateNodeComprobante() {
     const data = this.data as unknown as INodeComprobante;
     if ("tipoDeComprobante" in data) {
       const err_tipo_comprobante_code = this.validateTipoComprobante(data.tipoDeComprobante);
@@ -70,6 +71,10 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
 
     err_code = this.validateTotal(data.total, data.tipoDeComprobante ?? "I");
     if (err_code !== "") return this.setErrors(errors_total.find((i) => i.code === err_code)!);
+
+    err_code = await this.validateExportacion(data.exportacion ?? "01");
+
+    if (err_code !== "") return this.setErrors(errors_exportacion.find((i) => i.code === err_code)!);
   }
   private validateTipoComprobante(tipo_comprobante: string | undefined): string {
     if (typeof tipo_comprobante !== "string") {
@@ -189,8 +194,20 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
   private validateTotal(total: string | number | undefined, tipo_comprobante: string): string {
     if (total === undefined) return "CSN40144";
     if (!["string", "number"].includes(typeof total)) return "CSN40145";
-    if (total === "") return "CSN40146";
+    if (total.toString().trim() === "") return "CSN40146";
     if (tipo_comprobante === "T") return "CSN40147";
+    return "";
+  }
+  private async validateExportacion(exportacion: string): Promise<string> {
+    if (typeof exportacion !== "string") return "CSN40148";
+    if (exportacion.trim() === "") return "CSN40149";
+
+    try {
+      const value_exist = await new CatalogoSat("exportacion").search("clave", exportacion);
+      console.log(value_exist);
+    } catch (error: any) {
+      if (error.message === "Not found") return "CFDI40123";
+    }
     return "";
   }
 }

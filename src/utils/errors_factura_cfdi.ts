@@ -187,3 +187,17 @@ export const errors_total = [
     message: "Si el tipo de comprobante es T, el total debe ser igual a 0 o cero con decimales.",
   },
 ];
+export const errors_exportacion = [
+  {
+    code: "CFDI40123",
+    message: "El campo Exportacion no contiene un valor del catálogo c_Exportacion.",
+  },
+  {
+    code: "CSN40148",
+    message: 'El tipo de la propiedad "exportacion" no es valido. Debe ser de tipo string.',
+  },
+  {
+    code: "CSN40149",
+    message: 'La propiedad "exportacion" no puede estar vacía.',
+  },
+];

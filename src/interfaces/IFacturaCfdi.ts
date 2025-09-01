@@ -3,7 +3,7 @@ export interface INodeComprobante {
   folio: string;
   fecha: string;
   subtotal: string | number;
-  formaPago?: string | number;
+  formaPago?: string;
   total: string | number;
   metodoPago?: "PUE" | "PPD";
   lugarExpedicion: string | number;

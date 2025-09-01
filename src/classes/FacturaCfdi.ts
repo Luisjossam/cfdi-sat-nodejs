@@ -77,11 +77,11 @@ class FacturaCfdi extends Utils {
           const err = `Exist an error at createNodeComprobante: ${errors[0].code}: ${errors[0].message}`;
           throw new Error(err);
         }
-        this.node_comprobante = options;
       })
       .catch((err) => {
         throw new Error(err.message);
       });
+    this.node_comprobante = options;
   }
   public createNodeInformacionGlobal(options: INodeInformacionGlobal) {
     this.node_informacion_global = options;

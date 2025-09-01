@@ -64,7 +64,7 @@ export const errors_forma_pago = [
     message: "Si existe el tipo de comprobante T, N o P, la propiedad formaPago no debe existir.",
   },
   {
-    code: "CSN40120",
+    code: "CFDI40104",
     message: "El campo FormaPago no contiene un valor del catálogo c_FormaPago.",
   },
   {
@@ -199,5 +199,41 @@ export const errors_exportacion = [
   {
     code: "CSN40149",
     message: 'La propiedad "exportacion" no puede estar vacía.',
+  },
+];
+export const errors_moneda = [
+  {
+    code: "CFDI40113",
+    message: "El campo Moneda no contiene un valor del catálogo c_Moneda.",
+  },
+  {
+    code: "CSN40150",
+    message: 'El tipo de la propiedad "moneda" no es valido. Debe ser de tipo string.',
+  },
+  {
+    code: "CSN40151",
+    message: 'La propiedad "moneda" no puede estar vacía.',
+  },
+];
+export const errors_lugar_expedicion = [
+  {
+    code: "CFDI40126",
+    message: "El campo LugarExpedicion, no contiene un valor del catálogo c_CodigoPostal.",
+  },
+  {
+    code: "CSN40152",
+    message: 'No existe la propiedad "lugarExpedicion".',
+  },
+  {
+    code: "CSN40153",
+    message: 'El tipo de la propiedad "lugarExpedicion" no es valido. Debe ser de tipo string o number.',
+  },
+  {
+    code: "CSN40154",
+    message: 'La propiedad "lugarExpedicion" no puede estar vacía.',
+  },
+  {
+    code: "CSN40155",
+    message: 'La propiedad "lugarExpedicion" no cumple con el patrón requerido: [0-9]{5}.',
   },
 ];

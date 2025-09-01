@@ -6,7 +6,9 @@ import {
   errors_fecha,
   errors_folio,
   errors_forma_pago,
+  errors_lugar_expedicion,
   errors_metodo_pago,
+  errors_moneda,
   errors_serie,
   errors_subtotal,
   errors_tipo_cambio,
@@ -57,7 +59,7 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     err_code = this.validateMetodoPago(data.metodoPago, data.tipoDeComprobante ?? "I");
     if (err_code !== "") return this.setErrors(errors_metodo_pago.find((i) => i.code === err_code)!);
 
-    err_code = this.validateFormaPago(data.formaPago, data.tipoDeComprobante ?? "I", data.metodoPago);
+    err_code = await this.validateFormaPago(data.formaPago, data.tipoDeComprobante ?? "I", data.metodoPago);
     if (err_code !== "") return this.setErrors(errors_forma_pago.find((i) => i.code === err_code)!);
 
     err_code = this.validateSubtotal(data.subtotal, data.tipoDeComprobante ?? "I");
@@ -66,6 +68,9 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     err_code = this.validateDescuento(data.descuento, data.subtotal, data.tipoDeComprobante ?? "I");
     if (err_code !== "") return this.setErrors(errors_descuento.find((i) => i.code === err_code)!);
 
+    err_code = await this.validateMoneda(data.moneda ?? "MXN");
+    if (err_code !== "") return this.setErrors(errors_moneda.find((i) => i.code === err_code)!);
+
     err_code = this.validateTipoCambio(data.tipoCambio, data.moneda ?? "MXN");
     if (err_code !== "") return this.setErrors(errors_tipo_cambio.find((i) => i.code === err_code)!);
 
@@ -73,8 +78,10 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (err_code !== "") return this.setErrors(errors_total.find((i) => i.code === err_code)!);
 
     err_code = await this.validateExportacion(data.exportacion ?? "01");
-
     if (err_code !== "") return this.setErrors(errors_exportacion.find((i) => i.code === err_code)!);
+
+    err_code = await this.validateLugarExpedicion(data.lugarExpedicion);
+    if (err_code !== "") return this.setErrors(errors_lugar_expedicion.find((i) => i.code === err_code)!);
   }
   private validateTipoComprobante(tipo_comprobante: string | undefined): string {
     if (typeof tipo_comprobante !== "string") {
@@ -142,24 +149,27 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (["P", "T"].includes(tipo_comprobante) && mp !== undefined) return "CSN40129";
     return "";
   }
-  private validateFormaPago(data: string | number | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | "N", mp: "PPD" | "PUE" | undefined): string {
+  private async validateFormaPago(data: string | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | `N`, mp: "PPD" | "PUE" | undefined): Promise<string> {
     if (["I", "E"].includes(tipo_comprobante)) {
-      if (data === undefined) {
-        return "CSN40122";
-      }
-      if (!["string", "number"].includes(typeof data)) {
-        return "CSN40123";
-      }
+      if (data === undefined) return "CSN40122";
+      if (typeof data !== "string") return "CSN40123";
+
       if (data.toString() === "") {
         return "CSN40124";
       }
       if (data.toString() !== "99" && mp === "PPD") {
         return "CSN40121";
       }
+      try {
+        await new CatalogoSat("formapago").search("clave", data);
+      } catch (error: any) {
+        if (error.message === "Not found") return "CFDI40104";
+      }
     }
     if (["P", "N", "T"].includes(tipo_comprobante) && data !== undefined) {
       return "CSN40119";
     }
+
     return "";
   }
   private validateSubtotal(subtotal: string | number | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | "N"): string {
@@ -203,10 +213,35 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (exportacion.trim() === "") return "CSN40149";
 
     try {
-      const value_exist = await new CatalogoSat("exportacion").search("clave", exportacion);
-      console.log(value_exist);
+      await new CatalogoSat("exportacion").search("clave", exportacion);
     } catch (error: any) {
       if (error.message === "Not found") return "CFDI40123";
+    }
+    return "";
+  }
+  private async validateMoneda(moneda: string): Promise<string> {
+    if (typeof moneda !== "string") return "CSN40150";
+    if (moneda.trim() === "") return "CSN40151";
+    try {
+      await new CatalogoSat("moneda").search("clave", moneda);
+    } catch (error: any) {
+      if (error.message === "Not found") return "CFDI40113";
+    }
+    return "";
+  }
+  private async validateLugarExpedicion(lugar_expedicion: string | number | undefined): Promise<string> {
+    if (lugar_expedicion === undefined) return "CSN40152";
+    if (!["string", "number"].includes(typeof lugar_expedicion)) return "CSN40153";
+    if (lugar_expedicion.toString().trim() === "") return "CSN40154";
+    if (!/^[0-9]{5}$/.test(lugar_expedicion.toString())) return "CSN40155";
+    try {
+      await new CatalogoSat("codigopostalparteuno").search("codigo_postal", lugar_expedicion.toString());
+    } catch (error: any) {
+      try {
+        await new CatalogoSat("codigopostalpartedos").search("codigo_postal", lugar_expedicion.toString());
+      } catch (error: any) {
+        if (error.message === "Not found") return "CFDI40126";
+      }
     }
     return "";
   }

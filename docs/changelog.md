@@ -2,6 +2,12 @@
 
 Todas las modificaciones realizadas se documentan aquí.
 
+## [v3.2.0] - 2025-10-10
+
+### Nuevas caracteristicas
+
+- Se ha añadido un validador para cada nodo, ahora internamente verifica si el CFDI cumple con los lineamientos del SAT.
+
 ## [v3.1.0] - 2025-07-11
 
 ### Cambios importantes

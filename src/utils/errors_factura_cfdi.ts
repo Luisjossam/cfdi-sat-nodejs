@@ -100,7 +100,7 @@ export const errors_metodo_pago = [
   },
   {
     code: "CSN40128",
-    message: 'La propiedad "metodoPago", no contiene un valor del catálogo c_MetodoPago.',
+    message: 'La propiedad "metodoPago" no contiene un valor del catálogo c_MetodoPago.',
   },
   {
     code: "CSN40129",
@@ -123,6 +123,10 @@ export const errors_subtotal = [
   {
     code: "CSN40133",
     message: "Si el tipo de comprobante es T o P, el subtotal debe ser igual a 0 o cero con decimales.",
+  },
+  {
+    code: "CSN4015",
+    message: "El valor de la propiedad subtotal no es un número válido.",
   },
 ];
 export const errors_descuento = [

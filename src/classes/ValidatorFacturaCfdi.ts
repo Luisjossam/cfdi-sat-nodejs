@@ -22,7 +22,6 @@ interface IError {
   message: string;
 }
 type nodesTypes = "comprobante";
-const tiposComprobante = ["I", "E", "P", "T"];
 class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
   private readonly type: nodesTypes | null = null;
   constructor(type: nodesTypes, private readonly data: T) {
@@ -84,84 +83,98 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (err_code !== "") return this.setErrors(errors_lugar_expedicion.find((i) => i.code === err_code)!);
   }
   private validateTipoComprobante(tipo_comprobante: string | undefined): string {
-    if (typeof tipo_comprobante !== "string") {
-      return "CSN40106";
-    }
-    if (!tiposComprobante.includes(tipo_comprobante)) {
-      return "CSN40107";
+    const validateValueResult = this.validateValue(tipo_comprobante, { not_includes_in: ["I", "E", "P", "T"] });
+    switch (validateValueResult.error_type) {
+      case "type":
+        return "CSN40106";
+      case "not_includes_in":
+        return "CSN40107";
     }
     return "";
   }
   private validateSerie(serie: string | undefined): string {
-    if (serie === undefined) {
-      return "CSN40108";
-    } else {
-      if (typeof serie !== "string") {
+    const validateValueResult = this.validateValue(serie);
+    switch (validateValueResult.error_type) {
+      case "undefined":
+        return "CSN40108";
+      case "type":
         return "CSN40109";
-      }
-      if (serie.trim() === "") {
+      case "empty":
         return "CSN40110";
-      }
     }
     return "";
   }
   private validateFolio(folio: string | undefined): string {
-    if (folio === undefined) {
-      return "CSN40111";
-    } else {
-      if (typeof folio !== "string") {
+    const validateValueResult = this.validateValue(folio);
+    switch (validateValueResult.error_type) {
+      case "undefined":
+        return "CSN40111";
+      case "type":
         return "CSN40112";
-      }
-      if (folio.trim() === "") {
+      case "empty":
         return "CSN40113";
-      }
     }
     return "";
   }
   private validateFecha(data: string | undefined): string {
-    if (!data) {
-      return "CSN40115";
-    } else {
-      if (typeof data !== "string") {
+    const validateValueResult = this.validateValue(data, {
+      regex_failed: /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/,
+      date_greater_than: new Date(Utils.dateCurrent()),
+    });
+    let dateString = data;
+    switch (validateValueResult.error_type) {
+      case "undefined":
+        return "CSN40115";
+      case "type":
         return "CSN40116";
-      }
-      if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/.test(data)) {
+      case "empty":
+        dateString = Utils.dateCurrent();
+        break;
+      case "regex_failed":
         return "CSN40114";
-      }
-      if (new Date(data) > new Date(Utils.dateCurrent())) {
+      case "date_greater_than":
         return "CSN40117";
-      }
-      const date = new Date(data);
-      const today = new Date();
-      if (date.getMonth() !== today.getMonth() || date.getFullYear() !== today.getFullYear()) {
-        return "CSN40118";
-      }
+    }
+    const date = new Date(dateString!);
+    const today = new Date();
+    if (date.getMonth() !== today.getMonth() || date.getFullYear() !== today.getFullYear()) {
+      return "CSN40118";
     }
     return "";
   }
   private validateMetodoPago(mp: string | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | `N`): string {
     if (["I", "E", "N"].includes(tipo_comprobante)) {
-      if (mp === undefined) return "CSN40125";
-      if (!["string"].includes(typeof mp)) return "CSN40126";
-      if (mp === "") return "CSN40127";
-      if (!["PPD", "PUE"].includes(mp)) return "CSN40128";
+      const validateValueResult = this.validateValue(mp, { not_includes_in: ["PPD", "PUE"] });
+      switch (validateValueResult.error_type) {
+        case "undefined":
+          return "CSN40125";
+        case "type":
+          return "CSN40126";
+        case "empty":
+          return "CSN40127";
+        case "not_includes_in":
+          return "CSN40128";
+      }
     }
     if (["P", "T"].includes(tipo_comprobante) && mp !== undefined) return "CSN40129";
     return "";
   }
   private async validateFormaPago(data: string | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | `N`, mp: "PPD" | "PUE" | undefined): Promise<string> {
     if (["I", "E"].includes(tipo_comprobante)) {
-      if (data === undefined) return "CSN40122";
-      if (typeof data !== "string") return "CSN40123";
-
-      if (data.toString() === "") {
-        return "CSN40124";
-      }
-      if (data.toString() !== "99" && mp === "PPD") {
-        return "CSN40121";
+      const validateValueResult = this.validateValue(data, { not_includes_in: ["99"] });
+      switch (validateValueResult.error_type) {
+        case "undefined":
+          return "CSN40122";
+        case "type":
+          return "CSN40123";
+        case "empty":
+          return "CSN40124";
+        case "not_includes_in":
+          if (mp === "PPD") return "CSN40121";
+          break;
       }
       try {
-        await new CatalogoSat("formapago").search("clave", data);
+        await new CatalogoSat("formapago").search("clave", data!);
       } catch (error: any) {
         if (error.message === "Not found") return "CFDI40104";
       }
@@ -173,11 +186,19 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     return "";
   }
   private validateSubtotal(subtotal: string | number | undefined, tipo_comprobante: `I` | `E` | `P` | `T` | "N"): string {
-    if (subtotal === undefined) return "CSN40130";
-    if (!["string", "number"].includes(typeof subtotal)) return "CSN40131";
-    if (subtotal === "") return "CSN40132";
-    if (["T", "P"].includes(tipo_comprobante)) {
-      if (parseFloat(subtotal.toString()) > 0) return "CSN40133";
+    const validateValueResult = this.validateValue(subtotal?.toString(), { includes_in: ["T", "P"], is_number: true });
+    switch (validateValueResult.error_type) {
+      case "undefined":
+        return "CSN40130";
+      case "type":
+        return "CSN40131";
+      case "empty":
+        return "CSN40132";
+      case "includes_in":
+        if (parseFloat(subtotal!.toString()) > 0) return "CSN40133";
+        break;
+      case "no_is_number":
+        return "CSN4015";
     }
     return "";
   }
@@ -236,7 +257,7 @@ class ValidatorFacturaCfdi<T extends Record<string, any>> extends Validator {
     if (!/^[0-9]{5}$/.test(lugar_expedicion.toString())) return "CSN40155";
     try {
       await new CatalogoSat("codigopostalparteuno").search("codigo_postal", lugar_expedicion.toString());
-    } catch (error: any) {
+    } catch {
       try {
         await new CatalogoSat("codigopostalpartedos").search("codigo_postal", lugar_expedicion.toString());
       } catch (error: any) {

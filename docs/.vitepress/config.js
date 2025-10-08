@@ -1,15 +1,13 @@
-import { text } from "stream/consumers";
-
 export default {
   base: "/cfdi-sat-nodejs/",
   title: "cfdi-sat-nodejs",
   description: "Generador CFDI 4.0, Carta Porte 3.1 y más en Node.js",
   cleanUrls: true,
+  head: [["meta", { name: "keywords", content: "CFDI, SAT, Node.js, npm, github, facturación, México" }]],
   themeConfig: {
     appearance: "force-dark",
     logo: "/20250702_124031.png",
     siteTitle: false,
-
     nav: [
       { text: "Inicio", link: "/" },
       {

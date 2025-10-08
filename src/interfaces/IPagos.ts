@@ -4,17 +4,17 @@ export interface IObjectNodePagos {
   "pago20:Pago": IObjectNodePago[];
 }
 export interface INodeTotales {
-  montoTotalPagos: string | number;
-  totalRetencionesIva?: string | number;
-  totalRetencionesIsr?: string | number;
-  totalRetencionesIeps?: string | number;
-  totalTrasladosBaseIva16?: string | number;
-  totalTrasladosImpuestoIva16?: string | number;
-  totalTrasladosBaseIva8?: string | number;
-  totalTrasladosImpuestoIva8?: string | number;
-  totalTrasladosBaseIva0?: string | number;
-  totalTrasladosImpuestoIva0?: string | number;
-  totalTrasladosBaseIvaExento?: string | number;
+  montoTotalPagos: number;
+  totalRetencionesIva?: number;
+  totalRetencionesIsr?: number;
+  totalRetencionesIeps?: number;
+  totalTrasladosBaseIva16?: number;
+  totalTrasladosImpuestoIva16?: number;
+  totalTrasladosBaseIva8?: number;
+  totalTrasladosImpuestoIva8?: number;
+  totalTrasladosBaseIva0?: number;
+  totalTrasladosImpuestoIva0?: number;
+  totalTrasladosBaseIvaExento?: number;
 }
 export interface IObjectNodeTotales {
   "@_MontoTotalPagos": string | number;
@@ -37,8 +37,8 @@ export interface IPago {
   fechaPago: string;
   formaDePagoP: string;
   monedaP: string;
-  monto: string | number;
-  tipoCambioP?: string | number;
+  monto: number;
+  tipoCambioP?: number;
   numOperacion?: string;
   rfcEmisorCtaOrd?: string;
   nomBancoOrdExt?: string;

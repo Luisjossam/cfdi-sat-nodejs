@@ -1,243 +1,406 @@
+/**
+ *
+ * @param value name of property
+ * @returns A string with the error message "La propiedad "{value}" no puede estar vacía."
+ */
+const emptyValue = (value: string): string => {
+  return `La propiedad "${value}" no puede estar vacía.`;
+};
+/**
+ *
+ * @param value name of property
+ * @returns A string with the error message "No existe la propiedad "{value}"."
+ */
+const undefinedValue = (value: string): string => {
+  return `No existe la propiedad "${value}".`;
+};
+/**
+ *
+ * @param value name of property
+ * @param types Array of valid types
+ * @returns A string with the error message "El tipo de la propiedad "{value}" no es valido. Debe ser de tipo {types.join(" o ")}."
+ */
+const valueMustBe = (value: string, types: string[]): string => {
+  return `El tipo de la propiedad "${value}" no es valido. Debe ser de tipo ${types.map((i) => i).join(" o ")}.`;
+};
+/**
+ *
+ * @param value name of property
+ * @param pattern pattern that the property must meet
+ * @returns A string with the error message "La propiedad "{value}" no cumple con el patrón requerido: {pattern}"
+ */
+const valueNotMeetPattern = (value: string, pattern: string): string => {
+  return `La propiedad "${value}" no cumple con el patrón requerido: ${pattern}`;
+};
+/**
+ *
+ * @param value value of property
+ * @param catalog name of catalog
+ * @returns A string with the error message "El valor de {value} no contiene un valor del catálogo {catalog}."
+ */
+const valueNotFoundInCatalog = (value: string, catalog: string): string => {
+  return `El valor de ${value} no contiene un valor del catálogo ${catalog}.`;
+};
+/**
+ *
+ * @param value name of property
+ * @returns A string with the error message "El valor de la propiedad {value} no es un número válido."
+ */
+const valueIsNotNumber = (value: string): string => {
+  return `El valor de la propiedad ${value} no es un número válido.`;
+};
 export const errors_tipo_comprobante = [
   {
-    code: "CSN40106",
-    message: 'El tipo de la propiedad "tipoDeComprobante" no es valido. Debe ser de tipo string.',
+    code: "CSN401001",
+    message: valueMustBe("tipoDeComprobante", ["string"]),
   },
   {
-    code: "CSN40107",
-    message: "El campo tipoDeComprobante, no contiene un valor del catálogo c_TipoDeComprobante.",
+    code: "CSN401002",
+    message: valueNotFoundInCatalog("tipoDeComprobante", "c_TipoDeComprobante"),
   },
 ];
 export const errors_serie = [
   {
-    code: "CSN40108",
-    message: 'No existe la propiedad "serie".',
+    code: "CSN402001",
+    message: undefinedValue("serie"),
   },
   {
-    code: "CSN40109",
-    message: 'El tipo de la propiedad "serie" no es valido. Debe ser de tipo string.',
+    code: "CSN402002",
+    message: valueMustBe("serie", ["string"]),
   },
   {
-    code: "CSN40110",
-    message: 'La propiedad "serie" no puede estar vacío.',
+    code: "CSN402003",
+    message: emptyValue("serie"),
   },
 ];
 export const errors_folio = [
   {
-    code: "CSN40111",
-    message: 'No existe la propiedad "folio".',
+    code: "CSN403001",
+    message: undefinedValue("folio"),
   },
   {
-    code: "CSN40112",
-    message: 'El tipo de la propiedad "folio" no es valido. Debe ser de tipo string.',
+    code: "CSN403002",
+    message: valueMustBe("folio", ["string"]),
   },
   {
-    code: "CSN40113",
-    message: 'La propiedad "folio" no puede estar vacío.',
+    code: "CSN403003",
+    message: emptyValue("folio"),
   },
 ];
 export const errors_fecha = [
   {
-    code: "CSN40114",
-    message: "El campo fecha no cumple con el patrón requerido. Debe seguir el formato YYYY-MM-DDTHH:mm:ss",
+    code: "CSN404001",
+    message: undefinedValue("fecha"),
   },
   {
-    code: "CSN40115",
-    message: 'No existe la propiedad "fecha".',
+    code: "CSN404002",
+    message: valueNotMeetPattern("fecha", "YYYY-MM-DDTHH:mm:ss"),
   },
   {
-    code: "CSN40116",
-    message: 'El tipo de la propiedad "fecha" no es valido. Debe ser de tipo string.',
+    code: "CSN404003",
+    message: valueMustBe("fecha", ["string"]),
   },
   {
-    code: "CSN40117",
+    code: "CSN404004",
     message: "La fecha ingresada es superior a la fecha y hora actual.",
   },
   {
-    code: "CSN40118",
+    code: "CSN404005",
     message: "La fecha no pertenece al mes vigente.",
   },
 ];
 export const errors_forma_pago = [
   {
-    code: "CSN40119",
-    message: "Si existe el tipo de comprobante T, N o P, la propiedad formaPago no debe existir.",
+    code: "CSN405001",
+    message: `Si existe el tipo de comprobante T, N o P, la propiedad "formaPago" no debe existir.`,
   },
   {
-    code: "CFDI40104",
-    message: "El campo FormaPago no contiene un valor del catálogo c_FormaPago.",
+    code: "CSN405002",
+    message: valueNotFoundInCatalog("formaPago", "c_FormaPago"),
   },
   {
-    code: "CSN40121",
+    code: "CSN405003",
     message:
       'La propiedad formaPago no contiene el valor "99". Esta propiedad debe contener el valor “99” cuando la propiedad metodoPago contenga el valor “PPD”.',
   },
   {
-    code: "CSN40122",
-    message: 'No existe la propiedad "formaPago".',
+    code: "CSN405004",
+    message: undefinedValue("formaPago"),
   },
   {
-    code: "CSN40123",
-    message: 'El tipo de la propiedad "formaPago" no es valido. Debe ser de tipo string o number.',
+    code: "CSN405005",
+    message: valueMustBe("formaPago", ["string"]),
   },
   {
-    code: "CSN40124",
-    message: 'La propiedad "formaPago" no puede estar vacío.',
+    code: "CSN405006",
+    message: emptyValue("formaPago"),
   },
 ];
 export const errors_metodo_pago = [
   {
-    code: "CSN40125",
-    message: 'No existe la propiedad "metodoPago".',
+    code: "CSN406001",
+    message: undefinedValue("metodoPago"),
   },
   {
-    code: "CSN40126",
-    message: 'El tipo de la propiedad "metodoPago" no es valido. Debe ser de tipo string.',
+    code: "CSN406002",
+    message: valueMustBe("metodoPago", ["string"]),
   },
   {
-    code: "CSN40127",
-    message: 'La propiedad "metodoPago" no puede estar vacío.',
+    code: "CSN406003",
+    message: emptyValue("metodoPago"),
   },
   {
-    code: "CSN40128",
-    message: 'La propiedad "metodoPago" no contiene un valor del catálogo c_MetodoPago.',
+    code: "CSN406004",
+    message: valueNotFoundInCatalog("metodoPago", "c_MetodoPago"),
   },
   {
-    code: "CSN40129",
+    code: "CSN406005",
     message: 'Si existe el tipo de comprobante P o T, la propiedad "metodoPago" no debe existir.',
   },
 ];
 export const errors_subtotal = [
   {
-    code: "CSN40130",
-    message: 'No existe la propiedad "subtotal".',
+    code: "CSN407001",
+    message: undefinedValue("subtotal"),
   },
   {
-    code: "CSN40131",
-    message: 'El tipo de la propiedad "subtotal" no es valido. Debe ser de tipo string o number.',
+    code: "CSN407002",
+    message: valueMustBe("subtotal", ["string", "number"]),
   },
   {
-    code: "CSN40132",
-    message: 'La propiedad "subtotal" no puede estar vacía.',
+    code: "CSN407003",
+    message: emptyValue("subtotal"),
   },
   {
-    code: "CSN40133",
+    code: "CSN407004",
     message: "Si el tipo de comprobante es T o P, el subtotal debe ser igual a 0 o cero con decimales.",
   },
   {
-    code: "CSN4015",
-    message: "El valor de la propiedad subtotal no es un número válido.",
+    code: "CSN407005",
+    message: valueIsNotNumber("subtotal"),
   },
 ];
 export const errors_descuento = [
   {
-    code: "CSN40134",
-    message: 'El tipo de la propiedad "descuento" no es valido. Debe ser de tipo string o number.',
+    code: "CSN408001",
+    message: valueMustBe("descuento", ["string", "number"]),
   },
   {
-    code: "CSN40135",
-    message: 'La propiedad "descuento" no puede ser un valor negativo.',
+    code: "CSN408002",
+    message: valueIsNotNumber("descuento"),
   },
   {
-    code: "CSN40136",
+    code: "CSN408003",
     message: 'Si el tipo de comprobante es T o P, la propiedad "descuento" no debe existir.',
   },
   {
-    code: "CSN40137",
+    code: "CSN408004",
     message: "El valor del descuento debe ser menor o igual que el valor de la propiedad subtotal.",
+  },
+  {
+    code: "CSN408005",
+    message: emptyValue("descuento"),
   },
 ];
 export const errors_tipo_cambio = [
   {
-    code: "CSN40138",
-    message: 'El tipo de la propiedad "tipoCambio" no es valido. Debe ser de tipo string o number.',
+    code: "CSN409001",
+    message: valueMustBe("tipoCambio", ["string", "number"]),
   },
   {
-    code: "CSN40139",
+    code: "CSN409002",
     message: 'La propiedad "tipoCambio" se debe registrar cuando la propiedad "moneda" tiene un valor distinto de MXN y XXX.',
   },
   {
-    code: "CSN40140",
+    code: "CSN409003",
     message: 'La propiedad "tipoCambio" existe y no tiene el valor "1" cuando la moneda indicada o predeterminada es MXN.',
   },
   {
-    code: "CSN40141",
+    code: "CSN409004",
     message: 'La propiedad "tipoCambio" no se debe registrar cuando la propiedad "moneda" tiene el valor XXX.',
   },
   {
-    code: "CSN40142",
-    message: 'La propiedad "tipoCambio" no cumple con el patrón requerido: [0-9]{1,18}(.[0-9]{1,6})?',
+    code: "CSN409005",
+    message: valueNotMeetPattern("tipoCambio", "[0-9]{1,18}(.[0-9]{1,6})?"),
   },
   {
-    code: "CSN40143",
-    message: 'La propiedad "tipoCambio" no puede estar vacía.',
+    code: "CSN409006",
+    message: emptyValue("tipoCambio"),
+  },
+  {
+    code: "CSN409007",
+    message: valueIsNotNumber("tipoCambio"),
   },
 ];
 export const errors_total = [
   {
-    code: "CSN40144",
-    message: 'No existe la propiedad "total".',
+    code: "CSN401101",
+    message: undefinedValue("total"),
   },
   {
-    code: "CSN40145",
-    message: 'El tipo de la propiedad "total" no es valido. Debe ser de tipo string o number.',
+    code: "CSN401102",
+    message: valueMustBe("total", ["string", "number"]),
   },
   {
-    code: "CSN40146",
-    message: 'La propiedad "total" no puede estar vacía.',
+    code: "CSN401103",
+    message: emptyValue("total"),
   },
   {
-    code: "CSN40147",
+    code: "CSN401104",
     message: "Si el tipo de comprobante es T, el total debe ser igual a 0 o cero con decimales.",
+  },
+  {
+    code: "CSN401105",
+    message: valueIsNotNumber("total"),
   },
 ];
 export const errors_exportacion = [
   {
-    code: "CFDI40123",
-    message: "El campo Exportacion no contiene un valor del catálogo c_Exportacion.",
+    code: "CSN401201",
+    message: valueNotFoundInCatalog("exportacion", "c_Exportacion"),
   },
   {
-    code: "CSN40148",
-    message: 'El tipo de la propiedad "exportacion" no es valido. Debe ser de tipo string.',
+    code: "CSN401202",
+    message: valueMustBe("exportacion", ["string"]),
   },
   {
-    code: "CSN40149",
-    message: 'La propiedad "exportacion" no puede estar vacía.',
+    code: "CSN401203",
+    message: emptyValue("exportacion"),
   },
 ];
 export const errors_moneda = [
   {
-    code: "CFDI40113",
-    message: "El campo Moneda no contiene un valor del catálogo c_Moneda.",
+    code: "CSN401301",
+    message: valueNotFoundInCatalog("moneda", "c_Moneda"),
   },
   {
-    code: "CSN40150",
-    message: 'El tipo de la propiedad "moneda" no es valido. Debe ser de tipo string.',
+    code: "CSN401302",
+    message: valueMustBe("moneda", ["string"]),
   },
   {
-    code: "CSN40151",
-    message: 'La propiedad "moneda" no puede estar vacía.',
+    code: "CSN401303",
+    message: emptyValue("moneda"),
   },
 ];
 export const errors_lugar_expedicion = [
   {
-    code: "CFDI40126",
-    message: "El campo LugarExpedicion, no contiene un valor del catálogo c_CodigoPostal.",
+    code: "CSN401401",
+    message: valueNotFoundInCatalog("lugarExpedicion", "c_CodigoPostal"),
   },
   {
-    code: "CSN40152",
-    message: 'No existe la propiedad "lugarExpedicion".',
+    code: "CSN401402",
+    message: undefinedValue("lugarExpedicion"),
   },
   {
-    code: "CSN40153",
-    message: 'El tipo de la propiedad "lugarExpedicion" no es valido. Debe ser de tipo string o number.',
+    code: "CSN401403",
+    message: valueMustBe("lugarExpedicion", ["string", "number"]),
   },
   {
-    code: "CSN40154",
-    message: 'La propiedad "lugarExpedicion" no puede estar vacía.',
+    code: "CSN401404",
+    message: emptyValue("lugarExpedicion"),
   },
   {
-    code: "CSN40155",
-    message: 'La propiedad "lugarExpedicion" no cumple con el patrón requerido: [0-9]{5}.',
+    code: "CSN401405",
+    message: valueNotMeetPattern("lugarExpedicion", "[0-9]{5}"),
+  },
+];
+export const errors_periodicidad = [
+  {
+    code: "CSN401501",
+    message: valueNotFoundInCatalog("periodicidad", "c_Periodicidad"),
+  },
+  {
+    code: "CSN401502",
+    message: valueMustBe("periodicidad", ["string"]),
+  },
+  {
+    code: "CSN401503",
+    message: emptyValue("periodicidad"),
+  },
+  {
+    code: "CSN401504",
+    message: undefinedValue("periodicidad"),
+  },
+];
+export const errors_meses = [
+  {
+    code: "CSN401601",
+    message: valueNotFoundInCatalog("meses", "c_Meses"),
+  },
+  {
+    code: "CSN401602",
+    message: valueMustBe("meses", ["string"]),
+  },
+  {
+    code: "CSN401603",
+    message: emptyValue("meses"),
+  },
+  {
+    code: "CSN401604",
+    message: undefinedValue("meses"),
+  },
+  {
+    code: "CSN401605",
+    message:
+      'Si la propiedad "periodicidad" tiene el valor "05", la propiedad "meses" debe contener uno de los siguientes valores: "13", "14", "15", "16", "17" o "18".',
+  },
+  {
+    code: "CSN401606",
+    message:
+      'Si la propiedad "periodicidad" tiene un valor distinto de "05", la propiedad "meses" debe contener uno de los siguientes valores: "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11" o "12".',
+  },
+];
+export const errors_anio = [
+  {
+    code: "CSN401701",
+    message: undefinedValue("anio"),
+  },
+  {
+    code: "CSN401702",
+    message: valueMustBe("anio", ["string", "number"]),
+  },
+  {
+    code: "CSN401703",
+    message: emptyValue("anio"),
+  },
+  {
+    code: "CSN401704",
+    message: 'El valor de la propiedad "anio" debe ser menor o igual al año vigente.',
+  },
+  {
+    code: "CSN401705",
+    message: valueIsNotNumber("anio"),
+  },
+  {
+    code: "CSN401706",
+    message: 'El valor de la propiedad "anio", no es igual al año en curso o no contiene un valor de hasta 5 ejercicios anteriores.',
+  },
+];
+export const errors_tipo_relacion = [
+  {
+    code: "CSN401801",
+    message: undefinedValue("tipoRelacion"),
+  },
+  {
+    code: "CSN401802",
+    message: valueMustBe("tipoRelacion", ["string"]),
+  },
+  {
+    code: "CSN401803",
+    message: emptyValue("tipoRelacion"),
+  },
+  {
+    code: "CSN401804",
+    message: valueNotFoundInCatalog("tipoRelacion", "c_TipoRelacion"),
+  },
+];
+export const errors_uuids = [
+  {
+    code: "CSN401901",
+    message: undefinedValue("uuids"),
+  },
+  {
+    code: "CSN401902",
+    message: 'La propiedad "uuids" debe ser un arreglo de cadenas de texto (string).',
   },
 ];

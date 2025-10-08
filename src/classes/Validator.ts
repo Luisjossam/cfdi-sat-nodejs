@@ -3,7 +3,19 @@ interface IError {
   message: string;
 }
 interface IValidateValue {
-  error_type: "" | "undefined" | "type" | "empty" | "includes_in" | "not_includes_in" | "regex_failed" | "regex_success" | "date_greater_than" | "no_is_number";
+  error_type:
+    | ""
+    | "undefined"
+    | "type"
+    | "empty"
+    | "includes_in"
+    | "not_includes_in"
+    | "regex_failed"
+    | "regex_success"
+    | "date_greater_than"
+    | "no_is_number"
+    | "number_less_than"
+    | "number_greater_than";
 }
 interface IOptionsValidateValue {
   includes_in?: any[];
@@ -12,6 +24,8 @@ interface IOptionsValidateValue {
   regex_success?: RegExp;
   date_greater_than?: Date;
   is_number?: boolean;
+  number_less_than?: number;
+  number_greater_than?: number;
 }
 class Validator {
   private errors: IError[] = [];
@@ -31,8 +45,8 @@ class Validator {
   }
   public validateValue(value: any, options?: IOptionsValidateValue): IValidateValue {
     if (value === undefined) return { error_type: "undefined" };
-    if (typeof value !== "string") return { error_type: "type" };
-    if (value.trim() === "") return { error_type: "empty" };
+    if (!["string", "number"].includes(typeof value)) return { error_type: "type" };
+    if (value.toString().trim() === "") return { error_type: "empty" };
     if (options) {
       return this.validateValueWithOptions(value, options);
     }
@@ -45,6 +59,8 @@ class Validator {
     if ("regex_success" in options && options.regex_success?.test(value) === true) return { error_type: "regex_success" };
     if ("date_greater_than" in options && new Date(value) > options.date_greater_than!) return { error_type: "date_greater_than" };
     if ("is_number" in options && options.is_number === true && isNaN(Number(value))) return { error_type: "no_is_number" };
+    if ("number_less_than" in options && !isNaN(Number(value)) && Number(value) < options.number_less_than!) return { error_type: "number_less_than" };
+    if ("number_greater_than" in options && !isNaN(Number(value)) && Number(value) > options.number_greater_than!) return { error_type: "number_greater_than" };
     return { error_type: "" };
   }
 }

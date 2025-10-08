@@ -33,7 +33,7 @@ class Utils {
     partes[0] = partes[0].slice(0, 5);
     return `CCC${partes.join("-")}`;
   }
-  protected simplifyJson(obj: any): any {
+  public simplifyJson(obj: any): any {
     if (Array.isArray(obj)) {
       return obj.map((item) => this.simplifyJson(item));
     } else if (typeof obj === "object" && obj !== null) {

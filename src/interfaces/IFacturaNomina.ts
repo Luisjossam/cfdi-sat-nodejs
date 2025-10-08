@@ -120,6 +120,30 @@ export interface INodeReduccion {
   concepto: string;
   importe: number;
 }
+export interface INodeNominaOtroPago {
+  otroPago: INodeNOtroPago;
+  subsidioAlEmpleo?: INodeSubsidioAlEmpleo;
+  compensacionSaldosAFavor?: INodeCompensacionSaldosAFavor;
+}
+export interface INodeNOtroPago {
+  tipoOtroPago: string;
+  clave: string;
+  concepto: string;
+  importe: number;
+}
+export interface INodeSubsidioAlEmpleo {
+  subsidioCausado: number;
+}
+export interface INodeCompensacionSaldosAFavor {
+  saldoAFavor: number;
+  anio: number;
+  remanenteSalFav: number;
+}
+export interface INodeNominaIncapacidades {
+  diasIncapacidad: number;
+  tipoIncapacidad: string;
+  importeMonetario?: number;
+}
 export interface IFacturaNomina {
   createNodeComprobante(data: INodeComprobante): void;
   createNodeConcepto(data: INodeConcepto): void;
@@ -128,4 +152,6 @@ export interface IFacturaNomina {
   createNodeNominaReceptor(data: INodeNominaReceptor): void;
   createNodeNominaPercepciones(data: INodeNominaPercepciones): void;
   createNodeNominaDeducciones(data: INodeNominaDeducciones): void;
+  createNodeNominaOtroPago(data: INodeNominaOtroPago): void;
+  createNodeNominaIncapacidades(data: INodeNominaIncapacidades): void;
 }

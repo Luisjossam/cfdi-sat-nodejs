@@ -7,6 +7,8 @@ import {
   INodeNomina,
   INodeNominaDeducciones,
   INodeNominaEmisor,
+  INodeNominaIncapacidades,
+  INodeNominaOtroPago,
   INodeNominaPercepciones,
   INodeNominaReceptor,
 } from "../interfaces/IFacturaNomina";
@@ -18,6 +20,8 @@ class FacturaNomina extends Cfdi implements IFacturaNomina {
   private data_nomina_receptor: INodeNominaReceptor | undefined;
   private data_nomina_percepciones: INodeNominaPercepciones | undefined;
   private data_nomina_deducciones: INodeNominaDeducciones | undefined;
+  private readonly data_nomina_otrosPagos: INodeNominaOtroPago[] = [];
+  private readonly data_nomina_incapacidades: INodeNominaIncapacidades[] = [];
   constructor(readonly config_cfdi: ConfigCfdi) {
     super("N", config_cfdi);
   }
@@ -57,6 +61,12 @@ class FacturaNomina extends Cfdi implements IFacturaNomina {
   }
   public createNodeNominaDeducciones(data: INodeNominaDeducciones): void {
     this.data_nomina_deducciones = data;
+  }
+  public createNodeNominaOtroPago(data: INodeNominaOtroPago): void {
+    this.data_nomina_otrosPagos.push(data);
+  }
+  public createNodeNominaIncapacidades(data: INodeNominaIncapacidades): void {
+    this.data_nomina_incapacidades.push(data);
   }
 }
 export default FacturaNomina as unknown as { new (config_cfdi: ConfigCfdi): ICfdi & IFacturaNomina };

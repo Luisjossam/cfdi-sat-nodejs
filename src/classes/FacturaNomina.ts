@@ -32,7 +32,6 @@ class FacturaNomina extends Cfdi implements IFacturaNomina {
   }
   public createNodeConcepto(data: INodeConcepto): void {
     const value = {
-      ...data,
       concepto: {
         ...data.concepto,
         claveProdServ: "84111505",

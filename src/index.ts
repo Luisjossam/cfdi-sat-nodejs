@@ -10,7 +10,6 @@ import CartaPorteAutotransporte from "./classes/CartaPorteAutotransporte";
 import CartaPorteMaritimo from "./classes/CartaPorteMaritimo";
 import CartaPorteAereo from "./classes/CartaPorteAereo";
 import CartaPorteFerroviario from "./classes/CartaPorteFerroviario";
-import Pago from "./classes/Pago";
 
 export {
   ConfigCfdi,
@@ -25,5 +24,4 @@ export {
   CartaPorteMaritimo,
   CartaPorteAereo,
   CartaPorteFerroviario,
-  Pago,
 };

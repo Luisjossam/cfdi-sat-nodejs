@@ -1,5 +1,5 @@
 import { INodeCarro, INodeDerechosDePaso, INodeFerroviario } from "../interfaces/ICartaPorte";
-import CartaPorte from "./CartaPorte";
+import CartaPorte from "../core/CartaPorte";
 import ConfigCfdi from "./ConfigCfdi";
 
 class CartaPorteFerroviario extends CartaPorte {

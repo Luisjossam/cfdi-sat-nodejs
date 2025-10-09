@@ -1,5 +1,5 @@
 import { INodeContenedorM, INodeMaritimo } from "../interfaces/ICartaPorte";
-import CartaPorte from "./CartaPorte";
+import CartaPorte from "../core/CartaPorte";
 import ConfigCfdi from "./ConfigCfdi";
 class CartaPorteMaritimo extends CartaPorte {
   constructor(cfdi: string | object, config_cfdi: ConfigCfdi) {

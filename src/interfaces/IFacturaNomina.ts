@@ -63,8 +63,8 @@ export interface INodeSubContratacion {
 export interface INodeNominaPercepciones {
   totales_percepcion: INodeNPercepciones;
   percepcion: INodePercepcion[];
-  jubilacionPensionRetiro: INodeJubilacionPensionRetiro;
-  separacionIndemnizacion: INodeSeparacionIndemnizacion;
+  jubilacionPensionRetiro?: INodeJubilacionPensionRetiro;
+  separacionIndemnizacion?: INodeSeparacionIndemnizacion;
 }
 export interface INodeNPercepciones {
   totalSueldos?: number;
@@ -108,13 +108,13 @@ export interface INodeSeparacionIndemnizacion {
 }
 export interface INodeNominaDeducciones {
   total_deduccion: INodeNDeducciones;
-  deduccion: INodeReduccion[];
+  deduccion: INodeDeduccion[];
 }
 export interface INodeNDeducciones {
   totalOtrasDeducciones?: number;
   totalImpuestosRetenidos?: number;
 }
-export interface INodeReduccion {
+export interface INodeDeduccion {
   tipoDeduccion: string;
   clave: string;
   concepto: string;
@@ -154,4 +154,13 @@ export interface IFacturaNomina {
   createNodeNominaDeducciones(data: INodeNominaDeducciones): void;
   createNodeNominaOtroPago(data: INodeNominaOtroPago): void;
   createNodeNominaIncapacidades(data: INodeNominaIncapacidades): void;
+}
+export interface IDataNomina {
+  nomina: INodeNomina | undefined;
+  emisor: INodeNominaEmisor | undefined;
+  receptor: INodeNominaReceptor | undefined;
+  percepciones: INodeNominaPercepciones | undefined;
+  deducciones: INodeNominaDeducciones | undefined;
+  otrosPagos: INodeNominaOtroPago[];
+  incapacidades: INodeNominaIncapacidades[];
 }

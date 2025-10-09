@@ -32,13 +32,13 @@ import {
   INodeCarro,
   IObjectNodeCarro,
 } from "../interfaces/ICartaPorte";
-import Utils from "./Utils";
+import Utils from "../classes/Utils";
 import { mercancia_keys, merc_att_keys, merc_doc_aduanera, merc_guias_ident } from "../utils/mercancia_keys";
 import { auto_seguros_keys } from "../utils/autotransporte_keys";
 import { tipos_figura_domicilio, tipos_figura_keys } from "../utils/tipos_figura_keys";
 import { ubicacion_keys } from "../utils/ubicacion_keys";
 import generateCadenaOriginal from "../utils/generateCadenaOriginal";
-import ConfigCfdi from "./ConfigCfdi";
+import ConfigCfdi from "../classes/ConfigCfdi";
 import { contenedor_keys, maritimo_keys } from "../utils/maritimotransporte_key";
 import { aereo_keys } from "../utils/aereo_keys";
 import { ferroviario_keys } from "../utils/ferroviario_keys";

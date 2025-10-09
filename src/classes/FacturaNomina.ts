@@ -1,6 +1,8 @@
+import NominaBuilder from "../core/builders/NominaBuilder";
 import Cfdi from "../core/Cfdi";
 import { ICfdi, INodeComprobante as INC } from "../interfaces/ICfdi";
 import {
+  IDataNomina,
   IFacturaNomina,
   INodeComprobante,
   INodeConcepto,
@@ -15,13 +17,15 @@ import {
 import ConfigCfdi from "./ConfigCfdi";
 
 class FacturaNomina extends Cfdi implements IFacturaNomina {
-  private data_nomina: INodeNomina | undefined;
-  private data_nomina_emisor: INodeNominaEmisor | undefined;
-  private data_nomina_receptor: INodeNominaReceptor | undefined;
-  private data_nomina_percepciones: INodeNominaPercepciones | undefined;
-  private data_nomina_deducciones: INodeNominaDeducciones | undefined;
-  private readonly data_nomina_otrosPagos: INodeNominaOtroPago[] = [];
-  private readonly data_nomina_incapacidades: INodeNominaIncapacidades[] = [];
+  private readonly data_nomina: IDataNomina = {
+    nomina: undefined,
+    deducciones: undefined,
+    emisor: undefined,
+    incapacidades: [],
+    otrosPagos: [],
+    percepciones: undefined,
+    receptor: undefined,
+  };
   constructor(readonly config_cfdi: ConfigCfdi) {
     super("N", config_cfdi);
   }
@@ -48,25 +52,29 @@ class FacturaNomina extends Cfdi implements IFacturaNomina {
     this.pushNodeConcepto(value);
   }
   public createNodeNomina(data: INodeNomina): void {
-    this.data_nomina = data;
+    this.data_nomina.nomina = data;
   }
   public createNodeNominaEmisor(data: INodeNominaEmisor): void {
-    this.data_nomina_emisor = data;
+    this.data_nomina.emisor = data;
   }
   public createNodeNominaReceptor(data: INodeNominaReceptor): void {
-    this.data_nomina_receptor = data;
+    this.data_nomina.receptor = data;
   }
   public createNodeNominaPercepciones(data: INodeNominaPercepciones): void {
-    this.data_nomina_percepciones = data;
+    this.data_nomina.percepciones = data;
   }
   public createNodeNominaDeducciones(data: INodeNominaDeducciones): void {
-    this.data_nomina_deducciones = data;
+    this.data_nomina.deducciones = data;
   }
   public createNodeNominaOtroPago(data: INodeNominaOtroPago): void {
-    this.data_nomina_otrosPagos.push(data);
+    this.data_nomina.otrosPagos.push(data);
   }
   public createNodeNominaIncapacidades(data: INodeNominaIncapacidades): void {
-    this.data_nomina_incapacidades.push(data);
+    this.data_nomina.incapacidades.push(data);
+  }
+  override async createXml(): Promise<string> {
+    const xml = await super.createJson();
+    return new NominaBuilder(xml, this.data_nomina).createXml();
   }
 }
 export default FacturaNomina as unknown as { new (config_cfdi: ConfigCfdi): ICfdi & IFacturaNomina };

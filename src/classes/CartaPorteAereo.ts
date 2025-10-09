@@ -1,5 +1,5 @@
+import CartaPorte from "../core/CartaPorte";
 import { INodeAereo } from "../interfaces/ICartaPorte";
-import CartaPorte from "./CartaPorte";
 import ConfigCfdi from "./ConfigCfdi";
 
 class CartaPorteAereo extends CartaPorte {

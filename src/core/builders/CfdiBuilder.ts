@@ -16,6 +16,7 @@ import { INodeACuentaTerceros, INodeConc, INodeConcParte, INodeImpuestos } from 
 import generateCadenaOriginal from "../../utils/generateCadenaOriginal";
 import Utils from "../../classes/Utils";
 import Parse from "../../utils/Parse";
+import CfdiValidator from "../Validators/CfdiValidator";
 type TConceptoWithTraslado = { base: string; importe?: string; impuesto: "001" | "002" | "003"; tasaOCuota?: string; tipoFactor: string };
 type TConceptoWithRetencion = { impuesto: "001" | "002" | "003"; importe?: string };
 
@@ -25,10 +26,11 @@ class CfdiBuilder {
   private currency_decimals: number = 2;
   constructor(private readonly cfdi: Cfdi) {}
   public async buildXml(): Promise<string> {
-    return this.build();
+    const xml = await this.build();
+    return xml;
   }
   public async buildXmlSellado(): Promise<string> {
-    const xml = this.build();
+    const xml = await this.build();
     return generateCadenaOriginal(xml, this.cfdi.getConfigCfdi())
       .then((sign) => {
         const parser = new DOMParser();
@@ -45,7 +47,7 @@ class CfdiBuilder {
       });
   }
   public async buildJson(simplified: boolean): Promise<Record<string, string>> {
-    const xml = this.build();
+    const xml = await this.build();
     const json = Utils.xmlToJson(xml);
     return simplified ? new Utils().simplifyJson(json) : json;
   }
@@ -54,7 +56,8 @@ class CfdiBuilder {
     const json = Utils.xmlToJson(xml);
     return simplified ? new Utils().simplifyJson(json) : json;
   }
-  private build(): string {
+  private async build(): Promise<string> {
+    await new CfdiValidator().validateCfdi(this.cfdi);
     const doc = create({
       version: "1.0",
       encoding: "utf-8",
@@ -78,6 +81,8 @@ class CfdiBuilder {
       "xmlns:cfdi": "http://www.sat.gob.mx/cfd/4",
       "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
       Version: "4.0",
+      ...(data?.serie && { Serie: data.serie }),
+      ...(data?.folio && { Folio: data.folio }),
       TipoDeComprobante: this.cfdi.getTypeCfdi(),
       Fecha: data!.fecha,
       LugarExpedicion: data!.lugarExpedicion,
@@ -86,14 +91,12 @@ class CfdiBuilder {
       Total: Parse.parseNumber(data!.total, this.currency_decimals),
       NoCertificado: this.cfdi.getConfigCfdi().getCert().noCertificado,
       Certificado: this.getCertificado(),
-      Exportacion: data?.exportacion || "01",
-      ...(data?.serie && { Serie: data.serie }),
-      ...(data?.folio && { Folio: data.folio }),
       ...(data?.formaPago && { FormaPago: data.formaPago }),
       ...(data?.metodoPago && { MetodoPago: data.metodoPago }),
       ...(data?.condicionesDePago && { CondicionesDePago: data.condicionesDePago }),
       ...(data?.descuento && { Descuento: Parse.parseNumber(data.descuento, this.currency_decimals) }),
       ...(data?.tipoCambio && { TipoCambio: data.tipoCambio }),
+      Exportacion: data?.exportacion || "01",
     };
     return result;
   }

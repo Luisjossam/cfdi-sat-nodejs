@@ -9,8 +9,9 @@ export interface INodeComprobante {
   lugarExpedicion: string;
   descuento?: number;
 }
+interface INConcepto extends Omit<INodeConc, "claveProdServ" | "noIdentificacion" | "cantidad" | "claveUnidad" | "unidad" | "descripcion" | "objetoImp"> {}
 export interface INodeConcepto {
-  concepto: Omit<INodeConc, "claveProdServ" | "noIdentificacion" | "cantidad" | "claveUnidad" | "unidad" | "descripcion" | "objetoImp">;
+  concepto: INConcepto;
 }
 export interface INodeNomina {
   tipoNomina: string;

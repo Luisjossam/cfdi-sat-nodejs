@@ -12,8 +12,9 @@ export interface INodeParte {
   concepto: INodeConcParte;
   informacionAduanera?: INodeInformacionAduanera[];
 }
+interface INConcepto extends Omit<INodeConc, "descuento" | "objetoImp"> {}
 export interface INodeConcepto {
-  concepto: Omit<INodeConc, "descuento" | "objetoImp">;
+  concepto: INConcepto;
   informacionAduanera?: INodeInformacionAduanera[];
   cuentaPredial?: {
     numero: string;

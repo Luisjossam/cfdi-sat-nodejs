@@ -14,6 +14,7 @@ interface IOptionsValidateValue {
 }
 type TValidateValue =
   | ""
+  | "exist"
   | "undefined"
   | "type"
   | "empty"
@@ -46,7 +47,7 @@ class Validator {
       return this.validateValueWithOptions(value, options);
     }
 
-    return "";
+    return "exist";
   }
   private validateValueWithOptions(value: any, options: IOptionsValidateValue): TValidateValue {
     if ("includes_in" in options && options.includes_in?.includes(value)) return "includes_in";
